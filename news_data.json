@@ -1,0 +1,21 @@
+{
+  "generated_at": null,
+  "status": "LIVE_SETUP",
+  "source": "Google News RSS public search; first scheduled pull pending",
+  "keywords": ["흑자", "대폭개선", "단독", "독점", "상용화", "진출", "수주", "공급계약", "실적개선", "신규고객"],
+  "keyword_definitions": [
+    {"label":"흑자","weight":4,"group":"실적"},
+    {"label":"대폭개선","weight":4,"group":"실적"},
+    {"label":"단독","weight":2,"group":"독점성"},
+    {"label":"독점","weight":4,"group":"독점성"},
+    {"label":"상용화","weight":3,"group":"사업화"},
+    {"label":"진출","weight":2,"group":"확장"},
+    {"label":"수주","weight":3,"group":"수익화"},
+    {"label":"공급계약","weight":3,"group":"수익화"},
+    {"label":"실적개선","weight":3,"group":"실적"},
+    {"label":"신규고객","weight":2,"group":"확장"}
+  ],
+  "source_urls": {},
+  "failures": [],
+  "articles": []
+}
