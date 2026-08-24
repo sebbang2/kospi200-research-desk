@@ -157,7 +157,7 @@
   </style>
 </head>
 <body>
-  <script src="chrome-extension://ldinpeekobnhjjdofggfgjlcehhmanlj/inpage.js" id="leather-provider"></script><script src="chrome-extension://ldinpeekobnhjjdofggfgjlcehhmanlj/inpage.js" id="leather-provider"></script><main class="shell">
+  <script src="chrome-extension://ldinpeekobnhjjdofggfgjlcehhmanlj/inpage.js" id="leather-provider"></script><script src="chrome-extension://ldinpeekobnhjjdofggfgjlcehhmanlj/inpage.js" id="leather-provider"></script><script src="chrome-extension://ldinpeekobnhjjdofggfgjlcehhmanlj/inpage.js" id="leather-provider"></script><main class="shell">
     <header class="topbar">
       <div>
         <div class="eyebrow">KOSPI200 · RESEARCH DESK</div>
@@ -322,7 +322,7 @@
       const cells = ["일","월","화","수","목","금","토"].map(day => `<div class="weekday">${day}</div>`);
       for (let index=0; index<42; index++) { const date = new Date(start); date.setDate(start.getDate()+index); const iso = `${date.getFullYear()}-${String(date.getMonth()+1).padStart(2,"0")}-${String(date.getDate()).padStart(2,"0")}`; const inMonth = date.getMonth() === month; const count = counts.get(iso)?.size || 0; const selected = iso === state.selectedDate; cells.push(`<button type="button" class="day-cell ${inMonth ? "" : "muted"} ${selected ? "selected" : ""}" data-date="${iso}" aria-label="${iso} ${count}개 기업 노출"><span class="day-number">${date.getDate()}</span>${count ? `<span class="day-dot"></span><span class="day-count">${count}개 기업</span>` : ""}</button>`); }
       $("#calendarGrid").innerHTML = cells.join("");
-      $(".day-cell").forEach(button => button.addEventListener("click", () => { state.selectedDate = button.dataset.date; state.month = new Date(Number(button.dataset.date.slice(0,4)), Number(button.dataset.date.slice(5,7))-1, 1); renderCalendar(); renderNewsDetails(); renderValuation(); }));
+      $$(".day-cell").forEach(button => button.addEventListener("click", () => { state.selectedDate = button.dataset.date; state.month = new Date(Number(button.dataset.date.slice(0,4)), Number(button.dataset.date.slice(5,7))-1, 1); renderCalendar(); renderNewsDetails(); renderValuation(); }));
     }
     function renderNewsDetails() {
       const groups = articleGroups(state.selectedDate);
@@ -355,8 +355,8 @@
       } catch (error) { console.info("Local JSON files unavailable; using embedded preview data.", error); }
       button.disabled = false; button.textContent = "데이터 다시 읽기"; renderAll(); renderSchedulerStatus(state.scheduler);
     }
-    function showView(view) { state.view = view; $(".nav button").forEach(button => button.classList.toggle("active", button.dataset.view === view)); $(".view").forEach(section => section.classList.toggle("active", section.id === `${view}-view`)); }
-    $(".nav button").forEach(button => button.addEventListener("click", () => showView(button.dataset.view)));
+    function showView(view) { state.view = view; $$(".nav button").forEach(button => button.classList.toggle("active", button.dataset.view === view)); $$(".view").forEach(section => section.classList.toggle("active", section.id === `${view}-view`)); }
+    $$(".nav button").forEach(button => button.addEventListener("click", () => showView(button.dataset.view)));
     $("#goNewsBtn").addEventListener("click", () => showView("news-calendar"));
     $("#prevMonth").addEventListener("click", () => { state.month = new Date(state.month.getFullYear(), state.month.getMonth()-1, 1); renderCalendar(); });
     $("#nextMonth").addEventListener("click", () => { state.month = new Date(state.month.getFullYear(), state.month.getMonth()+1, 1); renderCalendar(); });
@@ -364,6 +364,7 @@
     $("#reloadData").addEventListener("click", reloadData);
     renderAll(); reloadData();
   </script>
+
 
 
 
