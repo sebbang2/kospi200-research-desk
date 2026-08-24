@@ -13,8 +13,6 @@ on:
           - news
           - valuation
   schedule:
-    # GitHub Actions cron uses UTC. These are KST 12:00, 15:40,
-    # Monday 12:05, and the first day of each month at 12:10.
     - cron: "0 3 * * *"
     - cron: "40 6 * * *"
     - cron: "5 3 * * 1"
@@ -47,7 +45,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install data dependencies
-        run: python -m pip install --disable-pip-version-check pandas
+        run: python -m pip install --disable-pip-version-check pandas lxml
 
       - name: Choose scheduled mode
         id: mode
@@ -70,6 +68,29 @@ jobs:
           --universe kospi200_universe.csv
           --output-dir .
           --delay 1.2
+
+      - name: Preserve previous valuation data on total failure
+        if: steps.mode.outputs.mode == 'valuation' || steps.mode.outputs.mode == 'all'
+        shell: bash
+        run: |
+          python - <<'PY'
+          import csv
+          import pathlib
+          import subprocess
+
+          path = pathlib.Path("public_financials.csv")
+          rows = list(csv.DictReader(path.open(encoding="utf-8-sig", newline=""))) if path.exists() else []
+          valid = sum(
+              1 for row in rows
+              if row.get("quality_flag") == "OK"
+              and any(row.get(key) not in ("", None) for key in ("close", "trailing_per", "current_pbr"))
+          )
+          print(f"Valuation rows: {len(rows)}, valid rows: {valid}")
+          if rows and valid == 0:
+              print("All valuation rows failed; restoring the previous committed valuation files.")
+              for name in ("valuation_data.json", "public_financials.csv", "price_history.csv"):
+                  subprocess.run(["git", "checkout", "HEAD", "--", name], check=False)
+          PY
 
       - name: Commit refreshed JSON and audit files
         run: |
