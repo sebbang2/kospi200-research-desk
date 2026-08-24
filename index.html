@@ -75,7 +75,14 @@
     .signal { display: flex; justify-content: space-between; gap: 14px; align-items: center; padding-bottom: 13px; border-bottom: 1px solid #e8ebef; }
     .signal:last-child { border-bottom: 0; padding-bottom: 0; }
     .signal h3 { margin: 0 0 4px; font-size: 14px; }
-    .signal p { color: var(--muted); margin: 0; font-size: 12px; line-height: 1.45; }
+    .signal p { color: var(--muted); margin: 7px 0 0; font-size: 12px; line-height: 1.45; }
+    .signal-keywords { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+    .signal-keyword { display: inline-flex; align-items: center; padding: 5px 10px; border: 1px solid transparent; border-radius: 999px; font-size: 12px; font-weight: 800; line-height: 1; }
+    .signal-keyword.signal-performance, .chip.signal-performance { background: #e3f5e9; color: #147a43; border-color: #b7e4c5; }
+    .signal-keyword.signal-commercial, .chip.signal-commercial { background: #e8efff; color: #2d5ab5; border-color: #c4d5ff; }
+    .signal-keyword.signal-expansion, .chip.signal-expansion { background: #e5f7f5; color: #177d77; border-color: #bce9e4; }
+    .signal-keyword.signal-revenue, .chip.signal-revenue { background: #f0e8ff; color: #7045aa; border-color: #d8c6ff; }
+    .signal-keyword.signal-exclusive, .chip.signal-exclusive { background: #fff0df; color: #ad5b1f; border-color: #f3d0aa; }
     .signal-value { text-align: right; white-space: nowrap; }
     .signal-value strong { font-size: 20px; color: var(--teal); }
     .signal-value small { color: var(--muted); display: block; }
@@ -255,13 +262,32 @@
     const dateLabel = (iso) => new Intl.DateTimeFormat("ko-KR", {year:"numeric", month:"long", day:"numeric", weekday:"short"}).format(new Date(`${iso}T00:00:00+09:00`));
 
     function valuationItems() { return state.valuation.items || []; }
+    function signalClass(keyword) {
+      const definition = (state.news.keyword_definitions || []).find(item => item.label === keyword);
+      const group = definition?.group || "";
+      if (group === "실적") return "signal-performance";
+      if (group === "사업화") return "signal-commercial";
+      if (group === "확장") return "signal-expansion";
+      if (group === "수익화") return "signal-revenue";
+      if (group === "독점성") return "signal-exclusive";
+      return "signal-commercial";
+    }
+    function signalChip(keyword, large=false) {
+      return "<span class=\""+(large ? "signal-keyword" : "chip")+" "+signalClass(keyword)+"\">"+esc(keyword)+"</span>";
+    }
     function articleGroups(date) {
       const map = new Map();
-      (state.news.articles || []).filter(article => article.date === date).forEach(article => {
-        if (!map.has(article.ticker)) map.set(article.ticker, {ticker:article.ticker,company:article.company,articles:[],newsScore:0});
-        const group = map.get(article.ticker); group.articles.push(article); group.newsScore += Number(article.news_score || 0);
+      (state.news.articles || []).filter(article => article.date === date && (article.signal_keywords || []).length).forEach(article => {
+        if (!map.has(article.ticker)) map.set(article.ticker, {ticker:article.ticker,company:article.company,articles:[],newsScore:0,signalKeywords:new Set()});
+        const group = map.get(article.ticker);
+        group.articles.push(article);
+        group.newsScore += Number(article.news_score || 0);
+        (article.signal_keywords || []).forEach(keyword => group.signalKeywords.add(keyword));
       });
-      return [...map.values()].map(group => { const val = valuationItems().find(item => item.ticker === group.ticker); return {...group, valuation:val, priority:group.newsScore + Number(val?.score || 0) * 3}; }).sort((a,b) => b.priority - a.priority);
+      return [...map.values()].map(group => {
+        const val = valuationItems().find(item => item.ticker === group.ticker);
+        return {...group, signalKeywords:[...group.signalKeywords], valuation:val, priority:group.newsScore + Number(val?.score || 0) * 3};
+      }).sort((a,b) => b.priority - a.priority);
     }
     function setStatus() {
       const demo = state.valuation.status === "DEMO" || state.news.status === "DEMO";
@@ -275,18 +301,18 @@
     function renderValuation() {
       const items = valuationItems();
       const ranked = items.filter(item => item.score != null).sort((a,b) => b.score - a.score);
-      const newsCompanies = new Set((state.news.articles || []).map(article => article.ticker));
+      const newsCompanies = new Set(articleGroups(state.selectedDate).map(group => group.ticker));
       const avgScore = ranked.length ? ranked.reduce((sum,item) => sum + item.score, 0) / ranked.length : 0;
       const displayItems = [...items].sort((a,b) => (b.score ?? -1) - (a.score ?? -1));
       $("#valuationMetrics").innerHTML = `<div class="metric"><label>KOSPI200 입력 슬롯</label><strong>200</strong><small>${items.length}개 공개 목록 · ${Math.max(0,200-items.length)}개 구성 확인 필요</small></div><div class="metric"><label>최고 저평가 점수</label><strong>${ranked.length ? num(ranked[0].score,3) : "—"}</strong><small>${ranked.length ? esc(ranked[0].company) : "첫 수집 전"}</small></div><div class="metric"><label>평균 후보 점수</label><strong>${ranked.length ? num(avgScore,3) : "—"}</strong><small>${ranked.length ? "점수 계산 완료 종목" : "첫 수집 전"}</small></div><div class="metric"><label>오늘 뉴스 노출 기업</label><strong>${newsCompanies.size}</strong><small>키워드 매칭 기업 수</small></div>`;
       $("#valuationTable").innerHTML = displayItems.map((item,index) => { const tags = Array.isArray(item.business_keywords) ? item.business_keywords : String(item.business_keywords || "").split(";").filter(Boolean); return `<tr><td class="rank">${item.rank ?? "—"}</td><td class="company-cell"><strong>${esc(item.company)}</strong><span>${esc(item.ticker)}${item.sector ? ` · ${esc(item.sector)}` : ""}</span><div class="business-tags">${(tags.length ? tags : ["사업정보 수집 전"]).slice(0,3).map(tag => `<span class="business-tag">${esc(tag)}</span>`).join("")}</div></td><td class="num"><span class="score-track"><span class="score-fill" style="width:${item.score == null ? 0 : Math.max(0,Math.min(100,item.score*100))}%"></span></span><span class="score">${num(item.score,3)}</span></td><td class="num">${num(item.trailing_per,1)}x</td><td class="num">${num(item.forward_per,1)}x</td><td class="num">${num(item.pbr,2)}x</td><td class="num">${pct(item.roe_estimate)}</td></tr>`; }).join("");
-      const signals = articleGroups(state.selectedDate).slice(0,4);
+      const signals = articleGroups(state.selectedDate).slice(0,4); $("#signalList").innerHTML = signals.length ? signals.map((group,index) => "<div class="signal"><div><h3>"+esc(group.company)+"</h3><div class="signal-keywords">"+group.signalKeywords.map(keyword => signalChip(keyword, true)).join("")+"</div><p>주요 언론 3건 이상 확인된 핵심 키워드</p></div><div class="signal-value"><strong>#"+(index+1)+"</strong><small>"+num(group.priority,1)+" priority</small></div></div>").join("") : "<div class="empty">선택한 날짜에 신호 포함 종목이 없습니다.</div>";
       $("#signalList").innerHTML = signals.length ? signals.map((group,index) => `<div class="signal"><div><h3>${esc(group.company)}</h3><p>${group.articles.length}건 · ${esc(group.articles.flatMap(article => article.matched_keywords || []).join(" · "))}</p></div><div class="signal-value"><strong>#${index+1}</strong><small>${num(group.priority,1)} priority</small></div></div>`).join("") : `<div class="empty">선택한 날짜에 키워드 뉴스가 없습니다.</div>`;
     }
     function renderCalendar() {
       const year = state.month.getFullYear(), month = state.month.getMonth();
       $("#monthLabel").textContent = `${year}년 ${month+1}월`;
-      const counts = new Map(); (state.news.articles || []).forEach(article => { if (!counts.has(article.date)) counts.set(article.date, new Set()); counts.get(article.date).add(article.ticker); });
+      const counts = new Map(); (state.news.articles || []).filter(article => (article.signal_keywords || []).length).forEach(article => { if (!counts.has(article.date)) counts.set(article.date, new Set()); counts.get(article.date).add(article.ticker); });
       const first = new Date(year, month, 1), start = new Date(year, month, 1 - first.getDay());
       const cells = ["일","월","화","수","목","금","토"].map(day => `<div class="weekday">${day}</div>`);
       for (let index=0; index<42; index++) { const date = new Date(start); date.setDate(start.getDate()+index); const iso = `${date.getFullYear()}-${String(date.getMonth()+1).padStart(2,"0")}-${String(date.getDate()).padStart(2,"0")}`; const inMonth = date.getMonth() === month; const count = counts.get(iso)?.size || 0; const selected = iso === state.selectedDate; cells.push(`<button type="button" class="day-cell ${inMonth ? "" : "muted"} ${selected ? "selected" : ""}" data-date="${iso}" aria-label="${iso} ${count}개 기업 노출"><span class="day-number">${date.getDate()}</span>${count ? `<span class="day-dot"></span><span class="day-count">${count}개 기업</span>` : ""}</button>`); }
@@ -296,8 +322,8 @@
     function renderNewsDetails() {
       const groups = articleGroups(state.selectedDate);
       $("#selectedDateTitle").textContent = dateLabel(state.selectedDate);
-      $("#selectedDateNote").textContent = groups.length ? `${groups.length}개 기업 · ${groups.reduce((sum,group)=>sum+group.articles.length,0)}개 기사 · 우선순위 = 뉴스 점수 + 밸류 점수×3` : "키워드 매칭 뉴스 없음";
-      $("#newsDetails").innerHTML = groups.length ? groups.map((group,index) => `<article class="company-news"><div class="company-heading"><div><h3>${esc(group.company)} <span class="panel-note">${esc(group.ticker)}${group.valuation ? ` · ${esc(group.valuation.sector)}` : ""}</span></h3><p>키워드 뉴스 ${group.articles.length}건 · 뉴스 점수 ${group.newsScore} · 밸류 점수 ${group.valuation?.score != null ? num(group.valuation.score,3) : "—"}</p></div><div class="priority">#${index+1} · ${num(group.priority,1)}<small style="display:block;color:var(--muted);font-weight:400">당일 우선순위</small></div></div><div class="article-list">${group.articles.sort((a,b)=>String(b.time).localeCompare(String(a.time))).map(article => `<div class="article"><div class="article-time">${esc(article.time || "—")}</div><div><a class="article-title" href="${esc(article.link)}" target="_blank" rel="noopener">${esc(article.title)}</a><div class="chips">${(article.matched_keywords || []).map(keyword => `<span class="chip">${esc(keyword)}</span>`).join("")}</div><div class="article-meta">${esc(article.source || "공개 RSS")} · 제목·요약에서 키워드 노출</div></div><div class="article-score">+${Number(article.news_score || 0)}</div></div>`).join("")}</div></article>`).join("") : `<div class="empty">${dateLabel(state.selectedDate)}에는 지정 키워드가 들어간 기사가 수집되지 않았습니다.</div>`;
+      $("#selectedDateNote").textContent = groups.length ? "신호 포함 "+groups.length+"개 기업 · "+groups.reduce((sum,group)=>sum+group.articles.length,0)+"개 기사 · 주요 언론 3건 이상 키워드만 표시" : "신호 포함 뉴스 없음";
+      $("#newsDetails").innerHTML = groups.length ? groups.map((group,index) => "<article class="company-news"><div class="company-heading"><div><h3>"+esc(group.company)+" <span class="panel-note">"+esc(group.ticker)+(group.valuation ? " · "+esc(group.valuation.sector) : "")+"</span></h3><div class="signal-keywords">"+group.signalKeywords.map(keyword => signalChip(keyword, true)).join("")+"</div><p>주요 언론 3건 이상 신호 · "+group.articles.length+"개 기사</p></div><div class="priority">#"+(index+1)+" · "+num(group.priority,1)+"<small style="display:block;color:var(--muted);font-weight:400">당일 우선순위</small></div></div><div class="article-list">"+group.articles.sort((a,b)=>String(b.time).localeCompare(String(a.time))).map(article => "<div class="article"><div class="article-time">"+esc(article.time || "—")+"</div><div><a class="article-title" href=""+esc(article.link)+"" target="_blank" rel="noopener">"+esc(article.title)+"</a><div class="chips">"+(article.signal_keywords || []).map(keyword => signalChip(keyword)).join("")+"</div><div class="article-meta">"+esc(article.source || "공개 RSS")+" · 핵심 키워드가 제목에 포함된 기사</div></div><div class="article-score">+"+Number(article.news_score || 0)+"</div></div>").join("")+"</div></article>").join("") : "<div class="empty">"+dateLabel(state.selectedDate)+"에는 신호 포함 뉴스가 없습니다.</div>";
     }
     function renderKeywords() {
       const definitions = state.news.keyword_definitions || (state.news.keywords || []).map(label => ({label,weight:"—",group:"검색"}));
