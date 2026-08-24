@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T20:39:23+09:00",
+  "generated_at": "2026-08-24T20:47:50+09:00",
   "status": "LIVE",
   "source": "Google News RSS public search; article body not copied",
   "keywords": [
@@ -1915,6 +1915,27 @@
       }
     },
     {
+      "title": "현대홈쇼핑, 코스맥스와 '화장품' 개발…'코아시스' 단독 상품 키운다 - 핀포인트뉴스",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1jRFFjNlB6dXVfdHZrZ056dkRhLXRDcWFncFFNSFRpMnc5ZDlLeVNkaXNGN0VuUVZ1LVJvRkN3UTFrUUJhd083WTRveDM5OFk1YVhzQVZjYWxyN2RLbl9fLXBqOGMyU3BpaExhNHZ6T2k3dEhac2FF0gF3QVVfeXFMTWNEUWM2UHp1dV90dmtnTnp2RGEtdENxYWdwUU1IVGkydzlkOUt5U2Rpc0Y3RW5RVnUtUm9GQ3dRMWtRQmF3TzdZNG94Mzk4WTVhWHNBVmNhbHI3ZEtuX18tcGo4YzJTcGloTGE0dnpPaTd0SFpzYUU?oc=5",
+      "source": "핀포인트뉴스",
+      "published_raw": "Mon, 24 Aug 2026 05:44:44 GMT",
+      "date": "2026-08-24",
+      "time": "14:44",
+      "matched_keywords": [
+        "단독"
+      ],
+      "news_score": 2,
+      "id": "079977990814fec9",
+      "ticker": "192820",
+      "company": "코스맥스",
+      "sector": "",
+      "sources": [
+        "핀포인트뉴스"
+      ],
+      "signal_keywords": [],
+      "signal_major_article_count": {}
+    },
+    {
       "title": "[단독] BNK금융, 퓨리오사AI 국산 NPU 쓴다…금융권 첫 도입 - v.daum.net",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1KRmNveW5BZ1c4NVBBb0djcWtMMTd0NUFVZmNBR25SQkxHczRydXl1MzZuc3lvdDl5MFpNZ3lrckpxSWU4Vi1JZUJ4dGxudHM?oc=5",
       "source": "v.daum.net",
@@ -3172,31 +3193,6 @@
       "signal_major_article_count": {}
     },
     {
-      "title": "HD한국조선해양, LPG 운반선 4척 수주…5154억원 - SBS Biz",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5vekVQdkRmYjRyejF4czBMUHhyakxmelNfNlB6cjdUcTZjdmhwd0pWdl9KTGg4X3RCcjVNRXQyTjhUVHR6bVNZNlk3eUlaN1F1NVFUaWl4dHbSAVhBVV95cUxOb3pFUHZEZmI0cnoxeHMwTFB4cmpMZnpTXzZQenI3VHE2Y3ZocHdKVnZfSkxoOF90QnI1TUV0Mk44VFR0em1TWTZZN3lJWjdRdTVRVGlpeHR2?oc=5",
-      "source": "SBS Biz",
-      "published_raw": "Mon, 24 Aug 2026 02:49:00 GMT",
-      "date": "2026-08-24",
-      "time": "11:49",
-      "matched_keywords": [
-        "수주"
-      ],
-      "news_score": 3,
-      "id": "70b4053249b83696",
-      "ticker": "009540",
-      "company": "HD한국조선해양",
-      "sector": "",
-      "sources": [
-        "SBS Biz"
-      ],
-      "signal_keywords": [
-        "수주"
-      ],
-      "signal_major_article_count": {
-        "수주": 8
-      }
-    },
-    {
       "title": "한미약품, 제넨텍과 혁신 비만신약 독점 라이선스 계약 체결 - 네이트",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBNejB6azNVZ21TZmJ6M3NOYmpBbDBCUWhVdko3V0kwdkdmUTZLZkU4STZVcjZHbG5Na2RITGNLQTBFUVhiVVA4VG1QU3JZOHlrclhz?oc=5",
       "source": "네이트",
@@ -3523,6 +3519,31 @@
       "sector": "",
       "sources": [
         "한국NGO신문"
+      ],
+      "signal_keywords": [
+        "수주"
+      ],
+      "signal_major_article_count": {
+        "수주": 8
+      }
+    },
+    {
+      "title": "HD한국조선해양, LPG 운반선 4척 수주…5천억원대 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE02Qnh0SktNTjZLWS03Sk5BV0lpbjBFQmtGR291ODFQYnZaVWlLaHFpRUhOY2FWaWxjNTllY3lteEsyZmo1N3c?oc=5",
+      "source": "v.daum.net",
+      "published_raw": "Mon, 24 Aug 2026 02:19:28 GMT",
+      "date": "2026-08-24",
+      "time": "11:19",
+      "matched_keywords": [
+        "수주"
+      ],
+      "news_score": 3,
+      "id": "b901bbcdb4fa8737",
+      "ticker": "009540",
+      "company": "HD한국조선해양",
+      "sector": "",
+      "sources": [
+        "v.daum.net"
       ],
       "signal_keywords": [
         "수주"
@@ -5424,28 +5445,6 @@
         "수주"
       ],
       "news_score": 7,
-      "id": "781acca36edd8301",
-      "ticker": "005940",
-      "company": "NH투자증권",
-      "sector": "",
-      "sources": [
-        "v.daum.net"
-      ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
-    },
-    {
-      "title": "NH투자證, “코스맥스, 美 흑자 전환에 국내외 수주 호조⋯목표가 32만원↑” - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE82TjFmRmh0ZUIxSTNuN0xKVjc3TWwyZW5WWEhuZUtoSzR4U0FxdXpRVlBDRFg3bmZmR25sVVNtcFFjdnJqUVE?oc=5",
-      "source": "v.daum.net",
-      "published_raw": "Sun, 23 Aug 2026 23:04:04 GMT",
-      "date": "2026-08-24",
-      "time": "08:04",
-      "matched_keywords": [
-        "흑자",
-        "수주"
-      ],
-      "news_score": 7,
       "id": "2b940dce74726c09",
       "ticker": "192820",
       "company": "코스맥스",
@@ -6554,27 +6553,6 @@
       "sector": "",
       "sources": [
         "CEO스코어데일리"
-      ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
-    },
-    {
-      "title": "NH투자증권, 다양한 사모펀드에 분산투자...'재간접펀드 단독 판매' - 파이낸셜포스트",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1SYzNwc0EyT0RFV0FpSUxRbmlYLUxreERiVkxaeFY4YW1fTWtNYzNVRXFJVnI1c2trSjhDeWI0S2JkS0JFOHRHRThnTkVaUUJRSEJsUVhXSEE3SXBIek5wZXRMUmpGT0FrdlV6SDAyUV9EQXk3?oc=5",
-      "source": "파이낸셜포스트",
-      "published_raw": "Fri, 21 Aug 2026 20:30:00 GMT",
-      "date": "2026-08-22",
-      "time": "05:30",
-      "matched_keywords": [
-        "단독"
-      ],
-      "news_score": 2,
-      "id": "f2a6c60aa308503c",
-      "ticker": "005940",
-      "company": "NH투자증권",
-      "sector": "",
-      "sources": [
-        "파이낸셜포스트"
       ],
       "signal_keywords": [],
       "signal_major_article_count": {}
@@ -9593,27 +9571,6 @@
       "sector": "",
       "sources": [
         "더구루"
-      ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
-    },
-    {
-      "title": "NH투자증권, 사모펀드 분산투자 ‘현대인베스트먼트 셀렉트 혼합자산펀드 1호’ 단독 판매 - 농민신문",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBtaWtUUVpEWE5sUkE4a0pkT3Q1UzdLYVR4WE5ZUG51WGRNdEdhSGdtZUZycGthRHB1amEwSFBzRFVHemU1UWE1SVhqVlhXV1NGRGZQdXc3dENHZw?oc=5",
-      "source": "농민신문",
-      "published_raw": "Thu, 20 Aug 2026 22:59:00 GMT",
-      "date": "2026-08-21",
-      "time": "07:59",
-      "matched_keywords": [
-        "단독"
-      ],
-      "news_score": 2,
-      "id": "a05648e286915a19",
-      "ticker": "005940",
-      "company": "NH투자증권",
-      "sector": "",
-      "sources": [
-        "농민신문"
       ],
       "signal_keywords": [],
       "signal_major_article_count": {}
