@@ -169,11 +169,13 @@
       <div class="status-stack" id="statusStack" aria-live="polite"></div>
     </header>
 
+
     <nav class="nav" aria-label="주요 화면">
       <button type="button" class="active" data-view="valuation">가치평가 모니터</button>
       <button type="button" data-view="news-calendar">뉴스 키워드 캘린더</button>
       <button type="button" data-view="pipeline">수집·운영 설정</button>
     </nav>
+
 
     <section class="view active" id="valuation-view" aria-labelledby="valuation-tab">
       <div class="metric-grid" id="valuationMetrics"></div>
@@ -192,6 +194,7 @@
       </div>
     </section>
 
+
     <section class="view" id="news-calendar-view" aria-labelledby="news-calendar-tab">
       <div class="toolbar">
         <div class="toolbar-group"><button type="button" class="btn" id="prevMonth">← 이전</button><div class="month-label" id="monthLabel"></div><button type="button" class="btn" id="nextMonth">다음 →</button><button type="button" class="btn" id="todayBtn">오늘</button></div>
@@ -205,6 +208,7 @@
         <div id="newsDetails"></div>
       </section>
     </section>
+
 
     <section class="view" id="pipeline-view">
       <div class="layout-2">
@@ -234,8 +238,10 @@
       </section>
     </section>
 
+
     <p class="footer">KOSPI200 구성 스냅샷과 공개 데이터 수집 결과는 <code>valuation_data.json</code>·<code>news_data.json</code>에 반영됩니다. 첫 수집 전에는 기업 목록만 표시되고 재무 점수와 뉴스 캘린더는 비어 있을 수 있습니다.</p>
   </main>
+
 
   <script>
     const fallbackValuation = {
@@ -261,6 +267,7 @@
     const krw = (value) => value == null ? "—" : `₩${Number(value).toLocaleString("ko-KR")}`;
     const dateLabel = (iso) => new Intl.DateTimeFormat("ko-KR", {year:"numeric", month:"long", day:"numeric", weekday:"short"}).format(new Date(`${iso}T00:00:00+09:00`));
 
+
     function valuationItems() { return state.valuation.items || []; }
     function signalClass(keyword) {
       const definition = (state.news.keyword_definitions || []).find(item => item.label === keyword);
@@ -282,6 +289,7 @@
         const group = map.get(article.ticker);
         group.articles.push(article);
         group.newsScore += Number(article.news_score || 0);
+    function articleGroups(date) {
         (article.signal_keywords || []).forEach(keyword => group.signalKeywords.add(keyword));
       });
       return [...map.values()].map(group => {
@@ -323,7 +331,7 @@
       const groups = articleGroups(state.selectedDate);
       $("#selectedDateTitle").textContent = dateLabel(state.selectedDate);
       $("#selectedDateNote").textContent = groups.length ? "신호 포함 "+groups.length+"개 기업 · "+groups.reduce((sum,group)=>sum+group.articles.length,0)+"개 기사 · 주요 언론 3건 이상 키워드만 표시" : "신호 포함 뉴스 없음";
-      $("#newsDetails").innerHTML = groups.length ? groups.map((group,index) => "<article class="company-news"><div class="company-heading"><div><h3>"+esc(group.company)+" <span class="panel-note">"+esc(group.ticker)+(group.valuation ? " · "+esc(group.valuation.sector) : "")+"</span></h3><div class="signal-keywords">"+group.signalKeywords.map(keyword => signalChip(keyword, true)).join("")+"</div><p>주요 언론 3건 이상 신호 · "+group.articles.length+"개 기사</p></div><div class="priority">#"+(index+1)+" · "+num(group.priority,1)+"<small style="display:block;color:var(--muted);font-weight:400">당일 우선순위</small></div></div><div class="article-list">"+group.articles.sort((a,b)=>String(b.time).localeCompare(String(a.time))).map(article => "<div class="article"><div class="article-time">"+esc(article.time || "—")+"</div><div><a class="article-title" href=""+esc(article.link)+"" target="_blank" rel="noopener">"+esc(article.title)+"</a><div class="chips">"+(article.signal_keywords || []).map(keyword => signalChip(keyword)).join("")+"</div><div class="article-meta">"+esc(article.source || "공개 RSS")+" · 핵심 키워드가 제목에 포함된 기사</div></div><div class="article-score">+"+Number(article.news_score || 0)+"</div></div>").join("")+"</div></article>").join("") : "<div class="empty">"+dateLabel(state.selectedDate)+"에는 신호 포함 뉴스가 없습니다.</div>";
+      $("#newsDetails").innerHTML = groups.length ? groups.map((group,index) => "<article class="company-news"><div class="company-heading"><div><h3>"+esc(group.company)+"</h3><div class="signal-keywords">"+group.signalKeywords.map(keyword => signalChip(keyword, true)).join("")+"</div><p>주요 언론 3건 이상 신호 · "+group.articles.length+"개 기사</p></div><div class="priority">#"+(index+1)+" · "+num(group.priority,1)+"</div></div><div class="article-list">"+group.articles.map(article => "<div class="article"><div class="article-time">"+esc(article.time || "—")+"</div><div><a class="article-title" href=\""+esc(article.link)+"\" target=\"_blank\" rel=\"noopener\">"+esc(article.title)+"</a><div class="chips">"+(article.signal_keywords || []).map(keyword => signalChip(keyword)).join("")+"</div><div class="article-meta">"+esc(article.source || "공개 RSS")+"</div></div><div class="article-score">+"+Number(article.news_score || 0)+"</div></div>").join("")+"</div></article>").join("") : "<div class="empty">"+dateLabel(state.selectedDate)+"에는 신호 포함 뉴스가 없습니다.</div>";
     }
     function renderKeywords() {
       const definitions = state.news.keyword_definitions || (state.news.keywords || []).map(label => ({label,weight:"—",group:"검색"}));
@@ -361,3 +369,4 @@
   </script>
 </body>
 </html>
+
