@@ -68,6 +68,7 @@ jobs:
           --universe kospi200_universe.csv
           --output-dir .
           --delay 1.2
+          --history-count 0
 
       - name: Preserve previous valuation data on total failure
         if: steps.mode.outputs.mode == 'valuation' || steps.mode.outputs.mode == 'all'
