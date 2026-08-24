@@ -25,6 +25,16 @@ import xml.etree.ElementTree as ET
 
 
 KST = timezone(timedelta(hours=9))
+MAJOR_SOURCE_HINTS = (
+    "연합뉴스", "뉴시스", "뉴스1", "한국경제", "한경", "매일경제", "머니투데이",
+    "서울경제", "이데일리", "파이낸셜뉴스", "전자신문", "조선비즈", "아시아경제",
+    "뉴스핌", "비즈워치", "헤럴드경제", "아이뉴스24", "디지털타임스", "더벨",
+    "딜사이트", "서울신문", "한국일보", "동아일보", "조선일보", "중앙일보",
+    "경향신문", "한겨레", "데일리안"
+)
+MIN_MAJOR_ARTICLES = 3
+
+
 DEFAULT_KEYWORDS = [
     {"label": "흑자", "weight": 4, "group": "실적"},
     {"label": "대폭개선", "weight": 4, "group": "실적"},
@@ -98,8 +108,9 @@ def fetch_feed(company: str, keywords: list[dict[str, object]], max_items: int) 
         published = child_text(node, "pubDate")
         source = child_text(node, "source") or "Google News"
         description = child_text(node, "description")
-        text = f"{title} {description}".lower()
-        matched = [keyword for keyword in keywords if keyword["label"].lower() in text]
+        # 핵심 키워드는 기사 요약이 아니라 제목에 직접 등장한 경우만 인정한다.
+        title_text = title.lower()
+        matched = [keyword for keyword in keywords if keyword["label"].lower() in title_text]
         if not matched:
             continue
         date, clock = normalize_date(published)
@@ -159,16 +170,64 @@ def main() -> None:
         if index + 1 < len(universe):
             time.sleep(max(args.delay, 0))
 
+    def normalized_title(value: object) -> str:
+        text = re.sub(r"\([^)]*(?:종합|속보|단독)[^)]*\)", "", str(value or "").lower())
+        return re.sub(r"[^0-9a-z가-힣]+", "", text)
+
+    # 같은 제목이 여러 피드에 반복되어도 하나의 기사로 합친다.
     unique: dict[str, dict[str, object]] = {}
     for article in articles:
-        unique[str(article["id"])] = article
+        key = f"{article.get('ticker')}|{normalized_title(article.get('title'))}"
+        current = unique.get(key)
+        if current is None:
+            current = dict(article)
+            current["matched_keywords"] = list(article.get("matched_keywords", []))
+            current["sources"] = [article.get("source", "")]
+            unique[key] = current
+        else:
+            current["matched_keywords"] = sorted(set(current.get("matched_keywords", [])) | set(article.get("matched_keywords", [])))
+            current["sources"] = sorted(set(current.get("sources", [])) | {article.get("source", "")})
+            current["news_score"] = sum(int(keyword.get("weight", 0)) for keyword in keywords if keyword["label"] in current["matched_keywords"])
     articles = sorted(unique.values(), key=lambda item: (str(item.get("date", "")), str(item.get("time", ""))), reverse=True)
+
+    signal_counts: dict[tuple[str, str], set[str]] = {}
+    for article in articles:
+        source_text = " ".join(str(source) for source in article.get("sources", []))
+        if not any(hint in source_text for hint in MAJOR_SOURCE_HINTS):
+            continue
+        title_key = normalized_title(article.get("title"))
+        for keyword in article.get("matched_keywords", []):
+            signal_counts.setdefault((str(article.get("ticker")), str(keyword)), set()).add(title_key)
+
+    signal_keywords: dict[str, list[str]] = {}
+    for (ticker, keyword), titles in signal_counts.items():
+        if len(titles) >= MIN_MAJOR_ARTICLES:
+            signal_keywords.setdefault(ticker, []).append(keyword)
+    signal_keywords = {ticker: sorted(values) for ticker, values in signal_keywords.items()}
+
+    for article in articles:
+        article["signal_keywords"] = [
+            keyword for keyword in article.get("matched_keywords", [])
+            if keyword in signal_keywords.get(str(article.get("ticker")), [])
+        ]
+        article["signal_major_article_count"] = {
+            keyword: len(signal_counts.get((str(article.get("ticker")), keyword), set()))
+            for keyword in article.get("signal_keywords", [])
+        }
+
     result = {
         "generated_at": datetime.now(KST).isoformat(timespec="seconds"),
         "status": "LIVE" if not failures else "PARTIAL",
         "source": "Google News RSS public search; article body not copied",
         "keywords": [keyword["label"] for keyword in keywords],
         "keyword_definitions": keywords,
+        "signal_rule": {
+            "min_major_articles": MIN_MAJOR_ARTICLES,
+            "match_scope": "title",
+            "deduplication": "company + normalized title",
+            "major_sources": list(MAJOR_SOURCE_HINTS),
+        },
+        "signal_keywords_by_ticker": signal_keywords,
         "source_urls": source_urls,
         "failures": failures,
         "articles": articles,
