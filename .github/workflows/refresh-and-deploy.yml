@@ -22,6 +22,104 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: kospi200-dashboard-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout dashboard
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install data dependencies
+        run: python -m pip install --disable-pip-version-check pandas
+
+      - name: Choose scheduled mode
+        id: mode
+        shell: bash
+        run: |
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+            mode="${{ inputs.mode }}"
+          elif [[ "${{ github.event.schedule }}" == "0 3 * * *" || "${{ github.event.schedule }}" == "40 6 * * *" ]]; then
+            mode="news"
+          else
+            mode="valuation"
+          fi
+          echo "mode=$mode" >> "$GITHUB_OUTPUT"
+          echo "Selected refresh mode: $mode"
+
+      - name: Refresh public data and news
+        run: >-
+          python refresh_research.py
+          --mode "${{ steps.mode.outputs.mode }}"
+          --universe kospi200_universe.csv
+          --output-dir .
+          --delay 1.2
+
+      - name: Commit refreshed JSON and audit files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add valuation_data.json news_data.json
+          [[ -f public_financials.csv ]] && git add public_financials.csv || true
+          [[ -f price_history.csv ]] && git add price_history.csv || true
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+          else
+            git commit -m "chore: refresh KOSPI200 dashboard data"
+            git push
+          fi
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload dashboard artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: .
+
+      - name: Deploy dashboard
+        id: deployment
+        uses: actions/deploy-pages@v4
+name: Refresh KOSPI200 dashboard
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "실행할 수집 작업"
+        required: true
+        default: all
+        type: choice
+        options:
+          - all
+          - news
+          - valuation
+  schedule:
+    # GitHub Actions cron uses UTC. These are KST 12:00, 15:40,
+    # Monday 12:05, and the first day of each month at 12:10.
+    - cron: "0 3 * * *"
+    - cron: "40 6 * * *"
+    - cron: "5 3 * * 1"
+    - cron: "10 3 1 * *"
+
+permissions:
+  contents: write
 
 concurrency:
   group: kospi200-dashboard-refresh
