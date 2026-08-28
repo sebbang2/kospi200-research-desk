@@ -291,13 +291,14 @@ def main() -> None:
         ticker = row["ticker"]
         try:
             metrics = parse_main_page(ticker)
-            if metrics.get("current_bps") in (None, ""):
-                close = metrics.get("close")
-                current_pbr = metrics.get("current_pbr")
-                if close not in (None, "") and current_pbr not in (None, "") and float(current_pbr) > 0:
-                    metrics["current_bps"] = round(float(close) / float(current_pbr), 2)
-            if metrics.get("roe_estimate") is None and metrics.get("forward_eps_consensus") not in (None, "") and metrics.get("current_bps") not in (None, "") and float(metrics["current_bps"]) > 0:
+            close = metrics.get("close")
+            current_pbr = metrics.get("current_pbr")
+            if close not in (None, "") and current_pbr not in (None, "") and float(current_pbr) > 0:
+                metrics["current_bps"] = round(float(close) / float(current_pbr), 2)
+            if metrics.get("forward_eps_consensus") not in (None, "") and metrics.get("current_bps") not in (None, "") and float(metrics["current_bps"]) > 0:
                 metrics["roe_estimate"] = round(float(metrics["forward_eps_consensus"]) / float(metrics["current_bps"]) * 100, 2)
+            elif metrics.get("trailing_eps") not in (None, "") and metrics.get("current_bps") not in (None, "") and float(metrics["current_bps"]) > 0:
+                metrics["roe_current"] = round(float(metrics["trailing_eps"]) / float(metrics["current_bps"]) * 100, 2)
             metrics.update({
                 "as_of": run_date,
                 "ticker": ticker,
