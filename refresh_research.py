@@ -42,6 +42,21 @@ def keyword_list(value: str | None) -> list[str]:
     return [part.strip() for part in str(value).split(";") if part.strip()][:3]
 
 
+def valuation_score(row: dict[str, str]) -> float | None:
+    f = optional_float(row.get("forward_per_consensus"))
+    t = optional_float(row.get("trailing_per"))
+    p = optional_float(row.get("current_pbr"))
+    r = optional_float(row.get("roe_estimate")) or optional_float(row.get("roe_current"))
+    per = f if f is not None and f > 0 else t
+    if per is None or p is None or p <= 0 or r is None:
+        return None
+    level = max(0.0, min(1.0, (30.0 - per) / 25.0))
+    drop = ((t - f) / t) if t and t > 0 and f and f > 0 else 0.0
+    revision = max(0.0, min(1.0, 0.5 + max(-1.0, min(1.0, drop)) / 2.0))
+    pbr = max(0.0, min(1.0, (3.0 - p) / 2.5))
+    roe = max(0.0, min(1.0, r / 25.0))
+    return round(0.30 * level + 0.25 * revision + 0.25 * pbr + 0.20 * roe, 4)
+
 def update_valuation_json(csv_path: Path, output_path: Path, universe_path: Path) -> None:
     existing = {"items": []}
     if output_path.exists():
@@ -67,9 +82,11 @@ def update_valuation_json(csv_path: Path, output_path: Path, universe_path: Path
                 "forward_per": optional_float(row.get("forward_per_consensus")),
                 "forward_eps": optional_float(row.get("forward_eps_consensus")),
                 "pbr": optional_float(row.get("current_pbr")),
+                "pbr_band_low": optional_float(row.get("pbr_band_low")),
+                "pbr_band_high": optional_float(row.get("pbr_band_high")),
                 "roe_current": optional_float(row.get("roe_current")),
                 "roe_estimate": optional_float(row.get("roe_estimate")),
-                "score": prior.get("score"),
+                "score": valuation_score(row),
                 "rank": prior.get("rank"),
                 "quality": row.get("quality_flag") or "PARTIAL",
                 "source_url": row.get("source_url", ""),
