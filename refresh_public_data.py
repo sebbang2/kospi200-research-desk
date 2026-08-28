@@ -253,8 +253,8 @@ def build_pbr_bands(price_history: pd.DataFrame, bps_history_path: str | None, c
     prices = price_history.copy()
     prices["date"] = pd.to_datetime(prices["date"])
     bps["date"] = pd.to_datetime(bps["date"])
-    prices = prices.sort_values(["ticker", "date"])
-    bps = bps.sort_values(["ticker", "date"])
+    prices = prices.sort_values(["date", "ticker"])
+    bps = bps.sort_values(["date", "ticker"])
     merged = pd.merge_asof(prices, bps, on="date", by="ticker", direction="backward")
     merged = merged[merged["bps"].notna() & (merged["bps"] > 0)].copy()
     if merged.empty:
