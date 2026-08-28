@@ -243,7 +243,7 @@ def build_pbr_bands(price_history: pd.DataFrame, bps_history_path: str | None, c
         bps = pd.read_csv(bps_history_path, dtype={"ticker": str})
     else:
         bps = pd.DataFrame([
-            {"ticker": row.get("ticker"), "date": date.today().isoformat(), "bps": row.get("current_bps")}
+            {"ticker": row.get("ticker"), "date": "1900-01-01", "bps": row.get("current_bps")}
             for row in (current_rows or [])
             if row.get("current_bps") not in (None, "")
         ])
