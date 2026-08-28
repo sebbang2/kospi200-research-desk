@@ -84,6 +84,7 @@ def update_valuation_json(csv_path: Path, output_path: Path, universe_path: Path
                 "pbr": optional_float(row.get("current_pbr")),
                 "pbr_band_low": optional_float(row.get("pbr_band_low")),
                 "pbr_band_high": optional_float(row.get("pbr_band_high")),
+                "pbr_5y_min": optional_float(row.get("pbr_5y_min")),
                 "roe_current": optional_float(row.get("roe_current")),
                 "roe_estimate": optional_float(row.get("roe_estimate")),
                 "score": valuation_score(row),
