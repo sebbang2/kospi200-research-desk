@@ -234,35 +234,38 @@ def parse_price_history(ticker: str, count: int) -> list[dict]:
     return rows
 
 
-def build_pbr_bands(price_history: pd.DataFrame, bps_history_path: str | None) -> pd.DataFrame:
-    if not bps_history_path:
-        return pd.DataFrame(columns=["ticker", "pbr_band_low", "pbr_band_high", "current_pbr_from_history"])
-    bps = pd.read_csv(bps_history_path, dtype={"ticker": str})
+
+def build_pbr_bands(price_history: pd.DataFrame, bps_history_path: str | None, current_rows: list[dict] | None = None) -> pd.DataFrame:
+    columns = ["ticker", "pbr_5y_min", "pbr_band_low", "pbr_band_high", "current_pbr_from_history"]
+    if price_history.empty:
+        return pd.DataFrame(columns=columns)
+    if bps_history_path:
+        bps = pd.read_csv(bps_history_path, dtype={"ticker": str})
+    else:
+        bps = pd.DataFrame([
+            {"ticker": row.get("ticker"), "date": date.today().isoformat(), "bps": row.get("current_bps")}
+            for row in (current_rows or [])
+            if row.get("current_bps") not in (None, "")
+        ])
     required = {"ticker", "date", "bps"}
-    missing = required.difference(bps.columns)
-    if missing:
-        raise ValueError(f"bps-history missing columns: {sorted(missing)}")
+    if bps.empty or required.difference(bps.columns):
+        return pd.DataFrame(columns=columns)
     prices = price_history.copy()
     prices["date"] = pd.to_datetime(prices["date"])
     bps["date"] = pd.to_datetime(bps["date"])
     prices = prices.sort_values(["ticker", "date"])
     bps = bps.sort_values(["ticker", "date"])
-    merged = pd.merge_asof(
-        prices,
-        bps,
-        on="date",
-        by="ticker",
-        direction="backward",
-    )
+    merged = pd.merge_asof(prices, bps, on="date", by="ticker", direction="backward")
     merged = merged[merged["bps"].notna() & (merged["bps"] > 0)].copy()
+    if merged.empty:
+        return pd.DataFrame(columns=columns)
     merged["pbr"] = merged["close"] / merged["bps"]
-    bands = merged.groupby("ticker", as_index=False).agg(
+    return merged.groupby("ticker", as_index=False).agg(
+        pbr_5y_min=("pbr", "min"),
         pbr_band_low=("pbr", lambda s: s.quantile(0.20)),
         pbr_band_high=("pbr", lambda s: s.quantile(0.80)),
         current_pbr_from_history=("pbr", "last"),
     )
-    return bands
-
 
 def main() -> None:
     parser = argparse.ArgumentParser()
@@ -328,11 +331,12 @@ def main() -> None:
         time.sleep(max(args.delay, 0.2))
 
     price_history = pd.DataFrame(price_rows)
-    bands = build_pbr_bands(price_history, args.bps_history)
+    bands = build_pbr_bands(price_history, args.bps_history, financial_rows)
     if not bands.empty:
         financial = pd.DataFrame(financial_rows).merge(bands, on="ticker", how="left", suffixes=("", "_derived"))
         financial["pbr_band_low"] = financial["pbr_band_low_derived"].combine_first(financial["pbr_band_low"])
         financial["pbr_band_high"] = financial["pbr_band_high_derived"].combine_first(financial["pbr_band_high"])
+        financial["pbr_5y_min"] = financial["pbr_5y_min_derived"].combine_first(financial.get("pbr_5y_min"))
         financial = financial.drop(columns=[c for c in financial.columns if c.endswith("_derived")])
     else:
         financial = pd.DataFrame(financial_rows)
