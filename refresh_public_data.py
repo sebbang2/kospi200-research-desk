@@ -336,7 +336,9 @@ def main() -> None:
         financial = pd.DataFrame(financial_rows).merge(bands, on="ticker", how="left", suffixes=("", "_derived"))
         financial["pbr_band_low"] = financial["pbr_band_low_derived"].combine_first(financial["pbr_band_low"])
         financial["pbr_band_high"] = financial["pbr_band_high_derived"].combine_first(financial["pbr_band_high"])
-        financial["pbr_5y_min"] = financial["pbr_5y_min_derived"].combine_first(financial.get("pbr_5y_min"))
+        derived_min = financial.get("pbr_5y_min_derived", pd.Series(index=financial.index, dtype="float64"))
+    existing_min = financial.get("pbr_5y_min", pd.Series(index=financial.index, dtype="float64"))
+    financial["pbr_5y_min"] = derived_min.combine_first(existing_min)
         financial = financial.drop(columns=[c for c in financial.columns if c.endswith("_derived")])
     else:
         financial = pd.DataFrame(financial_rows)
