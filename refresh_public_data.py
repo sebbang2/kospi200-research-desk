@@ -200,6 +200,11 @@ def parse_main_page(ticker: str) -> dict:
             elif "현재가" in label and result["close"] is None:
                 result["close"] = values[0]
 
+    if result["forward_eps_consensus"] is not None and result["current_bps"] is not None and result["current_bps"] > 0:
+        result["roe_estimate"] = round(result["forward_eps_consensus"] / result["current_bps"] * 100, 2)
+    elif result["trailing_eps"] is not None and result["current_bps"] is not None and result["current_bps"] > 0:
+        result["roe_current"] = round(result["trailing_eps"] / result["current_bps"] * 100, 2)
+
     result["source_url"] = url
     result["source_id"] = "NAVER_PUBLIC"
     result["quality_flag"] = "OK" if result["close"] is not None else "FAILED"
