@@ -104,6 +104,7 @@ jobs:
             echo "No data changes to commit."
           else
             git commit -m "chore: refresh KOSPI200 dashboard data"
+            git pull --rebase origin main
             git push
           fi
 
