@@ -197,6 +197,11 @@ def parse_main_page(ticker: str) -> dict:
                 result["current_pbr"] = values[0]
                 if len(values) > 1:
                     result["current_bps"] = values[1]
+            elif "ROE" in label and "지배주주" in label:
+                if len(values) >= 4:
+                    result["roe_estimate"] = values[3]
+                elif values:
+                    result["roe_current"] = values[-1]
             elif "현재가" in label and result["close"] is None:
                 result["close"] = values[0]
 
