@@ -200,9 +200,9 @@ def parse_main_page(ticker: str) -> dict:
                     result["current_bps"] = values[1]
             elif "ROE" in label and "지배주주" in label:
                 if len(values) >= 4:
-                    result["roe_estimate"] = values[3]
+                    result["roe_estimate"] = round(values[3] / 100.0, 4)
                 elif values:
-                    result["roe_current"] = values[-1]
+                    result["roe_current"] = round(values[-1] / 100.0, 4)
             elif "시가총액" in label:
                 result["market_cap"] = values[0]
             elif "현재가" in label and result["close"] is None:
@@ -213,9 +213,9 @@ def parse_main_page(ticker: str) -> dict:
         result["market_cap"] = float(market_cap_match.group(1).replace(",", ""))
 
     if result["forward_eps_consensus"] is not None and result["current_bps"] is not None and result["current_bps"] > 0:
-        result["roe_estimate"] = round(result["forward_eps_consensus"] / result["current_bps"] * 100, 2)
+        result["roe_estimate"] = round(result["forward_eps_consensus"] / result["current_bps"], 4)
     elif result["trailing_eps"] is not None and result["current_bps"] is not None and result["current_bps"] > 0:
-        result["roe_current"] = round(result["trailing_eps"] / result["current_bps"] * 100, 2)
+        result["roe_current"] = round(result["trailing_eps"] / result["current_bps"], 4)
 
     result["source_url"] = url
     result["source_id"] = "NAVER_PUBLIC"
@@ -308,9 +308,9 @@ def main() -> None:
             if close not in (None, "") and current_pbr not in (None, "") and float(current_pbr) > 0:
                 metrics["current_bps"] = round(float(close) / float(current_pbr), 2)
             if metrics.get("forward_eps_consensus") not in (None, "") and metrics.get("current_bps") not in (None, "") and float(metrics["current_bps"]) > 0:
-                metrics["roe_estimate"] = round(float(metrics["forward_eps_consensus"]) / float(metrics["current_bps"]) * 100, 2)
+                metrics["roe_estimate"] = round(float(metrics["forward_eps_consensus"]) / float(metrics["current_bps"]), 4)
             elif metrics.get("trailing_eps") not in (None, "") and metrics.get("current_bps") not in (None, "") and float(metrics["current_bps"]) > 0:
-                metrics["roe_current"] = round(float(metrics["trailing_eps"]) / float(metrics["current_bps"]) * 100, 2)
+                metrics["roe_current"] = round(float(metrics["trailing_eps"]) / float(metrics["current_bps"]), 4)
             metrics.update({
                 "as_of": run_date,
                 "ticker": ticker,
