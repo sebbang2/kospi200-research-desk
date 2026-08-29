@@ -77,6 +77,7 @@ def update_valuation_json(csv_path: Path, output_path: Path, universe_path: Path
                 "business_overview": row.get("business_overview", "") or None,
                 "business_keywords": keyword_list(row.get("business_keywords")),
                 "close": optional_float(row.get("close")),
+                "market_cap": optional_float(row.get("market_cap")),
                 "trailing_per": optional_float(row.get("trailing_per")),
                 "trailing_eps": optional_float(row.get("trailing_eps")),
                 "forward_per": optional_float(row.get("forward_per_consensus")),
@@ -89,6 +90,7 @@ def update_valuation_json(csv_path: Path, output_path: Path, universe_path: Path
                 "roe_estimate": optional_float(row.get("roe_estimate")),
                 "score": valuation_score(row),
                 "rank": prior.get("rank"),
+                "market_cap_rank": prior.get("market_cap_rank"),
                 "quality": row.get("quality_flag") or "PARTIAL",
                 "source_url": row.get("source_url", ""),
             })
@@ -96,6 +98,10 @@ def update_valuation_json(csv_path: Path, output_path: Path, universe_path: Path
     for index, item in enumerate(items, start=1):
         if item.get("score") is not None:
             item["rank"] = index
+    market_cap_items = sorted(items, key=lambda item: (item.get("market_cap") is None, -(item.get("market_cap") or 0)))
+    for index, item in enumerate(market_cap_items, start=1):
+        if item.get("market_cap") is not None:
+            item["market_cap_rank"] = index
     payload = {
         "as_of": datetime.now(KST).date().isoformat(),
         "status": "LIVE",
