@@ -55,7 +55,7 @@ def valuation_score(row: dict[str, str]) -> float | None:
     revision = max(0.0, min(1.0, 0.5 + max(-1.0, min(1.0, drop)) / 2.0))
     pbr = max(0.0, min(1.0, (3.0 - p) / 2.5))
     roe = max(0.0, min(1.0, r / 25.0))
-    return round(0.30 * level + 0.25 * revision + 0.25 * pbr + 0.20 * roe, 4)
+    return round((0.30 * level + 0.25 * revision + 0.25 * pbr + 0.20 * roe) * 100.0, 2)
 
 def update_valuation_json(csv_path: Path, output_path: Path, universe_path: Path) -> None:
     existing = {"items": []}
