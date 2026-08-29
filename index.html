@@ -277,7 +277,7 @@
     const $ = (selector) => document.querySelector(selector);
     const $$ = (selector) => Array.from(document.querySelectorAll(selector));
     const esc = (value) => String(value ?? "").replace(/[&<>'"]/g, (char) => ({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;","\"":"&quot;"}[char]));
-    const pct = (value) => value == null ? "—" : `${(Number(value) * 100).toFixed(1)}%`;
+    const pct = (value) => value == null ? "—" : (Number(value) * 100).toFixed(1);
     const num = (value, digits=1) => value == null ? "—" : Number(value).toFixed(digits);
     const krw = (value) => value == null ? "—" : `₩${Number(value).toLocaleString("ko-KR")}`;
     const dateLabel = (iso) => new Intl.DateTimeFormat("ko-KR", {year:"numeric", month:"long", day:"numeric", weekday:"short"}).format(new Date(`${iso}T00:00:00+09:00`));
