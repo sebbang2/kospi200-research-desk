@@ -208,6 +208,10 @@ def parse_main_page(ticker: str) -> dict:
             elif "현재가" in label and result["close"] is None:
                 result["close"] = values[0]
 
+    market_cap_match = re.search(r"시가총액\s*\(억\)\s*([\d,]+)", visible_text(html))
+    if market_cap_match:
+        result["market_cap"] = float(market_cap_match.group(1).replace(",", ""))
+
     if result["forward_eps_consensus"] is not None and result["current_bps"] is not None and result["current_bps"] > 0:
         result["roe_estimate"] = round(result["forward_eps_consensus"] / result["current_bps"] * 100, 2)
     elif result["trailing_eps"] is not None and result["current_bps"] is not None and result["current_bps"] > 0:
