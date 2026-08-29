@@ -144,6 +144,7 @@ def parse_main_page(ticker: str) -> dict:
         "current_pbr": None,
         "current_bps": None,
         "close": None,
+        "market_cap": None,
         "business_overview": None,
         "business_keywords": [],
     }
@@ -202,6 +203,8 @@ def parse_main_page(ticker: str) -> dict:
                     result["roe_estimate"] = values[3]
                 elif values:
                     result["roe_current"] = values[-1]
+            elif "시가총액" in label:
+                result["market_cap"] = values[0]
             elif "현재가" in label and result["close"] is None:
                 result["close"] = values[0]
 
