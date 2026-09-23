@@ -54,6 +54,7 @@
     .layout-2 > * { min-width: 0; }
     .panel-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; margin-bottom: 14px; }
     .panel-title { margin: 0; font-size: 16px; letter-spacing: -.02em; }
+    .score-explainer { margin-top: 8px; padding: 10px 12px; border-left: 3px solid var(--teal); background: var(--teal-soft); color: var(--ink-2); font-size: 12px; line-height: 1.6; } .score-explainer small { color: var(--muted); }
     .panel-note { color: var(--muted); font-size: 12px; line-height: 1.5; }
      .table-wrap { overflow-x: hidden; max-width: 100%; }
     table { width: 100%; border-collapse: collapse; min-width: 0; table-layout: fixed; }
@@ -197,7 +198,7 @@
       <div class="layout-2">
         <section class="panel">
           <div class="panel-header">
-            <div><h2 class="panel-title">KOSPI200 전체 종목 · 저평가 우선순위</h2><div class="panel-note">전체 구성종목을 표시하며, 실제 데이터가 수집된 종목부터 PBR·ROE·EPS·Forward PER 점수가 계산됩니다.</div></div>
+            <div><h2 class="panel-title">KOSPI200 전체 종목 · 저평가 우선순위</h2><div class="panel-note">전체 구성종목을 표시하며, 실제 데이터가 수집된 종목부터 산업 상대가치 점수가 계산됩니다.</div><div class="score-explainer"><strong>점수 산식</strong> 산업 대비 PER 40% + TTM→Forward PER 개선 20% + PBR×ROE 품질 40%<br><small>산업보다 PER·PBR이 낮고, ROE가 높거나 개선되는 종목일수록 높은 점수입니다.</small></div></div>
             <button type="button" class="btn" id="goNewsBtn">뉴스 캘린더 열기</button>
           </div>
           <div class="table-wrap"><table><thead><tr><th class="num" data-sort="rank">저평가순위 <button type="button" class="sort-button" data-direction="asc" aria-label="저평가순위 정렬">↕</button></th><th class="num" data-sort="market_cap_rank">시가총액 순위 <button type="button" class="sort-button" data-direction="asc" aria-label="시가총액 순위 정렬">↕</button></th><th>기업 · 주요 핵심사업</th><th class="num" data-sort="score">점수 <button type="button" class="sort-button" data-direction="desc" aria-label="점수 정렬">↕</button></th><th class="num" data-sort="trailing_per">Trailing PER<br><small>(최근 12개월 합산) <button type="button" class="sort-button" data-direction="asc" aria-label="Trailing PER 정렬">↕</button></small></th><th class="num" data-sort="forward_per">Forward PER<br><small>(올 연말 예상) <button type="button" class="sort-button" data-direction="asc" aria-label="Forward PER 정렬">↕</button></small></th><th class="num" data-sort="pbr">PBR<br><small>(현재값 · 5년 역사적 저점) <button type="button" class="sort-button" data-direction="asc" aria-label="PBR 정렬">↕</button></small></th><th class="num" data-sort="roe_estimate">ROE 예상<br><small>(Naver ROE 지배주주·연말 예상) <button type="button" class="sort-button" data-direction="desc" aria-label="ROE 정렬">↕</button></small></th></tr></thead><tbody id="valuationTable"></tbody></table></div>
