@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T18:08:04+09:00",
+  "generated_at": "2026-09-27T21:28:15+09:00",
   "status": "LIVE",
   "source": "Google News RSS public search; article body not copied",
   "keywords": [
@@ -101,7 +101,11 @@
       "데일리안"
     ]
   },
-  "signal_keywords_by_ticker": {},
+  "signal_keywords_by_ticker": {
+    "004170": [
+      "단독"
+    ]
+  },
   "source_urls": {
     "005930": "https://news.google.com/rss/search?q=%22%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90%22+%28%ED%9D%91%EC%9E%90+OR+%EB%8C%80%ED%8F%AD%EA%B0%9C%EC%84%A0+OR+%EB%8B%A8%EB%8F%85+OR+%EB%8F%85%EC%A0%90+OR+%EC%83%81%EC%9A%A9%ED%99%94+OR+%EC%A7%84%EC%B6%9C+OR+%EC%88%98%EC%A3%BC+OR+%EA%B3%B5%EA%B8%89%EA%B3%84%EC%95%BD+OR+%EC%8B%A4%EC%A0%81%EA%B0%9C%EC%84%A0+OR+%EC%8B%A0%EA%B7%9C%EA%B3%A0%EA%B0%9D%29&hl=ko&gl=KR&ceid=KR:ko",
     "000660": "https://news.google.com/rss/search?q=%22SK%ED%95%98%EC%9D%B4%EB%8B%89%EC%8A%A4%22+%28%ED%9D%91%EC%9E%90+OR+%EB%8C%80%ED%8F%AD%EA%B0%9C%EC%84%A0+OR+%EB%8B%A8%EB%8F%85+OR+%EB%8F%85%EC%A0%90+OR+%EC%83%81%EC%9A%A9%ED%99%94+OR+%EC%A7%84%EC%B6%9C+OR+%EC%88%98%EC%A3%BC+OR+%EA%B3%B5%EA%B8%89%EA%B3%84%EC%95%BD+OR+%EC%8B%A4%EC%A0%81%EA%B0%9C%EC%84%A0+OR+%EC%8B%A0%EA%B7%9C%EA%B3%A0%EA%B0%9D%29&hl=ko&gl=KR&ceid=KR:ko",
@@ -306,8 +310,92 @@
   "failures": [],
   "articles": [
     {
+      "title": "KT, 5년간 5G 단독모드 선점…소비자용 상품 개발해야 : 네이버 블로그 - Naver Blog",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTzFkZW1kMVkwRGVKc210N1pXWE0xZFUwMEdlRDFPTV8tQnpNNHpkVmFjYkMzYjc1TGFMY0g3WW54aGt3QTlZZzlLVWFOYnhwNDFZX182RVdRcllRbFJOSHJSXzMyUnlWbDJLc2xuZTVELWI0bUVUdl83X2NMQWExcTBodGIwS0wtMUk0Z3dPRQ?oc=5",
+      "source": "Naver Blog",
+      "published_raw": "Sun, 27 Sep 2026 11:30:57 GMT",
+      "date": "2026-09-27",
+      "time": "20:30",
+      "matched_keywords": [
+        "단독"
+      ],
+      "news_score": 2,
+      "id": "eab927587abc864c",
+      "ticker": "035420",
+      "company": "NAVER",
+      "sector": "",
+      "sources": [
+        "Naver Blog"
+      ],
+      "signal_keywords": [],
+      "signal_major_article_count": {}
+    },
+    {
+      "title": "KT, 5년간 5G 단독모드 선점…소비자용 상품 개발해야 : 네이버 블로그 - Naver Blog",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTzFkZW1kMVkwRGVKc210N1pXWE0xZFUwMEdlRDFPTV8tQnpNNHpkVmFjYkMzYjc1TGFMY0g3WW54aGt3QTlZZzlLVWFOYnhwNDFZX182RVdRcllRbFJOSHJSXzMyUnlWbDJLc2xuZTVELWI0bUVUdl83X2NMQWExcTBodGIwS0wtMUk0Z3dPRQ?oc=5",
+      "source": "Naver Blog",
+      "published_raw": "Sun, 27 Sep 2026 11:30:57 GMT",
+      "date": "2026-09-27",
+      "time": "20:30",
+      "matched_keywords": [
+        "단독"
+      ],
+      "news_score": 2,
+      "id": "86465b5d97f8fcb1",
+      "ticker": "030200",
+      "company": "KT",
+      "sector": "",
+      "sources": [
+        "Naver Blog"
+      ],
+      "signal_keywords": [],
+      "signal_major_article_count": {}
+    },
+    {
+      "title": "범한메카텍, 발전 기자재 사업 진출 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9melI5d0pTQklqaFg3cnlXaHZweUNsWC1mc1ZzSHdZN1pxNU40RWpMOUJfTll5RFYwSGN4TjQ0S040TlpUV0cwemhKYlB2ZUU?oc=5",
+      "source": "v.daum.net",
+      "published_raw": "Sun, 27 Sep 2026 10:05:16 GMT",
+      "date": "2026-09-27",
+      "time": "19:05",
+      "matched_keywords": [
+        "진출"
+      ],
+      "news_score": 2,
+      "id": "02b1137555d48470",
+      "ticker": "034020",
+      "company": "두산에너빌리티",
+      "sector": "",
+      "sources": [
+        "v.daum.net"
+      ],
+      "signal_keywords": [],
+      "signal_major_article_count": {}
+    },
+    {
+      "title": "이용배 현대로템 대표 “AI·테크·수소 3축으로 글로벌 수주 영토 넓힐 것” - sedaily.com",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ubTNwMTJ6ZXY3eGQyVjdHOEdqa2wySUliMTFnTzdRczZiVFNVMEhvRXdXVW56eXNzenN3Q2FyUklkM2hBQW1PajBnSll2V3RfWlHSAVNBVV95cUxNUUNNb0pIRDVqR1A1NWtCWi1WVXZEa2FjbTVRT2JSeVI0YVVaX3hnWTFENENRUEs3QmFCWFU2RHh2SlNqcHRqU0tpVndIWjZQVUpUVQ?oc=5",
+      "source": "sedaily.com",
+      "published_raw": "Sun, 27 Sep 2026 08:50:47 GMT",
+      "date": "2026-09-27",
+      "time": "17:50",
+      "matched_keywords": [
+        "수주"
+      ],
+      "news_score": 3,
+      "id": "d1537ecffb654db4",
+      "ticker": "064350",
+      "company": "현대로템",
+      "sector": "",
+      "sources": [
+        "sedaily.com"
+      ],
+      "signal_keywords": [],
+      "signal_major_article_count": {}
+    },
+    {
       "title": "중앙아 3국에 깃발 꽂은 LS…MOU에서 수주까지는 '긴 호흡' - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBQYkQtQlhmRHdYMzM1eHBxQlZPbU0zSkpveXgtZkJzZS1lblpxeUpWbGVISWdNMnB0N1RLVF94YmNsS0NfeGxiSENEY1BhRHc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5FLXVyUEE3LTZJUnh2VWVfTDhpdHhUbjZoU3FGaXNSTEJaZVJpWE9fMXhKWkFHMG42ak5wZ3ZIaDJSdkhzc09qSkZ0Zw?oc=5",
       "source": "v.daum.net",
       "published_raw": "Sun, 27 Sep 2026 08:46:07 GMT",
       "date": "2026-09-27",
@@ -316,7 +404,7 @@
         "수주"
       ],
       "news_score": 3,
-      "id": "d35c5371beb5935a",
+      "id": "fb38add26ae46d9e",
       "ticker": "006260",
       "company": "LS",
       "sector": "",
@@ -411,9 +499,9 @@
       "signal_major_article_count": {}
     },
     {
-      "title": "“공항 라운지에서 즐기는 K-라면”…농심, 대한항공 라운지 ‘라면 라이브러리’에 라면 21종 단독 공급 - 비즈월드",
+      "title": "“공항 라운지에서 즐기는 K-라면”…농심, 대한항공 라운지 ‘라면 라이브러리’에 라면 21종 단독 공급 - bizwnews.com",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9VTEhUX2RGY3FfcW5ham14R1pSa3gyUGxlRWpEanRFYXBPbG1lM2xneEpJRVFYZURMdS1KZWtzV0JONG9HcDFZWkZ4UEtBcEJCR2dIMFhrMUF0QTZyYmxPVEJSTGhFQ2pDWlE?oc=5",
-      "source": "비즈월드",
+      "source": "bizwnews.com",
       "published_raw": "Sun, 27 Sep 2026 06:02:00 GMT",
       "date": "2026-09-27",
       "time": "15:02",
@@ -421,20 +509,20 @@
         "단독"
       ],
       "news_score": 2,
-      "id": "e99353c229624bba",
+      "id": "a682ef4a3701ef09",
       "ticker": "003490",
       "company": "대한항공",
       "sector": "",
       "sources": [
-        "비즈월드"
+        "bizwnews.com"
       ],
       "signal_keywords": [],
       "signal_major_article_count": {}
     },
     {
-      "title": "“공항 라운지에서 즐기는 K-라면”…농심, 대한항공 라운지 ‘라면 라이브러리’에 라면 21종 단독 공급 - 비즈월드",
+      "title": "“공항 라운지에서 즐기는 K-라면”…농심, 대한항공 라운지 ‘라면 라이브러리’에 라면 21종 단독 공급 - bizwnews.com",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9VTEhUX2RGY3FfcW5ham14R1pSa3gyUGxlRWpEanRFYXBPbG1lM2xneEpJRVFYZURMdS1KZWtzV0JONG9HcDFZWkZ4UEtBcEJCR2dIMFhrMUF0QTZyYmxPVEJSTGhFQ2pDWlE?oc=5",
-      "source": "비즈월드",
+      "source": "bizwnews.com",
       "published_raw": "Sun, 27 Sep 2026 06:02:00 GMT",
       "date": "2026-09-27",
       "time": "15:02",
@@ -442,12 +530,12 @@
         "단독"
       ],
       "news_score": 2,
-      "id": "70485c2589dc90bf",
+      "id": "f1da2b39cc7d92e3",
       "ticker": "004370",
       "company": "농심",
       "sector": "",
       "sources": [
-        "비즈월드"
+        "bizwnews.com"
       ],
       "signal_keywords": [],
       "signal_major_article_count": {}
@@ -474,48 +562,6 @@
       "signal_major_article_count": {}
     },
     {
-      "title": "KT, 5년간 5G 단독모드 선점…소비자용 상품 개발해야 : 네이버 블로그 - Naver Blog",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTzFkZW1kMVkwRGVKc210N1pXWE0xZFUwMEdlRDFPTV8tQnpNNHpkVmFjYkMzYjc1TGFMY0g3WW54aGt3QTlZZzlLVWFOYnhwNDFZX182RVdRcllRbFJOSHJSXzMyUnlWbDJLc2xuZTVELWI0bUVUdl83X2NMQWExcTBodGIwS0wtMUk0Z3dPRQ?oc=5",
-      "source": "Naver Blog",
-      "published_raw": "Sun, 27 Sep 2026 05:30:57 GMT",
-      "date": "2026-09-27",
-      "time": "14:30",
-      "matched_keywords": [
-        "단독"
-      ],
-      "news_score": 2,
-      "id": "eab927587abc864c",
-      "ticker": "035420",
-      "company": "NAVER",
-      "sector": "",
-      "sources": [
-        "Naver Blog"
-      ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
-    },
-    {
-      "title": "KT, 5년간 5G 단독모드 선점…소비자용 상품 개발해야 : 네이버 블로그 - Naver Blog",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTzFkZW1kMVkwRGVKc210N1pXWE0xZFUwMEdlRDFPTV8tQnpNNHpkVmFjYkMzYjc1TGFMY0g3WW54aGt3QTlZZzlLVWFOYnhwNDFZX182RVdRcllRbFJOSHJSXzMyUnlWbDJLc2xuZTVELWI0bUVUdl83X2NMQWExcTBodGIwS0wtMUk0Z3dPRQ?oc=5",
-      "source": "Naver Blog",
-      "published_raw": "Sun, 27 Sep 2026 05:30:57 GMT",
-      "date": "2026-09-27",
-      "time": "14:30",
-      "matched_keywords": [
-        "단독"
-      ],
-      "news_score": 2,
-      "id": "86465b5d97f8fcb1",
-      "ticker": "030200",
-      "company": "KT",
-      "sector": "",
-      "sources": [
-        "Naver Blog"
-      ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
-    },
-    {
       "title": "현대로템 찾은 고경석 주독일대사 “국산 기술 자부심…해외 수주 적극 지원” [K철도 新수출전략] - v.daum.net",
       "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE10M01hbHk2TFJMbXMyRm45YVA3aVZ1SFVtUzlfcUtNcEEyaGFYTHBwVGJwZ0RsYlc1SlRZLUxSRTNXTmxDdlE?oc=5",
       "source": "v.daum.net",
@@ -537,9 +583,9 @@
       "signal_major_article_count": {}
     },
     {
-      "title": "안방 다음은 뉴욕 메트로…현대로템, 7兆 역대급 수주 도전장 [K철도 新수출전략] - 이투데이",
+      "title": "안방 다음은 뉴욕 메트로…현대로템, 7兆 역대급 수주 도전장 [K철도 新수출전략] - etoday.co.kr",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9fY1oteWtZcGhjRTdOSVNqQ0V2S3dud0s5aUlhTDVuTWtjWXpUSHdXTVZoM0czZHlwMTBsdVRHV3hUNHI5d3NkZEJHczdVMGhyUzlacA?oc=5",
-      "source": "이투데이",
+      "source": "etoday.co.kr",
       "published_raw": "Sun, 27 Sep 2026 05:00:00 GMT",
       "date": "2026-09-27",
       "time": "14:00",
@@ -547,12 +593,12 @@
         "수주"
       ],
       "news_score": 3,
-      "id": "d9db78d5229f0f1f",
+      "id": "d9c53522d113c3f0",
       "ticker": "064350",
       "company": "현대로템",
       "sector": "",
       "sources": [
-        "이투데이"
+        "etoday.co.kr"
       ],
       "signal_keywords": [],
       "signal_major_article_count": {}
@@ -579,6 +625,27 @@
       "signal_major_article_count": {}
     },
     {
+      "title": "[단독] 한미약품, CRO에 신동국 측 인사 안종균 전 미래에셋 부사장 선임 [시그널] - 서울경제",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9DcGJSQzE0TkJ5MzY4YlFpYTB2TlJhT0JscE1Gd2M1U0RRcjJ2TkJ5aFA4cXFPcktrM2dJMVF6eG54bXBNM0RWNkFOWEtqWGI3UkRMOE9SNFRyazNZSGRLQUtxUl8?oc=5",
+      "source": "서울경제",
+      "published_raw": "Sun, 27 Sep 2026 04:24:40 GMT",
+      "date": "2026-09-27",
+      "time": "13:24",
+      "matched_keywords": [
+        "단독"
+      ],
+      "news_score": 2,
+      "id": "04792fbb67024183",
+      "ticker": "128940",
+      "company": "한미약품",
+      "sector": "",
+      "sources": [
+        "서울경제"
+      ],
+      "signal_keywords": [],
+      "signal_major_article_count": {}
+    },
+    {
       "title": "신세계백화점, 강남점에 ‘주간 소년 점프’ 공식 팝업스토어 단독 오픈 - 라이센스뉴스",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE14UUdzUk1fX3Z4UHhkcnJLekg3dWJLQW53T3hBNDZUYmFoSnVtMTRoaUI3bkp0NDNYSF94QkFqVFpKVFRkVVhrUnNzLVFCZnMtV2VJVXlQREkyUEtNY2ZteTJQT05PSjFzN1Vr?oc=5",
       "source": "라이센스뉴스",
@@ -596,8 +663,37 @@
       "sources": [
         "라이센스뉴스"
       ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
+      "signal_keywords": [
+        "단독"
+      ],
+      "signal_major_article_count": {
+        "단독": 3
+      }
+    },
+    {
+      "title": "신세계백화점, 日 ‘주간 소년 점프’ 공식 팝업 단독 선봬 - 남다른디테일",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE95WFIxVmtHLUJSMEdtWUI5ZE9PeFZCUmpsekY4R092V1k5a0pGbkY1RzBUNm5UU1J2SXpqUXhucDFyQQ?oc=5",
+      "source": "남다른디테일",
+      "published_raw": "Sun, 27 Sep 2026 03:16:40 GMT",
+      "date": "2026-09-27",
+      "time": "12:16",
+      "matched_keywords": [
+        "단독"
+      ],
+      "news_score": 2,
+      "id": "261b370d2fe058f5",
+      "ticker": "004170",
+      "company": "신세계",
+      "sector": "",
+      "sources": [
+        "남다른디테일"
+      ],
+      "signal_keywords": [
+        "단독"
+      ],
+      "signal_major_article_count": {
+        "단독": 3
+      }
     },
     {
       "title": "한국전력기술, 인니 발전소로 국제상…동남아 수주 청신호 - 전기신문",
@@ -621,22 +717,22 @@
       "signal_major_article_count": {}
     },
     {
-      "title": "한국전력기술, 인니 발전소로 국제상…동남아 수주 청신호 - 전기신문",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBfejZoMXVoWGhfcUQ5MnFEUUxKZWROeHVDVjYyY2cwbWRQRG03RTlsZzJfalprUWNDZi0zMlRoLXF6Q3c5UkplUml2dGQxelpDZDctWmZnMFZWaWN6XzdjUkhpcGM1Y0NmNU9KN9IBcEFVX3lxTE5FMVZFYnlOdHVwYzI1djNNd0JUbGUxNzJWcnRoeHdSWlBZVFZ0emJZSnBTd1BFRzdwMmwxQnFyaWwzQnVzMUxrNGRIeVpCeFNqeEdtRE1uQ1NudXRjNld4N3lsUUhtNndYUkNpaExFYjA?oc=5",
-      "source": "전기신문",
-      "published_raw": "Sun, 27 Sep 2026 01:41:57 GMT",
+      "title": "포스코퓨처엠, SK온과 LFP 양극재 1.1조원 공급계약 체결 - 영남경제",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE04cU43b3JHSDJmWS1feTRLblRkZHd4UW83UXBadjBXNV9SeUpDc0xHdG5GVWpINlFoLTY3ZHpHWXNyZXlBT3l5M0NfTkg0ZmRsQm5DR1NELUhSUVV3T192V0s5U1BYdms?oc=5",
+      "source": "영남경제",
+      "published_raw": "Sun, 27 Sep 2026 01:44:03 GMT",
       "date": "2026-09-27",
-      "time": "10:41",
+      "time": "10:44",
       "matched_keywords": [
-        "수주"
+        "공급계약"
       ],
       "news_score": 3,
-      "id": "f3f1c70727b17782",
-      "ticker": "052690",
-      "company": "한전기술",
+      "id": "ac3115b2acb4667b",
+      "ticker": "034730",
+      "company": "SK",
       "sector": "",
       "sources": [
-        "전기신문"
+        "영남경제"
       ],
       "signal_keywords": [],
       "signal_major_article_count": {}
@@ -848,29 +944,12 @@
       "sources": [
         "메트로신문"
       ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
-    },
-    {
-      "title": "신세계백화점, '주간 소년 점프' 공식 팝업 단독 운영 - 뉴스후플러스",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9GREZwTXVSMUpkYk0ya3FDdG9hTU5vbTduY1RWTXhmemt2ZUZwWThUTFJ5Qzk5SE05RjFHQ1U3V05xNnJka0Z6ZDdLV0NpSWY2WVh2cFBXcUQtQ0d2TnpnTUpKeTU5VU5KQW44Wmxn?oc=5",
-      "source": "뉴스후플러스",
-      "published_raw": "Sun, 27 Sep 2026 00:52:42 GMT",
-      "date": "2026-09-27",
-      "time": "09:52",
-      "matched_keywords": [
+      "signal_keywords": [
         "단독"
       ],
-      "news_score": 2,
-      "id": "b3ede5f69275e0bc",
-      "ticker": "004170",
-      "company": "신세계",
-      "sector": "",
-      "sources": [
-        "뉴스후플러스"
-      ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
+      "signal_major_article_count": {
+        "단독": 3
+      }
     },
     {
       "title": "원피스·사카모토데이즈 굿즈 한자리에…신세계百, ‘점프샵’ 단독 유치 - 파이낸셜투데이",
@@ -890,8 +969,12 @@
       "sources": [
         "파이낸셜투데이"
       ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
+      "signal_keywords": [
+        "단독"
+      ],
+      "signal_major_article_count": {
+        "단독": 3
+      }
     },
     {
       "title": "신세계百, 日 '주간 소년 점프' 단독 공식 팝업 - 전자신문",
@@ -911,13 +994,17 @@
       "sources": [
         "전자신문"
       ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
+      "signal_keywords": [
+        "단독"
+      ],
+      "signal_major_article_count": {
+        "단독": 3
+      }
     },
     {
-      "title": "[단독] 성동세무서 ‘지연 과세’에 납세자 권리 침해...크래프톤 前직원 75억 세금 전액 취소 - 이투데이",
+      "title": "[단독] 성동세무서 ‘지연 과세’에 납세자 권리 침해...크래프톤 前직원 75억 세금 전액 취소 - etoday.co.kr",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBKSjdBNmF3WWh4bUQwN29pT1E2alozZS05OWhtclBYV1VOd0o4aUIzYkRsUzZUUWJBeDZnYjlhbWVDT3piZlI5dzBXRlN3ZHFTbU1VVg?oc=5",
-      "source": "이투데이",
+      "source": "etoday.co.kr",
       "published_raw": "Sun, 27 Sep 2026 00:00:00 GMT",
       "date": "2026-09-27",
       "time": "09:00",
@@ -925,12 +1012,12 @@
         "단독"
       ],
       "news_score": 2,
-      "id": "f9ffd0ffd537a53b",
+      "id": "0b605e1edb0f1361",
       "ticker": "259960",
       "company": "크래프톤",
       "sector": "",
       "sources": [
-        "이투데이"
+        "etoday.co.kr"
       ],
       "signal_keywords": [],
       "signal_major_article_count": {}
@@ -973,6 +1060,31 @@
       "sector": "",
       "sources": [
         "디지털데일리"
+      ],
+      "signal_keywords": [
+        "단독"
+      ],
+      "signal_major_article_count": {
+        "단독": 3
+      }
+    },
+    {
+      "title": "[단독] 한화오션, FLNG 국산 공급망 키운다…핵심 기자재 실증 추진 - 쿠키뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5tRmNLdnNKNEVUYVdWbG8wcW0xSlJlY1RnUHhYemx2WklwVGUtUk9hSTFXM0FWQ0N4RFkwcEd1SXhjclNQSXJIOVRtSVhqQTMybWhfZW5qSC1rM2VleldiX3NiRQ?oc=5",
+      "source": "쿠키뉴스",
+      "published_raw": "Sat, 26 Sep 2026 23:07:15 GMT",
+      "date": "2026-09-27",
+      "time": "08:07",
+      "matched_keywords": [
+        "단독"
+      ],
+      "news_score": 2,
+      "id": "5846ff536850b10c",
+      "ticker": "042660",
+      "company": "한화오션",
+      "sector": "",
+      "sources": [
+        "쿠키뉴스"
       ],
       "signal_keywords": [],
       "signal_major_article_count": {}
@@ -1100,8 +1212,12 @@
       "sources": [
         "뉴스1"
       ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
+      "signal_keywords": [
+        "단독"
+      ],
+      "signal_major_article_count": {
+        "단독": 3
+      }
     },
     {
       "title": "삼성전자, ‘TV 플러스’ 유럽 시장 본격 진출 - Samsung Global Newsroom",
@@ -1377,9 +1493,9 @@
       "signal_major_article_count": {}
     },
     {
-      "title": "호르무즈 봉쇄에 가스선 운임↑…한국 조선 수주 전망은 '맑음' - yna.co.kr",
+      "title": "호르무즈 봉쇄에 가스선 운임↑…한국 조선 수주 전망은 '맑음' - 연합뉴스",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9oSkhkbzBrTGh6a3gweS1xWDRnZThRWlVfSC1qdEd4b3FhdXFUVnc0QkRJOVJRYlM1am1nblMydHJaWGxpS2t2dHNmX0cyM1pNZThSSjRIUzNEWHPSAWBBVV95cUxPa1JLc1NvR2k0M0piNktzYXhHYkZZay1HVE1XdTc4Q01KR2VvY09tV29fWnM0QmJlM2lOUTdpRlZwSUFIb1NlcHRjb0xOSmhRN1ZTLUd1bW9pdExoeVZlSXc?oc=5",
-      "source": "yna.co.kr",
+      "source": "연합뉴스",
       "published_raw": "Fri, 25 Sep 2026 22:01:01 GMT",
       "date": "2026-09-26",
       "time": "07:01",
@@ -1387,12 +1503,12 @@
         "수주"
       ],
       "news_score": 3,
-      "id": "27cbcbace29429c8",
+      "id": "c3067dc064dd43bf",
       "ticker": "009540",
       "company": "HD한국조선해양",
       "sector": "",
       "sources": [
-        "yna.co.kr"
+        "연합뉴스"
       ],
       "signal_keywords": [],
       "signal_major_article_count": {}
@@ -1432,27 +1548,6 @@
       "id": "8ba3331b17208ca2",
       "ticker": "272210",
       "company": "한화시스템",
-      "sector": "",
-      "sources": [
-        "오늘경제"
-      ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
-    },
-    {
-      "title": "[이슈] 한화시스템, 현대로템과 또 '비공개' 공급계약…2주 새 두 번째 - 오늘경제",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5GVTRvRnBDX2RMd05VZ3BzRktoR1B6M0FyM1QwVU1qQ3BLMDNiWUs5clpCdlE3eng2dXcxb0ZmR3g5b0lLVFFWVkFrY3NnU1o2V1NoSkRvYnNYMFktN0hkRjdoRWdmTTByb2dOMGtrd1F0T0k?oc=5",
-      "source": "오늘경제",
-      "published_raw": "Fri, 25 Sep 2026 22:00:00 GMT",
-      "date": "2026-09-26",
-      "time": "07:00",
-      "matched_keywords": [
-        "공급계약"
-      ],
-      "news_score": 3,
-      "id": "598b41b77f6bfbdf",
-      "ticker": "000880",
-      "company": "한화",
       "sector": "",
       "sources": [
         "오늘경제"
@@ -1629,9 +1724,9 @@
       "signal_major_article_count": {}
     },
     {
-      "title": "농심, 인천공항 대한항공 라운지에 ‘라면 라이브러리’…21종 단독 공급 - nanumy.co.kr",
+      "title": "농심, 인천공항 대한항공 라운지에 ‘라면 라이브러리’…21종 단독 공급 - 나눔경제뉴스",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9tREE3Q3dXOUdKWjVaSnh6MzlxZjVsSEZfZFFlRllZYnd0Tm51cEJ3UkVUeHo3cEhCZXlGYzQtQm9oYW9JQUdXeUlrN01BYXktMnFuLURzSDJ1Mlo5YThmTEplOW5mOE9oOWJjZQ?oc=5",
-      "source": "nanumy.co.kr",
+      "source": "나눔경제뉴스",
       "published_raw": "Fri, 25 Sep 2026 08:08:24 GMT",
       "date": "2026-09-25",
       "time": "17:08",
@@ -1639,20 +1734,20 @@
         "단독"
       ],
       "news_score": 2,
-      "id": "30e41ba16aee0cdf",
+      "id": "a0eaed865b686418",
       "ticker": "003490",
       "company": "대한항공",
       "sector": "",
       "sources": [
-        "nanumy.co.kr"
+        "나눔경제뉴스"
       ],
       "signal_keywords": [],
       "signal_major_article_count": {}
     },
     {
-      "title": "농심, 인천공항 대한항공 라운지에 ‘라면 라이브러리’…21종 단독 공급 - nanumy.co.kr",
+      "title": "농심, 인천공항 대한항공 라운지에 ‘라면 라이브러리’…21종 단독 공급 - 나눔경제뉴스",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9tREE3Q3dXOUdKWjVaSnh6MzlxZjVsSEZfZFFlRllZYnd0Tm51cEJ3UkVUeHo3cEhCZXlGYzQtQm9oYW9JQUdXeUlrN01BYXktMnFuLURzSDJ1Mlo5YThmTEplOW5mOE9oOWJjZQ?oc=5",
-      "source": "nanumy.co.kr",
+      "source": "나눔경제뉴스",
       "published_raw": "Fri, 25 Sep 2026 08:08:24 GMT",
       "date": "2026-09-25",
       "time": "17:08",
@@ -1660,12 +1755,12 @@
         "단독"
       ],
       "news_score": 2,
-      "id": "50b053ae07067930",
+      "id": "e7458c11e6302311",
       "ticker": "004370",
       "company": "농심",
       "sector": "",
       "sources": [
-        "nanumy.co.kr"
+        "나눔경제뉴스"
       ],
       "signal_keywords": [],
       "signal_major_article_count": {}
@@ -1755,9 +1850,9 @@
       "signal_major_article_count": {}
     },
     {
-      "title": "K조선 3사, 올해 수주액 50조 돌파…고부가 선별 수주로 이익 '확대' - newsis.com",
+      "title": "K조선 3사, 올해 수주액 50조 돌파…고부가 선별 수주로 이익 '확대' - 뉴시스",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE04YUlhSXZYVEdqWVp5ZWxXSEVrQTlYdFFfd19rcEl0aXc1RDhYVzEtRWdBT053X0dKSDVJVno3UWdSMzNLMHZUQkxtd2R5d1piS21HVUNBVTJoeDJNbkNBZEJNMHdwMDFSR182WFdSNkdvZXpEa29oT9IBeEFVX3lxTE04YUlhSXZYVEdqWVp5ZWxXSEVrQTlYdFFfd19rcEl0aXc1RDhYVzEtRWdBT053X0dKSDVJVno3UWdSMzNLMHZUQkxtd2R5d1piS21HVUNBVTJoeDJNbkNBZEJNMHdwMDFSR182WFdSNkdvZXpEa29oTw?oc=5",
-      "source": "newsis.com",
+      "source": "뉴시스",
       "published_raw": "Fri, 25 Sep 2026 04:30:00 GMT",
       "date": "2026-09-25",
       "time": "13:30",
@@ -1765,33 +1860,12 @@
         "수주"
       ],
       "news_score": 3,
-      "id": "72343ccac8f3e464",
+      "id": "077894040a5555db",
       "ticker": "009540",
       "company": "HD한국조선해양",
       "sector": "",
       "sources": [
-        "newsis.com"
-      ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
-    },
-    {
-      "title": "K조선 3사, 올해 수주액 50조 돌파…고부가 선별 수주로 이익 '확대' - newsis.com",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE00ODRaeEZSMmtxOXVvWEgwLXJYcWxVdnZlU2RiOXA3di04bEQ1VWM3V2puNmhiZE94WDBPcHo3Qm11Zjd5bEtnNXJRYk1XZVd6WDFhT3paOWJNZDQxdzQwYtIBeEFVX3lxTE04YUlhSXZYVEdqWVp5ZWxXSEVrQTlYdFFfd19rcEl0aXc1RDhYVzEtRWdBT053X0dKSDVJVno3UWdSMzNLMHZUQkxtd2R5d1piS21HVUNBVTJoeDJNbkNBZEJNMHdwMDFSR182WFdSNkdvZXpEa29oTw?oc=5",
-      "source": "newsis.com",
-      "published_raw": "Fri, 25 Sep 2026 04:30:00 GMT",
-      "date": "2026-09-25",
-      "time": "13:30",
-      "matched_keywords": [
-        "수주"
-      ],
-      "news_score": 3,
-      "id": "c1a18833d1dd9b2e",
-      "ticker": "010140",
-      "company": "삼성중공업",
-      "sector": "",
-      "sources": [
-        "newsis.com"
+        "뉴시스"
       ],
       "signal_keywords": [],
       "signal_major_article_count": {}
@@ -2008,7 +2082,7 @@
     },
     {
       "title": "정비사업 수주 10兆 넘긴 현대건설, 뒤쫓는 삼성물산·GS건설…시선은 이제 목동으로 - 더구루",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE43Z2U2LTlXVUdqWGlOYkFIWHJSSjdmZzlGOWdjbzFDeG5vd1FxMlFrQzBKMlhSRTlsR0JuNzM4dGF5cE02ckhqUzJVdktOWTFkbHBtZjlMMzZOT29VMHJLUEJGMA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1vanRUSS1GQ3MyWHFYQUVoOWVFSHAzSFVVeDZ4ME94UGpuTVJodmJsUHA5QnFCRlpNRE5KbGZnYnJ3d1NDaUtBOXpzSEpOU3dWTHdIRGxRc1c3OTdKOGlNZg?oc=5",
       "source": "더구루",
       "published_raw": "Thu, 24 Sep 2026 15:00:53 GMT",
       "date": "2026-09-25",
@@ -2017,7 +2091,7 @@
         "수주"
       ],
       "news_score": 3,
-      "id": "d274cb117fa9029d",
+      "id": "875390ad9f9d9821",
       "ticker": "000720",
       "company": "현대건설",
       "sector": "",
@@ -2112,9 +2186,9 @@
       "signal_major_article_count": {}
     },
     {
-      "title": "농심, 대한항공 라운지에 ‘라면 라이브러리’…신라면 등 21종 단독 공급 - 인더스트리뉴스",
+      "title": "농심, 대한항공 라운지에 ‘라면 라이브러리’…신라면 등 21종 단독 공급 - industrynews.co.kr",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFAxM1Y3c1ZfUmhRZXpadkY2MC1nSE56TFhBMFpMd2tNdnlGRS1wWFVNRHBDRXhhaW9NZFVMRjAxTi1tRTRWWVNTM2F3OVBlVF9wMzItNVJDb25JQVk3SDhBRzdGVkxCSm5VR1RTMy13ZmpRUQ?oc=5",
-      "source": "인더스트리뉴스",
+      "source": "industrynews.co.kr",
       "published_raw": "Thu, 24 Sep 2026 07:10:53 GMT",
       "date": "2026-09-24",
       "time": "16:10",
@@ -2122,12 +2196,12 @@
         "단독"
       ],
       "news_score": 2,
-      "id": "5116d1fbff29ea86",
+      "id": "7a65bd8b21755422",
       "ticker": "003490",
       "company": "대한항공",
       "sector": "",
       "sources": [
-        "인더스트리뉴스"
+        "industrynews.co.kr"
       ],
       "signal_keywords": [],
       "signal_major_article_count": {}
@@ -2175,9 +2249,9 @@
       "signal_major_article_count": {}
     },
     {
-      "title": "'9연패' 한화이글스, 가을야구 진출 무산 - 대전MBC",
+      "title": "'9연패' 한화이글스, 가을야구 진출 무산 - tjmbc.co.kr",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE42SVRQblZsTWh6eVVnYVI2bnBadUlONmFNRnRSSWRtenJDeE14RVVXM3pZekR5MVhkQU9RWVl3WGlpWFM3X2FDLXg3TVY4S1U?oc=5",
-      "source": "대전MBC",
+      "source": "tjmbc.co.kr",
       "published_raw": "Thu, 24 Sep 2026 04:37:54 GMT",
       "date": "2026-09-24",
       "time": "13:37",
@@ -2185,12 +2259,33 @@
         "진출"
       ],
       "news_score": 2,
-      "id": "f755d9c597f52b0f",
+      "id": "4f6f01d74ad110e5",
       "ticker": "000880",
       "company": "한화",
       "sector": "",
       "sources": [
-        "대전MBC"
+        "tjmbc.co.kr"
+      ],
+      "signal_keywords": [],
+      "signal_major_article_count": {}
+    },
+    {
+      "title": "수주 호황에도 파업 변수…조선 빅3, 임금협상 희비 엇갈려 - 더트래커",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5DUTVkMWppTndsRmpNWVdfX0QwVTQ1VmFMTlVxMFdOQWc4d055T2dqWmZxTkVyaHdQUDhvd1NuUXBucWVPd3Z4cFowOEhzeTZzdW1RaHRNVjE?oc=5",
+      "source": "더트래커",
+      "published_raw": "Thu, 24 Sep 2026 02:53:19 GMT",
+      "date": "2026-09-24",
+      "time": "11:53",
+      "matched_keywords": [
+        "수주"
+      ],
+      "news_score": 3,
+      "id": "8178f50bdb5d0d04",
+      "ticker": "329180",
+      "company": "HD현대중공업",
+      "sector": "",
+      "sources": [
+        "더트래커"
       ],
       "signal_keywords": [],
       "signal_major_article_count": {}
@@ -2238,9 +2333,9 @@
       "signal_major_article_count": {}
     },
     {
-      "title": "브루넬로 쿠치넬리, 신세계百 대구점에 남성 단독 매장 - newsis.com",
+      "title": "브루넬로 쿠치넬리, 신세계百 대구점에 남성 단독 매장 - 뉴시스",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9QRXRCdGZKQmxIeGdhcTEtZk5pN003VFBPaEdLMi1waXJvTHpQeWdPMUJvNU5UNnlZYy1zRGI4YlpEXzZQdnFvOWxTQXNBYXc2M1pESnp4azUxbFpLMDliZtIBeEFVX3lxTE1jRjFfSmgzYmdkdjBUV3R6dndVVnlYMGs4emhIXzNBTlVQWGVvUHFuR2VjaEd0YkVSRW5zcWpGVWFEVEdvYlZlZUI5T1piMnBwQ2prTnNGU25XOWVqWjNwTTRzMFQxbDdObHh5ZFlXcjc0MzJFVXdBSw?oc=5",
-      "source": "newsis.com",
+      "source": "뉴시스",
       "published_raw": "Thu, 24 Sep 2026 01:00:00 GMT",
       "date": "2026-09-24",
       "time": "10:00",
@@ -2248,15 +2343,19 @@
         "단독"
       ],
       "news_score": 2,
-      "id": "9121692ebfa1d1ca",
+      "id": "5729f4bb57561e3e",
       "ticker": "004170",
       "company": "신세계",
       "sector": "",
       "sources": [
-        "newsis.com"
+        "뉴시스"
       ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
+      "signal_keywords": [
+        "단독"
+      ],
+      "signal_major_article_count": {
+        "단독": 3
+      }
     },
     {
       "title": "“IPTV 단독상품 가입 제한”…통신3사에 과징금 4900만원 부과 - 디지털데일리",
@@ -2280,9 +2379,9 @@
       "signal_major_article_count": {}
     },
     {
-      "title": "KT, 5년간 5G 단독모드 선점…소비자용 상품 개발해야 - 딜사이트",
+      "title": "KT, 5년간 5G 단독모드 선점…소비자용 상품 개발해야 - dealsite.co.kr",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE85aVlNRjV5Um1Jdkt6U0pBQ3FuRnppRGxtVjBENDdRYk43WGR2S0tVNFptajJyNVFXSVZfUHY4d0pQRHAtQ1VZenV3NkNrZzg?oc=5",
-      "source": "딜사이트",
+      "source": "dealsite.co.kr",
       "published_raw": "Wed, 23 Sep 2026 22:29:00 GMT",
       "date": "2026-09-24",
       "time": "07:29",
@@ -2290,12 +2389,12 @@
         "단독"
       ],
       "news_score": 2,
-      "id": "beedf4413614cc68",
+      "id": "80aef223b8936e07",
       "ticker": "030200",
       "company": "KT",
       "sector": "",
       "sources": [
-        "딜사이트"
+        "dealsite.co.kr"
       ],
       "signal_keywords": [],
       "signal_major_article_count": {}
