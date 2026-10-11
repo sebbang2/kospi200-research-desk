@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T18:52:55+09:00",
+  "generated_at": "2026-10-11T22:31:05+09:00",
   "status": "LIVE",
   "source": "Google News RSS public search; article body not copied",
   "keywords": [
@@ -102,16 +102,16 @@
     ]
   },
   "signal_keywords_by_ticker": {
-    "066570": [
-      "진출"
-    ],
-    "003550": [
-      "진출"
-    ],
     "207940": [
       "수주"
     ],
     "005380": [
+      "진출"
+    ],
+    "066570": [
+      "진출"
+    ],
+    "003550": [
       "진출"
     ],
     "078930": [
@@ -340,6 +340,127 @@
   "failures": [],
   "articles": [
     {
+      "title": "현대차, 인도 진출 30년 만에 1000만대 눈앞⋯푸네공장도 가동 - 엠투데이",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5qTlE0anFDSmpXTmVVZ3lfTDFQOU1mbUFwc2ZaNnZOZzBOaUpzNU1FTjdBbEkzMzZSN2FlOWtMWGZacDlRazlZbEwxSkE5YkZfeTNsbWpzTExDQldLRU9rUWhtQlQyWEF6aDJtYTh4TQ?oc=5",
+      "source": "엠투데이",
+      "published_raw": "Sun, 11 Oct 2026 13:05:00 GMT",
+      "date": "2026-10-11",
+      "time": "22:05",
+      "matched_keywords": [
+        "진출"
+      ],
+      "news_score": 2,
+      "id": "df88eaa59f1b8434",
+      "ticker": "005380",
+      "company": "현대차",
+      "sector": "",
+      "sources": [
+        "엠투데이"
+      ],
+      "signal_keywords": [
+        "진출"
+      ],
+      "signal_major_article_count": {
+        "진출": 7
+      }
+    },
+    {
+      "title": "GS건설 합작 아문에너지, 국내 첫 발전용 그린암모니아 공급계약 - 데일리포스트",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE42MWZ6Y0RyalRTenpfUE1KdXdFaVVVV013NFBPMnp6X0hwaDA4LVlNRGQ2M2ZSZXpqRXg1UlpQeFJnWi1zRVRWSWt4eGxNWkdfYWFCRDA1MnVFYWtlTGN6MlJxcjU0eTVkZjR4Y2tyZXBHd2vSAXNBVV95cUxONjFmemNEcmpUU3p6X1BNSnV3RWlVVVdNdzRQTzJ6el9IcGgwOC1ZTURkNjNmUmV6akV4NVJaUHhSZ1otc0VUVklreHhsTVpHX2FhQkQwNTJ1RWFrZUxjejJScXI1NHk1ZGY0eGNrcmVwR3dr?oc=5",
+      "source": "데일리포스트",
+      "published_raw": "Sun, 11 Oct 2026 11:23:32 GMT",
+      "date": "2026-10-11",
+      "time": "20:23",
+      "matched_keywords": [
+        "공급계약"
+      ],
+      "news_score": 3,
+      "id": "060dedbadd723d66",
+      "ticker": "004000",
+      "company": "롯데정밀화학",
+      "sector": "",
+      "sources": [
+        "데일리포스트"
+      ],
+      "signal_keywords": [
+        "공급계약"
+      ],
+      "signal_major_article_count": {
+        "공급계약": 7
+      }
+    },
+    {
+      "title": "현대차, 인도 진출 30년 만에 누적 판매 1000만대 눈앞 - 핀포인트뉴스",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE43aDRUMW03UHZLcjNJeGNzdGkwNThjZHJ2bmdscDY1WGZrUGE2OTBSLWpJTl9Zamh1UjVMcGd1YTd6VHlkeFd6bV9qWjJHVzlYdWlGUVM3NEhMdDFVWnlpLWdkNG1mLWVxemsyQjY0YXh0Wk3SAXdBVV95cUxPVDljNlY3WkMxdUE1Ykp3VzgtNWw1NVc2TEs4emY0QVlpVDdoWG1YZklQdkhkdjFjQ3dGMGMyUW9HZkFscnJpcnNlQWUzRXk4VVhkQ0tHUWlOajVTM2Q0U1RuUkJqVzgtay1EREt5cEd3cGZhTWxGQQ?oc=5",
+      "source": "핀포인트뉴스",
+      "published_raw": "Sun, 11 Oct 2026 11:11:50 GMT",
+      "date": "2026-10-11",
+      "time": "20:11",
+      "matched_keywords": [
+        "진출"
+      ],
+      "news_score": 2,
+      "id": "0cc02b42a2e5fc77",
+      "ticker": "005380",
+      "company": "현대차",
+      "sector": "",
+      "sources": [
+        "핀포인트뉴스"
+      ],
+      "signal_keywords": [
+        "진출"
+      ],
+      "signal_major_article_count": {
+        "진출": 7
+      }
+    },
+    {
+      "title": "[단독] 현대차 새만금 9조 투자 첫삽 코앞…정부 지원 51개 중 4개 완료 - 쿠키뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE40ci1fbU1URk01bUxDaC1IYTZYZVFVTERkRHNXU1pkQ2tMSEdFT3lmdUdXR1MxTTRuZU5UU3V6aE9iaDUzUU16OG5tNy14N2hRd0tOZ3p4TVFmb2NVUG9weVM1bw?oc=5",
+      "source": "쿠키뉴스",
+      "published_raw": "Sun, 11 Oct 2026 10:43:26 GMT",
+      "date": "2026-10-11",
+      "time": "19:43",
+      "matched_keywords": [
+        "단독"
+      ],
+      "news_score": 2,
+      "id": "730dbf47d98c0dcb",
+      "ticker": "005380",
+      "company": "현대차",
+      "sector": "",
+      "sources": [
+        "쿠키뉴스"
+      ],
+      "signal_keywords": [],
+      "signal_major_article_count": {}
+    },
+    {
+      "title": "현대차, 인도 진출 30여 년 만에 누적 판매 1000만대 눈 앞 - 뉴스인사이드",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBuS0NncTF4eGk1MnNRSHlSMGF4SlZ3TWNaU1B3eDhLOVpaVzFveThwTDNvVThGbmJDaWtibkZVU3N3UVVnRzcwMTVUWDlGaXNyNGI3NjZDVWlaRGlTR19acEV6bWlmU21IYnNDYkVB?oc=5",
+      "source": "뉴스인사이드",
+      "published_raw": "Sun, 11 Oct 2026 09:44:40 GMT",
+      "date": "2026-10-11",
+      "time": "18:44",
+      "matched_keywords": [
+        "진출"
+      ],
+      "news_score": 2,
+      "id": "1f40dd93fc4e286e",
+      "ticker": "005380",
+      "company": "현대차",
+      "sector": "",
+      "sources": [
+        "뉴스인사이드"
+      ],
+      "signal_keywords": [
+        "진출"
+      ],
+      "signal_major_article_count": {
+        "진출": 7
+      }
+    },
+    {
       "title": "메종 마르지엘라, 신세계백화점 대구점에 첫 부티크…5AC 파이톤 프린트 백 단독 출시 - 피플게이트",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSEM1ZmVtb3BoNVpiMDFESG1jY2RueGd0NW1veEhieFNwYy1GendlUTBXbXJPTTlpMmRvUHlBRDVjRnRjLU5tNnhfVHBIakhlVGNuZ1ZMb0JOS2M2cjNvSE8taXZfZ0pDLXBRZ1ZjQl9GV0oxTWNpaE1NRGJfQzVfR0pCZzJvVGRMaEZQZ0ZHWTg4X1d3NzhGUw?oc=5",
       "source": "피플게이트",
@@ -361,47 +482,22 @@
       "signal_major_article_count": {}
     },
     {
-      "title": "美 진출 10년… LG 시그니처, 라인업 대폭 확대 - 파이낸셜뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1FU0h6N25OSmFmbzg2YkY3SUl3MTJPaWtzMGlfaWZSNmFIbWF3NTdVNFZCaHc5V1dSZmoxMWprNE02SUFGVVowelA0RmpiYUNoZl9Vc3JrY3haQQ?oc=5",
-      "source": "파이낸셜뉴스",
-      "published_raw": "Sun, 11 Oct 2026 09:05:26 GMT",
+      "title": "현대차, 인도 진출 30년 만에 1000만 대 고지 ‘눈앞’ - 부산일보",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5QcEJJUDRQNFl1NVhDUkVTZ3pIT0lycEdZOV8yZ2pZWHlMX3VpTzFadThudmVyVEh6NFRMeEFZcWtiXzhQalUydnZ6eUdLaG1JVVZXbDA2TGlRMjIxUDJNZ0ZtOWpUSFdLdVYtTlZleldUN1Rm?oc=5",
+      "source": "부산일보",
+      "published_raw": "Sun, 11 Oct 2026 09:06:31 GMT",
       "date": "2026-10-11",
-      "time": "18:05",
+      "time": "18:06",
       "matched_keywords": [
         "진출"
       ],
       "news_score": 2,
-      "id": "0ed5f3120e4a4b6c",
-      "ticker": "066570",
-      "company": "LG전자",
+      "id": "60cf73fe2e76f1e5",
+      "ticker": "005380",
+      "company": "현대차",
       "sector": "",
       "sources": [
-        "파이낸셜뉴스"
-      ],
-      "signal_keywords": [
-        "진출"
-      ],
-      "signal_major_article_count": {
-        "진출": 6
-      }
-    },
-    {
-      "title": "美 진출 10년… LG 시그니처, 라인업 대폭 확대 - 파이낸셜뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1FU0h6N25OSmFmbzg2YkY3SUl3MTJPaWtzMGlfaWZSNmFIbWF3NTdVNFZCaHc5V1dSZmoxMWprNE02SUFGVVowelA0RmpiYUNoZl9Vc3JrY3haQQ?oc=5",
-      "source": "파이낸셜뉴스",
-      "published_raw": "Sun, 11 Oct 2026 09:05:26 GMT",
-      "date": "2026-10-11",
-      "time": "18:05",
-      "matched_keywords": [
-        "진출"
-      ],
-      "news_score": 2,
-      "id": "fe448c87a3c756c1",
-      "ticker": "003550",
-      "company": "LG",
-      "sector": "",
-      "sources": [
-        "파이낸셜뉴스"
+        "부산일보"
       ],
       "signal_keywords": [
         "진출"
@@ -457,6 +553,69 @@
       "signal_major_article_count": {}
     },
     {
+      "title": "흑자 굳히는 LG, 적자 늪 빠진 삼성… TV사업 가른 ‘체질개선’ - 아시아투데이",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1xSGhjVkFhaFlZMmd1M2xVbU4wMkpQYjV4Smp3Ni1PelFhNE5Pa2kyNmswQTlUTFcxc3lSRWxWYTVMX2dlTXN5M0pzUUY5OGg4ajczRU5kQVRQakJCcXd3TW1XbEs0c3d0aGxEdUNn?oc=5",
+      "source": "아시아투데이",
+      "published_raw": "Sun, 11 Oct 2026 08:19:10 GMT",
+      "date": "2026-10-11",
+      "time": "17:19",
+      "matched_keywords": [
+        "흑자"
+      ],
+      "news_score": 4,
+      "id": "714de4134e5584fc",
+      "ticker": "005930",
+      "company": "삼성전자",
+      "sector": "",
+      "sources": [
+        "아시아투데이"
+      ],
+      "signal_keywords": [],
+      "signal_major_article_count": {}
+    },
+    {
+      "title": "흑자 굳히는 LG, 적자 늪 빠진 삼성… TV사업 가른 ‘체질개선’ - 아시아투데이",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1xSGhjVkFhaFlZMmd1M2xVbU4wMkpQYjV4Smp3Ni1PelFhNE5Pa2kyNmswQTlUTFcxc3lSRWxWYTVMX2dlTXN5M0pzUUY5OGg4ajczRU5kQVRQakJCcXd3TW1XbEs0c3d0aGxEdUNn?oc=5",
+      "source": "아시아투데이",
+      "published_raw": "Sun, 11 Oct 2026 08:19:10 GMT",
+      "date": "2026-10-11",
+      "time": "17:19",
+      "matched_keywords": [
+        "흑자"
+      ],
+      "news_score": 4,
+      "id": "c31e97933869b18b",
+      "ticker": "066570",
+      "company": "LG전자",
+      "sector": "",
+      "sources": [
+        "아시아투데이"
+      ],
+      "signal_keywords": [],
+      "signal_major_article_count": {}
+    },
+    {
+      "title": "흑자 굳히는 LG, 적자 늪 빠진 삼성… TV사업 가른 ‘체질개선’ - 아시아투데이",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1xSGhjVkFhaFlZMmd1M2xVbU4wMkpQYjV4Smp3Ni1PelFhNE5Pa2kyNmswQTlUTFcxc3lSRWxWYTVMX2dlTXN5M0pzUUY5OGg4ajczRU5kQVRQakJCcXd3TW1XbEs0c3d0aGxEdUNn?oc=5",
+      "source": "아시아투데이",
+      "published_raw": "Sun, 11 Oct 2026 08:19:10 GMT",
+      "date": "2026-10-11",
+      "time": "17:19",
+      "matched_keywords": [
+        "흑자"
+      ],
+      "news_score": 4,
+      "id": "384f2e4e7207e1d9",
+      "ticker": "003550",
+      "company": "LG",
+      "sector": "",
+      "sources": [
+        "아시아투데이"
+      ],
+      "signal_keywords": [],
+      "signal_major_article_count": {}
+    },
+    {
       "title": "韓·中·日 바이오 수주 삼국지 …\"올해 키워드는 생산 유연성\" - 매일경제",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBWa3JxTmZ5dXUxSG8xUHNRMzVzZzZ2RW1jaE1wUWFtampSanIwd0ZsWUV3YTNma0lHeUZic3lJZFhYdGtPOVVLcVlhZUVrdw?oc=5",
       "source": "매일경제",
@@ -503,6 +662,52 @@
       "signal_major_article_count": {}
     },
     {
+      "title": "[단독]카카오TF, '카톡 선물하기' 스테이블코인 결제 추진 - 전자신문",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBFakZzaG5icXpNcXF0ak5LZDdfcWo0a00wamZiZWpMcGUweE04UjZDYmI1dU5nM1FqN1hEY0ZNSGJHamNueHFBbjdpcWlDdw?oc=5",
+      "source": "전자신문",
+      "published_raw": "Sun, 11 Oct 2026 07:30:00 GMT",
+      "date": "2026-10-11",
+      "time": "16:30",
+      "matched_keywords": [
+        "단독"
+      ],
+      "news_score": 2,
+      "id": "1b79b843c648764d",
+      "ticker": "035720",
+      "company": "카카오",
+      "sector": "",
+      "sources": [
+        "전자신문"
+      ],
+      "signal_keywords": [],
+      "signal_major_article_count": {}
+    },
+    {
+      "title": "LG 시그니처, 美 진출 10년 만에 새 전략…제품·유통망 동시 확대 - 비즈트리뷴",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE52MTNROTl6cGtkajFmUGhjcG9MOGVGYl9ZSzh5eVFQN3VCVlEwS2tTX0hzWWVEYnpqNE9rVHFsd3V6Z3c2UWhXYW04bnlaSXNUd0hYODdwM25mSk1vRWI5M3pjdmE5Um9QYmprMXE3WW0?oc=5",
+      "source": "비즈트리뷴",
+      "published_raw": "Sun, 11 Oct 2026 07:10:07 GMT",
+      "date": "2026-10-11",
+      "time": "16:10",
+      "matched_keywords": [
+        "진출"
+      ],
+      "news_score": 2,
+      "id": "989325cb14c9b7c8",
+      "ticker": "003550",
+      "company": "LG",
+      "sector": "",
+      "sources": [
+        "비즈트리뷴"
+      ],
+      "signal_keywords": [
+        "진출"
+      ],
+      "signal_major_article_count": {
+        "진출": 4
+      }
+    },
+    {
       "title": "[단독] SK스퀘어, 日 피지컬AI 스타트업 무진 투자... AI·반도체 밸류체인 확장 - 한국경제",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5kalIzek11ekh6TFlLYzJzWXNKZFJJa1FNUjJJaHZnaTFBYWNQM0pqLXdXRWtVVFBTU3lzSkRscERwU3MzZjYzaEFfa3NXT1Rncjk5X2pzdDZNZw?oc=5",
       "source": "한국경제",
@@ -545,6 +750,56 @@
       "signal_major_article_count": {}
     },
     {
+      "title": "LG 시그니처 美 진출 10년…주방가전 늘려 일반 유통매장까지 판매 확대 - ER 이코노믹리뷰",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBtQXdCUDFoczFjOUZFZDVXbWFCSDB2UGZPWXBTUHBpRDY5LWNsWHN1TGNobkp5SFhaNmJaejRkOExTNE1NT2VEcndmQ0t2SlZSY2gteXJhNTdEQXgzZnBvWWZDNHhqMzJtTE9wXw?oc=5",
+      "source": "ER 이코노믹리뷰",
+      "published_raw": "Sun, 11 Oct 2026 05:31:45 GMT",
+      "date": "2026-10-11",
+      "time": "14:31",
+      "matched_keywords": [
+        "진출"
+      ],
+      "news_score": 2,
+      "id": "dc95e7d0190e0810",
+      "ticker": "066570",
+      "company": "LG전자",
+      "sector": "",
+      "sources": [
+        "ER 이코노믹리뷰"
+      ],
+      "signal_keywords": [
+        "진출"
+      ],
+      "signal_major_article_count": {
+        "진출": 5
+      }
+    },
+    {
+      "title": "LG 시그니처 美 진출 10년…주방가전 늘려 일반 유통매장까지 판매 확대 - ER 이코노믹리뷰",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBtQXdCUDFoczFjOUZFZDVXbWFCSDB2UGZPWXBTUHBpRDY5LWNsWHN1TGNobkp5SFhaNmJaejRkOExTNE1NT2VEcndmQ0t2SlZSY2gteXJhNTdEQXgzZnBvWWZDNHhqMzJtTE9wXw?oc=5",
+      "source": "ER 이코노믹리뷰",
+      "published_raw": "Sun, 11 Oct 2026 05:31:45 GMT",
+      "date": "2026-10-11",
+      "time": "14:31",
+      "matched_keywords": [
+        "진출"
+      ],
+      "news_score": 2,
+      "id": "3d307525a65cd2ce",
+      "ticker": "003550",
+      "company": "LG",
+      "sector": "",
+      "sources": [
+        "ER 이코노믹리뷰"
+      ],
+      "signal_keywords": [
+        "진출"
+      ],
+      "signal_major_article_count": {
+        "진출": 4
+      }
+    },
+    {
       "title": "현대차 인도 진출 28년 만에 누적 판매 1000만 대 초읽기 - 한국일보",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9wLU9NaTl6VVEwdUUxbWJWZ0dSN1ZCRUJWV1plQjV5S2g2RnROVEE0NllTOGVWclEwU0pLcHp1Y253aHFuWkQ2czJkV1RjT214VDE3a014MTRHbTdfY3MyMXlJZHBJYlR3cVY5YTRlX0Y5RGvSAXNBVV95cUxPcC1PTWk5elVRMHVFMW1iVmdHUjdWQkVCVldaZUI1eUtoNkZ0TlRBNDZZUzhlVnJRMFNKS3B6dWNud2hxblpENnMyZFdUY09teFQxN2tNeDE0R203X2NzMjF5SWRwSWJUd3FWOWE0ZV9GOURr?oc=5",
       "source": "한국일보",
@@ -566,7 +821,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 9
+        "진출": 7
       }
     },
     {
@@ -591,31 +846,6 @@
       "signal_major_article_count": {}
     },
     {
-      "title": "현대차, 인도 누적 판매 1000만대 돌파 임박…진출 30년만에 성과 - 대한경제",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1UWDZhZ0ZJUGc5Ukl6NXp1dUMtZ2dWdjhWUGRELVltVlFlSTRLY3pJVUxmVDJaS0diYVNKY2xJN3NzeXNJTl92UDk5bWlzUTU2dzE1RUVfaDVDN3hDdUZsT3g3VXFzYy1wMUF5cUhfQjN3eFU?oc=5",
-      "source": "대한경제",
-      "published_raw": "Sun, 11 Oct 2026 04:51:18 GMT",
-      "date": "2026-10-11",
-      "time": "13:51",
-      "matched_keywords": [
-        "진출"
-      ],
-      "news_score": 2,
-      "id": "7956a7d90befd71e",
-      "ticker": "005380",
-      "company": "현대차",
-      "sector": "",
-      "sources": [
-        "대한경제"
-      ],
-      "signal_keywords": [
-        "진출"
-      ],
-      "signal_major_article_count": {
-        "진출": 9
-      }
-    },
-    {
       "title": "현대로템 수소전기트램 국외 진출 기반 마련 - 경남도민일보",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBhdzlscEY3SWtVdlVXcXEzdlVZNWVqSjJyTEdhY3ZMbl92SXcyNW9fZDBKN3h4RnRUdFVuOEdoWEtwY1VmRUxEdHQ4S1lkZWEzN2FvNHNETHRYZUlPNU9hd2xsdkx6bXRpd2c?oc=5",
       "source": "경남도민일보",
@@ -637,7 +867,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 5
+        "진출": 6
       }
     },
     {
@@ -662,7 +892,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 6
+        "진출": 5
       }
     },
     {
@@ -687,7 +917,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 7
+        "진출": 4
       }
     },
     {
@@ -712,7 +942,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 9
+        "진출": 7
       }
     },
     {
@@ -726,9 +956,9 @@
         "진출"
       ],
       "news_score": 2,
-      "id": "025e1b7e99cfc14f",
-      "ticker": "003550",
-      "company": "LG",
+      "id": "28cc28d443cc0a6d",
+      "ticker": "066570",
+      "company": "LG전자",
       "sector": "",
       "sources": [
         "파이낸셜뉴스"
@@ -737,57 +967,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 7
-      }
-    },
-    {
-      "title": "LG전자 '시그니처' 북미 진출 10주년, 프리미엄 빌트인 정조준 - 글로벌E",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE83WEJhV3lPOS1XVlJUamk1S0Z3NEItWlUyblVnajgycmx4OFFPQnVmSm5YZFpnelZLdHNmdlJ5aHZ2TThJZEE4cDc5bUFjMkN6aGJJMnNGaXBjM2Vvck82MUdhMjZ6Mnd0WVdB0gFvQVVfeXFMTV90bTZZbkJZbVhsc0JqTm9HSHZSZ1ZkeXh3TDBrUWtUakVVY09obFMtbHlONS1wcG9TTHBjSy1qUDNqNWhwNzd3ZjBZb192OEZZNWRFRDhQLURURHhyZ2xabS1tVW90VHN0TWZfS21B?oc=5",
-      "source": "글로벌E",
-      "published_raw": "Sun, 11 Oct 2026 04:20:51 GMT",
-      "date": "2026-10-11",
-      "time": "13:20",
-      "matched_keywords": [
-        "진출"
-      ],
-      "news_score": 2,
-      "id": "1c2d29036e331d9e",
-      "ticker": "066570",
-      "company": "LG전자",
-      "sector": "",
-      "sources": [
-        "글로벌E"
-      ],
-      "signal_keywords": [
-        "진출"
-      ],
-      "signal_major_article_count": {
-        "진출": 6
-      }
-    },
-    {
-      "title": "LG전자 '시그니처' 북미 진출 10주년, 프리미엄 빌트인 정조준 - 글로벌E",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE83WEJhV3lPOS1XVlJUamk1S0Z3NEItWlUyblVnajgycmx4OFFPQnVmSm5YZFpnelZLdHNmdlJ5aHZ2TThJZEE4cDc5bUFjMkN6aGJJMnNGaXBjM2Vvck82MUdhMjZ6Mnd0WVdB0gFvQVVfeXFMTV90bTZZbkJZbVhsc0JqTm9HSHZSZ1ZkeXh3TDBrUWtUakVVY09obFMtbHlONS1wcG9TTHBjSy1qUDNqNWhwNzd3ZjBZb192OEZZNWRFRDhQLURURHhyZ2xabS1tVW90VHN0TWZfS21B?oc=5",
-      "source": "글로벌E",
-      "published_raw": "Sun, 11 Oct 2026 04:20:51 GMT",
-      "date": "2026-10-11",
-      "time": "13:20",
-      "matched_keywords": [
-        "진출"
-      ],
-      "news_score": 2,
-      "id": "c29d989195cd22da",
-      "ticker": "003550",
-      "company": "LG",
-      "sector": "",
-      "sources": [
-        "글로벌E"
-      ],
-      "signal_keywords": [
-        "진출"
-      ],
-      "signal_major_article_count": {
-        "진출": 7
+        "진출": 5
       }
     },
     {
@@ -812,7 +992,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 5
+        "진출": 6
       }
     },
     {
@@ -837,7 +1017,32 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 6
+        "진출": 5
+      }
+    },
+    {
+      "title": "LG전자 '시그니처' 美 진출 10주년…프리미엄·빌트인 공략 가속 - 뉴스웍스",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5sT0ZYY3YzWW5RYkVqUzFVQWRuZkVQTlZOOHlpQnJoRDR0M25JMHZGWWRsQVNiQWg3ajRpa2tFTmU2WWk4S3Q5X2Q0aWxCZDB3SGtqTnh2c3pDM3o1dVplLXh4MVItSG50VWFKWnc2UdIBc0FVX3lxTE1ma0xZYS1MdUhkUDJBRXpfV2M4NTdXSXJVcWFtd0RpOE13UEkwSXpJTFJqeHVrYmFNWVBlV1JTQzk3REo1V3BrTVM0dGVSSDg5YVJWZno1VkN3WTRsU2FJdTFsaVM1QV9zSGhsUWJIUUx2ZHc?oc=5",
+      "source": "뉴스웍스",
+      "published_raw": "Sun, 11 Oct 2026 03:56:16 GMT",
+      "date": "2026-10-11",
+      "time": "12:56",
+      "matched_keywords": [
+        "진출"
+      ],
+      "news_score": 2,
+      "id": "a2901f536e562fd8",
+      "ticker": "003550",
+      "company": "LG",
+      "sector": "",
+      "sources": [
+        "뉴스웍스"
+      ],
+      "signal_keywords": [
+        "진출"
+      ],
+      "signal_major_article_count": {
+        "진출": 4
       }
     },
     {
@@ -862,7 +1067,32 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 6
+        "진출": 5
+      }
+    },
+    {
+      "title": "LG전자, '시그니처' 美 진출 10주년…프리미엄 가전 시장 공략 확대 - 파이낸셜신문",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA5LVNuVUQxRDNXUExxYUlfRk1hN3ZGNFduWVVKNUhXX0hneGJfOWVnRDdYekFzSm9XX1BWZHRFeGl2dlBHbkxETmFuVXpoMV9jQm1BYkgwS1g2VzlkMDVqTWowenhuOGlZU2Jv?oc=5",
+      "source": "파이낸셜신문",
+      "published_raw": "Sun, 11 Oct 2026 03:50:18 GMT",
+      "date": "2026-10-11",
+      "time": "12:50",
+      "matched_keywords": [
+        "진출"
+      ],
+      "news_score": 2,
+      "id": "d8414ba979b0b333",
+      "ticker": "003550",
+      "company": "LG",
+      "sector": "",
+      "sources": [
+        "파이낸셜신문"
+      ],
+      "signal_keywords": [
+        "진출"
+      ],
+      "signal_major_article_count": {
+        "진출": 4
       }
     },
     {
@@ -950,7 +1180,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 6
+        "진출": 5
       }
     },
     {
@@ -975,7 +1205,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 7
+        "진출": 4
       }
     },
     {
@@ -1021,7 +1251,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 7
+        "진출": 4
       }
     },
     {
@@ -1046,7 +1276,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 6
+        "진출": 5
       }
     },
     {
@@ -1071,7 +1301,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 7
+        "진출": 4
       }
     },
     {
@@ -1096,32 +1326,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 9
-      }
-    },
-    {
-      "title": "현대차, 인도 진출 30년 만에 판매 1000만대 돌파 - 전자신문",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1tYW1xZnEycnlDeUkxUkZSNG5Td0ZIeXdnOFBkNlVOb240ZXYwUDF5YS1iV3ExLWF1VGhRcFBpSHpmdUVCUGZaODZBSkl2QQ?oc=5",
-      "source": "전자신문",
-      "published_raw": "Sun, 11 Oct 2026 03:01:57 GMT",
-      "date": "2026-10-11",
-      "time": "12:01",
-      "matched_keywords": [
-        "진출"
-      ],
-      "news_score": 2,
-      "id": "2cd06f9f47f8db7c",
-      "ticker": "005380",
-      "company": "현대차",
-      "sector": "",
-      "sources": [
-        "전자신문"
-      ],
-      "signal_keywords": [
-        "진출"
-      ],
-      "signal_major_article_count": {
-        "진출": 9
+        "진출": 7
       }
     },
     {
@@ -1146,7 +1351,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 6
+        "진출": 5
       }
     },
     {
@@ -1171,7 +1376,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 7
+        "진출": 4
       }
     },
     {
@@ -1196,7 +1401,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 9
+        "진출": 7
       }
     },
     {
@@ -1221,6 +1426,31 @@
       "signal_major_article_count": {}
     },
     {
+      "title": "美 진출 10년 LG 시그니처, 라인업·유통망 넓혀 북미 공략 - 아주경제",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9sUnpaNjJWdXI1RTFORVRyR282SDhZWFlNRWQtQ2dLS0pCMnMyM1RPQXJVemRMUUxRMnF5RHQ1bUpTVlJpb1o1cWJiekFUaUk0ek1MZ3M1LTjSAVhBVV95cUxPbFJ6WjYyVnVyNUUxTkVUckdvNkg4WVhZTUVkLUNnS0tKQjJzMjNUT0FyVXpkTFFMUTJxeUR0NW1KU1ZSaW9aNXFiYnpBVGlJNHpNTGdzNS04?oc=5",
+      "source": "아주경제",
+      "published_raw": "Sun, 11 Oct 2026 02:17:06 GMT",
+      "date": "2026-10-11",
+      "time": "11:17",
+      "matched_keywords": [
+        "진출"
+      ],
+      "news_score": 2,
+      "id": "66807f4cc7fdd987",
+      "ticker": "066570",
+      "company": "LG전자",
+      "sector": "",
+      "sources": [
+        "아주경제"
+      ],
+      "signal_keywords": [
+        "진출"
+      ],
+      "signal_major_article_count": {
+        "진출": 5
+      }
+    },
+    {
       "title": "현대로템, 이집트 신행정수도 수소전기트램 정조준…‘K-수소철도’ 첫 해외 진출 교두보 - 진주인터넷뉴스",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBWclNGRXdVRTJEQUdPS2lpck9RZUJHY1ZmWG5nMGJ6RDNmckd0NGNkYTRyOXA4bzBhZDFfQXdmczlFem9LUnlSWmdUVnlfdmNzNE04NEVNWXh5OEZzX1BrUklFZXJVSzZFM1hhWWxxbExVdw?oc=5",
       "source": "진주인터넷뉴스",
@@ -1242,7 +1472,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 5
+        "진출": 6
       }
     },
     {
@@ -1267,7 +1497,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 9
+        "진출": 7
       }
     },
     {
@@ -1313,7 +1543,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 9
+        "진출": 7
       }
     },
     {
@@ -1338,7 +1568,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 7
+        "진출": 4
       }
     },
     {
@@ -1363,7 +1593,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 6
+        "진출": 5
       }
     },
     {
@@ -1388,32 +1618,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 7
-      }
-    },
-    {
-      "title": "인도 진출 30여년 새 이정표..현대차, 현지 누적 판매 1000만대 돌파 초읽기 - 한국정경신문",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5VRVl3NGI5dzdiWFBGajNKRmp4dHkzU3VXbHppaGFxbXppMXVFdl81alBVU0ItTjFCUmhkbGFyV3hBbWJjS0FQcGpObGdMTFBfaGc?oc=5",
-      "source": "한국정경신문",
-      "published_raw": "Sun, 11 Oct 2026 01:29:38 GMT",
-      "date": "2026-10-11",
-      "time": "10:29",
-      "matched_keywords": [
-        "진출"
-      ],
-      "news_score": 2,
-      "id": "c7aee31f338d5fa8",
-      "ticker": "005380",
-      "company": "현대차",
-      "sector": "",
-      "sources": [
-        "한국정경신문"
-      ],
-      "signal_keywords": [
-        "진출"
-      ],
-      "signal_major_article_count": {
-        "진출": 9
+        "진출": 4
       }
     },
     {
@@ -1438,7 +1643,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 6
+        "진출": 5
       }
     },
     {
@@ -1463,32 +1668,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 6
-      }
-    },
-    {
-      "title": "현대차, 인도 누적 판매 1000만대 돌파 눈앞…현지 진출 30년 성과 - 이코노뉴스",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBYNUxnMHRsUmFpUXdRRGY0cjRJckUzMXRoTzREempSd2tONnJZUlB4Tmw1SnlyYk1pWDlZNWRRREpiU1MwQW1DbWtIRzlMLUU2MmtwUXVMbFA2amQxLVllZmhkUWhOR3NoNUV5YWNn?oc=5",
-      "source": "이코노뉴스",
-      "published_raw": "Sun, 11 Oct 2026 01:08:36 GMT",
-      "date": "2026-10-11",
-      "time": "10:08",
-      "matched_keywords": [
-        "진출"
-      ],
-      "news_score": 2,
-      "id": "37b6e56f0c831014",
-      "ticker": "005380",
-      "company": "현대차",
-      "sector": "",
-      "sources": [
-        "이코노뉴스"
-      ],
-      "signal_keywords": [
-        "진출"
-      ],
-      "signal_major_article_count": {
-        "진출": 9
+        "진출": 5
       }
     },
     {
@@ -1513,7 +1693,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 6
+        "진출": 5
       }
     },
     {
@@ -1538,7 +1718,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 7
+        "진출": 4
       }
     },
     {
@@ -1563,7 +1743,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 6
+        "진출": 5
       }
     },
     {
@@ -1588,7 +1768,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 7
+        "진출": 4
       }
     },
     {
@@ -1613,32 +1793,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 6
-      }
-    },
-    {
-      "title": "LG전자, '시그니처' 美 진출 10주년…프리미엄·빌트인 가전 공략 강화 - 아시아경제",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBLMFU5UHNKUHY1Y0pGR0g0ejN6MVNITVQtMExtSVE4MnNubGdXQnlfWjZfclR2SWlHRGU2Mll6UFE2dmI5dllDYzQ0aDZTRnpqcDdhVUJhc3VEUEg3TG1XZg?oc=5",
-      "source": "아시아경제",
-      "published_raw": "Sun, 11 Oct 2026 01:00:00 GMT",
-      "date": "2026-10-11",
-      "time": "10:00",
-      "matched_keywords": [
-        "진출"
-      ],
-      "news_score": 2,
-      "id": "701ef7430bf687e5",
-      "ticker": "066570",
-      "company": "LG전자",
-      "sector": "",
-      "sources": [
-        "아시아경제"
-      ],
-      "signal_keywords": [
-        "진출"
-      ],
-      "signal_major_article_count": {
-        "진출": 6
+        "진출": 5
       }
     },
     {
@@ -1663,7 +1818,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 6
+        "진출": 5
       }
     },
     {
@@ -1688,7 +1843,32 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 6
+        "진출": 5
+      }
+    },
+    {
+      "title": "LG전자, '시그니처' 美 진출 10주년…프리미엄·빌트인 가전 공략 강화 - 아시아경제",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBLMFU5UHNKUHY1Y0pGR0g0ejN6MVNITVQtMExtSVE4MnNubGdXQnlfWjZfclR2SWlHRGU2Mll6UFE2dmI5dllDYzQ0aDZTRnpqcDdhVUJhc3VEUEg3TG1XZg?oc=5",
+      "source": "아시아경제",
+      "published_raw": "Sun, 11 Oct 2026 01:00:00 GMT",
+      "date": "2026-10-11",
+      "time": "10:00",
+      "matched_keywords": [
+        "진출"
+      ],
+      "news_score": 2,
+      "id": "701ef7430bf687e5",
+      "ticker": "066570",
+      "company": "LG전자",
+      "sector": "",
+      "sources": [
+        "아시아경제"
+      ],
+      "signal_keywords": [
+        "진출"
+      ],
+      "signal_major_article_count": {
+        "진출": 5
       }
     },
     {
@@ -1713,57 +1893,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 6
-      }
-    },
-    {
-      "title": "美 진출 10년 LG 시그니처, 라인업·유통망 확대…북미 시장 공략 가속 - 뉴스1",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBwczkyTXVWRGRRaWhTekQzWURhS1Z1TkJGNGdMRjJhNHZCcVNFSExEOF9uWWdjNjg4NVB3d0ZxNV9sdTBSMnQtOE1WVE9zWDVKQzltYXRnM05aNC1wdjdueDRmZnQ?oc=5",
-      "source": "뉴스1",
-      "published_raw": "Sun, 11 Oct 2026 01:00:00 GMT",
-      "date": "2026-10-11",
-      "time": "10:00",
-      "matched_keywords": [
-        "진출"
-      ],
-      "news_score": 2,
-      "id": "366c409701ced763",
-      "ticker": "066570",
-      "company": "LG전자",
-      "sector": "",
-      "sources": [
-        "뉴스1"
-      ],
-      "signal_keywords": [
-        "진출"
-      ],
-      "signal_major_article_count": {
-        "진출": 6
-      }
-    },
-    {
-      "title": "美 진출 10년 'LG 시그니처'…제품군 확대로 시장 공략 가속 - 글로벌이코노믹",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOcFpRMENwVTZ0bm1jNGNRTWlhZFFOLXFCSk05dGNqTnNZM2Z6RW9yQnI3aFRJdEFKLXB2QmRFc3pMZXE0SldMY1p5NTRqTm02eExsTFQ3S0dReG96dXN6Sl9ySEFzdlV3RlplSFo5WFNidHpMaEQxNzREZnBocmdvaUNyc285dw?oc=5",
-      "source": "글로벌이코노믹",
-      "published_raw": "Sun, 11 Oct 2026 01:00:00 GMT",
-      "date": "2026-10-11",
-      "time": "10:00",
-      "matched_keywords": [
-        "진출"
-      ],
-      "news_score": 2,
-      "id": "b3201d104b873ea6",
-      "ticker": "066570",
-      "company": "LG전자",
-      "sector": "",
-      "sources": [
-        "글로벌이코노믹"
-      ],
-      "signal_keywords": [
-        "진출"
-      ],
-      "signal_major_article_count": {
-        "진출": 6
+        "진출": 5
       }
     },
     {
@@ -1788,7 +1918,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 7
+        "진출": 4
       }
     },
     {
@@ -1813,7 +1943,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 7
+        "진출": 4
       }
     },
     {
@@ -1838,7 +1968,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 7
+        "진출": 4
       }
     },
     {
@@ -1863,7 +1993,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 7
+        "진출": 4
       }
     },
     {
@@ -1888,57 +2018,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 7
-      }
-    },
-    {
-      "title": "LG전자, '시그니처' 美 진출 10주년…라인업 확대해 프리미엄 공략 가속 - 뉴시스",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB2Yzk2dG0wdTN3NHhIVXF1UF9kVU1IN3RPWklOeDV3a1BmMVMtNTVycGFnbVU4OEpGUzNfWTFwUjBPalBvWUJFVjZFQmJ4ODBQX01rS1ozcGc3YnlaUzRqZ202RGVpazFLMEJNd1UtSC1sajZ5czV0d9IBeEFVX3lxTFB2Yzk2dG0wdTN3NHhIVXF1UF9kVU1IN3RPWklOeDV3a1BmMVMtNTVycGFnbVU4OEpGUzNfWTFwUjBPalBvWUJFVjZFQmJ4ODBQX01rS1ozcGc3YnlaUzRqZ202RGVpazFLMEJNd1UtSC1sajZ5czV0dw?oc=5",
-      "source": "뉴시스",
-      "published_raw": "Sun, 11 Oct 2026 01:00:00 GMT",
-      "date": "2026-10-11",
-      "time": "10:00",
-      "matched_keywords": [
-        "진출"
-      ],
-      "news_score": 2,
-      "id": "87b815f6161cd848",
-      "ticker": "003550",
-      "company": "LG",
-      "sector": "",
-      "sources": [
-        "뉴시스"
-      ],
-      "signal_keywords": [
-        "진출"
-      ],
-      "signal_major_article_count": {
-        "진출": 7
-      }
-    },
-    {
-      "title": "美 진출 10년 ‘LG 시그니처’…LG전자, 라인업·유통망 확대 - 아시아투데이",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5XMlZQdUtSbW1ZdHdQdWVPYXZfUFYtVEVrYzBUSUcyRmhVS29lM0d6Z2dPRUp0QUIxSFR4VGRaOEUzUlFqM1VnSG0taDhmVVlCeHNjZkhqWWtFSS00QmhxY3dsbUk4cVJIellOQk9R?oc=5",
-      "source": "아시아투데이",
-      "published_raw": "Sun, 11 Oct 2026 01:00:00 GMT",
-      "date": "2026-10-11",
-      "time": "10:00",
-      "matched_keywords": [
-        "진출"
-      ],
-      "news_score": 2,
-      "id": "a34fe00b0af6214c",
-      "ticker": "003550",
-      "company": "LG",
-      "sector": "",
-      "sources": [
-        "아시아투데이"
-      ],
-      "signal_keywords": [
-        "진출"
-      ],
-      "signal_major_article_count": {
-        "진출": 7
+        "진출": 4
       }
     },
     {
@@ -1963,7 +2043,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 9
+        "진출": 7
       }
     },
     {
@@ -2009,7 +2089,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 9
+        "진출": 7
       }
     },
     {
@@ -2076,31 +2156,6 @@
       "signal_major_article_count": {}
     },
     {
-      "title": "현대차, 인도 진출 30년 만에 누적 판매 1000만대 눈앞…SUV 앞세워 시장 공략 가속 - 소비자가 만드는 신문",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5QVWR5WGJLWmpYYXBUU2Z0RHh3dGs5bnM5MkVDcDlaMm9lcmR2eUp0SEh4NnFsNF9HcXVHS3RPbzllR28xb1lyYkVPZldxSlo0WDBnYUpxZUVMZm5NbTk5aEczdjZ5UVpzd2x5bk50Ykp2bjg?oc=5",
-      "source": "소비자가 만드는 신문",
-      "published_raw": "Sun, 11 Oct 2026 00:25:58 GMT",
-      "date": "2026-10-11",
-      "time": "09:25",
-      "matched_keywords": [
-        "진출"
-      ],
-      "news_score": 2,
-      "id": "6013eda808551baf",
-      "ticker": "005380",
-      "company": "현대차",
-      "sector": "",
-      "sources": [
-        "소비자가 만드는 신문"
-      ],
-      "signal_keywords": [
-        "진출"
-      ],
-      "signal_major_article_count": {
-        "진출": 9
-      }
-    },
-    {
       "title": "[비즈+]현대차, 인도 진출 30년 만에 누적 판매 1000만대 고지 '눈앞' - 비즈니스플러스",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE93YWlGSFAxX1htTUJqaTVwSGEyd291MXBNRjVENldmM000Wmc0SXNGcVdwSE5TeENBOVlpeFY0VmNBb0xadUh0TEtScnJ2cFNWTTJsY1YwZXNqb1lpdUcxSF9Bd1ZfbjJZNGxrR1d3?oc=5",
       "source": "비즈니스플러스",
@@ -2122,7 +2177,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 9
+        "진출": 7
       }
     },
     {
@@ -2147,7 +2202,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 9
+        "진출": 7
       }
     },
     {
@@ -2193,7 +2248,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 9
+        "진출": 7
       }
     },
     {
@@ -2218,7 +2273,32 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 9
+        "진출": 7
+      }
+    },
+    {
+      "title": "현대차, 인도 진출 30여 년 만에 누적 판매 천만 대 초읽기 - YTN",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBFemtTOElpY0x2MGFRUmQ5OHNlMjlaZHh1STVKYWVob2hScmdmeElDY0VRYjZtdU9PN25TU19UUFRia2lsd1Z4MWtQSng2WjZlbFZPZndQQ0VHa21JWlE?oc=5",
+      "source": "YTN",
+      "published_raw": "Sun, 11 Oct 2026 00:03:00 GMT",
+      "date": "2026-10-11",
+      "time": "09:03",
+      "matched_keywords": [
+        "진출"
+      ],
+      "news_score": 2,
+      "id": "61eccd41207cbfcf",
+      "ticker": "005380",
+      "company": "현대차",
+      "sector": "",
+      "sources": [
+        "YTN"
+      ],
+      "signal_keywords": [
+        "진출"
+      ],
+      "signal_major_article_count": {
+        "진출": 7
       }
     },
     {
@@ -2243,21 +2323,21 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 9
+        "진출": 7
       }
     },
     {
       "title": "효성중공업, 미국 수주잔고 탄탄…매출·마진 개선 가능성 주목 - 핀포인트뉴스",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5KNWNuN0RmaW5KWEJjdG1NTWU0akdHMDFWR05TUF8zT1NFVkFJU0E4RjFKVUtsVDZyejE0dFJKN2hJRnBfRHdMSkIyWV92Wkp5aWZEWWRGaV9vYUNYbUxaTU1GLU1TUHRCMkNhWk5PYV9hdm_SAXdBVV95cUxPSV9VbjNMdmdpWmpIR2hkOHQybGRHdW41X1JZV0lSMm9nUTNrMlEzYTFoWk84bm9YcW52ZDkzNHpFYXk1bDZDRFVLNDJjeGlJcFRQQnl3dnpHYnptWHhJWmg0eEdIS05oNDY5NnJBOE01eWhHZTJvSQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9JX1VuM0x2Z2laakhHaGQ4dDJsZEd1bjVfUllXSVIyb2dRM2syUTNhMWhaTzhub1hxbnZkOTM0ekVheTVsNkNEVUs0MmN4aUlwVFBCeXd2ekdiem1YeElaaDR4R0hLTmg0Njk2ckE4TTV5aEdlMm9J0gF3QVVfeXFMT0lfVW4zTHZnaVpqSEdoZDh0MmxkR3VuNV9SWVdJUjJvZ1EzazJRM2ExaFpPOG5vWHFudmQ5MzR6RWF5NWw2Q0RVSzQyY3hpSXBUUEJ5d3Z6R2J6bVh4SVpoNHhHSEtOaDQ2OTZyQThNNXloR2Uyb0k?oc=5",
       "source": "핀포인트뉴스",
-      "published_raw": "Sat, 10 Oct 2026 23:54:13 GMT",
+      "published_raw": "Sat, 10 Oct 2026 23:57:01 GMT",
       "date": "2026-10-11",
-      "time": "08:54",
+      "time": "08:57",
       "matched_keywords": [
         "수주"
       ],
       "news_score": 3,
-      "id": "5dcf97dbe9236e0d",
+      "id": "0542f83637bd246b",
       "ticker": "298040",
       "company": "효성중공업",
       "sector": "",
@@ -2721,6 +2801,27 @@
       "signal_major_article_count": {
         "수주": 3
       }
+    },
+    {
+      "title": "돌아온 ‘LCK 패왕’ 젠지, KT 3-0 완파하고 롤드컵 진출 확정 [쿠키 현장] - 쿠키뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5pUUx2ckV5aGxObFZfNUktbjlOSjRfVUJ0VWN4NjQwdmtGQ05MbllwVl9McVYzVFNyT3lHMTlCNGExMjBxd0F2WDRuNDJrdFNsSlRHVXo0d1A5QVMtanZVOVJNbw?oc=5",
+      "source": "쿠키뉴스",
+      "published_raw": "Fri, 09 Oct 2026 17:47:56 GMT",
+      "date": "2026-10-10",
+      "time": "02:47",
+      "matched_keywords": [
+        "진출"
+      ],
+      "news_score": 2,
+      "id": "9030089d6c8dfe68",
+      "ticker": "030200",
+      "company": "KT",
+      "sector": "",
+      "sources": [
+        "쿠키뉴스"
+      ],
+      "signal_keywords": [],
+      "signal_major_article_count": {}
     },
     {
       "title": "삼성바이오로직스, 유럽 제약사와 장기 위탁생산 계약…누적 수주 30조 육박 - 동아일보",
@@ -3766,7 +3867,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 5
+        "진출": 6
       }
     },
     {
@@ -3816,7 +3917,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 5
+        "진출": 6
       }
     },
     {
@@ -3966,27 +4067,6 @@
       "sector": "",
       "sources": [
         "SR타임스"
-      ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
-    },
-    {
-      "title": "이용배 현대로템 대표, 폴란드 모델로 루마니아 전차 수주 ‘돌격’ - 인사이트코리아",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBWT2FweDRYSXREV3dIODVKMUVkbTNmREFxelBGNldWUFRfUzJtQWdHRjNseXRnLWp0RHFxbmUteFFyUU9wZzkySTVnNVJuN0VUNFNTc3VhNWozNTRZSW1uaXhYS0hzNEJVTmJlQ2tYWnNhTFHSAXdBVV95cUxOLUVpQXpwWUlzRkFaLU00WmlRendiMEEwQ1cyZHlEZ1FReUZyaENLdDdQNFRCa05KZjJ1SXZ5b1FfeTFSYjBwNk1PRk9aU1UyRzVxTGk0SU5GTkQ4VmQtaGY2Rjk0eDFaUUtOM0tVZ3B6dkFqcnEyTQ?oc=5",
-      "source": "인사이트코리아",
-      "published_raw": "Thu, 08 Oct 2026 07:53:34 GMT",
-      "date": "2026-10-08",
-      "time": "16:53",
-      "matched_keywords": [
-        "수주"
-      ],
-      "news_score": 3,
-      "id": "61ccc326ada517a1",
-      "ticker": "064350",
-      "company": "현대로템",
-      "sector": "",
-      "sources": [
-        "인사이트코리아"
       ],
       "signal_keywords": [],
       "signal_major_article_count": {}
@@ -4419,6 +4499,27 @@
       }
     },
     {
+      "title": "삼양식품 중국 진출 확대 - 원주투데이",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE10cmY0dmVILWRodWhrelc0WWJXdG5NTVZTc3JsR3FFVkFCS1lSQmpaVmlEU3k0Z3RoTVpfR2RGUU1TNGd3V0gzVW9ITWREcUpIemRBN2gzNjh3NVNfRi1GZDJITm0tczdhRlJFZU1GOA?oc=5",
+      "source": "원주투데이",
+      "published_raw": "Thu, 08 Oct 2026 07:00:00 GMT",
+      "date": "2026-10-08",
+      "time": "16:00",
+      "matched_keywords": [
+        "진출"
+      ],
+      "news_score": 2,
+      "id": "1219d4fc457bd24d",
+      "ticker": "003230",
+      "company": "삼양식품",
+      "sector": "",
+      "sources": [
+        "원주투데이"
+      ],
+      "signal_keywords": [],
+      "signal_major_article_count": {}
+    },
+    {
       "title": "[단독] 여의도 진주 재건축 4파전 예고…대우·DL이앤씨·IPARK현산 등 현설 참석 - 데일리한국",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1RRkFkQnRJY2Rxd19YOW5DS3J3eklhcmhJVlhuY3p3YUN2aHNBNWhuMHZFWVVhTU15S2hSemtwbE5pVjVhWUZnWmVFLWFPVUpOVUNnRklKZDJwTTdEWnFGdmlkNXJpQ1YzSXcyLTd2VdIBc0FVX3lxTE8wbW5xb1l6TUNUWFNubjNBZFN5c3UzUE5ZTjN5TjFyQVFpNkxUX2tIQWNiQ090eFUzXzFBQWhMdTFxT0UwSWFuLXdwanBybnRnZXpSUVlMWTJqTjZGdUJRVkwtUy1Hc21zNW9yRzk5eE1YcWs?oc=5",
       "source": "데일리한국",
@@ -4696,31 +4797,6 @@
       ],
       "signal_major_article_count": {
         "수주": 3
-      }
-    },
-    {
-      "title": "아문에너지-롯데정밀화학, 국내 첫 발전용 그린암모니아 공급계약 체결 - 비즈트리뷴",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0ycEx3QWdESGJ3Y0NJMFVvNlRVZWRkV0dlTUxUYlk2Y3VVcUxraThzMjVuWWtfc1JNUV9QZTFEQTNiMW4xeWpFYTJUcFMydmFiTXVaRFZYcTlzQkhETGE0VEF5TDlPS1FKY2xzbG0ydlc?oc=5",
-      "source": "비즈트리뷴",
-      "published_raw": "Thu, 08 Oct 2026 06:12:23 GMT",
-      "date": "2026-10-08",
-      "time": "15:12",
-      "matched_keywords": [
-        "공급계약"
-      ],
-      "news_score": 3,
-      "id": "8e98b8ab21d86b28",
-      "ticker": "004000",
-      "company": "롯데정밀화학",
-      "sector": "",
-      "sources": [
-        "비즈트리뷴"
-      ],
-      "signal_keywords": [
-        "공급계약"
-      ],
-      "signal_major_article_count": {
-        "공급계약": 7
       }
     },
     {
@@ -5006,7 +5082,7 @@
     },
     {
       "title": "LG씨엔에스 6만원대 후반…AI 데이터센터 수주 매출화 점검 - 잡포스트",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBZUUVYOHYtVGtVV19xTXdCanVvR0FKdFRaRHdYcVhXbm9JeW90TUowNnlTOS1WU0EwUUZRUFl4VmdvQ1Y5QXNDZ0RjeWhGVHNWZHRzVGhGTWVTdXNodmVuLU9iREJqbDVHX0xGdmhwSm1fZ9IBckFVX3lxTFBZUUVYOHYtVGtVV19xTXdCanVvR0FKdFRaRHdYcVhXbm9JeW90TUowNnlTOS1WU0EwUUZRUFl4VmdvQ1Y5QXNDZ0RjeWhGVHNWZHRzVGhGTWVTdXNodmVuLU9iREJqbDVHX0xGdmhwSm1fZw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5LUGhla0dMM3E4X0Z3dUNDVkFiSlBjamh3Si01YUZxUEdDVWMxU194WkRWSWdONHZ6clBvVHZ0cldWSHVSeUl0UXBmY04zanRILUNFQVZoemxRQlhSaExhNVZXYjM2YWdmRk9ockJ30gFyQVVfeXFMUFlRRVg4di1Ua1VXX3FNd0JqdW9HQUp0VFpEd1hxWFdub0l5b3RNSjA2eVM5LVZTQTBRRlFQWXhWZ29DVjlBc0NnRGN5aEZUc1ZkdHNUaEZNZVN1c2h2ZW4tT2JEQmpsNUdfTEZ2aHBKbV9n?oc=5",
       "source": "잡포스트",
       "published_raw": "Thu, 08 Oct 2026 05:34:02 GMT",
       "date": "2026-10-08",
@@ -5015,7 +5091,7 @@
         "수주"
       ],
       "news_score": 3,
-      "id": "5a41fc24670fb463",
+      "id": "2fc6d4b0d7a4b084",
       "ticker": "064400",
       "company": "LG씨엔에스",
       "sector": "",
@@ -5248,6 +5324,27 @@
       "signal_major_article_count": {}
     },
     {
+      "title": "HD건설기계, 북미 데이터센터 전력시장 공략…3900억원 엔진 공급계약 - 강소기업뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE92dnFUQ1hiRXdfRlJJN0JUa0Y5cHVGQ1VaYUZLVkN1dm0zZVlMZ3dwZnlMM1FlYjlsSVhmOWNzUE1NdGZnb1dKWlNTQ0V6SUJxQl9R?oc=5",
+      "source": "강소기업뉴스",
+      "published_raw": "Thu, 08 Oct 2026 05:16:12 GMT",
+      "date": "2026-10-08",
+      "time": "14:16",
+      "matched_keywords": [
+        "공급계약"
+      ],
+      "news_score": 3,
+      "id": "1d5994c50ea9c236",
+      "ticker": "267270",
+      "company": "HD건설기계",
+      "sector": "",
+      "sources": [
+        "강소기업뉴스"
+      ],
+      "signal_keywords": [],
+      "signal_major_article_count": {}
+    },
+    {
       "title": "“DL이앤씨, 마진 살아났지만 외형이 숙제…4분기 수주가 반전 열쇠” - 뉴스퀘스트",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBrSElLUTV0bEVzbWtiLWVPN1Qzc05lTzUyZXRrVUlUOFR1WFhKRUtQcERFV3MxZG5veWItck15aERYVVR4bU9yckFyNHE4Zkl6Rld1dDY3cmRGallGMWpueDJHcFVJU1B1WldTWVBlTQ?oc=5",
       "source": "뉴스퀘스트",
@@ -5311,7 +5408,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 5
+        "진출": 6
       }
     },
     {
@@ -6023,7 +6120,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 5
+        "진출": 6
       }
     },
     {
@@ -6190,27 +6287,6 @@
       "signal_major_article_count": {}
     },
     {
-      "title": "\"카카오게임즈, 신작 확대·내년 흑자전환 기대..목표가 18.2% 상향\" - 포쓰저널",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5CckFyRHZFNWlzbUctSXA4UXN0OEE5cWtLV3prY3MyZ2d3M3l6WUVneHNRS2laa193TEZ6R0Z0M216Ym9IUTlXcEhYUGNWWF9tOUN0blpfZ3RTZzBGc2tiTXJQNm0?oc=5",
-      "source": "포쓰저널",
-      "published_raw": "Thu, 08 Oct 2026 02:14:13 GMT",
-      "date": "2026-10-08",
-      "time": "11:14",
-      "matched_keywords": [
-        "흑자"
-      ],
-      "news_score": 4,
-      "id": "bb762f60da49c444",
-      "ticker": "035720",
-      "company": "카카오",
-      "sector": "",
-      "sources": [
-        "포쓰저널"
-      ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
-    },
-    {
       "title": "현대로템, 이집트 수소트램 시장 진출 시동 건다 - 연합인포맥스",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB5WFh4ZVJiTEhZR3hyV1hmcTU2elpMMWU1SmMtN1RTUTY4R1JmeWl0M1NnMC04YWQxMnQwa19nTUN1Um83ZDcwc29UcldVMGlwcnZOOGFSRlNiQXAtdkU1UHRkMFV3eXdOMlpPVHgxajE?oc=5",
       "source": "연합인포맥스",
@@ -6232,7 +6308,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 5
+        "진출": 6
       }
     },
     {
@@ -6571,7 +6647,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 5
+        "진출": 6
       }
     },
     {
@@ -6659,7 +6735,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 5
+        "진출": 6
       }
     },
     {
@@ -6793,7 +6869,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 5
+        "진출": 6
       }
     },
     {
@@ -6977,7 +7053,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 5
+        "진출": 6
       }
     },
     {
@@ -7115,7 +7191,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 5
+        "진출": 6
       }
     },
     {
@@ -7205,6 +7281,31 @@
       ],
       "signal_keywords": [],
       "signal_major_article_count": {}
+    },
+    {
+      "title": "현대로템, 이집트 수소전기트램 사업 협력 추진…첫 해외 진출 '청신호' - 데일리안",
+      "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNYVpGVjNwRDdrRFlBRktybjlKczctM3dBVUFaU0h2UmNpeEZ1c1RCYTJqUjV1dTVxWFpRYUNxVERpd0FhaWgtWm1hSmRoaVBEYlN0SHhBcmhuNVNqMHZEY2pzaVlXT29qQ0RXOTdqbms0VlBUX2xET1FDNkdNVlRDSUwxSjJ5YUlXWjVNN0lIRTJ3czZMWEY0N0R5Z0N4RHV0a2JiLTZUcG54b3dUOTNkTHVLcTBrUzlTVlVVS3VaMkNtcmtfNFdPZmJJeVpUeE1JQ3ZoeXRoMWwzcXBVaWJneDViOEVZcDZYcjQwclltM05vbDNHTGh4Wkk3c3VLM013Q3NZNG9pWEotVFdkcWlqemo5bllUdXNUT3pVQzBjbWZKbTA?oc=5",
+      "source": "데일리안",
+      "published_raw": "Thu, 08 Oct 2026 00:06:00 GMT",
+      "date": "2026-10-08",
+      "time": "09:06",
+      "matched_keywords": [
+        "진출"
+      ],
+      "news_score": 2,
+      "id": "3595cbf372a895c7",
+      "ticker": "064350",
+      "company": "현대로템",
+      "sector": "",
+      "sources": [
+        "데일리안"
+      ],
+      "signal_keywords": [
+        "진출"
+      ],
+      "signal_major_article_count": {
+        "진출": 6
+      }
     },
     {
       "title": "[단독] 두산, 남아공 에너지 국책 사업 정조준…발전소 개보수·전력망 확충 협력 논의 - 더구루",
@@ -7312,7 +7413,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 5
+        "진출": 6
       }
     },
     {
@@ -7383,7 +7484,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 5
+        "진출": 6
       }
     },
     {
