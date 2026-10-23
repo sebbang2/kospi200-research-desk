@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T17:26:10+09:00",
+  "generated_at": "2026-10-23T21:05:31+09:00",
   "status": "LIVE",
   "source": "Google News RSS public search; article body not copied",
   "keywords": [
@@ -102,16 +102,24 @@
     ]
   },
   "signal_keywords_by_ticker": {
+    "003490": [
+      "단독",
+      "진출"
+    ],
+    "005380": [
+      "단독",
+      "진출"
+    ],
+    "329180": [
+      "수주"
+    ],
+    "267250": [
+      "수주"
+    ],
     "004170": [
       "단독"
     ],
     "028050": [
-      "수주"
-    ],
-    "005380": [
-      "진출"
-    ],
-    "267250": [
       "수주"
     ],
     "000660": [
@@ -138,10 +146,10 @@
     "207940": [
       "수주"
     ],
-    "030200": [
+    "001040": [
       "수주"
     ],
-    "001040": [
+    "030200": [
       "수주"
     ],
     "000120": [
@@ -157,10 +165,6 @@
       "진출"
     ],
     "000670": [
-      "진출"
-    ],
-    "003490": [
-      "단독",
       "진출"
     ],
     "064350": [
@@ -180,6 +184,9 @@
     ],
     "011200": [
       "수주"
+    ],
+    "078930": [
+      "진출"
     ]
   },
   "source_urls": {
@@ -386,6 +393,370 @@
   "failures": [],
   "articles": [
     {
+      "title": "[단독]대한항공 고객 예약번호 등 개인정보 유출 - 머니투데이 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9nWXFqTi1GZEV1YjRlZXhjdVdNdHlSVDVENko5b3A5VkthdE1WdkVVZ0Zqd1lLR2Ryd2lVZTIyWURyRGNwNWVQTVFFNkZkYmoydFV6MHUxeWNraWtvc0NXVWhDRzk5SkR5YjE1d9IBckFVX3lxTFB1ZUFndHRIU0lTaEtzUWZQRVc1MWh4MEY4TEVaRGlrOEZvMEJ1SEFLVmw3ODlCYVFXLWcxd19lSjc3X01QWmxwcFAtd01vaDBEOHFGV0JtLW85amo2Q0cwQmJZLU81UjdjLWVBZkE4dzNlZw?oc=5",
+      "source": "머니투데이",
+      "published_raw": "Fri, 23 Oct 2026 11:55:10 GMT",
+      "date": "2026-10-23",
+      "time": "20:55",
+      "matched_keywords": [
+        "단독"
+      ],
+      "news_score": 2,
+      "id": "08ca2825a55f4884",
+      "ticker": "003490",
+      "company": "대한항공",
+      "sector": "",
+      "sources": [
+        "머니투데이"
+      ],
+      "signal_keywords": [
+        "단독"
+      ],
+      "signal_major_article_count": {
+        "단독": 3
+      }
+    },
+    {
+      "title": "“역대 최대 수주잔고 27조·영업이익 1.4조…삼성E&A, 8만원 고지 넘나” - 뉴스퀘스트",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5NTTgzRXBlbkxLYzNnT0I3a1RLQlRwWVVxZjQ5MHM0S1hZa0kyamJZS3pJNkVvdnppT3dWRjFIV1l1aW9lYWpYZHVKcU1iRHliQjBrTEZybWRrYmRLdEpMV2tsWVhiejRSc0V1NWRURQ?oc=5",
+      "source": "뉴스퀘스트",
+      "published_raw": "Fri, 23 Oct 2026 11:54:23 GMT",
+      "date": "2026-10-23",
+      "time": "20:54",
+      "matched_keywords": [
+        "수주"
+      ],
+      "news_score": 3,
+      "id": "e79f99076567d211",
+      "ticker": "028050",
+      "company": "삼성E&A",
+      "sector": "",
+      "sources": [
+        "뉴스퀘스트"
+      ],
+      "signal_keywords": [
+        "수주"
+      ],
+      "signal_major_article_count": {
+        "수주": 8
+      }
+    },
+    {
+      "title": "LS ELECTRIC, 사상 최대 실적으로 100분기 연속 흑자 ‘금자탑’ - 한국전력신문",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5JWGJPTlBDODVZUGdzd0t5d3otdkxGcHNaOEl6clAwVTNIRWxENTlpVW1xWVJqQ0p3NlZqR3Bma29MUlVGaXJYaHBsSS1UamNQN0QtSUZrNm4yY3hQVkFOWXpEczFsMTYzTEE?oc=5",
+      "source": "한국전력신문",
+      "published_raw": "Fri, 23 Oct 2026 11:43:20 GMT",
+      "date": "2026-10-23",
+      "time": "20:43",
+      "matched_keywords": [
+        "흑자"
+      ],
+      "news_score": 4,
+      "id": "0c06f5d30239f286",
+      "ticker": "010120",
+      "company": "LS ELECTRIC",
+      "sector": "",
+      "sources": [
+        "한국전력신문"
+      ],
+      "signal_keywords": [],
+      "signal_major_article_count": {}
+    },
+    {
+      "title": "LS ELECTRIC, 사상 최대 실적으로 100분기 연속 흑자 ‘금자탑’ - 한국전력신문",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5JWGJPTlBDODVZUGdzd0t5d3otdkxGcHNaOEl6clAwVTNIRWxENTlpVW1xWVJqQ0p3NlZqR3Bma29MUlVGaXJYaHBsSS1UamNQN0QtSUZrNm4yY3hQVkFOWXpEczFsMTYzTEE?oc=5",
+      "source": "한국전력신문",
+      "published_raw": "Fri, 23 Oct 2026 11:43:20 GMT",
+      "date": "2026-10-23",
+      "time": "20:43",
+      "matched_keywords": [
+        "흑자"
+      ],
+      "news_score": 4,
+      "id": "17fd8dad0ec783fa",
+      "ticker": "006260",
+      "company": "LS",
+      "sector": "",
+      "sources": [
+        "한국전력신문"
+      ],
+      "signal_keywords": [],
+      "signal_major_article_count": {}
+    },
+    {
+      "title": "“수주 가이던스 12조 → 19조 대폭 상향…삼성E&A, 2027년 매출 30% 급증 전가동” - 뉴스퀘스트",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1HV1lxcU0tSEV5c19jNmhoTlE5aGJqRjU4TjZqYlNNaTYxa2l0RnFPdHhvWVlnLWkxMzMtVEl1LXJGVkJJY2J2aEUyeG9sUFR5ZHM0VWg1U24yd1Qtd3JvemtydFRBdno4LUd2TUVmaw?oc=5",
+      "source": "뉴스퀘스트",
+      "published_raw": "Fri, 23 Oct 2026 11:39:09 GMT",
+      "date": "2026-10-23",
+      "time": "20:39",
+      "matched_keywords": [
+        "수주"
+      ],
+      "news_score": 3,
+      "id": "64900af6e62495ae",
+      "ticker": "028050",
+      "company": "삼성E&A",
+      "sector": "",
+      "sources": [
+        "뉴스퀘스트"
+      ],
+      "signal_keywords": [
+        "수주"
+      ],
+      "signal_major_article_count": {
+        "수주": 8
+      }
+    },
+    {
+      "title": "[단독] LG그룹, 현대차 로봇사업 수장 품었다 - 한국경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5WTUhKQm1haWpLN25XdEZTdTNEaTYzSmlYTkdWY2Nlc0E1VW5RRm9BQlVGRHkyZldRNm5SMF9WUFlDUXhiSlg4RzFmRXBDZkFUT21iNHEtNUVhQQ?oc=5",
+      "source": "한국경제",
+      "published_raw": "Fri, 23 Oct 2026 11:32:00 GMT",
+      "date": "2026-10-23",
+      "time": "20:32",
+      "matched_keywords": [
+        "단독"
+      ],
+      "news_score": 2,
+      "id": "4accd8e8b359daf0",
+      "ticker": "005380",
+      "company": "현대차",
+      "sector": "",
+      "sources": [
+        "한국경제"
+      ],
+      "signal_keywords": [
+        "단독"
+      ],
+      "signal_major_article_count": {
+        "단독": 3
+      }
+    },
+    {
+      "title": "[단독] LG그룹, 현대차 로봇사업 수장 품었다 - 한국경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5WTUhKQm1haWpLN25XdEZTdTNEaTYzSmlYTkdWY2Nlc0E1VW5RRm9BQlVGRHkyZldRNm5SMF9WUFlDUXhiSlg4RzFmRXBDZkFUT21iNHEtNUVhQQ?oc=5",
+      "source": "한국경제",
+      "published_raw": "Fri, 23 Oct 2026 11:32:00 GMT",
+      "date": "2026-10-23",
+      "time": "20:32",
+      "matched_keywords": [
+        "단독"
+      ],
+      "news_score": 2,
+      "id": "17f12a8b5fe63155",
+      "ticker": "003550",
+      "company": "LG",
+      "sector": "",
+      "sources": [
+        "한국경제"
+      ],
+      "signal_keywords": [],
+      "signal_major_article_count": {}
+    },
+    {
+      "title": "신세계百 강남점, 아이폰 듀오 백화점 단독 팝업 - 뉴스톱",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE43RmlaSWs5NVZYUXVuWGhTR2RyU2lkU0NBVlFrYkxGV0REQmhmY3JEcTd6aW5IRFQ3cjFfbWd6OFc1VERsR2dyY1loQ09NaDR2UHVzalRvYS00WDdFYnFZN1Vwc0ltT2RLNHVpcks0TQ?oc=5",
+      "source": "뉴스톱",
+      "published_raw": "Fri, 23 Oct 2026 09:38:03 GMT",
+      "date": "2026-10-23",
+      "time": "18:38",
+      "matched_keywords": [
+        "단독"
+      ],
+      "news_score": 2,
+      "id": "4ba5eb65b46b123f",
+      "ticker": "004170",
+      "company": "신세계",
+      "sector": "",
+      "sources": [
+        "뉴스톱"
+      ],
+      "signal_keywords": [
+        "단독"
+      ],
+      "signal_major_article_count": {
+        "단독": 10
+      }
+    },
+    {
+      "title": "美 데이터센터 건설 제한 확산에도…LS일렉트릭 \"수주 영향 체감 못해\" - 녹색경제신문",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBCMXZweFZRbE5OVVRtWFNmRFFheHJ3WGhJcE9LcU0yZmxTZk5DMWc0RGgxQmZIcS1lbC1wN2ZQVnAwTkQwWTdRMERGRkpqN0VSNGRLVGFEejVvekpzQmY3b2puX3NWanpH?oc=5",
+      "source": "녹색경제신문",
+      "published_raw": "Fri, 23 Oct 2026 09:06:13 GMT",
+      "date": "2026-10-23",
+      "time": "18:06",
+      "matched_keywords": [
+        "수주"
+      ],
+      "news_score": 3,
+      "id": "d72581a25e950c6b",
+      "ticker": "006260",
+      "company": "LS",
+      "sector": "",
+      "sources": [
+        "녹색경제신문"
+      ],
+      "signal_keywords": [],
+      "signal_major_article_count": {}
+    },
+    {
+      "title": "[속보] HD현대마린엔진, 268억원 규모 선박엔진 공급계약…지난해 매출액 대비 6.7% - CBC뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1kVmNzdFUyMjR2Y1RDUll1OWt3T3pidGNCckVHS3RxRTNtV083M3h3dVB0UUtLdmZKODF3MmcxOEw0bnFyYTl3T2VLTW44ZXpDdFJqMWFhcmxEczA2eHlkQkUyc0VoVUZs?oc=5",
+      "source": "CBC뉴스",
+      "published_raw": "Fri, 23 Oct 2026 09:05:51 GMT",
+      "date": "2026-10-23",
+      "time": "18:05",
+      "matched_keywords": [
+        "공급계약"
+      ],
+      "news_score": 3,
+      "id": "cc7c65e855770028",
+      "ticker": "267250",
+      "company": "HD현대",
+      "sector": "",
+      "sources": [
+        "CBC뉴스"
+      ],
+      "signal_keywords": [],
+      "signal_major_article_count": {}
+    },
+    {
+      "title": "한전기술·도화엔지니어링, 해외 에너지시장 ‘공동 공략’…LNG·양수발전 수주 확대 나선다 - 에너지안전신문",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBmRlIwTHNDNGdxNmtCUG1uUS1ibjRiQ1hoY2Flb0hwM25NNy0zMU5vWTBzSU9LNzNPTXVhT2JIOXFIeHRweEdtcTF1TzB2VHQwUTVZTGRHUjkzcVlxczc2cTJJUng?oc=5",
+      "source": "에너지안전신문",
+      "published_raw": "Fri, 23 Oct 2026 08:52:05 GMT",
+      "date": "2026-10-23",
+      "time": "17:52",
+      "matched_keywords": [
+        "수주"
+      ],
+      "news_score": 3,
+      "id": "dcf5dff25fe8b496",
+      "ticker": "052690",
+      "company": "한전기술",
+      "sector": "",
+      "sources": [
+        "에너지안전신문"
+      ],
+      "signal_keywords": [],
+      "signal_major_article_count": {}
+    },
+    {
+      "title": "HD현대, 미국에 새 조선소 짓는다… 미 함정 건조 수주 청신호 - 한국일보",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1qX3c2UVpRbWc2R25QZHpUY2J0cDlzTHNsVzZPVDFFY3dfMk5lQUdIamlkZVpqbXR5WG5rMjVOTUFBcmxxMmU3aG50RzNkdkVyYmJzV1dxc0VGTUEyZDRPZHg3S1JYSVpDeGI0WkhFOEFmYVHSAXNBVV95cUxNal93NlFaUW1nNkduUGR6VGNidHA5c0xzbFc2T1QxRWN3XzJOZUFHSGppZGVaam10eVhuazI1Tk1BQXJscTJlN2hudEczZHZFcmJic1dXcXNFRk1BMmQ0T2R4N0tSWElaQ3hiNFpIRThBZmFR?oc=5",
+      "source": "한국일보",
+      "published_raw": "Fri, 23 Oct 2026 08:42:00 GMT",
+      "date": "2026-10-23",
+      "time": "17:42",
+      "matched_keywords": [
+        "수주"
+      ],
+      "news_score": 3,
+      "id": "379bfeb19cbfe25a",
+      "ticker": "329180",
+      "company": "HD현대중공업",
+      "sector": "",
+      "sources": [
+        "한국일보"
+      ],
+      "signal_keywords": [
+        "수주"
+      ],
+      "signal_major_article_count": {
+        "수주": 3
+      }
+    },
+    {
+      "title": "HD현대, 미국에 새 조선소 짓는다… 미 함정 건조 수주 청신호 - 한국일보",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1qX3c2UVpRbWc2R25QZHpUY2J0cDlzTHNsVzZPVDFFY3dfMk5lQUdIamlkZVpqbXR5WG5rMjVOTUFBcmxxMmU3aG50RzNkdkVyYmJzV1dxc0VGTUEyZDRPZHg3S1JYSVpDeGI0WkhFOEFmYVHSAXNBVV95cUxNal93NlFaUW1nNkduUGR6VGNidHA5c0xzbFc2T1QxRWN3XzJOZUFHSGppZGVaam10eVhuazI1Tk1BQXJscTJlN2hudEczZHZFcmJic1dXcXNFRk1BMmQ0T2R4N0tSWElaQ3hiNFpIRThBZmFR?oc=5",
+      "source": "한국일보",
+      "published_raw": "Fri, 23 Oct 2026 08:42:00 GMT",
+      "date": "2026-10-23",
+      "time": "17:42",
+      "matched_keywords": [
+        "수주"
+      ],
+      "news_score": 3,
+      "id": "5952b92560db8ab0",
+      "ticker": "267250",
+      "company": "HD현대",
+      "sector": "",
+      "sources": [
+        "한국일보"
+      ],
+      "signal_keywords": [
+        "수주"
+      ],
+      "signal_major_article_count": {
+        "수주": 4
+      }
+    },
+    {
+      "title": "[단독] \"AI인프라 속도가 생명인데…\" SK·GS·네이버 사업 안갯속 - 매일경제 마켓",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE42TWVVbGUxanZOZmU1WEtDR2tRVnVrZE4yTmRsRmFEUGRyaVRKaXVndU9wLWlsemZDdmthdFRiSVVzYWJPTkpCUlh1cllKdE5zWlE?oc=5",
+      "source": "매일경제 마켓",
+      "published_raw": "Fri, 23 Oct 2026 08:40:35 GMT",
+      "date": "2026-10-23",
+      "time": "17:40",
+      "matched_keywords": [
+        "단독"
+      ],
+      "news_score": 2,
+      "id": "3b65700e87e1b3dd",
+      "ticker": "078930",
+      "company": "GS",
+      "sector": "",
+      "sources": [
+        "매일경제 마켓"
+      ],
+      "signal_keywords": [],
+      "signal_major_article_count": {}
+    },
+    {
+      "title": "‘2.6조’ 목동9단지, 시공사 선정 돌입…삼성물산 두 번째 수주 도전 - MTN 머니투데이방송",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBpVTAwZ3NHeGVvT3QtNnB3THc5eFFZbi1LZVkzYmtvY2o5U2pkLXVkbnZIdUM3bW9rTHVXUnN0ZlNQZ2phNEhZV2RhdXBVckFjS1ZaaHJfRENHUGI3Mk9F?oc=5",
+      "source": "MTN 머니투데이방송",
+      "published_raw": "Fri, 23 Oct 2026 08:32:41 GMT",
+      "date": "2026-10-23",
+      "time": "17:32",
+      "matched_keywords": [
+        "수주"
+      ],
+      "news_score": 3,
+      "id": "a4c0e41fc3c75557",
+      "ticker": "028260",
+      "company": "삼성물산",
+      "sector": "",
+      "sources": [
+        "MTN 머니투데이방송"
+      ],
+      "signal_keywords": [],
+      "signal_major_article_count": {}
+    },
+    {
+      "title": "[단독] 본사 직원엔 170만원, ‘지역 주민’ 자회사 직원엔 55만원 주는 강원랜드 [국감2026] - 서울경제",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE82OEQycC0yaGMzUWtKYm02SGw2RnZGNnVWWTRPcWxiQ2dTSnk3SWlHVWV5Zi1tSTJxVk9od2lMRjVJcU1aVU4yOXdQemo0Y2t0V1HSAVNBVV95cUxNNmdwVnhyYk56M1RmaEtaR2hOaEc0bHRmcEdGZjE5VVIwQWdmZko0UlF2SWdCZFIySHpuVnNnYWdxQlJlVE45UGFyZ2R0M1lPV3kzRQ?oc=5",
+      "source": "서울경제",
+      "published_raw": "Fri, 23 Oct 2026 08:18:09 GMT",
+      "date": "2026-10-23",
+      "time": "17:18",
+      "matched_keywords": [
+        "단독"
+      ],
+      "news_score": 2,
+      "id": "d2a912dfe0841e5c",
+      "ticker": "035250",
+      "company": "강원랜드",
+      "sector": "",
+      "sources": [
+        "서울경제"
+      ],
+      "signal_keywords": [],
+      "signal_major_article_count": {}
+    },
+    {
       "title": "NCA 줄이고 ‘돈 되는’ LFP 올인…포스코퓨처엠의 7조 수주 ‘생존 결단’ - 뉴스퀘스트",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9wNklDUEVGc1ViaEtfLUYxQmlHT3BtdFAwcEh5UzdFQ2ZTdDgzbUNiMDJDOC1uallCaU40VklIU1p0MG5KWVhob3Y5M2xQUmY5MnBlSDlkc3BhSlkzU25USkFKaVBOQi1jZ1pXaWd0SQ?oc=5",
       "source": "뉴스퀘스트",
@@ -449,6 +820,48 @@
       "signal_major_article_count": {}
     },
     {
+      "title": "DL이앤씨, 광명 하안주공9단지 입찰 단독 참여 - 한국금융경제신문",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8taVhaeUJMYzFfcTJBYVMtdlA1Z3dOU01uU1o4cWFRZDFZbk1LRUx0N19NWVduWXp4QTRhYTRxRlgxY0x3RHVXandIUWNiNDlrRHR3WnAyc3htUTRnMFVNQkZqX2NNQUt2b0d6NdIBcEFVX3lxTE80dGh0UnpaTEFiNWRva08xa3BIZTRmbHBuU0ExcXBrdXVDUzJUcVRoQ3ZaZHBoTjFMQzFOX21fWElFQWJLSjdxLUlJWFp0WndrYWF3M19TeVRXNFl0bUxtSUZYU1d0OEhtdWMyVi12TWk?oc=5",
+      "source": "한국금융경제신문",
+      "published_raw": "Fri, 23 Oct 2026 07:58:33 GMT",
+      "date": "2026-10-23",
+      "time": "16:58",
+      "matched_keywords": [
+        "단독"
+      ],
+      "news_score": 2,
+      "id": "64f4aca118a4170c",
+      "ticker": "375500",
+      "company": "DL이앤씨",
+      "sector": "",
+      "sources": [
+        "한국금융경제신문"
+      ],
+      "signal_keywords": [],
+      "signal_major_article_count": {}
+    },
+    {
+      "title": "DL이앤씨, 광명 하안주공9단지 입찰 단독 참여 - 한국금융경제신문",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8taVhaeUJMYzFfcTJBYVMtdlA1Z3dOU01uU1o4cWFRZDFZbk1LRUx0N19NWVduWXp4QTRhYTRxRlgxY0x3RHVXandIUWNiNDlrRHR3WnAyc3htUTRnMFVNQkZqX2NNQUt2b0d6NdIBcEFVX3lxTE80dGh0UnpaTEFiNWRva08xa3BIZTRmbHBuU0ExcXBrdXVDUzJUcVRoQ3ZaZHBoTjFMQzFOX21fWElFQWJLSjdxLUlJWFp0WndrYWF3M19TeVRXNFl0bUxtSUZYU1d0OEhtdWMyVi12TWk?oc=5",
+      "source": "한국금융경제신문",
+      "published_raw": "Fri, 23 Oct 2026 07:58:33 GMT",
+      "date": "2026-10-23",
+      "time": "16:58",
+      "matched_keywords": [
+        "단독"
+      ],
+      "news_score": 2,
+      "id": "4b2ab83148f22305",
+      "ticker": "000210",
+      "company": "DL",
+      "sector": "",
+      "sources": [
+        "한국금융경제신문"
+      ],
+      "signal_keywords": [],
+      "signal_major_article_count": {}
+    },
+    {
       "title": "[단독] 황상연 한미약품 대표, HB인베 시절 '코리 투자' 담당자였다 - 데일리안",
       "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOMXlTVzA4MXBUdUxiX3VwVURuRi1mcTVBVVJVZFAzREtsekVWcFBxWXVxSDlVdHF2bjRCLWJNdG9JUnNWVzFtUjBSc1BXMjJXbUtqa2pRVXRIaEw3ZUYzM1lvN21DQWREV1EzNXIyS0s4V2VzUUJURmNJX0RQVXhEelJwU3hTdG9rclJzaE0xSFJwZ1luSUJDeDQwMm9EMkp2R0lrWHBIOERGZHkyeDcyeGpPdmRFQkctUjBMR0JaV3AtQTFsWkpwZjNvZl9iMUhFaXBXbkV4MW9LUUM0SnZrZ3pCYUkyc0lueDJrRTNFX09HdTZhN0dtNGVhSDVOU3ZRTkE?oc=5",
       "source": "데일리안",
@@ -465,6 +878,111 @@
       "sector": "",
       "sources": [
         "데일리안"
+      ],
+      "signal_keywords": [],
+      "signal_major_article_count": {}
+    },
+    {
+      "title": "2026.10.23.(금) 증권사리포트 \"산일전기 - 단기 실적보다 강한 수주\" - 네이버 프리미엄콘텐츠",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRmhvTDhMM0JjWl9jU0RqMkhmQzFUZjVzX05TcXNZUVhfM0oxMktIbm9hbEszT1EzYzkxRW1qQzhJdzI1Wk04U3dIMjduVDlyZ0ZKWFhZeFJjUW0yMFU5WGVZVG1ScDZWT3hNN2Y1Q1ZvTjA4bTU5N1huUXkyZXpOOWRB?oc=5",
+      "source": "네이버 프리미엄콘텐츠",
+      "published_raw": "Fri, 23 Oct 2026 07:46:25 GMT",
+      "date": "2026-10-23",
+      "time": "16:46",
+      "matched_keywords": [
+        "수주"
+      ],
+      "news_score": 3,
+      "id": "df9d9e39114d916c",
+      "ticker": "035420",
+      "company": "NAVER",
+      "sector": "",
+      "sources": [
+        "네이버 프리미엄콘텐츠"
+      ],
+      "signal_keywords": [],
+      "signal_major_article_count": {}
+    },
+    {
+      "title": "2026.10.23.(금) 증권사리포트 \"산일전기 - 단기 실적보다 강한 수주\" - 네이버 프리미엄콘텐츠",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRmhvTDhMM0JjWl9jU0RqMkhmQzFUZjVzX05TcXNZUVhfM0oxMktIbm9hbEszT1EzYzkxRW1qQzhJdzI1Wk04U3dIMjduVDlyZ0ZKWFhZeFJjUW0yMFU5WGVZVG1ScDZWT3hNN2Y1Q1ZvTjA4bTU5N1huUXkyZXpOOWRB?oc=5",
+      "source": "네이버 프리미엄콘텐츠",
+      "published_raw": "Fri, 23 Oct 2026 07:46:25 GMT",
+      "date": "2026-10-23",
+      "time": "16:46",
+      "matched_keywords": [
+        "수주"
+      ],
+      "news_score": 3,
+      "id": "f4e3f33f9dca04cb",
+      "ticker": "062040",
+      "company": "산일전기",
+      "sector": "",
+      "sources": [
+        "네이버 프리미엄콘텐츠"
+      ],
+      "signal_keywords": [],
+      "signal_major_article_count": {}
+    },
+    {
+      "title": "'신세계까사 흑자' 김홍극, 이마트 이어 SSG닷컴 구원투수 맡는다 - 더팩트",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBWZVBaSlhnX0VNdjJVRFFoaDFrZFV6Rmp5ck9LQTlxV0VxUFBiaW9WbDR4T1JRdUJOY25OZ0RlY0ZYZklEaVdWZ3dPZUIxM2kwV0NiV2RVZFBqZ9IBVEFVX3lxTFBtNnd4c1NMRXV4OUhDUWJZa0xLNUpiSFRFUVlLNTZ6aFNFd1BTRkJWYm5uaFRmZFB2OTdhVGViV3JjVXozRm4zMFdETG12VHVlMnVocw?oc=5",
+      "source": "더팩트",
+      "published_raw": "Fri, 23 Oct 2026 07:42:13 GMT",
+      "date": "2026-10-23",
+      "time": "16:42",
+      "matched_keywords": [
+        "흑자"
+      ],
+      "news_score": 4,
+      "id": "11de932ca815ee59",
+      "ticker": "004170",
+      "company": "신세계",
+      "sector": "",
+      "sources": [
+        "더팩트"
+      ],
+      "signal_keywords": [],
+      "signal_major_article_count": {}
+    },
+    {
+      "title": "'신세계까사 흑자' 김홍극, 이마트 이어 SSG닷컴 구원투수 맡는다 - 더팩트",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBtNnd4c1NMRXV4OUhDUWJZa0xLNUpiSFRFUVlLNTZ6aFNFd1BTRkJWYm5uaFRmZFB2OTdhVGViV3JjVXozRm4zMFdETG12VHVlMnVoc9IBVEFVX3lxTFBtNnd4c1NMRXV4OUhDUWJZa0xLNUpiSFRFUVlLNTZ6aFNFd1BTRkJWYm5uaFRmZFB2OTdhVGViV3JjVXozRm4zMFdETG12VHVlMnVocw?oc=5",
+      "source": "더팩트",
+      "published_raw": "Fri, 23 Oct 2026 07:42:00 GMT",
+      "date": "2026-10-23",
+      "time": "16:42",
+      "matched_keywords": [
+        "흑자"
+      ],
+      "news_score": 4,
+      "id": "0753333dd13843b0",
+      "ticker": "139480",
+      "company": "이마트",
+      "sector": "",
+      "sources": [
+        "더팩트"
+      ],
+      "signal_keywords": [],
+      "signal_major_article_count": {}
+    },
+    {
+      "title": "[단독] 달라진 ㈜GS 사채설명서, 대주주 일가 소유 리스크 언급 - Daum",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9QU2ZkSDVwT0E3VzhUNTNrU3FsSmgxSjBsUzRmNEdQeTFoOUhGWUFCano1Rm1EZjZNTm93dHg1Z2tvRkZ3RXc?oc=5",
+      "source": "Daum",
+      "published_raw": "Fri, 23 Oct 2026 07:40:29 GMT",
+      "date": "2026-10-23",
+      "time": "16:40",
+      "matched_keywords": [
+        "단독"
+      ],
+      "news_score": 2,
+      "id": "04fec9174391d598",
+      "ticker": "078930",
+      "company": "GS",
+      "sector": "",
+      "sources": [
+        "Daum"
       ],
       "signal_keywords": [],
       "signal_major_article_count": {}
@@ -537,6 +1055,69 @@
       "signal_major_article_count": {}
     },
     {
+      "title": "DL이앤씨, 광명 하안주공9단지 단독 입찰...공사비 9309억원 규모 - 일요경제",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE92ajNnM0JSWHR6R19HOVJGeXdnS1llaEktY3hFdmo2TWJkRXdNM2swLVZjZENGQ3l3ZUJtb2FOYW14bUpBaHQ4dTFnWHBGdjM5NG1EM05VZUlFcHRIVlhnVlZ4MVI5MVZxYnFyS0Rn?oc=5",
+      "source": "일요경제",
+      "published_raw": "Fri, 23 Oct 2026 07:18:11 GMT",
+      "date": "2026-10-23",
+      "time": "16:18",
+      "matched_keywords": [
+        "단독"
+      ],
+      "news_score": 2,
+      "id": "4770f192426a96bb",
+      "ticker": "375500",
+      "company": "DL이앤씨",
+      "sector": "",
+      "sources": [
+        "일요경제"
+      ],
+      "signal_keywords": [],
+      "signal_major_article_count": {}
+    },
+    {
+      "title": "DL이앤씨, 광명 하안주공9단지 단독 입찰...공사비 9309억원 규모 - 일요경제",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE92ajNnM0JSWHR6R19HOVJGeXdnS1llaEktY3hFdmo2TWJkRXdNM2swLVZjZENGQ3l3ZUJtb2FOYW14bUpBaHQ4dTFnWHBGdjM5NG1EM05VZUlFcHRIVlhnVlZ4MVI5MVZxYnFyS0Rn?oc=5",
+      "source": "일요경제",
+      "published_raw": "Fri, 23 Oct 2026 07:18:11 GMT",
+      "date": "2026-10-23",
+      "time": "16:18",
+      "matched_keywords": [
+        "단독"
+      ],
+      "news_score": 2,
+      "id": "ce3f681e53312c31",
+      "ticker": "000210",
+      "company": "DL",
+      "sector": "",
+      "sources": [
+        "일요경제"
+      ],
+      "signal_keywords": [],
+      "signal_major_article_count": {}
+    },
+    {
+      "title": "한전기술-도화엔지니어링, 공동 수주 기반 넓힌다 - 에너지신문",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA5NUhEVmdvaVlnNk9GcnMxTFN4ZXI0Sk5kUGhaSEM2YWNmLWlLY0t4UlM0bzg1QXZERXlnd3hYZUs2bGhwVVM0LVctRFhUMWdCd2wyTGxQQmMxbDVqM2FNWGhORHZXdGZVbmx0akhuQXI?oc=5",
+      "source": "에너지신문",
+      "published_raw": "Fri, 23 Oct 2026 07:17:43 GMT",
+      "date": "2026-10-23",
+      "time": "16:17",
+      "matched_keywords": [
+        "수주"
+      ],
+      "news_score": 3,
+      "id": "cf2af06585a474b2",
+      "ticker": "052690",
+      "company": "한전기술",
+      "sector": "",
+      "sources": [
+        "에너지신문"
+      ],
+      "signal_keywords": [],
+      "signal_major_article_count": {}
+    },
+    {
       "title": "‘파이널A 진출 노린다’ 제주SK, 인천전 단두대 매치서 총력전 예고⋯최병욱 “처음부터 끝까지 집중하겠다” - 스포츠월드",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9zYVc5NFFGNE13bkRkS1drUlZGQTJuR0hWbFY2VmN6RmxJWnlabHlvMTZvRlNxTkp1XzFodUkzUGREQ2g2LXdBRnowRGtQNzliYVdkek5qTnkxREVZd2t5cGh3?oc=5",
       "source": "스포츠월드",
@@ -553,6 +1134,48 @@
       "sector": "",
       "sources": [
         "스포츠월드"
+      ],
+      "signal_keywords": [],
+      "signal_major_article_count": {}
+    },
+    {
+      "title": "DL이앤씨, 9309억 광명 하안주공9단지 재건축 수주 눈앞 - www.ebn.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1GTlJ1c3Qydi1pc3NiZ3pENGtmVWpUWi02QTdQUlBIalEtaVJwMndBOXk1S3ZTRnpQWlA4TEh5LWhNNW5UbE9OYlJkLTNacmRackxySnVWczMyZEtQX0MzWGFNQk83OWhp?oc=5",
+      "source": "www.ebn.co.kr",
+      "published_raw": "Fri, 23 Oct 2026 07:13:11 GMT",
+      "date": "2026-10-23",
+      "time": "16:13",
+      "matched_keywords": [
+        "수주"
+      ],
+      "news_score": 3,
+      "id": "b59c6aa6dfab0bd5",
+      "ticker": "375500",
+      "company": "DL이앤씨",
+      "sector": "",
+      "sources": [
+        "www.ebn.co.kr"
+      ],
+      "signal_keywords": [],
+      "signal_major_article_count": {}
+    },
+    {
+      "title": "DL이앤씨, 9309억 광명 하안주공9단지 재건축 수주 눈앞 - www.ebn.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1GTlJ1c3Qydi1pc3NiZ3pENGtmVWpUWi02QTdQUlBIalEtaVJwMndBOXk1S3ZTRnpQWlA4TEh5LWhNNW5UbE9OYlJkLTNacmRackxySnVWczMyZEtQX0MzWGFNQk83OWhp?oc=5",
+      "source": "www.ebn.co.kr",
+      "published_raw": "Fri, 23 Oct 2026 07:13:11 GMT",
+      "date": "2026-10-23",
+      "time": "16:13",
+      "matched_keywords": [
+        "수주"
+      ],
+      "news_score": 3,
+      "id": "d43619fcdcfd7164",
+      "ticker": "000210",
+      "company": "DL",
+      "sector": "",
+      "sources": [
+        "www.ebn.co.kr"
       ],
       "signal_keywords": [],
       "signal_major_article_count": {}
@@ -688,6 +1311,27 @@
       "signal_major_article_count": {}
     },
     {
+      "title": "산일전기 16만3800원…변압기 수주 이행 점검 - 잡포스트",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE0ybEVqTUJvSEE1VXZyVDlxMkxBT3hNM1ZUSlA3YWROLWVGR2M3Wk1MdmZjRHdGcWxoYU9ROTA4VFp5YlY3TmFIXzJkdlF0LXlraWFXUmN3UTMwVVZDaklkbDdqYk00bkFNRFdMM3R1ejVkZ9IBckFVX3lxTE0ybEVqTUJvSEE1VXZyVDlxMkxBT3hNM1ZUSlA3YWROLWVGR2M3Wk1MdmZjRHdGcWxoYU9ROTA4VFp5YlY3TmFIXzJkdlF0LXlraWFXUmN3UTMwVVZDaklkbDdqYk00bkFNRFdMM3R1ejVkZw?oc=5",
+      "source": "잡포스트",
+      "published_raw": "Fri, 23 Oct 2026 06:27:01 GMT",
+      "date": "2026-10-23",
+      "time": "15:27",
+      "matched_keywords": [
+        "수주"
+      ],
+      "news_score": 3,
+      "id": "a6ad0f6053066525",
+      "ticker": "062040",
+      "company": "산일전기",
+      "sector": "",
+      "sources": [
+        "잡포스트"
+      ],
+      "signal_keywords": [],
+      "signal_major_article_count": {}
+    },
+    {
       "title": "HD현대일렉트릭 46만6500원…전력기기 수주잔고 관심 - 잡포스트",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE4wUGFtci1HNUJSSGxuUmp0MFRkRU1WakhsWW9zQ0dyUm05cDdNaHE1N0ttaGNwR2p6Mm55SmxqaTE0V00zR3lhZmN5d3hKUmNNYmhsZXVHS2Roa2pyQUstNjZyd3RBV1UwY09zQVBPck55Z9IBckFVX3lxTE4wUGFtci1HNUJSSGxuUmp0MFRkRU1WakhsWW9zQ0dyUm05cDdNaHE1N0ttaGNwR2p6Mm55SmxqaTE0V00zR3lhZmN5d3hKUmNNYmhsZXVHS2Roa2pyQUstNjZyd3RBV1UwY09zQVBPck55Zw?oc=5",
       "source": "잡포스트",
@@ -709,43 +1353,43 @@
       "signal_major_article_count": {}
     },
     {
-      "title": "[단독] ‘듀피젠트 시밀러’ 힘주는 대웅제약, 고농축 SC 제형 비임상 연구 추진 - 한국아이닷컴",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAzU3FjTmtDTWtZejdjVlg3R2pud0p2UDBzWjhpN09wZ2lJTGY2ZldvZlowRnA2VzQyQUJGUlBmYmN1YkhfNG52cFJUWEd5OEpuZ1ByNFZSUWExcXl3bW9kV1lwYjJ0Wl8zTGdJ0gFvQVVfeXFMTkFQRUtSOWY0Y2VqMm1wS3pyRVV6bFlJM3FNU1RXaGVnSWVMaHpIbE1YZm1zZXlsM0VFeVJ6YTFYVDZyeGdJQnlvU0VqWTBwb04yTnRVeGNRRjUtZXFOVnVlRFBwcDVESUt1MnBNcUVz?oc=5",
-      "source": "한국아이닷컴",
-      "published_raw": "Fri, 23 Oct 2026 06:15:06 GMT",
+      "title": "[단독] ‘듀피젠트 시밀러’ 힘주는 대웅제약, 고농축 SC 제형 비임상 연구 추진 - 데일리한국",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9CWFI3OXM5QnZsWm9tbmZzMzZCQXpWMEdkYzNTbUxGU0k2UlBjM1NaYl90T2Z0V0toQ2FsR1d4dmlsR2FLQWowMkEycGJaVks1eDRrcEJYNVo4OVprNUtEYzBQUzMtNEVGY2p4LUp3NNIBc0FVX3lxTE9jRzFxdlVFNEZWYVVCR3JOdldlaTVhVkUybHFSc0NIWS1JZTVVUmdZUHlJNElrOUprQXF4YU5zQjBmakhDYjNaYVNGaXVsSzFWUTJpd3I5MllFY0hWZmo0MWRVYUJ5MDd2ek9FRVJBQ0dwaHM?oc=5",
+      "source": "데일리한국",
+      "published_raw": "Fri, 23 Oct 2026 06:12:53 GMT",
       "date": "2026-10-23",
-      "time": "15:15",
+      "time": "15:12",
       "matched_keywords": [
         "단독"
       ],
       "news_score": 2,
-      "id": "febbee2b3d3a49f6",
+      "id": "83270e1f1726a106",
       "ticker": "069620",
       "company": "대웅제약",
       "sector": "",
       "sources": [
-        "한국아이닷컴"
+        "데일리한국"
       ],
       "signal_keywords": [],
       "signal_major_article_count": {}
     },
     {
-      "title": "[단독] ‘듀피젠트 시밀러’ 힘주는 대웅제약, 고농축 SC 제형 비임상 연구 추진 - 한국아이닷컴",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAzU3FjTmtDTWtZejdjVlg3R2pud0p2UDBzWjhpN09wZ2lJTGY2ZldvZlowRnA2VzQyQUJGUlBmYmN1YkhfNG52cFJUWEd5OEpuZ1ByNFZSUWExcXl3bW9kV1lwYjJ0Wl8zTGdJ0gFvQVVfeXFMTkFQRUtSOWY0Y2VqMm1wS3pyRVV6bFlJM3FNU1RXaGVnSWVMaHpIbE1YZm1zZXlsM0VFeVJ6YTFYVDZyeGdJQnlvU0VqWTBwb04yTnRVeGNRRjUtZXFOVnVlRFBwcDVESUt1MnBNcUVz?oc=5",
-      "source": "한국아이닷컴",
-      "published_raw": "Fri, 23 Oct 2026 06:15:06 GMT",
+      "title": "[단독] ‘듀피젠트 시밀러’ 힘주는 대웅제약, 고농축 SC 제형 비임상 연구 추진 - 데일리한국",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9CWFI3OXM5QnZsWm9tbmZzMzZCQXpWMEdkYzNTbUxGU0k2UlBjM1NaYl90T2Z0V0toQ2FsR1d4dmlsR2FLQWowMkEycGJaVks1eDRrcEJYNVo4OVprNUtEYzBQUzMtNEVGY2p4LUp3NNIBc0FVX3lxTE9jRzFxdlVFNEZWYVVCR3JOdldlaTVhVkUybHFSc0NIWS1JZTVVUmdZUHlJNElrOUprQXF4YU5zQjBmakhDYjNaYVNGaXVsSzFWUTJpd3I5MllFY0hWZmo0MWRVYUJ5MDd2ek9FRVJBQ0dwaHM?oc=5",
+      "source": "데일리한국",
+      "published_raw": "Fri, 23 Oct 2026 06:12:53 GMT",
       "date": "2026-10-23",
-      "time": "15:15",
+      "time": "15:12",
       "matched_keywords": [
         "단독"
       ],
       "news_score": 2,
-      "id": "e17ad5497499ee25",
+      "id": "e91726c2c94bd88a",
       "ticker": "003090",
       "company": "대웅",
       "sector": "",
       "sources": [
-        "한국아이닷컴"
+        "데일리한국"
       ],
       "signal_keywords": [],
       "signal_major_article_count": {}
@@ -838,6 +1482,28 @@
       "sector": "",
       "sources": [
         "뉴스21 통신"
+      ],
+      "signal_keywords": [],
+      "signal_major_article_count": {}
+    },
+    {
+      "title": "DL이앤씨, 광명 하안주공9단지 재건축 단독 입찰…9309억원 수주하나 - 아주경제",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5TTWtkQ1RVRzNqNi1JU3ZqelpwVnE5Ujl5VmlZUThwamNWVWUtM3JwN25Ba1I1RXNQYmZYUUFLUlVuVEJtRzAzcl9jRi1TLWhTbG5DQ01SSU3SAVhBVV95cUxOU01rZENUVUczajYtSVN2anpacFZxOVI5eVZpWVE4cGpjVlVlLTNycDduQWtSNUVzUGJmWFFBS1JVblRCbUcwM3JfY0YtUy1oU2xuQ0NNUklN?oc=5",
+      "source": "아주경제",
+      "published_raw": "Fri, 23 Oct 2026 05:40:38 GMT",
+      "date": "2026-10-23",
+      "time": "14:40",
+      "matched_keywords": [
+        "단독",
+        "수주"
+      ],
+      "news_score": 5,
+      "id": "3baa26a562a8845f",
+      "ticker": "375500",
+      "company": "DL이앤씨",
+      "sector": "",
+      "sources": [
+        "아주경제"
       ],
       "signal_keywords": [],
       "signal_major_article_count": {}
@@ -1108,11 +1774,11 @@
         "단독"
       ],
       "signal_major_article_count": {
-        "단독": 8
+        "단독": 10
       }
     },
     {
-      "title": "LG디스플레이 3뷴가 흑자 전환 성공, 4분기 전망은 - 이코리아",
+      "title": "LG디스플레이 3분기 흑자 전환 성공, 4분기 전망은 - 이코리아",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5BSF9zOWpHRHVWbllZeHB0Um5zVXdoRW95QUhkU29seFA2ekpTUGJ4MkNoLTF2eEwwX0VzN1pkVVZsc2pDRC1QdzZzN3QxdlJsNk1tak56VGZaZGplS0FMaGI2OTBOQ0pZNklpUzJOSQ?oc=5",
       "source": "이코리아",
       "published_raw": "Fri, 23 Oct 2026 04:12:56 GMT",
@@ -1122,7 +1788,7 @@
         "흑자"
       ],
       "news_score": 4,
-      "id": "01e302f5113978e9",
+      "id": "d270624b9aa45867",
       "ticker": "003550",
       "company": "LG",
       "sector": "",
@@ -1137,7 +1803,7 @@
       }
     },
     {
-      "title": "LG디스플레이 3뷴가 흑자 전환 성공, 4분기 전망은 - 이코리아",
+      "title": "LG디스플레이 3분기 흑자 전환 성공, 4분기 전망은 - 이코리아",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5BSF9zOWpHRHVWbllZeHB0Um5zVXdoRW95QUhkU29seFA2ekpTUGJ4MkNoLTF2eEwwX0VzN1pkVVZsc2pDRC1QdzZzN3QxdlJsNk1tak56VGZaZGplS0FMaGI2OTBOQ0pZNklpUzJOSQ?oc=5",
       "source": "이코리아",
       "published_raw": "Fri, 23 Oct 2026 04:12:56 GMT",
@@ -1147,7 +1813,7 @@
         "흑자"
       ],
       "news_score": 4,
-      "id": "3638f10d575081f3",
+      "id": "ba0b7fdc3ebf1e30",
       "ticker": "034220",
       "company": "LG디스플레이",
       "sector": "",
@@ -1183,29 +1849,8 @@
       "signal_major_article_count": {}
     },
     {
-      "title": "2026.10.23.(금) 증권사리포트 \"산일전기 - 단기 실적보다 강한 수주\" - 네이버 프리미엄콘텐츠",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRmhvTDhMM0JjWl9jU0RqMkhmQzFUZjVzX05TcXNZUVhfM0oxMktIbm9hbEszT1EzYzkxRW1qQzhJdzI1Wk04U3dIMjduVDlyZ0ZKWFhZeFJjUW0yMFU5WGVZVG1ScDZWT3hNN2Y1Q1ZvTjA4bTU5N1huUXkyZXpOOWRB?oc=5",
-      "source": "네이버 프리미엄콘텐츠",
-      "published_raw": "Fri, 23 Oct 2026 03:31:14 GMT",
-      "date": "2026-10-23",
-      "time": "12:31",
-      "matched_keywords": [
-        "수주"
-      ],
-      "news_score": 3,
-      "id": "f4e3f33f9dca04cb",
-      "ticker": "062040",
-      "company": "산일전기",
-      "sector": "",
-      "sources": [
-        "네이버 프리미엄콘텐츠"
-      ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
-    },
-    {
       "title": "[단독]정용진號 직할 체제 강화…신세계그룹, 이마트 기획본부 통폐합 - 뉴시스",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5KZF81aVlMS3NMcE5wbWpvRjV3ZVNETTlsTTJTSXFYMkVybGk5T1ZFMW9EMDRZQzFnOXV2WW9ER2sxcXdXcE1jaEVmOW1hd3VRcEtvV0VxTE04NExjYVZGdNIBeEFVX3lxTE5JOVZDTTRib1R0N052dTNvMHhFS0JOY2sySm9wZnNKZm5pNk5nV2xJdFYtUTI0RmVRUnVPNVBJdzhqTWRlVmE0a2FnWlhUUER5bDlyZ01uM3BBaHpPN3BPckw4NFBNVUNXVFl1WTlRTlNsVXY3M0JKaQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5JOVZDTTRib1R0N052dTNvMHhFS0JOY2sySm9wZnNKZm5pNk5nV2xJdFYtUTI0RmVRUnVPNVBJdzhqTWRlVmE0a2FnWlhUUER5bDlyZ01uM3BBaHpPN3BPckw4NFBNVUNXVFl1WTlRTlNsVXY3M0JKadIBeEFVX3lxTE5JOVZDTTRib1R0N052dTNvMHhFS0JOY2sySm9wZnNKZm5pNk5nV2xJdFYtUTI0RmVRUnVPNVBJdzhqTWRlVmE0a2FnWlhUUER5bDlyZ01uM3BBaHpPN3BPckw4NFBNVUNXVFl1WTlRTlNsVXY3M0JKaQ?oc=5",
       "source": "뉴시스",
       "published_raw": "Fri, 23 Oct 2026 03:21:29 GMT",
       "date": "2026-10-23",
@@ -1214,7 +1859,7 @@
         "단독"
       ],
       "news_score": 2,
-      "id": "e7ca09b7bf9a6ba2",
+      "id": "e1ea0b0127fc7a13",
       "ticker": "004170",
       "company": "신세계",
       "sector": "",
@@ -1225,7 +1870,7 @@
         "단독"
       ],
       "signal_major_article_count": {
-        "단독": 8
+        "단독": 10
       }
     },
     {
@@ -1313,7 +1958,53 @@
         "단독"
       ],
       "signal_major_article_count": {
-        "단독": 8
+        "단독": 10
+      }
+    },
+    {
+      "title": "[단독] “간에 진짜 좋다더니”…셀트리온제약 ‘가네진’ 일부 제품 자진 회수 - 조선비즈 - Chosunbiz",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPOGtHdjdxM2g2d0taM09kNkVZZ3R2amw1THNSVnJNaHpKRFl1S3labHVkOG5FTC1hNkxFOS1QZEsyemJZTlN1WXJCNFlOVnJIZWduSURrZnlOY2dvdlJRaEZaalNiUVlISXZjaHMtZll0Szc4Q0I2bklzMllHdHk1N3R1Rk9hXzTSAZsBQVVfeXFMTVdpVEhrTkFyNXU1V2xHSUJobmFjRnYwbEFQejItXzJVaC0tUWtjaXJkcHpOWThlUWlWNl9pNGVVQW13R1llQk5HelhSdU5vU0tBMVNFeEJoSUNOdDhUd0FoRWgwaWh0VUNNX2Z4OUlGN042ZGY4NlVwOU9rdGZZOXFpRnplVTF6bmxFMzlYN01BSDFGVElFYWotWmM?oc=5",
+      "source": "Chosunbiz",
+      "published_raw": "Fri, 23 Oct 2026 02:40:00 GMT",
+      "date": "2026-10-23",
+      "time": "11:40",
+      "matched_keywords": [
+        "단독"
+      ],
+      "news_score": 2,
+      "id": "87ee8448ea544284",
+      "ticker": "068270",
+      "company": "셀트리온",
+      "sector": "",
+      "sources": [
+        "Chosunbiz"
+      ],
+      "signal_keywords": [],
+      "signal_major_article_count": {}
+    },
+    {
+      "title": "현대차, 인니 전기버스 시장 넓힌다…‘카운티 일렉트릭’ 발리 진출 - 디지틀조선TV",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQdVVNc09ZR05pcUJ6bXZuNm5vZlNjeDc3STBvQVY5dVcyaC1VTUZYRmFobE9PQm5aSTF2cjFKNnZiV1JhaEpfTDE0U0lXVGNzNFJQSnJWdFRmTnhvUHhvaTctUE9manhzNHVkMXRuODU4ZGlXbWFWX2puX0lWU1dLWjFqLW0zQQ?oc=5",
+      "source": "디지틀조선TV",
+      "published_raw": "Fri, 23 Oct 2026 02:38:00 GMT",
+      "date": "2026-10-23",
+      "time": "11:38",
+      "matched_keywords": [
+        "진출"
+      ],
+      "news_score": 2,
+      "id": "12b8e4a3b9182067",
+      "ticker": "005380",
+      "company": "현대차",
+      "sector": "",
+      "sources": [
+        "디지틀조선TV"
+      ],
+      "signal_keywords": [
+        "진출"
+      ],
+      "signal_major_article_count": {
+        "진출": 4
       }
     },
     {
@@ -1338,7 +2029,7 @@
         "단독"
       ],
       "signal_major_article_count": {
-        "단독": 8
+        "단독": 10
       }
     },
     {
@@ -1359,12 +2050,16 @@
       "sources": [
         "이코노미트리뷴"
       ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
+      "signal_keywords": [
+        "단독"
+      ],
+      "signal_major_article_count": {
+        "단독": 3
+      }
     },
     {
       "title": "[오늘 이 종목] 수주·주주환원 확대 삼성E&A·AI 데이터센터 확장 SGC에너지 ‘주목’ - 머니투데이 - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5VRFU4dUROMjZjcDdUYWdraEQyMEkyN3haTm1jSlRod0xLdURGY1NYckVJWjdHdUE0Z1dGRGZucUZ6cTNFRTI1X0xHYmZhUllrdGJqNms1X3d0bWdDdHBzTUhiaktiZWMw0gFuQVVfeXFMTmRTVlhxX0F2TEh1aS1uNi1LZGpxcjl5eTk4UWcxRS0wN2JzY2RNRmN6c3lFOVZkZl85TmpuRndjaTEyV1p0MUFDQTRyeVhFeVhsOTU2ZG56aU1WVmMtV2pBWFktazhwMkRpZnlCR0E?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5kU1ZYcV9BdkxIdWktbjYtS2RqcXI5eXk5OFFnMUUtMDdic2NkTUZjenN5RTlWZGZfOU5qbkZ3Y2kxMldadDFBQ0E0cnlYRXlYbDk1NmRuemlNVlZjLVdqQVhZLWs4cDJEaWZ5QkdB0gFuQVVfeXFMTmRTVlhxX0F2TEh1aS1uNi1LZGpxcjl5eTk4UWcxRS0wN2JzY2RNRmN6c3lFOVZkZl85TmpuRndjaTEyV1p0MUFDQTRyeVhFeVhsOTU2ZG56aU1WVmMtV2pBWFktazhwMkRpZnlCR0E?oc=5",
       "source": "머니투데이",
       "published_raw": "Fri, 23 Oct 2026 02:25:57 GMT",
       "date": "2026-10-23",
@@ -1373,12 +2068,37 @@
         "수주"
       ],
       "news_score": 3,
-      "id": "91abc238ee18a775",
+      "id": "b7e52d50952ca7f3",
       "ticker": "028050",
       "company": "삼성E&A",
       "sector": "",
       "sources": [
         "머니투데이"
+      ],
+      "signal_keywords": [
+        "수주"
+      ],
+      "signal_major_article_count": {
+        "수주": 8
+      }
+    },
+    {
+      "title": "[오늘 이 종목] 수주·주주환원 확대 삼성E&A·AI 데이터센터 확장 SGC에너지 ‘주목’ · 주요 내용은? - https://spt.co.kr/",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBpXy1RenZWZEsxeXd6MWdMblc3S0RmSF9GaU5JT2c1QkpxYWhsU2lKUk9kVUFObHByRUI0ZXBoc21Dczl6NjJ6UUlPdy1ycmQ3WkpCc1EycHc2c0VE?oc=5",
+      "source": "https://spt.co.kr/",
+      "published_raw": "Fri, 23 Oct 2026 02:25:57 GMT",
+      "date": "2026-10-23",
+      "time": "11:25",
+      "matched_keywords": [
+        "수주"
+      ],
+      "news_score": 3,
+      "id": "4e874a0efd84f613",
+      "ticker": "028050",
+      "company": "삼성E&A",
+      "sector": "",
+      "sources": [
+        "https://spt.co.kr/"
       ],
       "signal_keywords": [
         "수주"
@@ -1428,6 +2148,31 @@
       ],
       "signal_keywords": [],
       "signal_major_article_count": {}
+    },
+    {
+      "title": "CJ대한통운 건설부문, KT클라우드 안산 공사 수주···데이터센터 사업 확장 - 대한전문건설신문",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1LWHJRQzlyZkpYVVFrdThYSHhKTVpQSWFXRGJxVC1jUTVnNm9xTTlUVFNSS0RuN0dDaUpiaDV1QUg3TU1Rc2hyYkdwWmJrWEUxWDk0eGRFMEd4NFk0OEZyZk5oR251QWIxa0NURdIBbEFVX3lxTE1LWHJRQzlyZkpYVVFrdThYSHhKTVpQSWFXRGJxVC1jUTVnNm9xTTlUVFNSS0RuN0dDaUpiaDV1QUg3TU1Rc2hyYkdwWmJrWEUxWDk0eGRFMEd4NFk0OEZyZk5oR251QWIxa0NURQ?oc=5",
+      "source": "대한전문건설신문",
+      "published_raw": "Fri, 23 Oct 2026 02:18:46 GMT",
+      "date": "2026-10-23",
+      "time": "11:18",
+      "matched_keywords": [
+        "수주"
+      ],
+      "news_score": 3,
+      "id": "5d33518d1acfec2e",
+      "ticker": "000120",
+      "company": "CJ대한통운",
+      "sector": "",
+      "sources": [
+        "대한전문건설신문"
+      ],
+      "signal_keywords": [
+        "수주"
+      ],
+      "signal_major_article_count": {
+        "수주": 5
+      }
     },
     {
       "title": "[단독] 공정위, CJ프레시웨이 현장조사…“식자재 입찰 담합 의혹” - KBS 뉴스",
@@ -1652,8 +2397,12 @@
       "sources": [
         "한국경제"
       ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
+      "signal_keywords": [
+        "단독"
+      ],
+      "signal_major_article_count": {
+        "단독": 3
+      }
     },
     {
       "title": "[단독] LG, 현대차 '로봇 사업 수장' 전격 영입…피지컬 AI 인재 쟁탈전 - 한국경제",
@@ -1719,7 +2468,53 @@
         "단독"
       ],
       "signal_major_article_count": {
-        "단독": 8
+        "단독": 10
+      }
+    },
+    {
+      "title": "[단독]체코 원전 리스크 관리 계획 늑장 수립…기술 유출 위험은 3→1등급 - 뉴시스",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA2V2VtSWk2SGpXMnI0d2NaVVh1TWRhdHU0MDRyVG1yNnBvMmQ3bk12ZHlmOGNCUHNtYVFaMUI2di10SlNYSmRyVHZ0VG4xVERiVEhrWTk5TEdJRE10T0JVWdIBeEFVX3lxTE1YdXlmVmxFV0dLbGEzeGZhbU0zeS1ZdWNoUjkyRDQ0NnVoeTBOZGxfUDNOdW50am50TmRLZEJlWE5qR0JrcXJIZlFuTFZiYm82ajZLeVhkdDhzek43bWp4bVNBd0RzTEE0QW5mdnpIOTRoVlpnNGNqZQ?oc=5",
+      "source": "뉴시스",
+      "published_raw": "Fri, 23 Oct 2026 01:39:10 GMT",
+      "date": "2026-10-23",
+      "time": "10:39",
+      "matched_keywords": [
+        "단독"
+      ],
+      "news_score": 2,
+      "id": "9e333dd1eee250bb",
+      "ticker": "052690",
+      "company": "한전기술",
+      "sector": "",
+      "sources": [
+        "뉴시스"
+      ],
+      "signal_keywords": [],
+      "signal_major_article_count": {}
+    },
+    {
+      "title": "삼성바이오로직스 주가 장중 4%대 올라, '파업 우려 완화·수주 기대'에 강세 - 비즈니스포스트",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1BNVdCeEJfWGFyN3Njd05kaGtBTU45eUkyRnVVdlRfeTZneWtFcE9WbTZ2dURoSUlaWkVuSjlaMFdVYU56MmJoNzFhUjl5R21rVXBpTU1nbDBnYjZKbHZIYUV0OTI4ZlJkbWkxQ29NMGJuWVE?oc=5",
+      "source": "비즈니스포스트",
+      "published_raw": "Fri, 23 Oct 2026 01:24:34 GMT",
+      "date": "2026-10-23",
+      "time": "10:24",
+      "matched_keywords": [
+        "수주"
+      ],
+      "news_score": 3,
+      "id": "b71cd02574c538c7",
+      "ticker": "207940",
+      "company": "삼성바이오로직스",
+      "sector": "",
+      "sources": [
+        "비즈니스포스트"
+      ],
+      "signal_keywords": [
+        "수주"
+      ],
+      "signal_major_article_count": {
+        "수주": 6
       }
     },
     {
@@ -1785,6 +2580,27 @@
       "sector": "",
       "sources": [
         "뉴스핌"
+      ],
+      "signal_keywords": [],
+      "signal_major_article_count": {}
+    },
+    {
+      "title": "[단독] HD현대重 노조, 임단협 협상서 이주노동자 요구안 추가 제시한다 - 헤럴드경제",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBUcVUwblBrb2JhUlNlR2tlNFNFSzVWZnpJRFZRMW9uLUF1TWpFR3VFZHIyazNabEhLSE44ZGNSNUNwTmdhVFg2bW84aE5lY1BZQnJKZENR?oc=5",
+      "source": "헤럴드경제",
+      "published_raw": "Fri, 23 Oct 2026 01:00:01 GMT",
+      "date": "2026-10-23",
+      "time": "10:00",
+      "matched_keywords": [
+        "단독"
+      ],
+      "news_score": 2,
+      "id": "5558eb4a878250d9",
+      "ticker": "329180",
+      "company": "HD현대중공업",
+      "sector": "",
+      "sources": [
+        "헤럴드경제"
       ],
       "signal_keywords": [],
       "signal_major_article_count": {}
@@ -1922,6 +2738,28 @@
       "signal_major_article_count": {
         "진출": 4
       }
+    },
+    {
+      "title": "DL이앤씨, 광명 하안주공9단지 재건축 수주전 단독 참여 - 포인트데일리",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBhQUlzSElCQnZJUkFuc0VxOTA2b181ZDFfZGowZUMxWXVRRWp4Y0VPMi1VUHVTSkxxV0kzdjJHV3c3UmZkM3VtRU5UUXUxRWJDazROYWFmVXBIbFh1eTJRQWxiWngxSWFPbzJsaTRUOGvSAXRBVV95cUxPNzlJMm1XWWplS245dEV0aHBTRUtGWk9Kc3B1aWVuZU9VUHRLdW1oX0g2S2xBN3Q5ZDJIdXRKNGFZd3F0MzFkQVo0U0VLLXdyTGQteEttTThkcjlnTmFoWmVFbWxuRFNhOVR4dVJ5VVdneVVIVg?oc=5",
+      "source": "포인트데일리",
+      "published_raw": "Fri, 23 Oct 2026 00:53:02 GMT",
+      "date": "2026-10-23",
+      "time": "09:53",
+      "matched_keywords": [
+        "단독",
+        "수주"
+      ],
+      "news_score": 5,
+      "id": "c9db60ef8591eec3",
+      "ticker": "375500",
+      "company": "DL이앤씨",
+      "sector": "",
+      "sources": [
+        "포인트데일리"
+      ],
+      "signal_keywords": [],
+      "signal_major_article_count": {}
     },
     {
       "title": "DL이앤씨, 광명 하안주공9단지 재건축 수주전 단독 참여 - 포인트데일리",
@@ -2302,6 +3140,27 @@
       }
     },
     {
+      "title": "[삼성물산 건설 인사 전망] 오세철 내년 임기 만료… 주택 수주·SMR 사업 확대 - 뉴스클레임",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1VdnZWeHNXeGtJMkVTNVlSemRfY3RRejNGc2lzaUJURzFxeUhDcWZiN0FMM0NCZWlwNkJUNlU2cy15TFhCREoxVm95dGstLUkyUXRXR3l2ZU1KSDJWbUdrM1E2MkoyZjRoQUF3ZWlocmvSAXRBVV95cUxOSW5FdDctQU13OGdPcTlqOTN0bFNTNGlzREx4Q3RTaDlRMHg0WV96QVFMVDZaenNnelJUbkxBYXh4bURnd0lNUmh4M1pjSmk0OUNkMUxoN3owTjdTNDJjQmRRNEpiRWI3a3NCOXJYb3VybVBqcA?oc=5",
+      "source": "뉴스클레임",
+      "published_raw": "Thu, 22 Oct 2026 23:48:00 GMT",
+      "date": "2026-10-23",
+      "time": "08:48",
+      "matched_keywords": [
+        "수주"
+      ],
+      "news_score": 3,
+      "id": "81e85323ae5152a0",
+      "ticker": "028260",
+      "company": "삼성물산",
+      "sector": "",
+      "sources": [
+        "뉴스클레임"
+      ],
+      "signal_keywords": [],
+      "signal_major_article_count": {}
+    },
+    {
       "title": "“셀트리온 목표가 29만원으로 상향…옴리클로 日진출 기대” [Why 바이오] - 서울경제",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA1ZVh3SkZZUXJPd1FFdThla1lBRG5lT0NXdTRvZGRPenJWUjZlS0ZxUWQ1V281YUdvTllpb09pQWNSdXNfOEs3UVdNdHl3Yy1qR0HSAVNBVV95cUxQUF9sTWpwendYRWd4OFRycmxTX19OVGc2cEhvcFVCbFBxSlJRNDJ0VnRhYXUtbFdmdlZmZlA2VURpYi1Pek5UMFpKdjN3X21BT2pZWQ?oc=5",
       "source": "서울경제",
@@ -2461,7 +3320,7 @@
         "수주"
       ],
       "signal_major_article_count": {
-        "수주": 4
+        "수주": 6
       }
     },
     {
@@ -2532,7 +3391,7 @@
         "수주"
       ],
       "signal_major_article_count": {
-        "수주": 4
+        "수주": 3
       }
     },
     {
@@ -2582,7 +3441,7 @@
         "수주"
       ],
       "signal_major_article_count": {
-        "수주": 6
+        "수주": 5
       }
     },
     {
@@ -2950,8 +3809,12 @@
       "sources": [
         "소비자가 만드는 신문"
       ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
+      "signal_keywords": [
+        "단독"
+      ],
+      "signal_major_article_count": {
+        "단독": 3
+      }
     },
     {
       "title": "삼성E&A, 연간 매출 11조·수주 19조로 전망 상향 - 비건뉴스",
@@ -3027,27 +3890,6 @@
       "signal_major_article_count": {
         "흑자": 6
       }
-    },
-    {
-      "title": "[단독] “간에 진짜 좋다더니”…셀트리온제약 ‘가네진’ 일부 제품 자진 회수 - 조선비즈 - Chosunbiz",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPOGtHdjdxM2g2d0taM09kNkVZZ3R2amw1THNSVnJNaHpKRFl1S3labHVkOG5FTC1hNkxFOS1QZEsyemJZTlN1WXJCNFlOVnJIZWduSURrZnlOY2dvdlJRaEZaalNiUVlISXZjaHMtZll0Szc4Q0I2bklzMllHdHk1N3R1Rk9hXzTSAZsBQVVfeXFMTVdpVEhrTkFyNXU1V2xHSUJobmFjRnYwbEFQejItXzJVaC0tUWtjaXJkcHpOWThlUWlWNl9pNGVVQW13R1llQk5HelhSdU5vU0tBMVNFeEJoSUNOdDhUd0FoRWgwaWh0VUNNX2Z4OUlGN042ZGY4NlVwOU9rdGZZOXFpRnplVTF6bmxFMzlYN01BSDFGVElFYWotWmM?oc=5",
-      "source": "Chosunbiz",
-      "published_raw": "Thu, 22 Oct 2026 21:04:42 GMT",
-      "date": "2026-10-23",
-      "time": "06:04",
-      "matched_keywords": [
-        "단독"
-      ],
-      "news_score": 2,
-      "id": "87ee8448ea544284",
-      "ticker": "068270",
-      "company": "셀트리온",
-      "sector": "",
-      "sources": [
-        "Chosunbiz"
-      ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
     },
     {
       "title": "(영풍의 오염 경영)①(단독)유해물질 배출 석포제련소…106일 동안 TMS 고장 - 뉴스토마토",
@@ -3194,31 +4036,6 @@
         "흑자"
       ],
       "news_score": 4,
-      "id": "8b30f7cbff4e978e",
-      "ticker": "003550",
-      "company": "LG",
-      "sector": "",
-      "sources": [
-        "더글로벌기빙뉴스"
-      ],
-      "signal_keywords": [
-        "흑자"
-      ],
-      "signal_major_article_count": {
-        "흑자": 6
-      }
-    },
-    {
-      "title": "LG디스플레이, 3분기 영업익 2506억원…한 분기 만에 흑자전환 - 더글로벌기빙뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9uMFEwUzlLS0Y3M3hkV1BiLW9TMkpiYXhMMG1XckR3MWVZcWRrZHNIN0RBaUJTR0VBRnJ2ZTlfbVBORUJrOW9Ga1FBVzRSMldqaTJUYg?oc=5",
-      "source": "더글로벌기빙뉴스",
-      "published_raw": "Thu, 22 Oct 2026 14:41:00 GMT",
-      "date": "2026-10-22",
-      "time": "23:41",
-      "matched_keywords": [
-        "흑자"
-      ],
-      "news_score": 4,
       "id": "d2baa90174a43ea3",
       "ticker": "034220",
       "company": "LG디스플레이",
@@ -3269,27 +4086,6 @@
         "진출"
       ],
       "news_score": 2,
-      "id": "20b25c7d387e7581",
-      "ticker": "009540",
-      "company": "HD한국조선해양",
-      "sector": "",
-      "sources": [
-        "www.ebn.co.kr"
-      ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
-    },
-    {
-      "title": "HD현대, 美 조선업 진출 속도...키윗과 합작법인 설립 추진 - www.ebn.co.kr",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE56SXYzNjZUR1V6Y3FVUDZJVEo1TkhBRlgtTy1xY21KNkE5dTBxT0cxOUdmZDZJSmx0YkduV29yVk1YaWVSUlQxQmtEbzlnVFdpMmhpMEJ4b1RtcG1XcnN0Q2VnbnZPckpl?oc=5",
-      "source": "www.ebn.co.kr",
-      "published_raw": "Thu, 22 Oct 2026 12:27:29 GMT",
-      "date": "2026-10-22",
-      "time": "21:27",
-      "matched_keywords": [
-        "진출"
-      ],
-      "news_score": 2,
       "id": "9b54f3e2ebb984be",
       "ticker": "267250",
       "company": "HD현대",
@@ -3299,31 +4095,6 @@
       ],
       "signal_keywords": [],
       "signal_major_article_count": {}
-    },
-    {
-      "title": "창원시·영풍전자, 글로벌 드론시장 진출 맞손 - 이뉴스투데이",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9lTnVjQWY0ck9HZlJSR3RIckRSN2FDa0RPcmp1cVBVZHZxNDc1aUpQc1Vad1ZxYVhtZnRvOGdSYUxLdkZ4NG9kZ09SeVNES09VR01EbW1wenBJcWEzeTQzX0JqXy1DdE1sTjdKbjdxeGdxaGw10gF0QVVfeXFMT2VOdWNBZjRyT0dmUlJHdEhyRFI3YUNrRE9yanVxUFVkdnE0NzVpSlBzVVp3VnFhWG1mdG84Z1JhTEt2Rng0b2RnT1J5U0RLT1VHTURtbXB6cElxYTN5NDNfQmpfLUN0TWxON0puN3F4Z3FobDU?oc=5",
-      "source": "이뉴스투데이",
-      "published_raw": "Thu, 22 Oct 2026 12:24:39 GMT",
-      "date": "2026-10-22",
-      "time": "21:24",
-      "matched_keywords": [
-        "진출"
-      ],
-      "news_score": 2,
-      "id": "43d6c857e5d7aa43",
-      "ticker": "000670",
-      "company": "영풍",
-      "sector": "",
-      "sources": [
-        "이뉴스투데이"
-      ],
-      "signal_keywords": [
-        "진출"
-      ],
-      "signal_major_article_count": {
-        "진출": 5
-      }
     },
     {
       "title": "대한항공·한국전력, KOVO컵 남자부 준결승 진출 - 스페셜타임스",
@@ -3345,6 +4116,31 @@
       ],
       "signal_keywords": [],
       "signal_major_article_count": {}
+    },
+    {
+      "title": "대한항공·한국전력, KOVO컵 남자부 준결승 진출 - 스페셜타임스",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFB5TV90S1drX1NMX3pCYy1NQ3JvRUNmeWd3NkRsR3o1WXB3ODlOZlZzS1hiNW5lSndXQnAtTFJLUVhhbVA2eFpxdGJiR0xBMnQ4eDdENjE0ZkRBMzJuU0VyN0NoaGdxT0VUU3VPM3ZEWXdaZw?oc=5",
+      "source": "스페셜타임스",
+      "published_raw": "Thu, 22 Oct 2026 11:43:57 GMT",
+      "date": "2026-10-22",
+      "time": "20:43",
+      "matched_keywords": [
+        "진출"
+      ],
+      "news_score": 2,
+      "id": "c5a0563928f7c84f",
+      "ticker": "003490",
+      "company": "대한항공",
+      "sector": "",
+      "sources": [
+        "스페셜타임스"
+      ],
+      "signal_keywords": [
+        "진출"
+      ],
+      "signal_major_article_count": {
+        "진출": 5
+      }
     },
     {
       "title": "‘비나텍’의 대형 수주 공시 - 네이버 프리미엄콘텐츠",
@@ -3389,7 +4185,32 @@
         "단독"
       ],
       "signal_major_article_count": {
-        "단독": 8
+        "단독": 10
+      }
+    },
+    {
+      "title": "[단독] 신세계, 경영전략실장 안 뽑는다…정용진 '직접 책임경영' 강화 - 뉴스1",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5pMEVJUnc1SG5RX3BxVE5oaTd1VGFlZ2NqcmFFS3RWbDJBZV9hWTVTbGk3Q3pROVEtOGh6ME41UHJhbVdqTEFHSV9GZDVUX09JMkgwTk04bXFMVkhRYmJr?oc=5",
+      "source": "뉴스1",
+      "published_raw": "Thu, 22 Oct 2026 10:25:20 GMT",
+      "date": "2026-10-22",
+      "time": "19:25",
+      "matched_keywords": [
+        "단독"
+      ],
+      "news_score": 2,
+      "id": "60233d86bf994828",
+      "ticker": "004170",
+      "company": "신세계",
+      "sector": "",
+      "sources": [
+        "뉴스1"
+      ],
+      "signal_keywords": [
+        "단독"
+      ],
+      "signal_major_article_count": {
+        "단독": 10
       }
     },
     {
@@ -3565,31 +4386,6 @@
       }
     },
     {
-      "title": "CJ대한통운 건설부문, 3150억원 규모 AI 데이터센터 수주 - 이지경제",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAwb2d0T2txVy1fQkEzdWJ4ZzZRRnhxdjNDVjF4THVxQUNkSmQ1S21Gd0xGbnRZMFlxNnJSRjRBZF9MTE5aQlowMzVnSjAzeXY2N0lnakxneVJxWHcyY3BOV2hjOHF5YkVzWnRPR3RB?oc=5",
-      "source": "이지경제",
-      "published_raw": "Thu, 22 Oct 2026 09:12:24 GMT",
-      "date": "2026-10-22",
-      "time": "18:12",
-      "matched_keywords": [
-        "수주"
-      ],
-      "news_score": 3,
-      "id": "a45b1924323529d6",
-      "ticker": "000120",
-      "company": "CJ대한통운",
-      "sector": "",
-      "sources": [
-        "이지경제"
-      ],
-      "signal_keywords": [
-        "수주"
-      ],
-      "signal_major_article_count": {
-        "수주": 6
-      }
-    },
-    {
       "title": "칠러 생산라인이 모자라...LG전자, 냉각 수주가 증설 속도보다 빠르다 - 아주경제",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1kNThLTHl3RTNvUXo2TlhuOUROSlRoVVpMOHVEcmozTjBOaGJJTDg1eHNCZ3VXc25welF2ZW1LT2xrRmFDby1UclRWZjl1eEJaRVZ1aTA5RFdhZ9IBWEFVX3lxTE91ZmtyZVlRNzdQeXA0NTB0ZjhfZFdJSXprUEwwTUJJVWdzV2ZabmxGRkJmVFFhRW9UVHlORGZEV09ZSzN1RkRuUk4yYnZETVpWLUlURVJ0WGY?oc=5",
       "source": "아주경제",
@@ -3671,31 +4467,6 @@
         "수주"
       ],
       "news_score": 3,
-      "id": "e04c998576021e56",
-      "ticker": "001040",
-      "company": "CJ",
-      "sector": "",
-      "sources": [
-        "한국금융경제신문"
-      ],
-      "signal_keywords": [
-        "수주"
-      ],
-      "signal_major_article_count": {
-        "수주": 7
-      }
-    },
-    {
-      "title": "CJ대한통운, KT클라우드 안산 AIDC 공사 수주 - 한국금융경제신문",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE90WnVQN2UtWUdNY0xGay1MdHFkQUxfUmhDTUQxVzJUWEx5dXVZSGNxR2VPZEVIaVhRb2MwN0EzZ1hXMmQxOHM1Q0VjZ2FtYXZwVTJ0czUwbV8xRkI2WlltQjM3NDhhcy1NWVJBRNIBcEFVX3lxTE1ncDNZOUVLS3BzNG1tbDU3RDZKbE0yb1hkWHo2czVTby16TGlRbW5MZkg0d3B4a2J2b0JsSHNuVWs2OURjRmlfU2lFaUdwVi1iTTRoclVyendfT3N3WHNlMzh0MUJoX29sMFBsV0JGYjI?oc=5",
-      "source": "한국금융경제신문",
-      "published_raw": "Thu, 22 Oct 2026 08:56:48 GMT",
-      "date": "2026-10-22",
-      "time": "17:56",
-      "matched_keywords": [
-        "수주"
-      ],
-      "news_score": 3,
       "id": "749410cffe3bb15b",
       "ticker": "000120",
       "company": "CJ대한통운",
@@ -3707,7 +4478,7 @@
         "수주"
       ],
       "signal_major_article_count": {
-        "수주": 6
+        "수주": 5
       }
     },
     {
@@ -3970,32 +4741,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 5
-      }
-    },
-    {
-      "title": "CJ대한통운 건설부문, 안산 50MW급 AI데이터센터 공사 수주 - 뉴스토마토",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAzbHliYmc2RjFiZmFYSXBib3lxRUVwQ0V1REFsWWpkSWRYMTdMNmdrU1hUb25wN2ZheWNsaWJkbUJENllreVJGM1RGVTJEX3pZQkNiaU9iQ0l0am9QakZTUQ?oc=5",
-      "source": "뉴스토마토",
-      "published_raw": "Thu, 22 Oct 2026 08:13:29 GMT",
-      "date": "2026-10-22",
-      "time": "17:13",
-      "matched_keywords": [
-        "수주"
-      ],
-      "news_score": 3,
-      "id": "7a4a12e4de9ebdc9",
-      "ticker": "001040",
-      "company": "CJ",
-      "sector": "",
-      "sources": [
-        "뉴스토마토"
-      ],
-      "signal_keywords": [
-        "수주"
-      ],
-      "signal_major_article_count": {
-        "수주": 7
+        "진출": 4
       }
     },
     {
@@ -4020,33 +4766,29 @@
         "수주"
       ],
       "signal_major_article_count": {
-        "수주": 6
+        "수주": 5
       }
     },
     {
-      "title": "LIG디펜스앤에어로스페이스 47만7000원…수주 이행 주목 - 잡포스트",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBJMW1BQkVTM296dV83UWNwS3FSakFEZmpBQkpFakozbVozRVJHOTYwb3lzNnNMS3JYdFppYUxGeENGY3RHNkZETlV4RmdMSV9LcWRQc1I1N2RJLWxnLXRUZlFUNnZMVnhlRl9VU0NpTU41d9IBckFVX3lxTFBJMW1BQkVTM296dV83UWNwS3FSakFEZmpBQkpFakozbVozRVJHOTYwb3lzNnNMS3JYdFppYUxGeENGY3RHNkZETlV4RmdMSV9LcWRQc1I1N2RJLWxnLXRUZlFUNnZMVnhlRl9VU0NpTU41dw?oc=5",
+      "title": "효성중공업 190만5000원…전력기기 수주 이행 관심 - 잡포스트",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE96WVdzeUxTY1RBdENsT1lwVzdTQTlxZFctTUpIWGVEZjFpdmZfbE5KUUZMVV9CaHAyeVd3eXlDVGJDY3IweHpGR1ZkQm94b29LVUlnV09FMmlOeGtrRGxtM0hYcnpJRnVEM0RfN0swZnBUZ9IBckFVX3lxTE96WVdzeUxTY1RBdENsT1lwVzdTQTlxZFctTUpIWGVEZjFpdmZfbE5KUUZMVV9CaHAyeVd3eXlDVGJDY3IweHpGR1ZkQm94b29LVUlnV09FMmlOeGtrRGxtM0hYcnpJRnVEM0RfN0swZnBUZw?oc=5",
       "source": "잡포스트",
-      "published_raw": "Thu, 22 Oct 2026 08:00:21 GMT",
+      "published_raw": "Thu, 22 Oct 2026 08:03:57 GMT",
       "date": "2026-10-22",
-      "time": "17:00",
+      "time": "17:03",
       "matched_keywords": [
         "수주"
       ],
       "news_score": 3,
-      "id": "f052b7698f3fbc85",
-      "ticker": "079550",
-      "company": "LIG디펜스앤에어로스페이스",
+      "id": "f8ed189f1655db36",
+      "ticker": "298040",
+      "company": "효성중공업",
       "sector": "",
       "sources": [
         "잡포스트"
       ],
-      "signal_keywords": [
-        "수주"
-      ],
-      "signal_major_article_count": {
-        "수주": 3
-      }
+      "signal_keywords": [],
+      "signal_major_article_count": {}
     },
     {
       "title": "아이스바나나, 이마트 와우샵 국내 단독 입점… 좋은 품질에 합리적 가격으로 가성비 뷰티 시장 공략 - 소셜밸류",
@@ -4070,6 +4812,31 @@
       "signal_major_article_count": {}
     },
     {
+      "title": "JB금융, 키르기스스탄 금융사 2곳 인수…중앙아시아 첫 진출 - 화이트페이퍼",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9fUDItS2gwdVhVdkdmSmI2YlMzcVBCaUg4VVg0SG1mVk1WU0NtMFhVWGo3SXB6N09oZzNjOEdzelFKTHBJM1lpVW1UN2laLW13Qm1jNmxVX0VZYXplMTVIb25MX04zVTJlRnJNbW8waTHSAXNBVV95cUxQTk1ZTDZqVkJrel9tQlpRWU9sRVRJdVZuQ0R5TklMOXF4azU1aVJnZHlyWGtweW55OVh5d3p4ZWlKSzR2bUVsTjVtdURfTFlmQmlJc21OajQxTWpTbDRmNjR4NUgtWjZXUVhNNkZndFZGZUpN?oc=5",
+      "source": "화이트페이퍼",
+      "published_raw": "Thu, 22 Oct 2026 07:52:20 GMT",
+      "date": "2026-10-22",
+      "time": "16:52",
+      "matched_keywords": [
+        "진출"
+      ],
+      "news_score": 2,
+      "id": "3526a0d645758176",
+      "ticker": "175330",
+      "company": "JB금융지주",
+      "sector": "",
+      "sources": [
+        "화이트페이퍼"
+      ],
+      "signal_keywords": [
+        "진출"
+      ],
+      "signal_major_article_count": {
+        "진출": 3
+      }
+    },
+    {
       "title": "“비만치료제 잡고 노사 리스크 털었다…삼성바이오로직스, 연말 ‘수주 폭풍’ 예고” - 뉴스퀘스트",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9PaUlWNWMyWWVsRUhiWDlzLURiZEUxQll4bGNrc3BYSUxXSERjVmtrTGN4bEx1RV9rcnBvRXVvOUx6Vk9wTVFLV0NYeWpXRXdoWVlJbHpvQ0RfaG4yVktna3cyV2xSeE9rQUZMNE9yaw?oc=5",
       "source": "뉴스퀘스트",
@@ -4091,26 +4858,26 @@
         "수주"
       ],
       "signal_major_article_count": {
-        "수주": 4
+        "수주": 6
       }
     },
     {
-      "title": "HD현대, 정기선 회장 취임 1주년…데이터센터 전력 시장 진출 확대 - 라이센스뉴스",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1hLWI1czIyaUI0d2Z5U29DMUVfTEJtQ3loN0ZQTGM2djdDRjdOaDY4dEY2cWdpZTJmOHh3dDJiSDRDS21HYndQTG1QY0t0U3ROellrU0c0MWFKUXVIWFhKTXVEU0JDQkpMN1h3?oc=5",
-      "source": "라이센스뉴스",
-      "published_raw": "Thu, 22 Oct 2026 07:51:17 GMT",
+      "title": "LS ELECTRIC 15만9700원…전력기기 수주 이행이 관건 - 잡포스트",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE13aUhaNEZpOFV2U1JPMk9UdXlHZFpCUTltY1FXVm4zbGozd3IwTnNoUDBRRkQxSWxONVVQclZFMFN0NFFYQzZ5Q0RfUlhzYUdLU08zQTktR1MwOTY1UkdVSGkzRThkdFIyRUVfd3RR0gFyQVVfeXFMUFdtb3J3MDhZdC1kOFF0R2RyczZFS2xuSmN5R3dwNld4OEh0R2o5Q0luSWNveEdHdUVTc0RTb3ZocUROd1F3b0RuYzdEOHU0OUhDRWxGVlZ3Mk9GUDZrdjA2ZEhOcG9JdUg0VG5XczJEdzVR?oc=5",
+      "source": "잡포스트",
+      "published_raw": "Thu, 22 Oct 2026 07:51:51 GMT",
       "date": "2026-10-22",
       "time": "16:51",
       "matched_keywords": [
-        "진출"
+        "수주"
       ],
-      "news_score": 2,
-      "id": "5a8144c54c402512",
-      "ticker": "329180",
-      "company": "HD현대중공업",
+      "news_score": 3,
+      "id": "9e06a21b647595b0",
+      "ticker": "010120",
+      "company": "LS ELECTRIC",
       "sector": "",
       "sources": [
-        "라이센스뉴스"
+        "잡포스트"
       ],
       "signal_keywords": [],
       "signal_major_article_count": {}
@@ -4225,7 +4992,7 @@
         "단독"
       ],
       "signal_major_article_count": {
-        "단독": 8
+        "단독": 10
       }
     },
     {
@@ -4255,7 +5022,7 @@
     },
     {
       "title": "[단독] 200억 투자에서 5700억 소송전으로⋯미래에셋ㆍ스마일게이트 IPO 분쟁 확전 - 이투데이",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBVb2RCZGJQQW0xVDFfNW1rZ2VfUUlrM3ZNdWFqMEtrUXEtbXEtOVBzdFgxOVUyVmhXbzlrT1pfenhrODE0RWNJMWhNTE9LMF83QVBnSUJoNTV5d0VjZFRNZmdxLUI1Ty13aXZJOWpR?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5NSUZDRkc3aUtEZ0xJR3VQeEppZEd2VWNFM3JWZ3doSTROUFVEZzgyUnZ2dGU3dmpyVjhtY085WWNtTndjUExtZ1JqSkNLVGF4aVhrdEZ3Z21iRmFNWWw5cVh0VE1QRDMwVDRj?oc=5",
       "source": "이투데이",
       "published_raw": "Thu, 22 Oct 2026 07:32:00 GMT",
       "date": "2026-10-22",
@@ -4264,7 +5031,7 @@
         "단독"
       ],
       "news_score": 2,
-      "id": "2e186fe1ebbd3c40",
+      "id": "4478b8e53971959b",
       "ticker": "006800",
       "company": "미래에셋증권",
       "sector": "",
@@ -4463,7 +5230,7 @@
         "수주"
       ],
       "signal_major_article_count": {
-        "수주": 4
+        "수주": 6
       }
     },
     {
@@ -4489,7 +5256,7 @@
     },
     {
       "title": "CJ대한통운 건설부문, KT클라우드 안산 공사 수주…데이터센터 사업 확장 - 뉴시스",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBVX3RjRUZab0xwVzhvRmM1bWZZcUxwc2pqWV9kSXV1ckZxcnVkUUNfV2VDZU95dHF1bkpFZkFSeEptSHlUNzNxTGNubHlXUEljQjFDOEEwb08tRDNSU2NKUjJLbVhNT05nMnF1elBIXzNENkM3LWQtTtIBeEFVX3lxTFBVX3RjRUZab0xwVzhvRmM1bWZZcUxwc2pqWV9kSXV1ckZxcnVkUUNfV2VDZU95dHF1bkpFZkFSeEptSHlUNzNxTGNubHlXUEljQjFDOEEwb08tRDNSU2NKUjJLbVhNT05nMnF1elBIXzNENkM3LWQtTg?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5YOTV4OUo0Wjgtc0o2VE13dXVYdnRZcllyelpjTFJXRXFNZ1REb1hIQmlOdjBDX08xX3oxeS1PMG5rQVR2ZDZnNnNHZDZkYWlxeFNyQVdva3lRMHZwWFdHMmln?oc=5",
       "source": "뉴시스",
       "published_raw": "Thu, 22 Oct 2026 07:21:27 GMT",
       "date": "2026-10-22",
@@ -4498,32 +5265,7 @@
         "수주"
       ],
       "news_score": 3,
-      "id": "317005997a7617ad",
-      "ticker": "030200",
-      "company": "KT",
-      "sector": "",
-      "sources": [
-        "뉴시스"
-      ],
-      "signal_keywords": [
-        "수주"
-      ],
-      "signal_major_article_count": {
-        "수주": 4
-      }
-    },
-    {
-      "title": "CJ대한통운 건설부문, KT클라우드 안산 공사 수주…데이터센터 사업 확장 - 뉴시스",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBVX3RjRUZab0xwVzhvRmM1bWZZcUxwc2pqWV9kSXV1ckZxcnVkUUNfV2VDZU95dHF1bkpFZkFSeEptSHlUNzNxTGNubHlXUEljQjFDOEEwb08tRDNSU2NKUjJLbVhNT05nMnF1elBIXzNENkM3LWQtTtIBeEFVX3lxTFBVX3RjRUZab0xwVzhvRmM1bWZZcUxwc2pqWV9kSXV1ckZxcnVkUUNfV2VDZU95dHF1bkpFZkFSeEptSHlUNzNxTGNubHlXUEljQjFDOEEwb08tRDNSU2NKUjJLbVhNT05nMnF1elBIXzNENkM3LWQtTg?oc=5",
-      "source": "뉴시스",
-      "published_raw": "Thu, 22 Oct 2026 07:21:27 GMT",
-      "date": "2026-10-22",
-      "time": "16:21",
-      "matched_keywords": [
-        "수주"
-      ],
-      "news_score": 3,
-      "id": "843cbe601ce9b7b6",
+      "id": "a1eecba8d213bcf4",
       "ticker": "001040",
       "company": "CJ",
       "sector": "",
@@ -4535,31 +5277,6 @@
       ],
       "signal_major_article_count": {
         "수주": 7
-      }
-    },
-    {
-      "title": "CJ대한통운 건설부문, KT클라우드 안산 공사 수주…데이터센터 사업 확장 - 뉴시스",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBVX3RjRUZab0xwVzhvRmM1bWZZcUxwc2pqWV9kSXV1ckZxcnVkUUNfV2VDZU95dHF1bkpFZkFSeEptSHlUNzNxTGNubHlXUEljQjFDOEEwb08tRDNSU2NKUjJLbVhNT05nMnF1elBIXzNENkM3LWQtTtIBeEFVX3lxTFBVX3RjRUZab0xwVzhvRmM1bWZZcUxwc2pqWV9kSXV1ckZxcnVkUUNfV2VDZU95dHF1bkpFZkFSeEptSHlUNzNxTGNubHlXUEljQjFDOEEwb08tRDNSU2NKUjJLbVhNT05nMnF1elBIXzNENkM3LWQtTg?oc=5",
-      "source": "뉴시스",
-      "published_raw": "Thu, 22 Oct 2026 07:21:27 GMT",
-      "date": "2026-10-22",
-      "time": "16:21",
-      "matched_keywords": [
-        "수주"
-      ],
-      "news_score": 3,
-      "id": "9bca621e7641b3cf",
-      "ticker": "000120",
-      "company": "CJ대한통운",
-      "sector": "",
-      "sources": [
-        "뉴시스"
-      ],
-      "signal_keywords": [
-        "수주"
-      ],
-      "signal_major_article_count": {
-        "수주": 6
       }
     },
     {
@@ -4635,7 +5352,7 @@
     },
     {
       "title": "LG디스플레이, 3분기 영업익 2506억…전 분기 대비 흑자 전환 - 뉴스토마토",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBQVFVNeGRlQ3B3TzJxUVdlczFoN3M4MDZURzZCRHJyYXdkSlZDN3NWRWNUNGFkcmw5N29VZDZ0Nkhob3pjRFBjOGE5LU12QWE0NzQwZjNuR0c2d2h3aWY4aA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9jTlRtTmhjMTRCbXJPV2REVGV0czIwRTVHQmVPUUR6aDdnM2hyTjlWS3ZBMFRoYzZKckppWE9ROVJVMmphTDVieC1EaFZ2S1JwOGZ0VUhaZkxCenE0V2UyWg?oc=5",
       "source": "뉴스토마토",
       "published_raw": "Thu, 22 Oct 2026 07:12:28 GMT",
       "date": "2026-10-22",
@@ -4644,7 +5361,7 @@
         "흑자"
       ],
       "news_score": 4,
-      "id": "0a9daf0747a5a4bf",
+      "id": "98b95e4ef88dc4a9",
       "ticker": "034220",
       "company": "LG디스플레이",
       "sector": "",
@@ -4699,6 +5416,31 @@
       ],
       "signal_keywords": [],
       "signal_major_article_count": {}
+    },
+    {
+      "title": "창원특례시, 영풍전자㈜와 손잡고 글로벌 드론시장 진출 지원 - 뉴스프리존",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1TMGcxXzVYQVZIZ0dlVTNic2t0Mkh6cFlIdGdaVVR3R3hTT1l2OFI5NEdKeHVhMGc4dDRRWjlfdWk5VjY2VTVDUUlIVUFBa1RDN29QTFhiRkp0TnVEaC1tNjg0YWhjTnE4MVBpWXlWaXQxajjSAXdBVV95cUxNTlZabXFrdkY5Ny1nLVJaekhoY2s3Z2N2MThjdk8tZjRCbWk2TXMyQmdVejZjWEpMVmpZNmJWUFNyZkpvN3VYR1FpNHJQNmxsN2RvcEY1NmRTem84dFlVdGE2RU15Mkc1ME15OGdlNF9wMk00bmp2VQ?oc=5",
+      "source": "뉴스프리존",
+      "published_raw": "Thu, 22 Oct 2026 06:58:59 GMT",
+      "date": "2026-10-22",
+      "time": "15:58",
+      "matched_keywords": [
+        "진출"
+      ],
+      "news_score": 2,
+      "id": "26f18ce66384faf9",
+      "ticker": "000670",
+      "company": "영풍",
+      "sector": "",
+      "sources": [
+        "뉴스프리존"
+      ],
+      "signal_keywords": [
+        "진출"
+      ],
+      "signal_major_article_count": {
+        "진출": 4
+      }
     },
     {
       "title": "삼양식품, 이제 PC방·만화카페서 만난다… 외식 메뉴 진출? - 이코노미톡뉴스",
@@ -4762,6 +5504,31 @@
       ],
       "signal_keywords": [],
       "signal_major_article_count": {}
+    },
+    {
+      "title": "CJ대한통운 건설부문, 안산 AI데이터센터 신축공사 수주 - 이뉴스투데이",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBURzBGSnJzY0N4c3BZUThqVXlfRldFTVBJZ0dDZEJxc2o2THlTZW5xaXRNN01iMjNHNjhMVU9sRGtzeXV4czk0WGIwWEVXN0R2ZmtHNlRSTzdmTjNNanZkWktoTXJyWlJ3dmpVcU1EWVnSAXRBVV95cUxOV3R2ZllYWnAwSEdKdUIyRFdYcnZObDAwcDR4TGQxYWxqbUM4MmxtNU9NeU5tTVJQaENkZzZ0VElVQk5HQWkzT0d0bHNsNlhqVU5LVzE0cGg5dlR1dWRJLWk0TlNja0dKTDJfSXpWRWl1N2lRdg?oc=5",
+      "source": "이뉴스투데이",
+      "published_raw": "Thu, 22 Oct 2026 06:49:27 GMT",
+      "date": "2026-10-22",
+      "time": "15:49",
+      "matched_keywords": [
+        "수주"
+      ],
+      "news_score": 3,
+      "id": "e2734f67efb3f501",
+      "ticker": "001040",
+      "company": "CJ",
+      "sector": "",
+      "sources": [
+        "이뉴스투데이"
+      ],
+      "signal_keywords": [
+        "수주"
+      ],
+      "signal_major_article_count": {
+        "수주": 7
+      }
     },
     {
       "title": "LG디스플레이 3분기, 전기比 흑자전환…영업이익 2506억원 - 매일경제 마켓",
@@ -4835,6 +5602,31 @@
       }
     },
     {
+      "title": "파업 우려 진정된 삼성바이오로직스...대형 수주·5공장 가동이 중기 실적 핵심 변수 - 리버티코리아포스트",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5uRW1xdkhXWkgwSTRKNXBPdExyeXprR0F6dDVZS2k3UDZBTVotNkhWWXZEYm04Wl9VN0xkX21HeGRrN2ExbDFleHZWN2lzTy12NGJidV93czM1U0hIYUFfRjVDWdIBZ0FVX3lxTE92R3o5WU5hbm1nbUZxbjBRZW5ZVVFxT01iR1JWaWx6XzBYM0JqTWN6d2VCcTB0N2RRSUt1QTV5NFNqWm13WTgxc1dEQTF0Q2pmVy1VVHk1S2oyNVl5RHN2RDFpa2xjaFk?oc=5",
+      "source": "리버티코리아포스트",
+      "published_raw": "Thu, 22 Oct 2026 06:41:13 GMT",
+      "date": "2026-10-22",
+      "time": "15:41",
+      "matched_keywords": [
+        "수주"
+      ],
+      "news_score": 3,
+      "id": "29792b20fedcbdf7",
+      "ticker": "207940",
+      "company": "삼성바이오로직스",
+      "sector": "",
+      "sources": [
+        "리버티코리아포스트"
+      ],
+      "signal_keywords": [
+        "수주"
+      ],
+      "signal_major_article_count": {
+        "수주": 6
+      }
+    },
+    {
       "title": "[단독] 신세계그룹, 23일 정기인사 … 계열분리 맞춰 독립경영 채비 - 뉴데일리",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8wSGhDSlZMOHBuSkU2UmRkaVU0ajY2bVdKZDRjbndYcEFKcjBHbWwtLWUxUTZXV0M0dWpzWE5aRGh1amlZMTZHOUlTenFlVFB1VnVnMDY4cXJZUDFOWWtSeWVEdkQ0Qnh4RGFSOXBQbGNnd25acnRzZEU5ONIBgAFBVV95cUxNMUQtWVNrQVFkb2VhZ2ZMbVdoZUM4RElObzhqQ0M5RmlOeF9mQ1c4YzVSR0NCSUN2akJoakN6Y0MwYTVNc2xtMVE1ZXBaX2ItMFRNYnNkeUN6RFB5clJrV200UXNHR2pIN1oyWXIzZ29Nc0RNWEp0N2pTQ0N2WUh3cw?oc=5",
       "source": "뉴데일리",
@@ -4856,7 +5648,7 @@
         "단독"
       ],
       "signal_major_article_count": {
-        "단독": 8
+        "단독": 10
       }
     },
     {
@@ -4944,7 +5736,7 @@
         "수주"
       ],
       "signal_major_article_count": {
-        "수주": 4
+        "수주": 3
       }
     },
     {
@@ -5015,7 +5807,7 @@
         "수주"
       ],
       "signal_major_article_count": {
-        "수주": 6
+        "수주": 5
       }
     },
     {
@@ -5040,7 +5832,7 @@
         "수주"
       ],
       "signal_major_article_count": {
-        "수주": 4
+        "수주": 3
       }
     },
     {
@@ -5090,7 +5882,7 @@
         "수주"
       ],
       "signal_major_article_count": {
-        "수주": 6
+        "수주": 5
       }
     },
     {
@@ -5265,7 +6057,7 @@
         "수주"
       ],
       "signal_major_article_count": {
-        "수주": 4
+        "수주": 3
       }
     },
     {
@@ -5315,7 +6107,7 @@
         "수주"
       ],
       "signal_major_article_count": {
-        "수주": 6
+        "수주": 5
       }
     },
     {
@@ -5440,7 +6232,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 4
+        "진출": 3
       }
     },
     {
@@ -5820,6 +6612,31 @@
       "signal_major_article_count": {}
     },
     {
+      "title": "JB금융그룹, 키르기스스탄 금융사 2곳 인수 추진...중앙아시아 진출 - 매일안전신문",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE16Q0FTc3ZNSS1sVGVBbXVsZE9VdFhGZnpVMEI4Z1hhZ0Y0Q296eDg1dkFyWElzZ0NnTkJKQVBONVZkY2l2c2QtaFFTUno4SVFxa2xDOVlqV2nSAWhBVV95cUxNUi1wd0dJcl9mWnlPbjM2M2JmcVlHMDM1ZFM4XzhnZ0Z2VzFxUjc3S2NaSEZlZUdLd0lLOUZ3bEQ3UjZ0aGlYX1FUdnZDV3lPdFRJdWZYenN6U1JyUTNLY0puSktRcWVhYQ?oc=5",
+      "source": "매일안전신문",
+      "published_raw": "Thu, 22 Oct 2026 05:24:42 GMT",
+      "date": "2026-10-22",
+      "time": "14:24",
+      "matched_keywords": [
+        "진출"
+      ],
+      "news_score": 2,
+      "id": "b76cc07ee3bb087d",
+      "ticker": "175330",
+      "company": "JB금융지주",
+      "sector": "",
+      "sources": [
+        "매일안전신문"
+      ],
+      "signal_keywords": [
+        "진출"
+      ],
+      "signal_major_article_count": {
+        "진출": 3
+      }
+    },
+    {
       "title": "LG디스플레이 3분기 영업익 2천506억원 '흑자 전환'(종합) - 연합뉴스",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9EdDZTUzRxUy1ZV0x1WUpvZVVxT3Y5cEVnbjZGSjhXQWluSzEzSndEeExTS1hQYnhoOHpVQWVzVDRTaHM5MTMtOFVoYW1yMTNIcEJhYXZyV0llODd3TERvSdIBYEFVX3lxTE9EdDZTUzRxUy1ZV0x1WUpvZVVxT3Y5cEVnbjZGSjhXQWluSzEzSndEeExTS1hQYnhoOHpVQWVzVDRTaHM5MTMtOFVoYW1yMTNIcEJhYXZyV0llODd3TERvSQ?oc=5",
       "source": "연합뉴스",
@@ -5868,48 +6685,6 @@
       "signal_major_article_count": {
         "흑자": 6
       }
-    },
-    {
-      "title": "[단독] 달라진 ㈜GS 사채설명서, 대주주 일가 소유 리스크 언급 - 블로터",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9PbTMyQVBrTE5na1NBeHBmNFBKbVhTR0FsdHFEaDRhVFVGM3pvb3lUTTl4YV91QnRkUFBKNzRYTGc1ejllaTlGbmt2YXFuM0l4bFNFbTdEb0RmNTBwNkZrdGRSNFFqNEZh0gFsQVVfeXFMT0ZzN1VWLW84VnB2cTlHdnB0ZzVjMmhhbGVMZHVuQkl6dFNkbFJxNlhXYlRrZDVTRnBabnNoZTBUWHRBZ3VUQy0wS2d6am5YRHVPUG5QVzEzTDg0RXhQeDFwRFBVbkJDcEFER3pE?oc=5",
-      "source": "블로터",
-      "published_raw": "Thu, 22 Oct 2026 05:17:30 GMT",
-      "date": "2026-10-22",
-      "time": "14:17",
-      "matched_keywords": [
-        "단독"
-      ],
-      "news_score": 2,
-      "id": "8ea53b3eafa817ce",
-      "ticker": "078930",
-      "company": "GS",
-      "sector": "",
-      "sources": [
-        "블로터"
-      ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
-    },
-    {
-      "title": "한미반도체 19만4400원…HBM 장비 수주 일정 점검 - 잡포스트",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE01WEp4cGhlU096OVk3bWVRYWlJY0l0Y2RRbHYyZmtfVGpLU3BwU1RId1l5TV9QeGVUcVNac3oxVk9LbTgycEY2SXVuQnJTSHpseGY0SkRwRzRwNEJwRkdibWM1Y015V19IYWIyRm9leGtFd9IBckFVX3lxTE01WEp4cGhlU096OVk3bWVRYWlJY0l0Y2RRbHYyZmtfVGpLU3BwU1RId1l5TV9QeGVUcVNac3oxVk9LbTgycEY2SXVuQnJTSHpseGY0SkRwRzRwNEJwRkdibWM1Y015V19IYWIyRm9leGtFdw?oc=5",
-      "source": "잡포스트",
-      "published_raw": "Thu, 22 Oct 2026 05:14:37 GMT",
-      "date": "2026-10-22",
-      "time": "14:14",
-      "matched_keywords": [
-        "수주"
-      ],
-      "news_score": 3,
-      "id": "37267da42eb919cd",
-      "ticker": "042700",
-      "company": "한미반도체",
-      "sector": "",
-      "sources": [
-        "잡포스트"
-      ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
     },
     {
       "title": "한화오션, 이익은 상선에 쏠렸다…3분기, 특수선 흑자 전환 숙제 - 녹색경제신문",
@@ -6042,7 +6817,7 @@
         "수주"
       ],
       "signal_major_article_count": {
-        "수주": 4
+        "수주": 3
       }
     },
     {
@@ -6092,7 +6867,7 @@
         "수주"
       ],
       "signal_major_article_count": {
-        "수주": 6
+        "수주": 5
       }
     },
     {
@@ -6209,7 +6984,7 @@
         "단독"
       ],
       "signal_major_article_count": {
-        "단독": 8
+        "단독": 10
       }
     },
     {
@@ -6318,6 +7093,31 @@
       "signal_major_article_count": {}
     },
     {
+      "title": "CJ대한통운 건설부문, KT클라우드 안산 AI데이터센터 수주 - 아시아타임즈",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5DMS1OTDA0VTdIdE9yaXE2MXU2M2FlUTlCQXpxVktrM1BIaWRxeTdKcUJXeU1vUlNuWENwZEY4VGlMMm05UG9fYzJQM2FFZVIxdkNCV04wNXpONDVsQnc?oc=5",
+      "source": "아시아타임즈",
+      "published_raw": "Thu, 22 Oct 2026 03:57:00 GMT",
+      "date": "2026-10-22",
+      "time": "12:57",
+      "matched_keywords": [
+        "수주"
+      ],
+      "news_score": 3,
+      "id": "267febc90e032662",
+      "ticker": "000120",
+      "company": "CJ대한통운",
+      "sector": "",
+      "sources": [
+        "아시아타임즈"
+      ],
+      "signal_keywords": [
+        "수주"
+      ],
+      "signal_major_article_count": {
+        "수주": 5
+      }
+    },
+    {
       "title": "JB금융, 키르기스스탄 금융사 인수…중앙아시아 첫 진출 - 한국경제",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5yU3k5R2hGNmhMeEl2NEVOQUZsOUZCbFAzdUtXbUl3UHFJZjhQVzhvT3NlSVpPMFRZVXhJTkVvS1g2TkZYYnRCc2IyWnNGb2dDTnB3dVNLbHNRUQ?oc=5",
       "source": "한국경제",
@@ -6339,29 +7139,8 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 4
+        "진출": 3
       }
-    },
-    {
-      "title": "다시 '푸른 유니폼' 입은 최형우, 친정팀 상대 한국시리즈 진출 도전 - 경북도민일보",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9xR2lpUGRFU1lzaG9rNFRTNTU2MkxtUEZiSVF6WHlkSnhrRmxWZllXTmVZOEY4b0FjbV9sMzlwWTQ1Rk1jbGowcW1aSWNvVXVaVzFrQ1VoaThYLVNjdDM2WTZOYWhjak9KTnc?oc=5",
-      "source": "경북도민일보",
-      "published_raw": "Thu, 22 Oct 2026 03:00:24 GMT",
-      "date": "2026-10-22",
-      "time": "12:00",
-      "matched_keywords": [
-        "진출"
-      ],
-      "news_score": 2,
-      "id": "202ccd443fc0a563",
-      "ticker": "000270",
-      "company": "기아",
-      "sector": "",
-      "sources": [
-        "경북도민일보"
-      ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
     },
     {
       "title": "창원시, 드론 산업 글로벌 진출 위해 영풍전자·산업진흥원과 협약 - 국제뉴스",
@@ -6385,7 +7164,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 5
+        "진출": 4
       }
     },
     {
@@ -6410,7 +7189,7 @@
         "단독"
       ],
       "signal_major_article_count": {
-        "단독": 8
+        "단독": 10
       }
     },
     {
@@ -6477,7 +7256,32 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 5
+        "진출": 4
+      }
+    },
+    {
+      "title": "삼성바이오로직스, 3분기 기대 웃돌아…다음 과제는 수주·수익성 - 쿠키뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE92c2JPTVhXVndLR2o1UDZ2bDJwd0Vqd2pVWENTWjhVUDZjY0R6ZFRha3FGTFpKb3A2YVNEaUdBVVR5bVNwZ1ZvcDJTYmlOR0pMWmV6NFFyMm92TW9xQlZFU2d4RQ?oc=5",
+      "source": "쿠키뉴스",
+      "published_raw": "Thu, 22 Oct 2026 02:45:33 GMT",
+      "date": "2026-10-22",
+      "time": "11:45",
+      "matched_keywords": [
+        "수주"
+      ],
+      "news_score": 3,
+      "id": "fc08c2cfa4981e84",
+      "ticker": "207940",
+      "company": "삼성바이오로직스",
+      "sector": "",
+      "sources": [
+        "쿠키뉴스"
+      ],
+      "signal_keywords": [
+        "수주"
+      ],
+      "signal_major_article_count": {
+        "수주": 6
       }
     },
     {
@@ -6502,9 +7306,9 @@
       "signal_major_article_count": {}
     },
     {
-      "title": "JB금융, 키르기스스탄 금융사 2곳 인수 추진…중앙아시아 첫 진출 - 메디컬투데이",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1JRTlYOEg1X1ZVUG4yZ2x4R2F1Rm9pRkFHX1hRdER5TWVsMDF4eW0xU1lUOUotWkgzOXM2WG11NWFaRjZmd2pMaGJlRWFTOUpEaUtra3ZQakxDdHF5RVd2SENNWHB3aG9qclJleQ?oc=5",
-      "source": "메디컬투데이",
+      "title": "JB금융, 키르기스스탄 금융사 2곳 인수 추진…중앙아시아 첫 진출 - 알파경제",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5weVdXOThXZlh6U1lhZklPZEZLNXU1VXMtWERHWERWNzgyVDJWbVhpMGdsQ1pieTlQWFJIYzk4aFIzWXBKM1M0NTNCa3RTcVNsRnZ6Y3lnYzNJa0NmWVU3ZkVqZXRtemxmclR4TVh3?oc=5",
+      "source": "알파경제",
       "published_raw": "Thu, 22 Oct 2026 02:37:27 GMT",
       "date": "2026-10-22",
       "time": "11:37",
@@ -6512,43 +7316,18 @@
         "진출"
       ],
       "news_score": 2,
-      "id": "ebe89334987d1994",
+      "id": "12e7ac210fd1f917",
       "ticker": "175330",
       "company": "JB금융지주",
       "sector": "",
       "sources": [
-        "메디컬투데이"
+        "알파경제"
       ],
       "signal_keywords": [
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 4
-      }
-    },
-    {
-      "title": "삼성바이오, 신규 수주 '액셀'... 3분기 3억달러+대형 계약 가시화 - 디지털포스트",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9WN3N5Z2lUOUljV2JQdHZDOEozeEp4Y1lxWmpWTHRzRzZrajhmWVdHX25NbmQ1QzJrWmVwdllwSVV1d2xqSmlVSDFMY09HYlMyeURXQjJubFpiWE5pTFhsVUZGYTA2TmJmYmpN?oc=5",
-      "source": "디지털포스트",
-      "published_raw": "Thu, 22 Oct 2026 02:36:36 GMT",
-      "date": "2026-10-22",
-      "time": "11:36",
-      "matched_keywords": [
-        "수주"
-      ],
-      "news_score": 3,
-      "id": "0ef46e90774802a2",
-      "ticker": "207940",
-      "company": "삼성바이오로직스",
-      "sector": "",
-      "sources": [
-        "디지털포스트"
-      ],
-      "signal_keywords": [
-        "수주"
-      ],
-      "signal_major_article_count": {
-        "수주": 4
+        "진출": 3
       }
     },
     {
@@ -6615,7 +7394,7 @@
         "수주"
       ],
       "signal_major_article_count": {
-        "수주": 4
+        "수주": 6
       }
     },
     {
@@ -6665,25 +7444,29 @@
       "signal_major_article_count": {}
     },
     {
-      "title": "카카오, '모두의 AI' 상용화 준비…이용자 확보 본격화 - 위키리크스한국",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5kd1pncWhWWkg1NkJhM280UlVILUt4a0pGcHhXX1YwakVQcjF5VUJXRmlmWm4wa2hMY1pDbmNNMVFxM3VYZngxSVZFOUdyNkFHNnF2b01jYXJtN1A4aDFOcXhkODF6a3hpbnpsdFFRR1I?oc=5",
-      "source": "위키리크스한국",
-      "published_raw": "Thu, 22 Oct 2026 02:23:04 GMT",
+      "title": "JB금융, 자동차금융 앞세워 중앙아시아 진출 - 대한데일리",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5uMHV0UTc5U3dtMTNXbGJuRVJsSHNFdVRJdkl1QXRKS0M5SlJiMmxEZ25sOTExa0RlYnZMQjhROFcyNzk3NzhjRHNjcHdZT192S20yajlMbmJFcV9idzN2R29DU2FMTmo2dkRR?oc=5",
+      "source": "대한데일리",
+      "published_raw": "Thu, 22 Oct 2026 02:23:46 GMT",
       "date": "2026-10-22",
       "time": "11:23",
       "matched_keywords": [
-        "상용화"
+        "진출"
       ],
-      "news_score": 3,
-      "id": "cebe9c2586c9d595",
-      "ticker": "035720",
-      "company": "카카오",
+      "news_score": 2,
+      "id": "a321924045451aaf",
+      "ticker": "175330",
+      "company": "JB금융지주",
       "sector": "",
       "sources": [
-        "위키리크스한국"
+        "대한데일리"
       ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
+      "signal_keywords": [
+        "진출"
+      ],
+      "signal_major_article_count": {
+        "진출": 3
+      }
     },
     {
       "title": "[단독] 최희남 대표 ‘직접 검토’ 서명에도…종근당홀딩스 정정 공시 또 오류 - 일요신문",
@@ -6702,27 +7485,6 @@
       "sector": "",
       "sources": [
         "일요신문"
-      ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
-    },
-    {
-      "title": "아마존·엑스에너지 인디애나 SMR 추진…DL이앤씨 수주 기대 : 기업·산업 - 재경일보",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9WSEpXVXp5MFc2WWY4aFZuaDNGR3RRVE1ycEVMV0lHV24wUnRTaGxKSHhBcDhQLXY3cl9qdVhGTFk5N2t4UVlUd1FQSQ?oc=5",
-      "source": "재경일보",
-      "published_raw": "Thu, 22 Oct 2026 02:06:31 GMT",
-      "date": "2026-10-22",
-      "time": "11:06",
-      "matched_keywords": [
-        "수주"
-      ],
-      "news_score": 3,
-      "id": "0bd7ead545fde999",
-      "ticker": "375500",
-      "company": "DL이앤씨",
-      "sector": "",
-      "sources": [
-        "재경일보"
       ],
       "signal_keywords": [],
       "signal_major_article_count": {}
@@ -6789,31 +7551,6 @@
       ],
       "signal_keywords": [],
       "signal_major_article_count": {}
-    },
-    {
-      "title": "신세계라이브쇼핑, ‘지컷’ 단독 전개 - 스포츠동아",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9MVWdNTV9WeGpGZjJCc01jaVRYLVFXcGJOMzRpdUkwamJZOXZ1bW1LSUN1Qm5rVkYtWnlsck5qeXpIMDBJTTZhbmVMaFl3SDU4LWx2bXpYcVhJc0lqYTcxS1hpb2FkZmpBLVpTR1BVc2V5WE0?oc=5",
-      "source": "스포츠동아",
-      "published_raw": "Thu, 22 Oct 2026 01:59:50 GMT",
-      "date": "2026-10-22",
-      "time": "10:59",
-      "matched_keywords": [
-        "단독"
-      ],
-      "news_score": 2,
-      "id": "1a2cdc3f0130ac81",
-      "ticker": "004170",
-      "company": "신세계",
-      "sector": "",
-      "sources": [
-        "스포츠동아"
-      ],
-      "signal_keywords": [
-        "단독"
-      ],
-      "signal_major_article_count": {
-        "단독": 8
-      }
     },
     {
       "title": "LS일렉트릭, AI 데이터센터 우려와 달리 수요 견조…카카오게임즈, 내년 흑자전환 기대에 목표가 67%↑ [株토피아] - 파이낸셜뉴스",
@@ -6900,6 +7637,31 @@
       "signal_major_article_count": {}
     },
     {
+      "title": "창원시, 영풍전자와 손잡고 글로벌 드론시장 진출 나서 - 브릿지경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBmdW1xY2ZxaXRYVWVveTVrbkpLWV9jRzlOeHFZTlhrZTBjc01jSEVDQ2lYZy1yMjlUZXYteXNrWGFPRVdEbzR4M1BPUXp5S2xtNUYzb2pHdWtPdw?oc=5",
+      "source": "브릿지경제",
+      "published_raw": "Thu, 22 Oct 2026 01:47:00 GMT",
+      "date": "2026-10-22",
+      "time": "10:47",
+      "matched_keywords": [
+        "진출"
+      ],
+      "news_score": 2,
+      "id": "aa1f07400355e9f1",
+      "ticker": "000670",
+      "company": "영풍",
+      "sector": "",
+      "sources": [
+        "브릿지경제"
+      ],
+      "signal_keywords": [
+        "진출"
+      ],
+      "signal_major_article_count": {
+        "진출": 4
+      }
+    },
+    {
       "title": "[속보] HD현대마린엔진, 268억원 규모 선박엔진 공급계약…지난해 매출액 대비 6.7% - CBC뉴스",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1kVmNzdFUyMjR2Y1RDUll1OWt3T3pidGNCckVHS3RxRTNtV083M3h3dVB0UUtLdmZKODF3MmcxOEw0bnFyYTl3T2VLTW44ZXpDdFJqMWFhcmxEczA2eHlkQkUyc0VoVUZs?oc=5",
       "source": "CBC뉴스",
@@ -6963,7 +7725,7 @@
       "signal_major_article_count": {}
     },
     {
-      "title": "[단독] LG화학, 美 합성생물학 기업 ‘아시모프’ 세포주 기술 도입…차세대 바이오신약 승부수 - 마이데일리",
+      "title": "[단독] LG화학, 美 합성생물학 기업 ‘아시모프’ 세포주 기술 도입…차세대 비아오신약 승부수 - 마이데일리",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE02YjJ3NFVKZFRVZmNLaG4xVndrQ1o2dnpiNTFJOXdQZy1LNWN6WUFjVHBfTXdrZ2RJNkVrNGpRM2JkRGNOMkhZblROQ3p3XzZFem5iVjVOV1pGbmZoeVRXRg?oc=5",
       "source": "마이데일리",
       "published_raw": "Thu, 22 Oct 2026 01:41:48 GMT",
@@ -6973,7 +7735,7 @@
         "단독"
       ],
       "news_score": 2,
-      "id": "888bf7381d015cdb",
+      "id": "a3163edaa7c170a6",
       "ticker": "051910",
       "company": "LG화학",
       "sector": "",
@@ -6982,6 +7744,31 @@
       ],
       "signal_keywords": [],
       "signal_major_article_count": {}
+    },
+    {
+      "title": "\"삼성바이오로직스, 대규모 수주 가능성 높아져..6공장 착공 기대\" - 포쓰저널",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE12dExOYkEzaFVPaDd4WTZCc2tqX0ZoWmZrd2hsY0pnbDNsQ3JNVWdON243ZnVqZ05RdE51OW1YaFNCNHl3aXg2OUhQcnR4V3dlQVUtTGlkSUZFNkpEZVM0OVU3YU8?oc=5",
+      "source": "포쓰저널",
+      "published_raw": "Thu, 22 Oct 2026 01:38:00 GMT",
+      "date": "2026-10-22",
+      "time": "10:38",
+      "matched_keywords": [
+        "수주"
+      ],
+      "news_score": 3,
+      "id": "76ada0e369ca79ca",
+      "ticker": "207940",
+      "company": "삼성바이오로직스",
+      "sector": "",
+      "sources": [
+        "포쓰저널"
+      ],
+      "signal_keywords": [
+        "수주"
+      ],
+      "signal_major_article_count": {
+        "수주": 6
+      }
     },
     {
       "title": "GS·현대·삼성물산, 호주 송전망 수주 도전..뉴잉글랜드 공략 - 포쓰저널",
@@ -7006,7 +7793,7 @@
     },
     {
       "title": "CJ대한통운 건설부문, 3150억 KT클라우드 안산 AI데이터센터 수주 - 머니투데이 - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5yRE1JQ1FXbXZkeUR6ZVVZazNlLUdIbEZpZzlWenhzcldrbXFOR25KYS1aQlVBSWk0NmxWb216QkUxTm9oVi1FSjJ6UWRhRmg4RXd0cUFWSnZpQWdRUUcycDVJeXNvbnRWam80VDRHQdIBb0FVX3lxTE5yRE1JQ1FXbXZkeUR6ZVVZazNlLUdIbEZpZzlWenhzcldrbXFOR25KYS1aQlVBSWk0NmxWb216QkUxTm9oVi1FSjJ6UWRhRmg4RXd0cUFWSnZpQWdRUUcycDVJeXNvbnRWam80VDRHQQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE43LUxJUlZhcjRCVzBjN3RFY3FER2h2YWxSRDRmMlRvZ0pMMVZjd0N5V1JBbElGcnl3bV9YT0RTWWFJRXdqUnloMERORUotSGk5SkdlaHVYVXlYTWJmYy1TQk5SQ2o5eGJ4NmVXSUlZd3lEMzZXZ0M40gF8QVVfeXFMTXl4aGs2Qk9vdEptWDNicElTU056dnFkNFhUejNrZ1pVWmx1Q29nb3RYTEVsRmhyenI0THlYNkpRbW8ycW5rczNCSkR6OXJ0R2Vyb3dHZExoeDJ6QTlSdTdpTENJMlpGUUdfV3BjNmw0SFpHam16bndEdlNnUg?oc=5",
       "source": "머니투데이",
       "published_raw": "Thu, 22 Oct 2026 01:30:20 GMT",
       "date": "2026-10-22",
@@ -7015,7 +7802,7 @@
         "수주"
       ],
       "news_score": 3,
-      "id": "b26f480c7b44237a",
+      "id": "0bfc0c5d12833a8e",
       "ticker": "001040",
       "company": "CJ",
       "sector": "",
@@ -7051,7 +7838,7 @@
         "수주"
       ],
       "signal_major_article_count": {
-        "수주": 6
+        "수주": 5
       }
     },
     {
@@ -7076,28 +7863,28 @@
       "signal_major_article_count": {}
     },
     {
-      "title": "“파업 등 불확실성 끝, 수주 대박 시작…삼성바이오로직스, 글로벌 CDMO 왕좌 굳히기” - 뉴스퀘스트",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE53dDR0RXF3Y0FWN0E4SUNvOGlEak00S3ZsMF94clJLZUhrTXRHVFhUYTktbTFPNk85Q01kV2cxQmdhV2ZNMXBjYlBMN0RfdDctT3F3SlZvY3dwdWdDT2ZGcVBnNkFENktoTTZIaEtlZw?oc=5",
-      "source": "뉴스퀘스트",
-      "published_raw": "Thu, 22 Oct 2026 01:27:51 GMT",
+      "title": "JB금융, 키르기스스탄 금융사 2곳 인수 추진⋯중앙아시아 진출 - 이투데이",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5wU3lwdXZrdFl3VVVXckxJS2szYkh5Q3FncVgyenQ0bDBzR0IwR05kT2JIaXZ0YU9NOVR5SlJXbVVHTHBzSXd4d1JVdGw0TE1RU0h4Qg?oc=5",
+      "source": "이투데이",
+      "published_raw": "Thu, 22 Oct 2026 01:29:00 GMT",
       "date": "2026-10-22",
-      "time": "10:27",
+      "time": "10:29",
       "matched_keywords": [
-        "수주"
+        "진출"
       ],
-      "news_score": 3,
-      "id": "1bb84e21b9ff359b",
-      "ticker": "207940",
-      "company": "삼성바이오로직스",
+      "news_score": 2,
+      "id": "7176a083e580ddf2",
+      "ticker": "175330",
+      "company": "JB금융지주",
       "sector": "",
       "sources": [
-        "뉴스퀘스트"
+        "이투데이"
       ],
       "signal_keywords": [
-        "수주"
+        "진출"
       ],
       "signal_major_article_count": {
-        "수주": 4
+        "진출": 3
       }
     },
     {
@@ -7143,12 +7930,12 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 4
+        "진출": 3
       }
     },
     {
       "title": "[단독] 삼성전자 하만, 중국서 차세대 전장 '승부수'…쑤저우에 'ADAS·차량용 컴퓨팅' 생산기지 구축 - 더구루",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9JQXhLRUFSMDV5d2lmRW9tV2cta3N1MXJvdFpyWUZLQ21DbXVLR05UenJrUnRPMmMyaWRnMGFjbENqZDlMSEIyVEdFa2FZd0tlcFZZaXI0ZnFmUVVkZ1piQUt0RQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5ldTNlc0NadmdVcVlzZXRudHFVYVVDUl9vQkR0dzFkWkxpWTVZakNJbnJCNmZoR3ZDZUEzTkRzNjE2ZUNrajluQ2RQOE9fT0tCSVQ4NkxqMnQ2bUFuWmtaRDE5dlhPUQ?oc=5",
       "source": "더구루",
       "published_raw": "Thu, 22 Oct 2026 01:21:36 GMT",
       "date": "2026-10-22",
@@ -7157,7 +7944,7 @@
         "단독"
       ],
       "news_score": 2,
-      "id": "04dc5f6887774c8e",
+      "id": "0cb7b00d2227ef99",
       "ticker": "005930",
       "company": "삼성전자",
       "sector": "",
@@ -7214,7 +8001,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 5
+        "진출": 4
       }
     },
     {
@@ -7260,12 +8047,12 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 4
+        "진출": 3
       }
     },
     {
       "title": "CJ대한통운 건설부문, KT클라우드 안산 AI데이터센터 신축공사 수주 - 아주경제",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5uM2pQWmhQZFRBWndZcjNrZ2pBV3NONUUyLWVHa3ZWcFV5dU01c0NnN3cyLXpqeTNPb21fdmk4VzYwWWFVek5zYk9BakVaRGFGUV9WMUFKNTPSAVhBVV95cUxObjNqUFpoUGRUQVp3WXIza2dqQVdzTjVFMi1lR2t2VnBVeXVNNXNDZzd3Mi16ankzT29tX3ZpOFc2MFlhVXpOc2JPQWpFWkRhRlFfVjFBSjUz?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBidWxYckZ3LU5Ec1NEeUVDTWtFRFl6X2dBR0xKVkxERkR4MDJXZWhEMnppUFh3VDNUMDNNa09PeHpfVVNpT0ZNNktvak9pX0dCX2NpRlJYUlZjUdIBWEFVX3lxTE5uM2pQWmhQZFRBWndZcjNrZ2pBV3NONUUyLWVHa3ZWcFV5dU01c0NnN3cyLXpqeTNPb21fdmk4VzYwWWFVek5zYk9BakVaRGFGUV9WMUFKNTM?oc=5",
       "source": "아주경제",
       "published_raw": "Thu, 22 Oct 2026 01:11:04 GMT",
       "date": "2026-10-22",
@@ -7274,7 +8061,7 @@
         "수주"
       ],
       "news_score": 3,
-      "id": "9833bbdd67363dc5",
+      "id": "3f324c34a5f413ca",
       "ticker": "001040",
       "company": "CJ",
       "sector": "",
@@ -7310,7 +8097,7 @@
         "수주"
       ],
       "signal_major_article_count": {
-        "수주": 6
+        "수주": 5
       }
     },
     {
@@ -7356,7 +8143,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 5
+        "진출": 4
       }
     },
     {
@@ -7406,7 +8193,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 4
+        "진출": 3
       }
     },
     {
@@ -7473,32 +8260,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 5
-      }
-    },
-    {
-      "title": "CJ대한통운 건설부문, 50MW급 AI데이터센터 수주…신축·전환사업 확대 - 조세금융신문",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8weGt3dHFSTFpTaGFaWVBadFJOYnh0Y1pabndRM0hlNk0td3JWX2VPMWVIc1VIUGZxNWo5SWRfbjJqSVpNY0VVMC15dzI1SWxrYmk5dkl1STljUXZxeEZyenMwMEFIQQ?oc=5",
-      "source": "조세금융신문",
-      "published_raw": "Thu, 22 Oct 2026 00:58:07 GMT",
-      "date": "2026-10-22",
-      "time": "09:58",
-      "matched_keywords": [
-        "수주"
-      ],
-      "news_score": 3,
-      "id": "ebc158e56a0c42d5",
-      "ticker": "001040",
-      "company": "CJ",
-      "sector": "",
-      "sources": [
-        "조세금융신문"
-      ],
-      "signal_keywords": [
-        "수주"
-      ],
-      "signal_major_article_count": {
-        "수주": 7
+        "진출": 4
       }
     },
     {
@@ -7523,7 +8285,7 @@
         "수주"
       ],
       "signal_major_article_count": {
-        "수주": 6
+        "수주": 5
       }
     },
     {
@@ -7548,7 +8310,7 @@
         "수주"
       ],
       "signal_major_article_count": {
-        "수주": 4
+        "수주": 3
       }
     },
     {
@@ -7623,7 +8385,7 @@
         "수주"
       ],
       "signal_major_article_count": {
-        "수주": 6
+        "수주": 5
       }
     },
     {
@@ -7648,7 +8410,7 @@
         "수주"
       ],
       "signal_major_article_count": {
-        "수주": 6
+        "수주": 5
       }
     },
     {
@@ -7673,7 +8435,7 @@
         "수주"
       ],
       "signal_major_article_count": {
-        "수주": 6
+        "수주": 5
       }
     },
     {
@@ -7698,25 +8460,29 @@
       "signal_major_article_count": {}
     },
     {
-      "title": "미래에셋증권 “카카오게임즈, 신작 흥행에 체질 개선까지…내년 흑자전환 기대” - 에너지경제신문",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1uRllfVkpMNVdSRkozX0xPbzItX1ZhTlBoOUNaNHVsZFZvMW55QUc0UnFjOGU2WThwM2FBbmhEaHoyZjZUWWV0LWNBQko0ZFpSYnhoenZ6NTlkQ0U?oc=5",
-      "source": "에너지경제신문",
-      "published_raw": "Thu, 22 Oct 2026 00:51:17 GMT",
+      "title": "GS건설, 호주 오스넷과 MOU...호주시장 진출 '가속' - 초이스경제",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9sZWpxZEk3UFctaVpYdGpNZ2Vla21IV01sTTl6RmdER3FQZmZpTXJySWUyRlo1NUpLYjJUWXZXOVNycUJIOTY1Qnk5SmdYOFFxZWxQMkJwUzNjRjNlQWZNMlVEcEVpeFZuOV9oc2Rtc9IBc0FVX3lxTE90dl8yaDNrSmlrRUZnOHI1Z3pWcGxNZ2JtOUJFZXlUemp0VUFwMWNyUXJ5TFRKeTd1cE1XREtkdDNqZmFnVzFUY0RsRkdPQWN3bEJDSy1yelk5ci1hZ2w1djlBVlJtOHJRSk5xcVdoSElhckE?oc=5",
+      "source": "초이스경제",
+      "published_raw": "Thu, 22 Oct 2026 00:51:19 GMT",
       "date": "2026-10-22",
       "time": "09:51",
       "matched_keywords": [
-        "흑자"
+        "진출"
       ],
-      "news_score": 4,
-      "id": "498c2a5d3f8000fe",
-      "ticker": "035720",
-      "company": "카카오",
+      "news_score": 2,
+      "id": "c0c21bc9eb953b66",
+      "ticker": "078930",
+      "company": "GS",
       "sector": "",
       "sources": [
-        "에너지경제신문"
+        "초이스경제"
       ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
+      "signal_keywords": [
+        "진출"
+      ],
+      "signal_major_article_count": {
+        "진출": 3
+      }
     },
     {
       "title": "KT, 차세대 양자암호통신 상용화시대 연다...시험망 전국으로 확대 - 파이낸셜뉴스",
@@ -7738,31 +8504,6 @@
       ],
       "signal_keywords": [],
       "signal_major_article_count": {}
-    },
-    {
-      "title": "삼성바이오로직스, 3분기 기대 웃돌아…다음 과제는 수주·수익성 - 쿠키메디",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5QbEg5SW01bVotSmtYOXNfZ3ZtcDdIU2V1QjZCb1hmd21kbGxQWWVlWnQxdEJBczc4THpiaWd2M09hODlGNDJ1MnlFRGQtNWljeWdob2Fna2x4MEhwVXFIUERCUQ?oc=5",
-      "source": "쿠키메디",
-      "published_raw": "Thu, 22 Oct 2026 00:47:55 GMT",
-      "date": "2026-10-22",
-      "time": "09:47",
-      "matched_keywords": [
-        "수주"
-      ],
-      "news_score": 3,
-      "id": "c6eec8993e231f7f",
-      "ticker": "207940",
-      "company": "삼성바이오로직스",
-      "sector": "",
-      "sources": [
-        "쿠키메디"
-      ],
-      "signal_keywords": [
-        "수주"
-      ],
-      "signal_major_article_count": {
-        "수주": 4
-      }
     },
     {
       "title": "삼성바이오로직스, 3분기 기대 웃돌아…다음 과제는 수주·수익성 - 쿠키메디",
@@ -7891,7 +8632,7 @@
         "수주"
       ],
       "signal_major_article_count": {
-        "수주": 4
+        "수주": 3
       }
     },
     {
@@ -7941,7 +8682,7 @@
         "수주"
       ],
       "signal_major_article_count": {
-        "수주": 6
+        "수주": 5
       }
     },
     {
@@ -7991,7 +8732,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 4
+        "진출": 3
       }
     },
     {
@@ -8020,42 +8761,17 @@
       }
     },
     {
-      "title": "JB금융, 중앙아시아 진출…키르기스스탄 금융사 2곳 인수 추진 - 헤럴드경제",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB2VVJObFp5SUF3VVpSX0Q1am1DamJPcnNtY3FQVHp1NUFJcVpaS253YjVBaXE0VlZXTDFOaGQyVWZBVHBJcWVaQ2RfejFISkVpQTJSOXpn?oc=5",
-      "source": "헤럴드경제",
-      "published_raw": "Thu, 22 Oct 2026 00:30:54 GMT",
-      "date": "2026-10-22",
-      "time": "09:30",
-      "matched_keywords": [
-        "진출"
-      ],
-      "news_score": 2,
-      "id": "8389aaff77f93319",
-      "ticker": "175330",
-      "company": "JB금융지주",
-      "sector": "",
-      "sources": [
-        "헤럴드경제"
-      ],
-      "signal_keywords": [
-        "진출"
-      ],
-      "signal_major_article_count": {
-        "진출": 4
-      }
-    },
-    {
       "title": "JB금융, 키르기스스탄 금융사 인수 추진…중앙아시아 첫 진출 - SR타임스",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9kOUlaWXdpM24ybGhubGJRU091VWR3bGV0REdLV2JjMU8wRlBvdmpGUFZ5UHo3MnNKeVl5ZVdnczhqUUNnaF9uRmFvM19CU3NMdUtGeXlLUUM1VHN4RlRlLWlRX3pSOUJS0gFrQVVfeXFMTWI3WUNBWnNBUnV3VnpaTGN3dURVbTBDNW9lWk9GckI2LTUyblVudGtWLTdmZEtCOWFKXzh4OWVUd2J4S2Y0ZTlyczBVeDYxZFdjY0xHSGlYb1BsZTBNYWF4OW5fZVBFa0JqRkU?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1iN1lDQVpzQVJ1d1Z6Wkxjd3VEVW0wQzVvZVpPRnJCNi01Mm5VbnRrVi03ZmRLQjlhSl84eDllVHdieEtmNGU5cnMwVXg2MWRXY2NMR0hpWG9QbGUwTWFheDluX2VQRWtCakZF0gFrQVVfeXFMTWI3WUNBWnNBUnV3VnpaTGN3dURVbTBDNW9lWk9GckI2LTUyblVudGtWLTdmZEtCOWFKXzh4OWVUd2J4S2Y0ZTlyczBVeDYxZFdjY0xHSGlYb1BsZTBNYWF4OW5fZVBFa0JqRkU?oc=5",
       "source": "SR타임스",
-      "published_raw": "Thu, 22 Oct 2026 00:28:56 GMT",
+      "published_raw": "Thu, 22 Oct 2026 00:31:48 GMT",
       "date": "2026-10-22",
-      "time": "09:28",
+      "time": "09:31",
       "matched_keywords": [
         "진출"
       ],
       "news_score": 2,
-      "id": "c02a3209c33db187",
+      "id": "f93a0af2f07ce502",
       "ticker": "175330",
       "company": "JB금융지주",
       "sector": "",
@@ -8066,7 +8782,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 4
+        "진출": 3
       }
     },
     {
@@ -8158,6 +8874,31 @@
         "수주"
       ],
       "signal_major_article_count": {
+        "수주": 5
+      }
+    },
+    {
+      "title": "삼성바이오로직스, 3Q 실적 기대 이상···신규 수주 회복 주목 - 현대경제신문",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBtSnNYM2NHM1UtYXdwZGZXbGRFZkpuUnZqazdlSUJOVlgzcFI0SndSRnpfZkhfZkhaSHAtWnBYd25BQ0h6RG9hU2M0OGlpbkRMSHVJdl9lR3N3OVFFVTg0WExkS3FqcWvSAWtBVV95cUxQdlN2b1ktbFBtX2RQSnd4T2taX0xPeUFKZTB2OU1rZF9Dd1p1Z2JZbTN3ZEQ4Y1FJTVdzV0ktUzhDTnRBNy1PQ1B5WXhQWnpvZ2prcXA3bEJsYnk0Tjhpem10MkgxYmY5SkIxNA?oc=5",
+      "source": "현대경제신문",
+      "published_raw": "Thu, 22 Oct 2026 00:22:40 GMT",
+      "date": "2026-10-22",
+      "time": "09:22",
+      "matched_keywords": [
+        "수주"
+      ],
+      "news_score": 3,
+      "id": "3a6e37d7bbe76fa7",
+      "ticker": "207940",
+      "company": "삼성바이오로직스",
+      "sector": "",
+      "sources": [
+        "현대경제신문"
+      ],
+      "signal_keywords": [
+        "수주"
+      ],
+      "signal_major_article_count": {
         "수주": 6
       }
     },
@@ -8225,7 +8966,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 4
+        "진출": 3
       }
     },
     {
@@ -8250,12 +8991,12 @@
         "단독"
       ],
       "signal_major_article_count": {
-        "단독": 8
+        "단독": 10
       }
     },
     {
       "title": "키움證 \"삼성바이오로직스, 높아지는 수주 가능성…목표가 200만원↑\" - 뉴시스",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9rWnJxYU1faU1RYkg5VE5pRDlra0tPbzVkMFNxazVzLW04dmpsQ1BGZnhpRHhIZ2k5MEl2bUUyallBaFdMQjlZZEIyNEh2Szg3b21iZkVWVVJmZnl0Z2FGT9IBeEFVX3lxTE45TmZleWtEZkdYZ3hQVDZ0RHU4cndKSm16YzVPTWJ6Tk01N0NMN0FVeWMxRFdxV3BHZEpZQmsyMkp1WDh2VGx1cThveDhVaEV3X1hvSEhRdjdic3MxV1BCbXJuSm9Gc2JDYWVuNFZkXzVBbU5Bb3FaSw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE45TmZleWtEZkdYZ3hQVDZ0RHU4cndKSm16YzVPTWJ6Tk01N0NMN0FVeWMxRFdxV3BHZEpZQmsyMkp1WDh2VGx1cThveDhVaEV3X1hvSEhRdjdic3MxV1BCbXJuSm9Gc2JDYWVuNFZkXzVBbU5Bb3FaS9IBeEFVX3lxTE45TmZleWtEZkdYZ3hQVDZ0RHU4cndKSm16YzVPTWJ6Tk01N0NMN0FVeWMxRFdxV3BHZEpZQmsyMkp1WDh2VGx1cThveDhVaEV3X1hvSEhRdjdic3MxV1BCbXJuSm9Gc2JDYWVuNFZkXzVBbU5Bb3FaSw?oc=5",
       "source": "뉴시스",
       "published_raw": "Thu, 22 Oct 2026 00:09:46 GMT",
       "date": "2026-10-22",
@@ -8264,7 +9005,7 @@
         "수주"
       ],
       "news_score": 3,
-      "id": "6a1208fe07a3d3f3",
+      "id": "a2a5fdacfdde76eb",
       "ticker": "207940",
       "company": "삼성바이오로직스",
       "sector": "",
@@ -8275,83 +9016,12 @@
         "수주"
       ],
       "signal_major_article_count": {
-        "수주": 4
-      }
-    },
-    {
-      "title": "건설주 일제히 들썩…삼성E&A 13% 급등, 해외 수주 기대 커졌다 - 핀포인트뉴스",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5FSExoc2ZCbEFrQ0hDT255WHVfQVRmWTJ4RTV6Z1c2LUpzNlRBU0lpbTVFX19FdFVzd0tiLVBOdElmelVYVng3SXZZX2lMUWlNS2ZGOEhfVjJsNEl5ZElDTnpsRU1XQmRVaUUxSkd1YmN4UUHSAXdBVV95cUxOVGpjakpseFNIZmVKUndOWmVBcE81WkVFUG1tZDJZcURodGhrTzZBY05PVllzdzdEUDdiVHg4YkVPQ045d3JJeEZjRWl4RVhmRE1fT090WDhzcTlOT2w4RDdUazB4Nkd6ckJwUklXamsweEZUUTFkMA?oc=5",
-      "source": "핀포인트뉴스",
-      "published_raw": "Thu, 22 Oct 2026 00:07:55 GMT",
-      "date": "2026-10-22",
-      "time": "09:07",
-      "matched_keywords": [
-        "수주"
-      ],
-      "news_score": 3,
-      "id": "268868e90fd97838",
-      "ticker": "028050",
-      "company": "삼성E&A",
-      "sector": "",
-      "sources": [
-        "핀포인트뉴스"
-      ],
-      "signal_keywords": [
-        "수주"
-      ],
-      "signal_major_article_count": {
-        "수주": 8
-      }
-    },
-    {
-      "title": "LS일렉트릭, 사상 최대 실적으로 100분기 연속 흑자 ‘금자탑’ - 한국관세신문",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ackNBSWdjV3psZDVwSkRmaWJaV2dzUHZkaTNNUzFhSENka281RnhoZGlaajFrNFNYeld3YldfdTBOV2lwand2bUZsRmplbl9TbkFfOW1FV0lkb1Z0b1ZMaGQtbFdMd9IBa0FVX3lxTFBBUVdpR0FQSGYtVExyYjUzZmVuVmZsOGl5RHNTQjcwMWlhRWRNSTlSQWprQ3Zwb3hxczgtUGtLU0lLNTYxbTVNN040ZUtUVHBzd0tsRERDSTlrUVFvYnpaY21QVU1ncTFjR3Jz?oc=5",
-      "source": "한국관세신문",
-      "published_raw": "Thu, 22 Oct 2026 00:04:00 GMT",
-      "date": "2026-10-22",
-      "time": "09:04",
-      "matched_keywords": [
-        "흑자"
-      ],
-      "news_score": 4,
-      "id": "7d2d17410501fd6e",
-      "ticker": "006260",
-      "company": "LS",
-      "sector": "",
-      "sources": [
-        "한국관세신문"
-      ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
-    },
-    {
-      "title": "신세계라이브쇼핑, 프리미엄 여성복 지컷 단독 전개 - 신세계그룹 뉴스룸",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNdnJNanBjRkFYQ1MtZFZia2x1TXpJSDhVSTJFc0ZFMWIyNVpfMVhGRVlCV24wVlFGZDVjaVFFS1oyV3hCZUN4OVZmcFMtS1VhQ05MeEtrbzc0UG40UFA3VzlBckJCd0czd2N0LXFVTkp5eWdTSEI5QjhsU21pUEZGRXJneVpMUHdaeU9LeHQtalRqVWxYd19MUWVERUluTmhUSi01UEFCV2paaThnWmRLeXNOTExQd25NeVhqb3NmRkNGX3c?oc=5",
-      "source": "신세계그룹 뉴스룸",
-      "published_raw": "Thu, 22 Oct 2026 00:00:00 GMT",
-      "date": "2026-10-22",
-      "time": "09:00",
-      "matched_keywords": [
-        "단독"
-      ],
-      "news_score": 2,
-      "id": "604e3a0ba05f305e",
-      "ticker": "004170",
-      "company": "신세계",
-      "sector": "",
-      "sources": [
-        "신세계그룹 뉴스룸"
-      ],
-      "signal_keywords": [
-        "단독"
-      ],
-      "signal_major_article_count": {
-        "단독": 8
+        "수주": 6
       }
     },
     {
       "title": "신세계라이브쇼핑, 신세계가 육성한 여성복 '지컷' 단독 전개 - 뉴시스",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9pQ3dXMGdkQjVqWk00VGk3TDRKaXd0Zkl6Sm5GQkp2RTRZMEtGbmdkZDdjQzhXbkNMM0YxNUtUdFZ0LWNqcTFmZVFsTjRxQlE4ZDRYNDNhV0FmNUFYRi1WMNIBeEFVX3lxTE5YNlRQbDFWelNGZ0FlQU5CZzhDWGxhMk9MeU9ua1huV0g1M3hMbUMwY3ptaTl2NlpxeVctUW1PQnFfdjJscmhIck9TanZDczlVUFRHS2oxRG1YM1ZfcjhWVXBKRkNKOU1XWEM2YUJZeFdlX0ozb3VmeQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5YNlRQbDFWelNGZ0FlQU5CZzhDWGxhMk9MeU9ua1huV0g1M3hMbUMwY3ptaTl2NlpxeVctUW1PQnFfdjJscmhIck9TanZDczlVUFRHS2oxRG1YM1ZfcjhWVXBKRkNKOU1XWEM2YUJZeFdlX0ozb3VmedIBeEFVX3lxTE5YNlRQbDFWelNGZ0FlQU5CZzhDWGxhMk9MeU9ua1huV0g1M3hMbUMwY3ptaTl2NlpxeVctUW1PQnFfdjJscmhIck9TanZDczlVUFRHS2oxRG1YM1ZfcjhWVXBKRkNKOU1XWEM2YUJZeFdlX0ozb3VmeQ?oc=5",
       "source": "뉴시스",
       "published_raw": "Wed, 21 Oct 2026 23:54:14 GMT",
       "date": "2026-10-22",
@@ -8360,7 +9030,7 @@
         "단독"
       ],
       "news_score": 2,
-      "id": "8284d8c3436347f1",
+      "id": "8da6d662e4f1c16e",
       "ticker": "004170",
       "company": "신세계",
       "sector": "",
@@ -8371,7 +9041,7 @@
         "단독"
       ],
       "signal_major_article_count": {
-        "단독": 8
+        "단독": 10
       }
     },
     {
@@ -8394,6 +9064,31 @@
       ],
       "signal_keywords": [],
       "signal_major_article_count": {}
+    },
+    {
+      "title": "삼성바이오, 록빌·5공장 효과에 호실적…신규 수주 가능성↑[Why 바이오] - 서울경제",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5hZUlSY3FNYkEzbGc3Q25MalgxR1JqRC1yR2xLeGphWGxCMVBaRmNSczV4N01DQlhlSHRkTkJId19DdzZDdk1FLTk3Nl83aEJ5LXfSAVNBVV95cUxPOXFVdDFtUXE0YnZDYlplX080ZzhXZG5PQ3lVQlNlRmJoV2VBRkg0NDV6V2M3UGtjWFNNWk85ZXZGSzUtWmd2cjlvYWtteDFKNzQxTQ?oc=5",
+      "source": "서울경제",
+      "published_raw": "Wed, 21 Oct 2026 23:49:23 GMT",
+      "date": "2026-10-22",
+      "time": "08:49",
+      "matched_keywords": [
+        "수주"
+      ],
+      "news_score": 3,
+      "id": "c71d5195141b5875",
+      "ticker": "207940",
+      "company": "삼성바이오로직스",
+      "sector": "",
+      "sources": [
+        "서울경제"
+      ],
+      "signal_keywords": [
+        "수주"
+      ],
+      "signal_major_article_count": {
+        "수주": 6
+      }
     },
     {
       "title": "두산은 美 SMR 수주, 창원 강소기업은 인력·자금난…K-원전 공급망 ‘경고등’ - 에너지안전신문",
@@ -8459,7 +9154,7 @@
         "수주"
       ],
       "signal_major_article_count": {
-        "수주": 4
+        "수주": 6
       }
     },
     {
@@ -8505,7 +9200,32 @@
         "수주"
       ],
       "signal_major_article_count": {
-        "수주": 4
+        "수주": 6
+      }
+    },
+    {
+      "title": "[리포트 브리핑]삼성바이오로직스, '가이던스 상향, 6공장과 수주도 곧 (3Q26 Review)' 목표가 1,950,000원 - 하나증권 - 뉴스핌",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE92SHB2a3JrVnFlUTh2T2FqQ3ZWdHZsXzI0M0RiXzhhb0wwU3BNd1JUSnBhR1JVc2pTYXZqN3JWZFZuWWFWU0g2Ykdwemk0Sjd4ekp1RER5WS1WM2lK?oc=5",
+      "source": "뉴스핌",
+      "published_raw": "Wed, 21 Oct 2026 23:32:00 GMT",
+      "date": "2026-10-22",
+      "time": "08:32",
+      "matched_keywords": [
+        "수주"
+      ],
+      "news_score": 3,
+      "id": "3b44801644511046",
+      "ticker": "207940",
+      "company": "삼성바이오로직스",
+      "sector": "",
+      "sources": [
+        "뉴스핌"
+      ],
+      "signal_keywords": [
+        "수주"
+      ],
+      "signal_major_article_count": {
+        "수주": 6
       }
     },
     {
@@ -8526,8 +9246,12 @@
       "sources": [
         "더구루"
       ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
+      "signal_keywords": [
+        "단독"
+      ],
+      "signal_major_article_count": {
+        "단독": 3
+      }
     },
     {
       "title": "KCC건설, 홍익대 캠퍼스 신축공사 4489억원 수주 - 비건뉴스",
@@ -8572,7 +9296,7 @@
         "수주"
       ],
       "signal_major_article_count": {
-        "수주": 4
+        "수주": 6
       }
     },
     {
@@ -8619,8 +9343,29 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 5
+        "진출": 4
       }
+    },
+    {
+      "title": "SK證 “신세계인터내셔날, 원화 강세에 수익성 개선…3분기 흑자 전망” - 팝콘뉴스",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1fdUJFZGc2Z3I2a0dndDd0MmhIMUduX2RJZko3RkNMN2I2dlZMMUNzeWtyWXhoMl85RVZGU3Z6ZU41cnB1ZHZERlR3OUNxeFphRGpzRlY0aVJTSlRGTzFZdWJLa1p6aXZPYWp3SjVn0gFyQVVfeXFMUHhta2ZWZ2tDVlNmd1ByODBhZnd2b244WkZxZy1YSGkwVm8zbDJiWk9lVmZ5ek5NdS1PZV9MMVdaZUFVb2ZHUTJkcnp2RTdKbHBOQVFMSlhxdTQxaThBLW9JQ2JPSW1iNlNKSVllUWFLbWJB?oc=5",
+      "source": "팝콘뉴스",
+      "published_raw": "Wed, 21 Oct 2026 23:25:25 GMT",
+      "date": "2026-10-22",
+      "time": "08:25",
+      "matched_keywords": [
+        "흑자"
+      ],
+      "news_score": 4,
+      "id": "d14aa75a901e2b3f",
+      "ticker": "004170",
+      "company": "신세계",
+      "sector": "",
+      "sources": [
+        "팝콘뉴스"
+      ],
+      "signal_keywords": [],
+      "signal_major_article_count": {}
     },
     {
       "title": "[단독] 삼성전자 '제조 로봇' 핵심기지 中 쑤저우에 구축…DX 첫 해외 연구소 전격 가동 - 더구루",
@@ -8649,7 +9394,7 @@
     },
     {
       "title": "키움증권 삼성바이오로직스, 파업 우려 완화에 대형 수주 기대도…목표가 유지 - 아주경제",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9xa3ZTMENsOEVwQVlpdktZMVZXY09WREZ1aWhSU1lqY2gzN3c5YkVMcG5Ddm5iQUppbkpwVFExWTVqX1dxWlZRQjgyY2lhMlFmNWx3YmY3a2VmUdIBWEFVX3lxTFBvaEl1SG1WU1BxNWYxNk5GNkstUU5GTnFVbFJrTVk4RDNLbUIySFZ2akwxblJodVVpd0ZTMFNNUlZJVDhqLThGOFRHZW9VOUlPOTBuSmExMUU?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBvaEl1SG1WU1BxNWYxNk5GNkstUU5GTnFVbFJrTVk4RDNLbUIySFZ2akwxblJodVVpd0ZTMFNNUlZJVDhqLThGOFRHZW9VOUlPOTBuSmExMUXSAVhBVV95cUxQb2hJdUhtVlNQcTVmMTZORjZLLVFORk5xVWxSa01ZOEQzS21CMkhWdmpMMW5SaHVVaXdGUzBTTVJWSVQ4ai04RjhUR2VvVTlJTzkwbkphMTFF?oc=5",
       "source": "아주경제",
       "published_raw": "Wed, 21 Oct 2026 23:21:06 GMT",
       "date": "2026-10-22",
@@ -8658,7 +9403,7 @@
         "수주"
       ],
       "news_score": 3,
-      "id": "aff5215f6235c491",
+      "id": "a45548fa34c1f0b4",
       "ticker": "207940",
       "company": "삼성바이오로직스",
       "sector": "",
@@ -8669,7 +9414,7 @@
         "수주"
       ],
       "signal_major_article_count": {
-        "수주": 4
+        "수주": 6
       }
     },
     {
@@ -8694,31 +9439,6 @@
       "signal_major_article_count": {}
     },
     {
-      "title": "삼성바이오로직스 '다시 시동' 신규 수주 모멘텀...연말 강화 기대감↑ - 파이낸셜포스트",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBZMXl5OWZIam5qdTNZcjBPWnNIajVBdEROREl3TGg0ZUNJYllXU1ZwVHFVUVlqZkV6LWhaeERKVmhqMkhfNHZoMFgzcU1oSFVnSV84cThTeWpNOG9LQllkZm10SFU1Yk93OG55ZXFQZF9KbWx0?oc=5",
-      "source": "파이낸셜포스트",
-      "published_raw": "Wed, 21 Oct 2026 23:20:41 GMT",
-      "date": "2026-10-22",
-      "time": "08:20",
-      "matched_keywords": [
-        "수주"
-      ],
-      "news_score": 3,
-      "id": "f33c9e1217041f2e",
-      "ticker": "207940",
-      "company": "삼성바이오로직스",
-      "sector": "",
-      "sources": [
-        "파이낸셜포스트"
-      ],
-      "signal_keywords": [
-        "수주"
-      ],
-      "signal_major_article_count": {
-        "수주": 4
-      }
-    },
-    {
       "title": "퀸잇, 온라인 인기 상품 GS샵서 판다…캐시미어 니트 홈쇼핑 진출 - 핀포인트뉴스",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9ZVndWUGtlaGRUakZra2ExcXgtMmVmeFFjS2EtN084eWVEMmFiN2E4NHM4MkRPbnNNdDE1VTAxdmZoOFh1ZlhSYTcyN2xHeGZtT0hlUmdlWDR0emp1VGFOTjZVMm9rNUxvcy1MN19nWHlQdlnSAXdBVV95cUxQRWJyUDdxZkFzWTlJVEJBbWxHaWpiMjRQaldjNVR4QmUxUDRnOTVHeFo0amdBbThheG1Oa042bG0yR0Y1UHhraVdOSk1zRlVjZERwc0loN2hDLUVIR19lR3VsYUlseF9aZl96ajRQTlNweTV1NFMzSQ?oc=5",
       "source": "핀포인트뉴스",
@@ -8736,8 +9456,12 @@
       "sources": [
         "핀포인트뉴스"
       ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
+      "signal_keywords": [
+        "진출"
+      ],
+      "signal_major_article_count": {
+        "진출": 3
+      }
     },
     {
       "title": "[단독]“석유공사, 나이지리아와 수천억원대 국제투자중재 선고 앞두고 ‘뇌물 공방’ 격화” - 헤럴드경제",
@@ -8820,8 +9544,12 @@
       "sources": [
         "경인방송 뉴스"
       ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
+      "signal_keywords": [
+        "수주"
+      ],
+      "signal_major_article_count": {
+        "수주": 3
+      }
     },
     {
       "title": "[북극항로 셈법] ③조선 3사, 공공·자원선부터 '수주 경쟁력'…해외 공략 - FETV",
@@ -8840,6 +9568,27 @@
       "sector": "",
       "sources": [
         "FETV"
+      ],
+      "signal_keywords": [],
+      "signal_major_article_count": {}
+    },
+    {
+      "title": "HD현대, 올해 선박 수주 최소 177척…고부가 친환경 선박 시장 '질주' - 경인방송 뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE56MjY5amFoMFNpa1hRckxQR05QVkczYkJXXzd4RVFhVWRFS2lHdVozZm50blZDQUZIV1hscHptemxzcDZILXY4SEZpbXJ2ZTkwLUcweWx2aFZ5czE2TnZ3cnFfbk3SAWhBVV95cUxOX0IxTm9DcjV6OVBLdExJbEdMWDExM0ZhbDNiLVF5Nm9XZDYxM1lWdmw3S19ScW12NW9vWTVmc3ZWV1lrWFI2eS0tcmlqN0U4TzRxWXBYNEYtVjlOemhmamdObXBlak4ydw?oc=5",
+      "source": "경인방송 뉴스",
+      "published_raw": "Wed, 21 Oct 2026 22:00:00 GMT",
+      "date": "2026-10-22",
+      "time": "07:00",
+      "matched_keywords": [
+        "수주"
+      ],
+      "news_score": 3,
+      "id": "3672258f5caf9e49",
+      "ticker": "009540",
+      "company": "HD한국조선해양",
+      "sector": "",
+      "sources": [
+        "경인방송 뉴스"
       ],
       "signal_keywords": [],
       "signal_major_article_count": {}
@@ -8891,6 +9640,27 @@
       "signal_major_article_count": {}
     },
     {
+      "title": "[단독]LG엔솔 加공장 '넥스타스타', 배터리셀 누적 생산 1000만개 돌파 - 더트래커",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5xYVlvdW1WYmZuUU9JOFlYbEZlNFkyNzVaUFZjbDk5dktKV3pLeUpTSzFDNVJ4d3EwODBzakl6M1JXT0JYNV9URzhYdmJBaGZlRldYV1U2QTM?oc=5",
+      "source": "더트래커",
+      "published_raw": "Wed, 21 Oct 2026 21:54:20 GMT",
+      "date": "2026-10-22",
+      "time": "06:54",
+      "matched_keywords": [
+        "단독"
+      ],
+      "news_score": 2,
+      "id": "356e673408ce7447",
+      "ticker": "373220",
+      "company": "LG에너지솔루션",
+      "sector": "",
+      "sources": [
+        "더트래커"
+      ],
+      "signal_keywords": [],
+      "signal_major_article_count": {}
+    },
+    {
       "title": "[단독]동탄 아파트 거래 30%가 삼성 대출…'반도체 머니' 유입 활발 - 뉴시스",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBROHZyYTYzdnktNW5ucml2VFBWNENZTkE3UnUtcUZKSE5QR0diQnZNNlpXM2FtN2pjbEt0S0xuM19GZDlsTmdsVHhfdjJyN05WVENjMGdPZk1NS21TUEJ4RtIBeEFVX3lxTE1JUjFLVHVDdlZQakdabzZzeDNueVRaMVFuODd4bnk4WFVUUnp1M3ptVlJENmRnODhJTlktSkFYQUtrQnQ2SnJjWmd3dmZDVXpNam9yd0hJV192QXdxN0NlMldDRUNlR2wtNDZfWTdUMHV4RDlQMkozTQ?oc=5",
       "source": "뉴시스",
@@ -8914,27 +9684,6 @@
       "signal_major_article_count": {
         "단독": 8
       }
-    },
-    {
-      "title": "[단독] CJ푸드빌 이건일 체제 흔들, 남산 철수에 내부진통 - 한스경제",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB0dTFpdHhuRkE3enZza1ZlYUNZaFhGZ3MxbmNUOW9iT1hNdXFsZ0FDbXpza3ZDT00zTFZmeUI5dkFRc05aaV9vUnhQLVVfcHBDWjRlanRzT09IX2ctODBMQ1NqRGtVZFViN0M40gFvQVVfeXFMTmNJMUJPa1BmMzBudXF5bzk2Ym5OOGFWd3Ntbkw2M0ZGMXZBLW5lWmk0T2JVRy1zRWoxRmNGU3VQckJGUS14T094WDR6VE1XNFktVGIyWEFxSXp5UmNkeC1UVy1kb2VGb1NpVnBSY1Mw?oc=5",
-      "source": "한스경제",
-      "published_raw": "Wed, 21 Oct 2026 21:00:00 GMT",
-      "date": "2026-10-22",
-      "time": "06:00",
-      "matched_keywords": [
-        "단독"
-      ],
-      "news_score": 2,
-      "id": "58d8403dc7734b73",
-      "ticker": "001040",
-      "company": "CJ",
-      "sector": "",
-      "sources": [
-        "한스경제"
-      ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
     },
     {
       "title": "CJ대한통운, 안산 AI데이터센터 3150억원 수주…2029년 12월까지 - 비건뉴스",
@@ -8983,7 +9732,7 @@
         "수주"
       ],
       "signal_major_article_count": {
-        "수주": 6
+        "수주": 5
       }
     },
     {
@@ -9012,27 +9761,6 @@
       }
     },
     {
-      "title": "HD현대, 2조원 규모 초대형 친환경 컨테이너선 8척 수주 - https://www.koreasprint.com/",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE15b1hWTlluRzkxdEltamc2cThJLUJ1RzI5dFJfZ3pRd0JaOGVMM19FdFphc3JJS3djYXp2R056WHgwbDRCNVVjYWhhN3liT0hKRXhPV2ZJRnltWmRtQXVNcFZwd01PdTJ3U2N1MjZn?oc=5",
-      "source": "https://www.koreasprint.com/",
-      "published_raw": "Wed, 21 Oct 2026 16:47:00 GMT",
-      "date": "2026-10-22",
-      "time": "01:47",
-      "matched_keywords": [
-        "수주"
-      ],
-      "news_score": 3,
-      "id": "4633f9fad1cbd5f7",
-      "ticker": "329180",
-      "company": "HD현대중공업",
-      "sector": "",
-      "sources": [
-        "https://www.koreasprint.com/"
-      ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
-    },
-    {
       "title": "이노시뮬레이션, HD현대중 21억 계약…필리핀 해군 호위함 DCTS 수주 - 해사신문",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBaZElOclNWSEpuRExLTVk3MHRBMGRWRUdNcl9FYlVlTDI5eFNSVC1wbHdLbkhRa2xOclhJWDVCZDZXMU1LcUJnQlMwd2JmM1l2VXA1ZEpBOVktOUlEeUF2NmpKc21wcjZtTDRN?oc=5",
       "source": "해사신문",
@@ -9050,8 +9778,12 @@
       "sources": [
         "해사신문"
       ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
+      "signal_keywords": [
+        "수주"
+      ],
+      "signal_major_article_count": {
+        "수주": 3
+      }
     },
     {
       "title": "이노시뮬레이션, HD현대중 21억 계약…필리핀 해군 호위함 DCTS 수주 - 해사신문",
@@ -9100,7 +9832,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 5
+        "진출": 4
       }
     },
     {
@@ -9314,7 +10046,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 5
+        "진출": 4
       }
     },
     {
@@ -9381,7 +10113,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 5
+        "진출": 4
       }
     },
     {
@@ -9448,7 +10180,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 5
+        "진출": 4
       }
     },
     {
@@ -9494,7 +10226,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 5
+        "진출": 4
       }
     },
     {
@@ -9519,7 +10251,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 5
+        "진출": 4
       }
     },
     {
@@ -9636,7 +10368,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 5
+        "진출": 4
       }
     },
     {
@@ -9661,7 +10393,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 5
+        "진출": 4
       }
     },
     {
@@ -9707,7 +10439,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 5
+        "진출": 4
       }
     },
     {
@@ -9732,7 +10464,7 @@
         "수주"
       ],
       "signal_major_article_count": {
-        "수주": 4
+        "수주": 6
       }
     },
     {
@@ -9757,32 +10489,7 @@
         "수주"
       ],
       "signal_major_article_count": {
-        "수주": 6
-      }
-    },
-    {
-      "title": "창원시, 드론 산업 글로벌 시장 진출 지원…영풍전자와 협약 - 파이낸셜뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5DM0UyNXVILUVwbFliSnpIT0V5dERKcWhGWDdlcE43T1E1YlBoblRfZFZBd2w1RjN4cFlvUk1rbENWckgxbS1DLTIydmNpT0pjaFdOUVB3cHBrQQ?oc=5",
-      "source": "파이낸셜뉴스",
-      "published_raw": "Wed, 21 Oct 2026 08:24:41 GMT",
-      "date": "2026-10-21",
-      "time": "17:24",
-      "matched_keywords": [
-        "진출"
-      ],
-      "news_score": 2,
-      "id": "776a010fac75c106",
-      "ticker": "000670",
-      "company": "영풍",
-      "sector": "",
-      "sources": [
-        "파이낸셜뉴스"
-      ],
-      "signal_keywords": [
-        "진출"
-      ],
-      "signal_major_article_count": {
-        "진출": 5
+        "수주": 5
       }
     },
     {
@@ -9807,7 +10514,7 @@
         "진출"
       ],
       "signal_major_article_count": {
-        "진출": 5
+        "진출": 4
       }
     },
     {
@@ -10008,31 +10715,6 @@
       }
     },
     {
-      "title": "현대건설 ‘정비사업 절대 강자’ 위용…12조 수주 새 기록 썼다 - 데일리한국",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9HMm01NUZRcnhOTURGWk5IM2FjQjc3XzU1VWlfbHFIQXd1WFVwRWtCS0RyTWtaSWNIOWRnS2FzRjYtTUNjV1hnREJ2ekYzVWRoQ0k2b2puUWxoUXRGTlRDWHUtNUk0bVFDRDBZS2Rja9IBc0FVX3lxTE5DYjU5eEtLaG12U3ljUzdsM19YTHRQbG1OLTVKZ3BUQkdycmt5VkgxMVZSUlJyUk9mNW1vRDZmN09ad2RWeV9sZGZwSHNEbDNDRHF5b3FpVlJtZ0xyS0pjUEpiRUJQRXhtYUxvSnBvRUVQMkE?oc=5",
-      "source": "데일리한국",
-      "published_raw": "Wed, 21 Oct 2026 07:46:34 GMT",
-      "date": "2026-10-21",
-      "time": "16:46",
-      "matched_keywords": [
-        "수주"
-      ],
-      "news_score": 3,
-      "id": "ec8cd07fcc8ede93",
-      "ticker": "000720",
-      "company": "현대건설",
-      "sector": "",
-      "sources": [
-        "데일리한국"
-      ],
-      "signal_keywords": [
-        "수주"
-      ],
-      "signal_major_article_count": {
-        "수주": 4
-      }
-    },
-    {
       "title": "극동건설, 시흥동 가로주택정비 수주…수도권 정비사업 확대 - 블로그",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4yemJKOWZGdS11bmdYMnFvRVRldWRIcC1QUEl2MjBKMGlwOGF1UzlLUy12d1RjbkZnWHFLbmtfaWxYendvZDFHRks3YnB3WEZfWVRDajkyTFlJdw?oc=5",
       "source": "블로그",
@@ -10189,7 +10871,7 @@
     },
     {
       "title": "이노시뮬레이션, HD현대중공업과 21억원 필리핀 해군 DCTS 공급계약 - 머니투데이 - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5KNVRVWW9tOTNHaUZ5UXRSUlNiSmY0OTBZekx6WDhYaXpVS0tzX29paUM3bk8zaVJIS0lDa2F4Mi1YSTRSZDNPaDBQRVh2TzUtUmxodkYzbFpZcTBreHMxS09Nc3cyR1Ew0gFuQVVfeXFMTTNvUlFnWHlVX1JjNXZ1WkRBa0ZEZFVJYlVzdmJVRHNtb3d0Wl9HTGJQaUstamhRWVdKYlZ2ZVlkcjMzVUhLRjVJZ21pdndIQnJoZlJzaVRWMms3bGo1WjVGZjQtZnRvUkRIcld4WkE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9zN3dzQ1YzQTI4V0tsb2ZqYkZ0amx3bWtBR2xyZ0NXZUhmMFF2NEhYaExyYlhBZEx0Z2hRcmZKLWtmeFJvUjBUZzdMbF9DbkpGVlJ6YWV3cXVJek1Kb0k0ZlVINl84RWFpLWZRTHVoRWlvUVlJNXfSAXtBVV95cUxPRVRMZFV0QTc4MThKNTd6ZHAxb3o5TGlTaXhKQm1LR25nY3FGcGNjcmpqazVsOFJ0YjlINVQ4MkpoNlJDVHJRSHpxQ29QUmc3LVFfOVNsSDRFNEdtTlpUallQU1hYNF9FUFdRNzgxa3llaDliTGFUeFI5UjQ?oc=5",
       "source": "머니투데이",
       "published_raw": "Wed, 21 Oct 2026 07:19:25 GMT",
       "date": "2026-10-21",
@@ -10198,7 +10880,7 @@
         "공급계약"
       ],
       "news_score": 3,
-      "id": "0f6ca2f0e96f7684",
+      "id": "ce380cdfdd9fe373",
       "ticker": "329180",
       "company": "HD현대중공업",
       "sector": "",
@@ -10234,22 +10916,22 @@
       }
     },
     {
-      "title": "LS ELECTRIC, 3Q 영업익 2335억원 \"사상 최대 실적, 100분기 연속 흑자\" - 마일드경제",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9ibExUdkNuVU5ydVgyR3RDQnhVUWtuenVpdEhmTVU5QmNMTklpX3hnbFJLX0FvUTFsang3d3UyZnRQRjBQSXJnT0d5ZlJPOU9ISmxfVVl0dkRza3kxMmZaelJsd1NWRXdWSzFN?oc=5",
-      "source": "마일드경제",
-      "published_raw": "Wed, 21 Oct 2026 07:12:46 GMT",
+      "title": "[단독] 이재근號 KB금융, 인사태풍 예고 … 차기 국민은행장 정문철 급부상 - 뉴데일리",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOblYxX3lfYUNKZ2d1ZnNfTFhBUGJhMV8yWkQ1VHVXd3pKalJUNFZOS3VYR1VwdzRyRl9rMlNFMXZNUVVDNF93Y3ZnaHZMWFZnU3R0ZENqZXNEUmhqbUdGX3FEcGJ0UXdKd0xudTNNdUprb1hCeVN0WWhndkxKWUdpR9IBgAFBVV95cUxOblYxX3lfYUNKZ2d1ZnNfTFhBUGJhMV8yWkQ1VHVXd3pKalJUNFZOS3VYR1VwdzRyRl9rMlNFMXZNUVVDNF93Y3ZnaHZMWFZnU3R0ZENqZXNEUmhqbUdGX3FEcGJ0UXdKd0xudTNNdUprb1hCeVN0WWhndkxKWUdpRw?oc=5",
+      "source": "뉴데일리",
+      "published_raw": "Wed, 21 Oct 2026 07:17:10 GMT",
       "date": "2026-10-21",
-      "time": "16:12",
+      "time": "16:17",
       "matched_keywords": [
-        "흑자"
+        "단독"
       ],
-      "news_score": 4,
-      "id": "bbfbbaba3a0c626f",
-      "ticker": "010120",
-      "company": "LS ELECTRIC",
+      "news_score": 2,
+      "id": "ca5935546fd8fb13",
+      "ticker": "105560",
+      "company": "KB금융",
       "sector": "",
       "sources": [
-        "마일드경제"
+        "뉴데일리"
       ],
       "signal_keywords": [],
       "signal_major_article_count": {}
@@ -10436,27 +11118,6 @@
         "수주"
       ],
       "news_score": 3,
-      "id": "47aae0a3112cae1f",
-      "ticker": "329180",
-      "company": "HD현대중공업",
-      "sector": "",
-      "sources": [
-        "미디어펜"
-      ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
-    },
-    {
-      "title": "해양방산 수주 부진한 HD현대·한화…해외서 만회 총력 - 미디어펜",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9mekM0YUhsUmk1Y0RSQ0Y1T04ycElfalNlVmE4QmNTRm1XcDJUM3UtZDBPMVEzbzRwejhyR0tRZ0NlM3kxWG9QWjdGb3RoT2VpeWUzVdIBWEFVX3lxTE5lYXVySGR0Q1NKNzNMTm16cUNCMFBDbEZPWG9GN3BGaGdZRzE2b2loVlhBaS1ZeFFfWFIwM2xkcWpCZjRicEZiMm1adkM2RTlidF90NUVqZkc?oc=5",
-      "source": "미디어펜",
-      "published_raw": "Wed, 21 Oct 2026 06:37:54 GMT",
-      "date": "2026-10-21",
-      "time": "15:37",
-      "matched_keywords": [
-        "수주"
-      ],
-      "news_score": 3,
       "id": "0d808c4b7a586c69",
       "ticker": "042660",
       "company": "한화오션",
@@ -10541,6 +11202,31 @@
         "수주"
       ],
       "news_score": 3,
+      "id": "88f50bfabf9d4a98",
+      "ticker": "001040",
+      "company": "CJ",
+      "sector": "",
+      "sources": [
+        "디지털투데이"
+      ],
+      "signal_keywords": [
+        "수주"
+      ],
+      "signal_major_article_count": {
+        "수주": 7
+      }
+    },
+    {
+      "title": "CJ대한통운, 3150억원 규모 KT클라우드 안산 AIDC 신축공사 수주 - 디지털투데이",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBzUXkxckJkQXYxUkU1djQ5YkVRcVFlM0NYRTdHcU9fZExleUs2cjhBUlNzLVFfR2ZqcjEtakxtOF9tMUt3M2dwa2t2UEdzTzZScURjN3BKWFRsQjFQMVRFOVlPbWdYeEtkY1JxQWRfVDJFem9xUFFkTlVGcw?oc=5",
+      "source": "디지털투데이",
+      "published_raw": "Wed, 21 Oct 2026 06:32:04 GMT",
+      "date": "2026-10-21",
+      "time": "15:32",
+      "matched_keywords": [
+        "수주"
+      ],
+      "news_score": 3,
       "id": "f8b19a8f7d937f8e",
       "ticker": "000120",
       "company": "CJ대한통운",
@@ -10552,7 +11238,7 @@
         "수주"
       ],
       "signal_major_article_count": {
-        "수주": 6
+        "수주": 5
       }
     },
     {
@@ -10577,25 +11263,29 @@
       "signal_major_article_count": {}
     },
     {
-      "title": "[단독] 차기 국민은행장 유력 후보로 정문철 KB라이프생명 대표 급부상 - 뉴데일리",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBUNFhCR2h0ZDRPTzdmQWE4MGhBSW9jakt4ek8yT3Fqa0J0YmMwN1VsVXczNVIzZzEwdEJYalNtclZSejRraVNqbjI0WVVCTkVCT0dBM2tIX1Q5S0w2ZXRCUjNfU2tsX0dHYjZEQWdPMk1OMVR1dHpwTDc5ONIBgAFBVV95cUxOblYxX3lfYUNKZ2d1ZnNfTFhBUGJhMV8yWkQ1VHVXd3pKalJUNFZOS3VYR1VwdzRyRl9rMlNFMXZNUVVDNF93Y3ZnaHZMWFZnU3R0ZENqZXNEUmhqbUdGX3FEcGJ0UXdKd0xudTNNdUprb1hCeVN0WWhndkxKWUdpRw?oc=5",
-      "source": "뉴데일리",
-      "published_raw": "Wed, 21 Oct 2026 06:17:09 GMT",
+      "title": "CJ대한통운, KT클라우드 안산 AIDC 신축 공사 수주 - TopStarNews",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1weVBFS1ZUNFA1U2dDTnV2ZlE0T0dSQmpFVHhoNC1QR3I3VldWZV9aT3ZOY1pFQ1ViYXR5bEZQbk9PeUF4X3NDUHFtWHhaZmJCNmFUbm90b0VMb3hiTjZuMi00VXpBWXFXRkJGRk8xY2xsdw?oc=5",
+      "source": "TopStarNews",
+      "published_raw": "Wed, 21 Oct 2026 06:19:53 GMT",
       "date": "2026-10-21",
-      "time": "15:17",
+      "time": "15:19",
       "matched_keywords": [
-        "단독"
+        "수주"
       ],
-      "news_score": 2,
-      "id": "38336209600b9396",
-      "ticker": "105560",
-      "company": "KB금융",
+      "news_score": 3,
+      "id": "b47a6500f773006c",
+      "ticker": "001040",
+      "company": "CJ",
       "sector": "",
       "sources": [
-        "뉴데일리"
+        "TopStarNews"
       ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
+      "signal_keywords": [
+        "수주"
+      ],
+      "signal_major_article_count": {
+        "수주": 7
+      }
     },
     {
       "title": "LS일렉트릭, 3분기 최대 실적…100분기 연속 흑자 - 조선비즈 - Chosunbiz",
@@ -10749,6 +11439,27 @@
       "signal_major_article_count": {}
     },
     {
+      "title": "[속보] 웨이비스, 한화시스템과 51억5668만원 규모 공급계약 - CBC뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE50b2NINkNGSXJITWdaZTZuT2lYeDg3bktUR3hQQWFFVXlPVGdtUUNka2JqeWdfR2NPbWM2MnZaQWZ5ZjRwS3AzOF9UV1lfQTE0RjBwVHoxT0IwbFR5WXdBZFlaakNvUFU4?oc=5",
+      "source": "CBC뉴스",
+      "published_raw": "Wed, 21 Oct 2026 05:41:20 GMT",
+      "date": "2026-10-21",
+      "time": "14:41",
+      "matched_keywords": [
+        "공급계약"
+      ],
+      "news_score": 3,
+      "id": "d49515ceccc1422d",
+      "ticker": "000880",
+      "company": "한화",
+      "sector": "",
+      "sources": [
+        "CBC뉴스"
+      ],
+      "signal_keywords": [],
+      "signal_major_article_count": {}
+    },
+    {
       "title": "'수주 확대·생산 투자'…LG전자, AI 데이터센터 시장 공략 가속 - 폴리뉴스 Polinews",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE55X2RWTmVhc2Fja2ppQUQxTEs0NVBMOUhZOEUyck5LTnpqNEtrY3NQQy01S29iMmxGZ1FuclFpZl9hR1F2bHRkS0FWMjhyVzA4Ni1VeUxUMlhSbExEcUxucmxWREM3X2xiT0hIVUFB?oc=5",
       "source": "폴리뉴스 Polinews",
@@ -10891,6 +11602,27 @@
       "sector": "",
       "sources": [
         "조선일보"
+      ],
+      "signal_keywords": [],
+      "signal_major_article_count": {}
+    },
+    {
+      "title": "양자통신 상용화에 민관 74억 원 투입…KT·SKB 실증망 구축 - 뉴스1",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5yVTdSNlNIanhadHVhek9UUVhpSk1UNnZfYXZjYjN4SzNoM1lucm1QYU1xT3ptTFdwSVR5WFVnVVYwMV9PNjhnSV9wRWlKT3JyT0FGRUNoRWNUTUFqSVFsdQ?oc=5",
+      "source": "뉴스1",
+      "published_raw": "Wed, 21 Oct 2026 04:30:00 GMT",
+      "date": "2026-10-21",
+      "time": "13:30",
+      "matched_keywords": [
+        "상용화"
+      ],
+      "news_score": 3,
+      "id": "b81af7285bd561d3",
+      "ticker": "030200",
+      "company": "KT",
+      "sector": "",
+      "sources": [
+        "뉴스1"
       ],
       "signal_keywords": [],
       "signal_major_article_count": {}
@@ -11131,6 +11863,48 @@
       "signal_major_article_count": {}
     },
     {
+      "title": "\"이젠 본격 공략 시점“…삼양식품의 유럽진출이 늦어진 이유는 - 더바이어",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE54N2hNUlRCNnFxNWFxOHctTXZ5RmVHWG42VzM1TW91blhrR3ZhV1FvbVRnSmswZ1d2cEJQM21DR1N1Uzd0dzdwdndBUlFVWE1hREp6V3d0S3gtMm8zdTRyWjVKMktqUml5Zm1j?oc=5",
+      "source": "더바이어",
+      "published_raw": "Wed, 21 Oct 2026 02:22:24 GMT",
+      "date": "2026-10-21",
+      "time": "11:22",
+      "matched_keywords": [
+        "진출"
+      ],
+      "news_score": 2,
+      "id": "3d5ec33a91beaac4",
+      "ticker": "003230",
+      "company": "삼양식품",
+      "sector": "",
+      "sources": [
+        "더바이어"
+      ],
+      "signal_keywords": [],
+      "signal_major_article_count": {}
+    },
+    {
+      "title": "대한항공, 인천 도서지역서 UAM 실증 성공…상용화 기반 강화 - 민주신문",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE12NnBSVEpBVzlyOFQwamtfMHJFZnVKN2lkREdEOEJnb0dKVXlDb05LNU15TjYzRUl0RWV2X2Vmc25FRFNMaVk4M1dZX3pDMnZXMjRKRFA3TTBkM21RV3BBd1hnU2VBSU3SAWtBVV95cUxPZXFCX1R3UUkyRkx3Qlp4OHplOGVRVU5LWkFPTm9LV1RxS1U3ZTdkS3l3el9GZmtpS1M5WDN3NnZrb2lCam9ucFNhenpIUDZyRGx6X25VY3ROdU5RSlMzUS1ONUVwSS0waGUtcw?oc=5",
+      "source": "민주신문",
+      "published_raw": "Wed, 21 Oct 2026 02:21:47 GMT",
+      "date": "2026-10-21",
+      "time": "11:21",
+      "matched_keywords": [
+        "상용화"
+      ],
+      "news_score": 3,
+      "id": "fb509c15a2c8644e",
+      "ticker": "003490",
+      "company": "대한항공",
+      "sector": "",
+      "sources": [
+        "민주신문"
+      ],
+      "signal_keywords": [],
+      "signal_major_article_count": {}
+    },
+    {
       "title": "LIG D&A, 2년 입찰 제한에 14%대 급락…신규 수주 차질 우려 [이런국장 저런주식] - 서울경제",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBxbzdpQlh3ZXZxWTJKYmdjQXo4QkVFYVQxTWRUUVRZUENWdTdtNW9qbXhkdzRiUnk3MWNFSGRPcTZmSmNFdUgxbm9ESWlLd2VqRXfSAVNBVV95cUxNWi02QnZIUVRUSzYzQ0d2X1VkdnFVOExuRVNfczRQVWUxV1dLRlphQzVhczRhd2t6blMtZ19yRGFIb05rYzN1TTd5SGY5M3prbDNWcw?oc=5",
       "source": "서울경제",
@@ -11233,6 +12007,27 @@
         "수주"
       ],
       "news_score": 3,
+      "id": "86aedfa12de69599",
+      "ticker": "375500",
+      "company": "DL이앤씨",
+      "sector": "",
+      "sources": [
+        "뉴스핌"
+      ],
+      "signal_keywords": [],
+      "signal_major_article_count": {}
+    },
+    {
+      "title": "[리포트 브리핑]DL이앤씨, '재무 구조는 안정적, 수주는 숙제' 목표가 87,000원 - IBK투자증권 - 뉴스핌",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5IREhwc1Bid2NCRlNvaC1seThpSlE4Z1JoYkR5Y1RlVnhIZlhmand1RzhHS0UtZTRfSWZmSU1FUXBiU2VjRnVXRnJYLU1mMmI4bUxmSTJYamY4TTgy?oc=5",
+      "source": "뉴스핌",
+      "published_raw": "Wed, 21 Oct 2026 02:02:00 GMT",
+      "date": "2026-10-21",
+      "time": "11:02",
+      "matched_keywords": [
+        "수주"
+      ],
+      "news_score": 3,
       "id": "2c5a70d69d0cb5af",
       "ticker": "000210",
       "company": "DL",
@@ -11302,27 +12097,6 @@
       "sector": "",
       "sources": [
         "데이터투자"
-      ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
-    },
-    {
-      "title": "[중공업 레이더] HD한국조선해양, 친환경 선박 수주로 이어가는 고부가가치 행보 - 더밸류뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA5MVhxbWtQRXZ0aVVfaUt4NzdRWFk0UU5ZZndwMG54aHloTVQyV01RNDBocmFoaTVJY0FYVlA0UTN4QWNwektpT3ZSVXRZOFNXSnI4?oc=5",
-      "source": "더밸류뉴스",
-      "published_raw": "Wed, 21 Oct 2026 01:49:03 GMT",
-      "date": "2026-10-21",
-      "time": "10:49",
-      "matched_keywords": [
-        "수주"
-      ],
-      "news_score": 3,
-      "id": "0befe7ac712a516a",
-      "ticker": "329180",
-      "company": "HD현대중공업",
-      "sector": "",
-      "sources": [
-        "더밸류뉴스"
       ],
       "signal_keywords": [],
       "signal_major_article_count": {}
@@ -11467,6 +12241,31 @@
       ],
       "signal_major_article_count": {
         "단독": 8
+      }
+    },
+    {
+      "title": "신세계면세점, 럭셔리 비건 뷰티 '아워글래스' 홀리데이 단독 팝업 운영 - 펜앤마이크",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5NRmJWSXJlMjdGOWJlSm4zSFZYNjRXMk1DZE9DMkU3eWhTUmdNMGExM0lxWXdmQk5iNE9RdGR1T2RqU0hwdmVHbWpqRnZXb3JIU3JDRnVXWVN4elpzU2xVOWloQU5nRzAtQlExeFUzVdIBb0FVX3lxTE5NRmJWSXJlMjdGOWJlSm4zSFZYNjRXMk1DZE9DMkU3eWhTUmdNMGExM0lxWXdmQk5iNE9RdGR1T2RqU0hwdmVHbWpqRnZXb3JIU3JDRnVXWVN4elpzU2xVOWloQU5nRzAtQlExeFUzVQ?oc=5",
+      "source": "펜앤마이크",
+      "published_raw": "Wed, 21 Oct 2026 01:41:51 GMT",
+      "date": "2026-10-21",
+      "time": "10:41",
+      "matched_keywords": [
+        "단독"
+      ],
+      "news_score": 2,
+      "id": "8f6ccc68449a1f98",
+      "ticker": "004170",
+      "company": "신세계",
+      "sector": "",
+      "sources": [
+        "펜앤마이크"
+      ],
+      "signal_keywords": [
+        "단독"
+      ],
+      "signal_major_article_count": {
+        "단독": 10
       }
     },
     {
@@ -11778,6 +12577,27 @@
         "수주"
       ],
       "news_score": 3,
+      "id": "806df112b76ce75c",
+      "ticker": "375500",
+      "company": "DL이앤씨",
+      "sector": "",
+      "sources": [
+        "메트로신문"
+      ],
+      "signal_keywords": [],
+      "signal_major_article_count": {}
+    },
+    {
+      "title": "DL이앤씨, 270도 한강 조망 앞세워 성수2지구 수주 나선다 - 메트로신문",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB0V0hyZUw2X3hnbWlRWEVEMDNEYkstY09JN0d0djN1V3pWWUVOSmtCdXlBMEVhZk03UnhmcllCdEF1WmlxRVJ6S29ReHFnREtkOU1VekhlZHlXdUV1aFRlWA?oc=5",
+      "source": "메트로신문",
+      "published_raw": "Wed, 21 Oct 2026 01:12:57 GMT",
+      "date": "2026-10-21",
+      "time": "10:12",
+      "matched_keywords": [
+        "수주"
+      ],
+      "news_score": 3,
       "id": "b2615f82b3cf3056",
       "ticker": "000210",
       "company": "DL",
@@ -11841,6 +12661,27 @@
         "수주"
       ],
       "news_score": 3,
+      "id": "f1c37a8a43de4f5d",
+      "ticker": "375500",
+      "company": "DL이앤씨",
+      "sector": "",
+      "sources": [
+        "뉴스핌"
+      ],
+      "signal_keywords": [],
+      "signal_major_article_count": {}
+    },
+    {
+      "title": "한강 조망 1186가구 앞세운 DL이앤씨…성수2지구 수주 나선다 - 뉴스핌",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAxaVl2aHI0aHJ2RXo1VHZ4cXVtRTBQTllpVGZ2SVRKZkNNOHU5dHk5akt4ODYtdmtUb192UmYzaXN0QURsV2Vhb19MX2htU0lveHE3dnlPMDkwOE5W?oc=5",
+      "source": "뉴스핌",
+      "published_raw": "Wed, 21 Oct 2026 00:52:00 GMT",
+      "date": "2026-10-21",
+      "time": "09:52",
+      "matched_keywords": [
+        "수주"
+      ],
+      "news_score": 3,
       "id": "5510f9b9576a91bd",
       "ticker": "000210",
       "company": "DL",
@@ -11850,6 +12691,31 @@
       ],
       "signal_keywords": [],
       "signal_major_article_count": {}
+    },
+    {
+      "title": "현대건설, 목동10단지 시공권 확보... 도시정비 수주 12조원 돌파 - 하우징타임즈",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE92NXhCY2xUeWpJZm5aMm9qU2cxZWcxR3p6NVFFU19LdFRXLXZGLWVjQWozT3JFNlVKa21yWF9Yd0NsVGg1X2RFX0hqZ2ZoZm52b2xVdjAxRWp2eV9jaTU1aFdtVGtFejlrbGZzcFd0ZWc?oc=5",
+      "source": "하우징타임즈",
+      "published_raw": "Wed, 21 Oct 2026 00:45:00 GMT",
+      "date": "2026-10-21",
+      "time": "09:45",
+      "matched_keywords": [
+        "수주"
+      ],
+      "news_score": 3,
+      "id": "5f4dd4169ff2cd56",
+      "ticker": "000720",
+      "company": "현대건설",
+      "sector": "",
+      "sources": [
+        "하우징타임즈"
+      ],
+      "signal_keywords": [
+        "수주"
+      ],
+      "signal_major_article_count": {
+        "수주": 4
+      }
     },
     {
       "title": "‘방산 빅4’ 수주잔고 200조 넘는다…신뢰 회복은 과제 [비즈360] - 헤럴드경제",
@@ -11896,6 +12762,31 @@
       ],
       "signal_keywords": [],
       "signal_major_article_count": {}
+    },
+    {
+      "title": "컵대회 4강 확정⋯현대캐피탈ㆍ대한항공ㆍ우리카드ㆍ한국전력 진출 - 이투데이",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE93U1Q0ZnZxdDFFTnhxcE80a21ERmFXa2JEdVBKRk5xWTUzZW95YVZyeXNDb0o4amRqcVlRNnF0MHFrUkFJN3hMbHdXNnBSaWRQOWN0RQ?oc=5",
+      "source": "이투데이",
+      "published_raw": "Wed, 21 Oct 2026 00:20:00 GMT",
+      "date": "2026-10-21",
+      "time": "09:20",
+      "matched_keywords": [
+        "진출"
+      ],
+      "news_score": 2,
+      "id": "1443124d6e7f438c",
+      "ticker": "003490",
+      "company": "대한항공",
+      "sector": "",
+      "sources": [
+        "이투데이"
+      ],
+      "signal_keywords": [
+        "진출"
+      ],
+      "signal_major_article_count": {
+        "진출": 5
+      }
     },
     {
       "title": "LG이노텍, 연말 AI 기판 수주 분수령···日 이비덴 철옹성 뚫나 - 뉴스프리존",
@@ -12091,6 +12982,31 @@
       "signal_major_article_count": {}
     },
     {
+      "title": "HD현대중공업, BGN으로부터 '6200억원 규모' 초대형 가스운반선 4척 수주 - 더구루",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBHSC1NcFotN3FRY2ZJWjR2TXpwY2lrVlRZM2loTEF1MllkTUExd2czNlJici14bE90RmhqUGZaeU9RQmhEdGtsZDU1eTNSNldOYmw1WUF3cldPUzEybGdnOGtkOA?oc=5",
+      "source": "더구루",
+      "published_raw": "Tue, 20 Oct 2026 23:13:00 GMT",
+      "date": "2026-10-21",
+      "time": "08:13",
+      "matched_keywords": [
+        "수주"
+      ],
+      "news_score": 3,
+      "id": "13af5032fc40c16b",
+      "ticker": "329180",
+      "company": "HD현대중공업",
+      "sector": "",
+      "sources": [
+        "더구루"
+      ],
+      "signal_keywords": [
+        "수주"
+      ],
+      "signal_major_article_count": {
+        "수주": 3
+      }
+    },
+    {
       "title": "[한국건설부동산산업대상] 현대건설, 2년 연속 정비사업 수주 10조 달성…압구정·목동서 잇단 성과 - 서울경제",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBvZjRhTDBZcnhKMWJGdXhMRVBqM0NuMUJGZWZTc2MteEFUOUlheXNxcFpYek5WSW5Bb1M2UFdLcVFBRnBYQk4yZ2tSekx3bHpFUEHSAVNBVV95cUxNMWhVNkViaDNkV2tfek5Sc1UzZnVXTUZoWjM4UkJtNlJqV3lQM21VaVJRUWJEMUZmV2NYZVRZaU5zWTkwZWpld1puRG5QdHN3TGxPMA?oc=5",
       "source": "서울경제",
@@ -12114,27 +13030,6 @@
       "signal_major_article_count": {
         "수주": 4
       }
-    },
-    {
-      "title": "[한국건설부동산산업대상] 현대건설, 2년 연속 정비사업 수주 10조 달성…압구정·목동서 잇단 성과 - 서울경제",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBvZjRhTDBZcnhKMWJGdXhMRVBqM0NuMUJGZWZTc2MteEFUOUlheXNxcFpYek5WSW5Bb1M2UFdLcVFBRnBYQk4yZ2tSekx3bHpFUEHSAVNBVV95cUxNMWhVNkViaDNkV2tfek5Sc1UzZnVXTUZoWjM4UkJtNlJqV3lQM21VaVJRUWJEMUZmV2NYZVRZaU5zWTkwZWpld1puRG5QdHN3TGxPMA?oc=5",
-      "source": "서울경제",
-      "published_raw": "Tue, 20 Oct 2026 23:10:34 GMT",
-      "date": "2026-10-21",
-      "time": "08:10",
-      "matched_keywords": [
-        "수주"
-      ],
-      "news_score": 3,
-      "id": "eaf68728a4e8a5d2",
-      "ticker": "026960",
-      "company": "동서",
-      "sector": "",
-      "sources": [
-        "서울경제"
-      ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
     },
     {
       "title": "한화생명, 3분기 보험손익 흑자전환 전망 - iM증권 - PRESS9",
@@ -12317,8 +13212,12 @@
       "sources": [
         "엠투데이"
       ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
+      "signal_keywords": [
+        "수주"
+      ],
+      "signal_major_article_count": {
+        "수주": 3
+      }
     },
     {
       "title": "[단독]삼성전자, 美 AI 클라우드 플랫폼 '데이토나'에 투자 - 더트래커",
@@ -12450,27 +13349,6 @@
       "sector": "",
       "sources": [
         "비즈워치"
-      ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
-    },
-    {
-      "title": "HD한국조선해양·삼성중공업, 수주 목표 달성 '파란불'...한화오션도 수주액 쑥 - 소비자가 만드는 신문",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE41OVVzTGRYVTZMWUlFUjNSbzU3SDlPMVZZOTRMN1VaX0xodUYyNlJTYWVjVTU4Q2pvX2U2TXBtZjdFbW5HWFpFV3VzMld6cTA2MGp5SUhEdkZ1bWFPLW04VVljMllOMDRtNER2b2thcjR5LTg?oc=5",
-      "source": "소비자가 만드는 신문",
-      "published_raw": "Tue, 20 Oct 2026 21:10:00 GMT",
-      "date": "2026-10-21",
-      "time": "06:10",
-      "matched_keywords": [
-        "수주"
-      ],
-      "news_score": 3,
-      "id": "79b6270f085e5db6",
-      "ticker": "329180",
-      "company": "HD현대중공업",
-      "sector": "",
-      "sources": [
-        "소비자가 만드는 신문"
       ],
       "signal_keywords": [],
       "signal_major_article_count": {}
@@ -12629,6 +13507,56 @@
       ],
       "signal_keywords": [],
       "signal_major_article_count": {}
+    },
+    {
+      "title": "HD현대중공업, HMM과 컨테이너선 2척 공사 수주 계약 체결 - TopStarNews",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE04cmtZejBZeXQ3Tk1PX1IxeU9hcWJfRHdiNlFtLXFJRWVWY3FmZW80MTBORG0tYzB3SHU2WllZYVpIVEdSaHFQcnZMRHlha2tZMUtLNmJpSHAxQjlOQnZMMjJXTHJPbGNwbDZnd2lqUjNPZw?oc=5",
+      "source": "TopStarNews",
+      "published_raw": "Tue, 20 Oct 2026 15:03:20 GMT",
+      "date": "2026-10-21",
+      "time": "00:03",
+      "matched_keywords": [
+        "수주"
+      ],
+      "news_score": 3,
+      "id": "0377f3a559d18a5e",
+      "ticker": "329180",
+      "company": "HD현대중공업",
+      "sector": "",
+      "sources": [
+        "TopStarNews"
+      ],
+      "signal_keywords": [
+        "수주"
+      ],
+      "signal_major_article_count": {
+        "수주": 3
+      }
+    },
+    {
+      "title": "단독) 대한항공 매출 16조5000억원 ‘독주’…LCC 1위는 티웨이항공 - 한국미디어일보",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1PbDlXSUVhX1lEdXRSdExyaW45SnAwWGthd3BJNko0NjF4R2ZMUkpZSGRmYkRDc3NRQlRRUUpyUlF3TXN0OFpKZUpEem1UbjEzVXhoMGFvUlE2Y0xzNmdKdFYzQi1qMHZ3M044eG9EcmVHR3dPeWtGUmljV0o?oc=5",
+      "source": "한국미디어일보",
+      "published_raw": "Tue, 20 Oct 2026 14:45:00 GMT",
+      "date": "2026-10-20",
+      "time": "23:45",
+      "matched_keywords": [
+        "단독"
+      ],
+      "news_score": 2,
+      "id": "43429b1f6436a679",
+      "ticker": "003490",
+      "company": "대한항공",
+      "sector": "",
+      "sources": [
+        "한국미디어일보"
+      ],
+      "signal_keywords": [
+        "단독"
+      ],
+      "signal_major_article_count": {
+        "단독": 3
+      }
     },
     {
       "title": "한국전력, “기술개발부터 해외진출까지”…전남광주 에너지 스타트업 육성 나선다 - 시사의창",
@@ -12807,22 +13735,22 @@
       "signal_major_article_count": {}
     },
     {
-      "title": "대한항공-현대캐피탈-우리카드-한국전력, 컵대회 4강 진출 - 미주중앙일보",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9zWVlvRDB5TUw3aFQ4bldvdWZtN21FVEZsMTFwNFQ5d0IwcTVKamhFOU1PLWNZc2c2UjBmcEtWVmt4SWNkRWxZajQxOVFvRnJ3V19GR1luaXRySkRWZWx2MWFR?oc=5",
-      "source": "미주중앙일보",
-      "published_raw": "Tue, 20 Oct 2026 12:07:00 GMT",
+      "title": "대한항공-현대캐피탈-우리카드-한국전력, 컵대회 4강 진출 - 중앙일보",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5haGtlbjBNYmZucTdFQXM2Z1VjRmkwOTNLS09rcUtXRjhKM1hEUjU1clloOTgxaVRra1EzT2pROHZUQTYzVUdYWlJHalRzQXQta2xVTTZB?oc=5",
+      "source": "중앙일보",
+      "published_raw": "Tue, 20 Oct 2026 12:07:02 GMT",
       "date": "2026-10-20",
       "time": "21:07",
       "matched_keywords": [
         "진출"
       ],
       "news_score": 2,
-      "id": "6c22ff1950b23adc",
+      "id": "d9189ebb74e13671",
       "ticker": "003490",
       "company": "대한항공",
       "sector": "",
       "sources": [
-        "미주중앙일보"
+        "중앙일보"
       ],
       "signal_keywords": [
         "진출"
@@ -12883,7 +13811,7 @@
     },
     {
       "title": "'2승' 대한항공·현대캐피탈, 컵대회 준결승 진출…박철우 감독, 첫 승(종합) - 뉴시스",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4zdm9fbFdDQzE3YVFmejgwVkMwaEJicWJibVBFMVpYMEoyTElTUGJtZjVHQ0RtLUo2VjFNaW1fVEUzbWFZbEl4NER4NVc2NlJlald6Z1YyRUFSSllWN1pIMdIBeEFVX3lxTE1aSXg3QVJreEQ0Mm1odUlzMUR2bWNlaXVsNGZNaTNVNVcyLUJRYmloM2lqQUlsNS10NVlNWVZlRU9LVmJDUXdWaWk1SlJjZjV6SV9aeU9CNHpFNEVYdVJfQjI2Wk1qQ3kzZVJXbEhsNHlNN3JnSnVZOA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1aSXg3QVJreEQ0Mm1odUlzMUR2bWNlaXVsNGZNaTNVNVcyLUJRYmloM2lqQUlsNS10NVlNWVZlRU9LVmJDUXdWaWk1SlJjZjV6SV9aeU9CNHpFNEVYdVJfQjI2Wk1qQ3kzZVJXbEhsNHlNN3JnSnVZONIBeEFVX3lxTE1aSXg3QVJreEQ0Mm1odUlzMUR2bWNlaXVsNGZNaTNVNVcyLUJRYmloM2lqQUlsNS10NVlNWVZlRU9LVmJDUXdWaWk1SlJjZjV6SV9aeU9CNHpFNEVYdVJfQjI2Wk1qQ3kzZVJXbEhsNHlNN3JnSnVZOA?oc=5",
       "source": "뉴시스",
       "published_raw": "Tue, 20 Oct 2026 11:43:50 GMT",
       "date": "2026-10-20",
@@ -12892,58 +13820,12 @@
         "진출"
       ],
       "news_score": 2,
-      "id": "12c93c624167100a",
+      "id": "a6975c61013fc9e8",
       "ticker": "003490",
       "company": "대한항공",
       "sector": "",
       "sources": [
         "뉴시스"
-      ],
-      "signal_keywords": [
-        "진출"
-      ],
-      "signal_major_article_count": {
-        "진출": 5
-      }
-    },
-    {
-      "title": "에이피알, 美 코스트코 입점…캐나다·유럽도 순차 진출 - SBS Biz",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9FR2FmbWtNX0NXMXhsTWNFc25La3VOZVpQRVRQRWhmOTVRZEdocjlwa01CelZiX2dMczB4OFA2bFF2TWJOU2dlSm9ySHRJMUpvVy0w0gFYQVVfeXFMTkwtVDZZNGV4bFN6TnZpVV9FTlFOVnlHS3RmMXhIVnFVa3pGWlZwaWpudmFKT2VaSTZmdVhaSW90NklRVXBmcXZwa2JYQzVnYVVucWI2emRuZg?oc=5",
-      "source": "SBS Biz",
-      "published_raw": "Tue, 20 Oct 2026 11:04:46 GMT",
-      "date": "2026-10-20",
-      "time": "20:04",
-      "matched_keywords": [
-        "진출"
-      ],
-      "news_score": 2,
-      "id": "afac97225b376871",
-      "ticker": "278470",
-      "company": "에이피알",
-      "sector": "",
-      "sources": [
-        "SBS Biz"
-      ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
-    },
-    {
-      "title": "대한항공, 컵대회 준결승 진출 눈앞 - STN SPORTS",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBNWkRiUHc3Slp6MlZtTnBHMjA4U0hLdzlUOUszS2lmQ3dXX0R6UFh4OTVyNnotQjdWS3c3dUhsb1RRNFRQNWwzWlhXM0Z3RmF4WVNEcm91WXBiU0x2ZXV4dS12ZHNrczdRUk9pTnBvSQ?oc=5",
-      "source": "STN SPORTS",
-      "published_raw": "Tue, 20 Oct 2026 10:25:51 GMT",
-      "date": "2026-10-20",
-      "time": "19:25",
-      "matched_keywords": [
-        "진출"
-      ],
-      "news_score": 2,
-      "id": "f66e346f497f586f",
-      "ticker": "003490",
-      "company": "대한항공",
-      "sector": "",
-      "sources": [
-        "STN SPORTS"
       ],
       "signal_keywords": [
         "진출"
@@ -12996,27 +13878,6 @@
     },
     {
       "title": "[관점3문3답] 카카오페이손보 생존 전략, 흑자전환 이끌 3대 열쇠는 - NSP통신",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1wMWRtUXp5QjdDdUFfeGQyMllpZERmbUdBcEtIMFNSTkFGSUxZdWw3VlgwZGdwczZnOGtTTDVZalYtamFOSVBCXzlCck9rNjUzYXVXbEFlcE1FUkJuU3hKag?oc=5",
-      "source": "NSP통신",
-      "published_raw": "Tue, 20 Oct 2026 09:43:12 GMT",
-      "date": "2026-10-20",
-      "time": "18:43",
-      "matched_keywords": [
-        "흑자"
-      ],
-      "news_score": 4,
-      "id": "525a584b2b6ad5dc",
-      "ticker": "035720",
-      "company": "카카오",
-      "sector": "",
-      "sources": [
-        "NSP통신"
-      ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
-    },
-    {
-      "title": "[관점3문3답] 카카오페이손보 생존 전략, 흑자전환 이끌 3대 열쇠는 - NSP통신",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5JZlpNVkkwaU5yQnZTSkd0N3FLTDRGR0VjNlQzZE1IdVpUeG10YlUxM1RiSjhhamZJVjZmY0MxMXhEMFBzN2gzR3RhVm9ZMGt1Tk9mbVc5TWRSa1ZDRVhuSGpiNA?oc=5",
       "source": "NSP통신",
       "published_raw": "Tue, 20 Oct 2026 09:43:12 GMT",
@@ -13059,7 +13920,7 @@
         "단독"
       ],
       "signal_major_article_count": {
-        "단독": 3
+        "단독": 4
       }
     },
     {
@@ -13193,29 +14054,25 @@
       "signal_major_article_count": {}
     },
     {
-      "title": "대한항공, 프로배구컵대회 준결승 진출 눈앞…박철우 감독 첫 승 - SBS 뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1lNzI5Q0ptSDVHSTJTNmpIaUZQaU5PdS1VcEQ0OWxfaGxhNnBXY1YxM2VndTJ1M25JZWdyNTF1OXRWUm1aX2hGb1pjMDlRNFNWRXJ2TXVLMl81emRkZm1lS1k2UDl2bVJlWFE?oc=5",
-      "source": "SBS 뉴스",
-      "published_raw": "Tue, 20 Oct 2026 08:46:41 GMT",
+      "title": "현대차·기아, 레벨 4 자율주행 대형트럭 실증…상용화 박차 - 울산매일 - 울산최초, 최고의 조간신문",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA1VkFiSWt1U1FJXzBqMlRjeDNvTWhEb1NKWlluX2RwRndaOVMxaW9BejlFMmJhSUprM1UxNWVNY3pfS25hQ2NsYWR6LUx5eXR4TzA1ekQzajZCc1ZKczB2amkwenZ6QWlRdnfSAW5BVV95cUxQOWw1Qy1NYi0tYWFvSV9seklQNWJ4LS14eTNwWGFLb2Z5QXI4WjM0SzFCMHhBN2F0ZGF2N1RaODBuSlRzd3h3OENaakhGM3lqQ0tXR1ZwSXVBQjMxdGJOSnhPTUJtTFJCVmM0bF9UZw?oc=5",
+      "source": "울산매일 - 울산최초, 최고의 조간신문",
+      "published_raw": "Tue, 20 Oct 2026 08:46:02 GMT",
       "date": "2026-10-20",
       "time": "17:46",
       "matched_keywords": [
-        "진출"
+        "상용화"
       ],
-      "news_score": 2,
-      "id": "3ad357720860a385",
-      "ticker": "003490",
-      "company": "대한항공",
+      "news_score": 3,
+      "id": "ec055d7262380a8c",
+      "ticker": "000270",
+      "company": "기아",
       "sector": "",
       "sources": [
-        "SBS 뉴스"
+        "울산매일 - 울산최초, 최고의 조간신문"
       ],
-      "signal_keywords": [
-        "진출"
-      ],
-      "signal_major_article_count": {
-        "진출": 5
-      }
+      "signal_keywords": [],
+      "signal_major_article_count": {}
     },
     {
       "title": "대한항공, 프로배구컵대회 준결승 진출 눈앞…박철우 감독 첫 승 - 연합뉴스",
@@ -13373,8 +14230,12 @@
       "sources": [
         "ER 이코노믹리뷰"
       ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
+      "signal_keywords": [
+        "수주"
+      ],
+      "signal_major_article_count": {
+        "수주": 3
+      }
     },
     {
       "title": "현대차그룹, 대형트럭 자율주행 상용화 시동…국내 스타트업과 협력 - 동아일보",
@@ -13419,27 +14280,6 @@
       "signal_major_article_count": {}
     },
     {
-      "title": "특정국 쏠림 줄여라…아모레·LG생건·에이피알, 북미·중남미·인도 등 진출 국가 다변화 - CEO스코어데일리",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5YT0F3QnpyU05IRXVhUWlKcFpLWE9vbXN5U0YyV0hIMzZzZFJybWFVOXZjSko5U2s1RE5lMnF5LWs3UzZManJobUpfU1pVUEpId1ZzckJJQlZGSWpKaExUaUtCZVhFU2Yzb2Yw?oc=5",
-      "source": "CEO스코어데일리",
-      "published_raw": "Tue, 20 Oct 2026 08:09:44 GMT",
-      "date": "2026-10-20",
-      "time": "17:09",
-      "matched_keywords": [
-        "진출"
-      ],
-      "news_score": 2,
-      "id": "6c4006d07d378566",
-      "ticker": "051900",
-      "company": "LG생활건강",
-      "sector": "",
-      "sources": [
-        "CEO스코어데일리"
-      ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
-    },
-    {
       "title": "[도시정비시장 풍향계] 가락우성1차 재건축, 첫 현설서 대우건설 단독 참여로 ‘유찰’ - 대한경제",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5ZUGlXbVB0Y051ZmpXRVY4dC1FRzM4MVN3VFprcWtmbER5bGJVLXU2ZmtoVnZFeWxXZFpCVjFrMjdtbnEwT09EeGVIT1ZFSVVWNG85d1hhNnF4SVRUTlpQc0YwV3V4Nk1SQ1pIVWtYeTlYRE0?oc=5",
       "source": "대한경제",
@@ -13461,7 +14301,7 @@
         "단독"
       ],
       "signal_major_article_count": {
-        "단독": 3
+        "단독": 4
       }
     },
     {
@@ -13528,8 +14368,12 @@
       "sources": [
         "머니투데이"
       ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
+      "signal_keywords": [
+        "단독"
+      ],
+      "signal_major_article_count": {
+        "단독": 3
+      }
     },
     {
       "title": "[단독]'AI 비서'가 현대차·기아·제네시스 '얼굴'로..브랜드별 '페르소나' 구축 - 머니투데이 - 머니투데이",
@@ -13551,31 +14395,6 @@
       ],
       "signal_keywords": [],
       "signal_major_article_count": {}
-    },
-    {
-      "title": "삼성E&A, 수주 목표 넘어서며 성장 가속…사업 다각화 결실 - 리버티코리아포스트",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4zMlRqal94dDJ6YVBLTEdqZFZzTWs3SmM3WTN0ck0tVncyUFp2dkJTUmZJTjh6Y0dBd2xpNjN5ekZpblM1MmRBYWpWVGVOblNJbjJrZ2FVY0xYXzVncXV6dlZSRdIBZ0FVX3lxTE5lelZqRDdBNGFMY08tbThweWpGQTRmR0ZETXpmaTFWWjlhWDlzUEJHRGNXUF83NGl6YTR3VldLUXhQTVJ2U3A1dlVLS09oaUhBS3V0Q0VYQjhlS2RjeFAtT2owZEdfZE0?oc=5",
-      "source": "리버티코리아포스트",
-      "published_raw": "Tue, 20 Oct 2026 07:50:08 GMT",
-      "date": "2026-10-20",
-      "time": "16:50",
-      "matched_keywords": [
-        "수주"
-      ],
-      "news_score": 3,
-      "id": "0aee5902ac0fee3d",
-      "ticker": "028050",
-      "company": "삼성E&A",
-      "sector": "",
-      "sources": [
-        "리버티코리아포스트"
-      ],
-      "signal_keywords": [
-        "수주"
-      ],
-      "signal_major_article_count": {
-        "수주": 8
-      }
     },
     {
       "title": "석화 반짝 흑자 끝···롯데케미칼·LG화학, 실적 악화 속 재무관리 부담 커지나 - 시사저널e",
@@ -13615,27 +14434,6 @@
       "sector": "",
       "sources": [
         "시사저널e"
-      ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
-    },
-    {
-      "title": "현대차·기아, 자율주행 트럭 상용화 속도…400㎞ 물류 실증 - 뉴스포스트",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE01UlJMWFlFRzBhQnJkX3N4NTVPaFlZcFNBUWhIblJMU0d2QjJKSlJIVXNIUG51XzlYdmFhUVZaVl9tcU40dzAwWW55RnQ2ZmFBTGJiQklYa1F0N25FT3BFYU04MXphYkVQX0E?oc=5",
-      "source": "뉴스포스트",
-      "published_raw": "Tue, 20 Oct 2026 07:35:48 GMT",
-      "date": "2026-10-20",
-      "time": "16:35",
-      "matched_keywords": [
-        "상용화"
-      ],
-      "news_score": 3,
-      "id": "ce7e62efc4f44cf7",
-      "ticker": "000270",
-      "company": "기아",
-      "sector": "",
-      "sources": [
-        "뉴스포스트"
       ],
       "signal_keywords": [],
       "signal_major_article_count": {}
@@ -13730,7 +14528,7 @@
     },
     {
       "title": "대우건설, 나흘 새 1조8500만원 수주···재개발·국가산단 동시 확보 - 현대경제신문",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA4cnFoTmxoZ05Yb1R0ei00Ti0yRS1jaHI4TzBZb19zUlAyeUlnUUZnYkZmNU5RdDlEMGtIRXFyMUZvcUlLTS14SjBNZ0ItdUpqQmdCR1E5aG1zaE4zUUp0STRfME4waU3SAWtBVV95cUxNalA3Qm45dFh4X1pwX0RrSUVpeTNrdVYyemU5SXFVTEd2S3FKSWNjN2RSNlkwa2xtcU14TTlweGZmRkxYM0pqUUc1Wmw3dHdkaXRxQWM4Z1JRcUh1a0t6S0t4YUlYd3FTb0VkMA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBRN1ZyX050SGR1OTdWWndnMUsyZG00bDk3Uy1BM3B1cTR6dlVEaWl6aDJUdUVBa05UcWJySkw0dzQ4QkhrR3ZDYTRsMlZPVXl3QnJpSnJtREVnQ0NHXzMtN2N4ZHRXYmRP0gFrQVVfeXFMTWpQN0JuOXRYeF9acF9Ea0lFaXkza3VWMnplOUlxVUxHdktxSkljYzdkUjZZMGtsbXFNeE05cHhmZkZMWDNKalFHNVpsN3R3ZGl0cUFjOGdSUXFIdWtLektLeGFJWHdxU29FZDA?oc=5",
       "source": "현대경제신문",
       "published_raw": "Tue, 20 Oct 2026 07:31:31 GMT",
       "date": "2026-10-20",
@@ -13739,7 +14537,7 @@
         "수주"
       ],
       "news_score": 3,
-      "id": "2dee3a6a67696ed5",
+      "id": "624d246f7e575010",
       "ticker": "047040",
       "company": "대우건설",
       "sector": "",
@@ -13792,7 +14590,7 @@
         "단독"
       ],
       "signal_major_article_count": {
-        "단독": 3
+        "단독": 4
       }
     },
     {
@@ -13813,8 +14611,12 @@
       "sources": [
         "Chosunbiz"
       ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
+      "signal_keywords": [
+        "단독"
+      ],
+      "signal_major_article_count": {
+        "단독": 3
+      }
     },
     {
       "title": "포스코퓨처엠, 장중 8.33% 상승…BNK “LFP 수주로 가동률 개선 전망” - CBC뉴스",
@@ -13861,27 +14663,6 @@
       "signal_major_article_count": {
         "수주": 11
       }
-    },
-    {
-      "title": "HD현대, HMM서 2조 규모 LNG 이중연료 컨테이너선 8척 수주 - 뉴데일리",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA4Zm1QcjQ3YkJ5blBhaWVvdy1pT1FBTHBsSVBWdVRDcF9XVkRTeG44eU81ZFZFV3NYeHluNzQ2bjViZmszSUJ6TVQyVG50cHFvMEkxbjNEam1CeEJfREg0azM5VE1xT0RaQ2xhSEJHZ1hReVdsSnBZd0pCNNIBgAFBVV95cUxNNmhxY1ZYM1A4X3NEaDZvNXRwRHhrSnh3N3JRelpBLWtTMnBiNzJiOVhjZW03NzI5dlB4YmJhVFJUS3VQWk5sdjgxWjItMEdyX2J5d0tZRWlZNnpGcGh5NDF5UnZhM0dxUGxnMGE3cVN1UVNsMXk2cG41UzN5RURrVg?oc=5",
-      "source": "뉴데일리",
-      "published_raw": "Tue, 20 Oct 2026 07:19:30 GMT",
-      "date": "2026-10-20",
-      "time": "16:19",
-      "matched_keywords": [
-        "수주"
-      ],
-      "news_score": 3,
-      "id": "6d5e13dfcfc87099",
-      "ticker": "329180",
-      "company": "HD현대중공업",
-      "sector": "",
-      "sources": [
-        "뉴데일리"
-      ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
     },
     {
       "title": "현대차·기아, 레벨 4 자율주행 트럭 상용화 시동 - 경남일보",
@@ -14114,31 +14895,6 @@
       }
     },
     {
-      "title": "HD현대, HMM서 친환경 컨테이너선 8척 수주 - 에너지경제신문",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFByX0hzY25Vc0ZBbUNSVGhfcmRGN3lQdUlSNkFwYkN0S0U4OVJNNE5aRTMzdWtoT05oX3IySktnd2wySktYeWNDRzN6VGQ2NENHWDBkd1ZfTFlLS0E?oc=5",
-      "source": "에너지경제신문",
-      "published_raw": "Tue, 20 Oct 2026 06:43:01 GMT",
-      "date": "2026-10-20",
-      "time": "15:43",
-      "matched_keywords": [
-        "수주"
-      ],
-      "news_score": 3,
-      "id": "30e0aad70e623da8",
-      "ticker": "267250",
-      "company": "HD현대",
-      "sector": "",
-      "sources": [
-        "에너지경제신문"
-      ],
-      "signal_keywords": [
-        "수주"
-      ],
-      "signal_major_article_count": {
-        "수주": 4
-      }
-    },
-    {
       "title": "[단독] 코스맥스, 규정 검토 2년 새 52% 증가 전망…K뷰티 수출 확대 대응 - 토요경제",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5HS01DWm5Pd0NpTEV3LUw3WldlTFQyZ3lpbWF2a2cyME51UmhXMWltUEwyUFhvci0xMDVxbFIwc3haZkdKY0JOSzNiLS1SNjB1OFNQbU9QRVY5UEFZNXpwLdIBb0FVX3lxTE1tMWhna2JiTEdBSmJkakc3aDlHcHJudngxTXdhb09qc2VjTUplUTVoM18yS3pjVUlaYThSV0pxZlFDTmhWSUF5dTFkQ1lBaFZGMWdienpzbEp4QnVNQ3VfcEhFYzRQSTJPY3RYcGs2TQ?oc=5",
       "source": "토요경제",
@@ -14155,52 +14911,6 @@
       "sector": "",
       "sources": [
         "토요경제"
-      ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
-    },
-    {
-      "title": "HD현대, HMM 2조 친환경 컨테이너선 8척 수주 - 한국경제TV",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9mYjRNaXp3RUdna3hjanlnTVJBSTBMenl6Skh0UUo0MmlUdjhTYk9OR0dZWUU2UFFpU2pibC15UDQxeXZ6eDdqdWwwS0Y5Y3NUaVpNNnF0d2tiYjJtU1Z5dmdWWHBUamNKSWxMeUEtWVdIUHBZNEJF?oc=5",
-      "source": "한국경제TV",
-      "published_raw": "Tue, 20 Oct 2026 06:40:00 GMT",
-      "date": "2026-10-20",
-      "time": "15:40",
-      "matched_keywords": [
-        "수주"
-      ],
-      "news_score": 3,
-      "id": "c3cc4e5645e56f2b",
-      "ticker": "011200",
-      "company": "HMM",
-      "sector": "",
-      "sources": [
-        "한국경제TV"
-      ],
-      "signal_keywords": [
-        "수주"
-      ],
-      "signal_major_article_count": {
-        "수주": 7
-      }
-    },
-    {
-      "title": "현대차그룹, '레벨4 자율주행' 대형트럭 물류 실증 개시…\"상용화 기반 다진다\" - 오피니언뉴스",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9xUVRQeG94UTl6MFpnbWhpWTR4MXpDTVhvS2ZxOTVOQnRPdVRjTjdLOTNSZWVFcGxIcTFuaERoY1kyNGZyclczU0ZkTWhSYUFDMlRsamlNSDB6enIzeXQ4UnZ5Q0x5R3ZabFZuaVZod2lyUQ?oc=5",
-      "source": "오피니언뉴스",
-      "published_raw": "Tue, 20 Oct 2026 06:37:03 GMT",
-      "date": "2026-10-20",
-      "time": "15:37",
-      "matched_keywords": [
-        "상용화"
-      ],
-      "news_score": 3,
-      "id": "4c5dff65a4a036b1",
-      "ticker": "005380",
-      "company": "현대차",
-      "sector": "",
-      "sources": [
-        "오피니언뉴스"
       ],
       "signal_keywords": [],
       "signal_major_article_count": {}
@@ -14280,27 +14990,6 @@
         "수주"
       ],
       "news_score": 3,
-      "id": "28d01d78d53505f4",
-      "ticker": "329180",
-      "company": "HD현대중공업",
-      "sector": "",
-      "sources": [
-        "브릿지경제"
-      ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
-    },
-    {
-      "title": "HD한국조선해양, 2조원 규모 친환경 컨테이너선 8척 수주 - 브릿지경제",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5zZE1QamUxS3BVVWhzcHpHcU16X1gtSl9ReDA2OVRiejZaRWpNMGc3MEpiOHV4cGVZekdlUHNlR2RYcnVDUFBuQWE0YkFxU1dTUWg3OXJjOThlUQ?oc=5",
-      "source": "브릿지경제",
-      "published_raw": "Tue, 20 Oct 2026 06:27:00 GMT",
-      "date": "2026-10-20",
-      "time": "15:27",
-      "matched_keywords": [
-        "수주"
-      ],
-      "news_score": 3,
       "id": "d7ef510cfb5c80d7",
       "ticker": "009540",
       "company": "HD한국조선해양",
@@ -14358,7 +15047,7 @@
         "단독"
       ],
       "signal_major_article_count": {
-        "단독": 3
+        "단독": 4
       }
     },
     {
@@ -14429,29 +15118,33 @@
       }
     },
     {
-      "title": "현대로템, 한화와 수주잔고 27조 격차··· 주포 내재화로 반격 - 뉴스웨이",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE96aGx3ZVEtaG9vcU5WakloM3RwYkkyazEzY0VhVlgyOXVkWDg5OE41MlR4WDZnNzVnR3Q4cW8yZ19mSjIzbkZmYktXTFhiVDU0ZDVkLVlaQld0R3ZmZHlDQU5iOVk5ZEtWcEE?oc=5",
-      "source": "뉴스웨이",
-      "published_raw": "Tue, 20 Oct 2026 06:02:19 GMT",
+      "title": "가락우성 재건축 시공사 입찰 유찰…현설에 대우건설 단독 참여 - 파이낸셜뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1oUHJ6T1JFNDFmNzFJTUtNelRPaGUzeTVYcm5iNTRlV1hvUkg2WlR1cWppbzNBcGRMcTFEOEM2YlZjWEFYOFlPSTJQMldWdmxsMmNQWmc1RGdyZw?oc=5",
+      "source": "파이낸셜뉴스",
+      "published_raw": "Tue, 20 Oct 2026 05:59:04 GMT",
       "date": "2026-10-20",
-      "time": "15:02",
+      "time": "14:59",
       "matched_keywords": [
-        "수주"
+        "단독"
       ],
-      "news_score": 3,
-      "id": "77b12f6f68cc043d",
-      "ticker": "000880",
-      "company": "한화",
+      "news_score": 2,
+      "id": "2dc2accca3c77a41",
+      "ticker": "047040",
+      "company": "대우건설",
       "sector": "",
       "sources": [
-        "뉴스웨이"
+        "파이낸셜뉴스"
       ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
+      "signal_keywords": [
+        "단독"
+      ],
+      "signal_major_article_count": {
+        "단독": 4
+      }
     },
     {
       "title": "가락우성 재건축 시공사 입찰 유찰…현설에 대우건설 단독 참여 - 뉴시스",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9nR2NNallZWXF0RGdQTm95NUl3NUc1SzA2LWltazhjXzZfQzhGTFBOcEpQZDBfSnRZMUNMUzBwSndvSnNzOU9iMXBwRXo2a3VPSDlGenN1Y1o2VEdLMGdwQXVya1RjS096OW1nNEQxLVBaNTN5elVkU9IBeEFVX3lxTE9nR2NNallZWXF0RGdQTm95NUl3NUc1SzA2LWltazhjXzZfQzhGTFBOcEpQZDBfSnRZMUNMUzBwSndvSnNzOU9iMXBwRXo2a3VPSDlGenN1Y1o2VEdLMGdwQXVya1RjS096OW1nNEQxLVBaNTN5elVkUw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBrTzVFUzdnQ0UtRGhETTlSRlNLSGpRRTV4UTlBSkZXZFd1RHNxaFBfNzRRWFAzb3FmLW41YzctTUdwN01ZWDJVV1lMRXlWbGtCSHBiYWdJd0lxcldwNFdrTtIBeEFVX3lxTE9nR2NNallZWXF0RGdQTm95NUl3NUc1SzA2LWltazhjXzZfQzhGTFBOcEpQZDBfSnRZMUNMUzBwSndvSnNzOU9iMXBwRXo2a3VPSDlGenN1Y1o2VEdLMGdwQXVya1RjS096OW1nNEQxLVBaNTN5elVkUw?oc=5",
       "source": "뉴시스",
       "published_raw": "Tue, 20 Oct 2026 05:57:31 GMT",
       "date": "2026-10-20",
@@ -14460,7 +15153,7 @@
         "단독"
       ],
       "news_score": 2,
-      "id": "d8a5c7af3d09bd6d",
+      "id": "63fc78972cd1989f",
       "ticker": "047040",
       "company": "대우건설",
       "sector": "",
@@ -14471,7 +15164,7 @@
         "단독"
       ],
       "signal_major_article_count": {
-        "단독": 3
+        "단독": 4
       }
     },
     {
@@ -14496,46 +15189,29 @@
       "signal_major_article_count": {}
     },
     {
-      "title": "현대차·기아, 레벨 4 자율주행 트럭 상용화 시동 - 브레이크뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5tY3Z5Q0dhc1NwOWsxNDlBbTNadkZ5LWY1R0dCWWVNUE9PWERxNV9lckFRRHNvNXdfUXhpZDZ5Tk1VYmJhNXhabg?oc=5",
-      "source": "브레이크뉴스",
-      "published_raw": "Tue, 20 Oct 2026 05:53:00 GMT",
+      "title": "HD현대, '2조 원 규모' 초대형 친환경 컨테이너선 8척 수주 - MBC 뉴스",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9SRkVsMFA5RndkTC1CTUpfaUNjMlBhMWM4LWZQQkRaTE9JVVRVMGNXcU9kelRTcWRYRFJ1ekZ2Ymd1VXNvTzkzTExMY2pXdnlJemZ1emlTQzhTcWF3T1I5ZkdFRVpxOHlQaGhJaWtDV0gwTFdh0gF0QVVfeXFMTmVNc3hRS2I3RzNHa1JwMGhXOWQ3bWx4RndLZ0ZNVVhOQjc0dFE3WVptVWxoX0RmMmsxWVRMZ1k1a05BS2o5c2FDRGVweGJRX3JhMS0xaWNvUmRwcnFpMjRIQmFQc0lRN2JJMFBkNThwdWhTdTc?oc=5",
+      "source": "MBC 뉴스",
+      "published_raw": "Tue, 20 Oct 2026 05:54:02 GMT",
       "date": "2026-10-20",
-      "time": "14:53",
+      "time": "14:54",
       "matched_keywords": [
-        "상용화"
+        "수주"
       ],
       "news_score": 3,
-      "id": "76a0e15ff4edffc7",
-      "ticker": "000270",
-      "company": "기아",
+      "id": "848f0912fa4dba22",
+      "ticker": "329180",
+      "company": "HD현대중공업",
       "sector": "",
       "sources": [
-        "브레이크뉴스"
+        "MBC 뉴스"
       ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
-    },
-    {
-      "title": "카카오게임즈 ‘도깨비의세계’, 글로벌 진출 속도내나 - 시사위크",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1kTUsxbTNCak9kNE0yVWZBc2dzU081MHljWlE2ZG1pam5laUlRUERCZnl6cGd2QXIyOFp1X09Na1U5TU1ycXBqNHE5Q2VIRTZyUmVFNWJ3VkwwR0NTdmZMWnBzREY5TGJJSFV30gFvQVVfeXFMTk1aZjIteC0xMzBuVkdlQVZLNnd3aWlPWElDREE3cmhySnVPZUFMZl9XVU5Ub2xQQnhfNEczaFJGT3lwOHpya2t3bGEtYjU5NEEyME5ZRFdqUlRwRkRQT3JXbzR3dVdFSnk2ZUtGUnJB?oc=5",
-      "source": "시사위크",
-      "published_raw": "Tue, 20 Oct 2026 05:49:22 GMT",
-      "date": "2026-10-20",
-      "time": "14:49",
-      "matched_keywords": [
-        "진출"
+      "signal_keywords": [
+        "수주"
       ],
-      "news_score": 2,
-      "id": "8fbef8c674eaef3b",
-      "ticker": "035720",
-      "company": "카카오",
-      "sector": "",
-      "sources": [
-        "시사위크"
-      ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
+      "signal_major_article_count": {
+        "수주": 3
+      }
     },
     {
       "title": "LIG디펜스앤에어로스페이스 8.04% 하락…수출 수주 실적화 점검 - 잡포스트",
@@ -14618,27 +15294,6 @@
       "id": "d74ce80ef36cddd4",
       "ticker": "112610",
       "company": "씨에스윈드",
-      "sector": "",
-      "sources": [
-        "잡포스트"
-      ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
-    },
-    {
-      "title": "LG씨엔에스 6만8900원…AI·클라우드 수주 실적화 관심 - 잡포스트",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1XazNyeGpLdWNpYXBhNXFRdG9zTU9HVHBSNGZMMGp2NExGQUdHSkQydUh5QWlMWXZ0NEhCaGp2Yzc4ODZyYU5iSXZLN2tPZVBlTmw2ejFKeldOSmxzQUNmWkJyX01SS09HbGtlTlBxNkNjQdIBckFVX3lxTE1XazNyeGpLdWNpYXBhNXFRdG9zTU9HVHBSNGZMMGp2NExGQUdHSkQydUh5QWlMWXZ0NEhCaGp2Yzc4ODZyYU5iSXZLN2tPZVBlTmw2ejFKeldOSmxzQUNmWkJyX01SS09HbGtlTlBxNkNjQQ?oc=5",
-      "source": "잡포스트",
-      "published_raw": "Tue, 20 Oct 2026 05:33:33 GMT",
-      "date": "2026-10-20",
-      "time": "14:33",
-      "matched_keywords": [
-        "수주"
-      ],
-      "news_score": 3,
-      "id": "470aa930e653b3d0",
-      "ticker": "064400",
-      "company": "LG씨엔에스",
       "sector": "",
       "sources": [
         "잡포스트"
@@ -14861,6 +15516,27 @@
       "signal_major_article_count": {}
     },
     {
+      "title": "현대차·기아, 레벨4 자율주행 트럭 상용화 속도…5개사와 실증 협력 - 디지틀조선TV",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1lcXhMSzRRX0cySVlJRzJzOVp5WmVEYzh5cGxKMUljaWt5T3l4QTh6RjJpZFExQ29DMGV5ZXpzWVZoemlnWFpNREFtRmNRdy1PX3UyTUprNzY3enc5al9kbF9pSzBCX3RvY2w4WnRvMnZoTFRMbm9MNTBkOGI?oc=5",
+      "source": "디지틀조선TV",
+      "published_raw": "Tue, 20 Oct 2026 04:32:00 GMT",
+      "date": "2026-10-20",
+      "time": "13:32",
+      "matched_keywords": [
+        "상용화"
+      ],
+      "news_score": 3,
+      "id": "37f97c27ed9cb899",
+      "ticker": "000270",
+      "company": "기아",
+      "sector": "",
+      "sources": [
+        "디지틀조선TV"
+      ],
+      "signal_keywords": [],
+      "signal_major_article_count": {}
+    },
+    {
       "title": "HD현대, 2조원 규모 HMM 컨테이너선 수주 ‘잭팟’ - 뉴스토마토",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBySk9sMkRkVUFLWWpvVTA3aHFLNHRpQ1hxYzg4SldTVHREUzFHOWxadXBXdGo5S3laV3RIejhIeEVzRWotLUxfMERyMTBUY3VqdjN1YlhzWWtObUYzSFpwaA?oc=5",
       "source": "뉴스토마토",
@@ -14948,6 +15624,31 @@
       "sector": "",
       "sources": [
         "네이버 프리미엄콘텐츠"
+      ],
+      "signal_keywords": [
+        "수주"
+      ],
+      "signal_major_article_count": {
+        "수주": 3
+      }
+    },
+    {
+      "title": "HD현대, HMM 컨테이너선 8척 수주…1.9조 잭팟 - SBS Biz",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9kVzJQMF8xSDhFX0VzTks2UzFjbEpBQWlMeFptSDJBanNtTW1FX3JtYTMtRW5RNXNJaGxRY2E1TW1XU3BiODJhbWlZUGNtSG0tMUtn0gFYQVVfeXFMTjBxWmhsQVpzOVVBdUF5ZVBPSnVPcE9CNXVuWGZrcl9YT2pQZ3loSUNqc1dmaGVvOGtMY0kzb2JhNnpsVkhLMmZnMEdmbU1CYzJXQ1dVcEY4NQ?oc=5",
+      "source": "SBS Biz",
+      "published_raw": "Tue, 20 Oct 2026 04:01:00 GMT",
+      "date": "2026-10-20",
+      "time": "13:01",
+      "matched_keywords": [
+        "수주"
+      ],
+      "news_score": 3,
+      "id": "a66a387e333bac2d",
+      "ticker": "329180",
+      "company": "HD현대중공업",
+      "sector": "",
+      "sources": [
+        "SBS Biz"
       ],
       "signal_keywords": [
         "수주"
@@ -15091,6 +15792,31 @@
       "signal_major_article_count": {}
     },
     {
+      "title": "GS글로벌, 탄소배출권 진출 - 문화일보",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE50d0xhRDdKNWlGVXlrWG9WeWdlYUFpdl9HRC0xUUx0UUlOSHpQNk9FbktKVUxwQUNMT3VYTkNyZEo2MGFBMkZzWG9EX09aTEU2?oc=5",
+      "source": "문화일보",
+      "published_raw": "Tue, 20 Oct 2026 03:01:35 GMT",
+      "date": "2026-10-20",
+      "time": "12:01",
+      "matched_keywords": [
+        "진출"
+      ],
+      "news_score": 2,
+      "id": "479d7b2df98fd6ee",
+      "ticker": "078930",
+      "company": "GS",
+      "sector": "",
+      "sources": [
+        "문화일보"
+      ],
+      "signal_keywords": [
+        "진출"
+      ],
+      "signal_major_article_count": {
+        "진출": 3
+      }
+    },
+    {
       "title": "변압기 다음은 ‘배전’의 시간…전력기기 3사, 美 수주전 2막 열려 [비즈360] - 헤럴드경제",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE15Wml2WDI1bWZKVFd2ai1XUGZqSGlQYmtuaUJ1Q0pJNzBPNkpSUWNSMGZPMkhMSnNuSWpvc1FHeFN0dkJfQUhLZ1Jpc0RUQXJGc1p6RHJR?oc=5",
       "source": "헤럴드경제",
@@ -15172,6 +15898,31 @@
         "수주"
       ],
       "news_score": 3,
+      "id": "ee72da2bbf1a41af",
+      "ticker": "329180",
+      "company": "HD현대중공업",
+      "sector": "",
+      "sources": [
+        "KB Think"
+      ],
+      "signal_keywords": [
+        "수주"
+      ],
+      "signal_major_article_count": {
+        "수주": 3
+      }
+    },
+    {
+      "title": "HD현대, 2조원 규모 초대형 친환경 컨테이너선 수주 - KB Think",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFB5TkFUNnJLMFZVWmlaY2lMRHhwa2JiVXRpT3VGS3JSMWE1VEFDTVZUNlczNnhfRFRjRURraDB1VDRpMTNSODBDd0I3eF9uZ3pxaFF5VzQxeFVoNzQ2YWVtN2ZqX1hzcGxqREpqZVRBOWxtUQ?oc=5",
+      "source": "KB Think",
+      "published_raw": "Tue, 20 Oct 2026 02:47:53 GMT",
+      "date": "2026-10-20",
+      "time": "11:47",
+      "matched_keywords": [
+        "수주"
+      ],
+      "news_score": 3,
       "id": "ca8c0aed5800da6a",
       "ticker": "009540",
       "company": "HD한국조선해양",
@@ -15181,6 +15932,31 @@
       ],
       "signal_keywords": [],
       "signal_major_article_count": {}
+    },
+    {
+      "title": "주얼리와 뷰티의 만남…신세계면세점, 아워글래스 단독 팝업 - 이투데이",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9TdDYyRkNERkRVNXROLWlmTzlhVkxxVGx6RWduUDBvUXo3S2ljUC1xMkQyNWtCM0UxaUdjSEdGMWVuU2dUSE9jOVI2VjBLdTFKZW5DeQ?oc=5",
+      "source": "이투데이",
+      "published_raw": "Tue, 20 Oct 2026 02:45:00 GMT",
+      "date": "2026-10-20",
+      "time": "11:45",
+      "matched_keywords": [
+        "단독"
+      ],
+      "news_score": 2,
+      "id": "591fe3ebe7b254dd",
+      "ticker": "004170",
+      "company": "신세계",
+      "sector": "",
+      "sources": [
+        "이투데이"
+      ],
+      "signal_keywords": [
+        "단독"
+      ],
+      "signal_major_article_count": {
+        "단독": 10
+      }
     },
     {
       "title": "HD현대, HMM 초대형 친환경 컨테이너선 8척 수주…1.9조원 규모 - 연합뉴스",
@@ -15200,8 +15976,37 @@
       "sources": [
         "연합뉴스"
       ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
+      "signal_keywords": [
+        "수주"
+      ],
+      "signal_major_article_count": {
+        "수주": 3
+      }
+    },
+    {
+      "title": "HD현대, 2조원 규모 초대형 친환경 컨테이너선 8척 수주 - 머니투데이 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9xTE9WSW43U0trVlBqeWFiLVZVS0FQa0VlSGZDd0p3VEVyNkx0bE56ckRja2p6cUhDRjd4WjJlODJWbk1mM2lUUG10SDJQWHRKdmFtcWpjeWJrcloyNE1FWVBISGt0WXJ0T0ZCeNIBckFVX3lxTE1iRm1XR3AyMWl3dTJRd25fNS1pSE5WQi1Zbk5CMnFTSGJ3WXN6SjkwT3A0SmpDSVRCeklSWG9fNFgtcXQycUNFQVc1Rzl5VzNxZ3JTcU55Ri1aaklWRjFHNGVodWl0SnFnZU5WbzRURmhxUQ?oc=5",
+      "source": "머니투데이",
+      "published_raw": "Tue, 20 Oct 2026 02:41:19 GMT",
+      "date": "2026-10-20",
+      "time": "11:41",
+      "matched_keywords": [
+        "수주"
+      ],
+      "news_score": 3,
+      "id": "5fde51555f1a4569",
+      "ticker": "329180",
+      "company": "HD현대중공업",
+      "sector": "",
+      "sources": [
+        "머니투데이"
+      ],
+      "signal_keywords": [
+        "수주"
+      ],
+      "signal_major_article_count": {
+        "수주": 3
+      }
     },
     {
       "title": "HD현대, HMM 초대형 친환경 컨테이너선 8척 수주…1.9조원 규모 - 연합뉴스",
@@ -15285,6 +16090,31 @@
         "수주"
       ],
       "news_score": 3,
+      "id": "ab9e48d573a920c3",
+      "ticker": "329180",
+      "company": "HD현대중공업",
+      "sector": "",
+      "sources": [
+        "블로터"
+      ],
+      "signal_keywords": [
+        "수주"
+      ],
+      "signal_major_article_count": {
+        "수주": 3
+      }
+    },
+    {
+      "title": "HD현대중공업·HD현대삼호, HMM 컨테이너선 8척 수주…2조원 규모 - 블로터",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAtTkdOTENVVDY2VjlYeFlVc2FJUnpzTExiVkswZlpPYkhCX1h5QW52UHpKNm5aS3Q2ZFFpTjhJMEVRS1RFYU13WkFlS3lvU3JaUUJwVngycGp3X01WcmJEdWVDSy1uN1M2dnhMZdIBbEFVX3lxTFAtTkdOTENVVDY2VjlYeFlVc2FJUnpzTExiVkswZlpPYkhCX1h5QW52UHpKNm5aS3Q2ZFFpTjhJMEVRS1RFYU13WkFlS3lvU3JaUUJwVngycGp3X01WcmJEdWVDSy1uN1M2dnhMZQ?oc=5",
+      "source": "블로터",
+      "published_raw": "Tue, 20 Oct 2026 02:40:28 GMT",
+      "date": "2026-10-20",
+      "time": "11:40",
+      "matched_keywords": [
+        "수주"
+      ],
+      "news_score": 3,
       "id": "db0c50ee9617ba86",
       "ticker": "011200",
       "company": "HMM",
@@ -15298,27 +16128,6 @@
       "signal_major_article_count": {
         "수주": 7
       }
-    },
-    {
-      "title": "HD현대중공업·HD현대삼호, HMM 컨테이너선 8척 수주…2조원 규모 - 블로터",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE81RFF3UDlRaFV2WE5BRHhpRWlSZHB4N0VvSXBqQVlFWl90Ui1hQ25XUk9lV3JDcjhVdm1BYWlYTUg1MUVKRWNmVXBPX1RUa2stVXZmb1MwMkxMeDlwUGNkYWlSYUp0WEpJ0gFsQVVfeXFMUC1OR05MQ1VUNjZWOVh4WVVzYUlSenNMTGJWSzBmWk9iSEJfWHlBbnZQeko2blpLdDZkUWlOOEkwRVFLVEVhTXdaQWVLeW9TclpRQnBWeDJwandfTVZyYkR1ZUNLLW43UzZ2eExl?oc=5",
-      "source": "블로터",
-      "published_raw": "Tue, 20 Oct 2026 02:34:41 GMT",
-      "date": "2026-10-20",
-      "time": "11:34",
-      "matched_keywords": [
-        "수주"
-      ],
-      "news_score": 3,
-      "id": "680052135ee4eaa8",
-      "ticker": "329180",
-      "company": "HD현대중공업",
-      "sector": "",
-      "sources": [
-        "블로터"
-      ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
     },
     {
       "title": "조선업 수주 호황에도…현대重 성과급·한화오션 원하청 교섭에 발목 - 더트래커",
@@ -15340,6 +16149,31 @@
       ],
       "signal_keywords": [],
       "signal_major_article_count": {}
+    },
+    {
+      "title": "HD현대, HMM과 2조 규모 컨테이너선 8척 건조 계약…\"고부가 선박 수주 확대\" - 뉴시스",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1tZnBVTjU4TzRoVTNRNlpxZkpPZE1IZEJTelBjeXdPX1BPOFI4WjgwOHhXRE03YzZzcUxtbkduQ3V4OGh2VlZuNnJuUjlLRXFGLVdfYjl5OTRVSEV0RHRCMw?oc=5",
+      "source": "뉴시스",
+      "published_raw": "Tue, 20 Oct 2026 02:34:32 GMT",
+      "date": "2026-10-20",
+      "time": "11:34",
+      "matched_keywords": [
+        "수주"
+      ],
+      "news_score": 3,
+      "id": "776f6c44b5acc29d",
+      "ticker": "011200",
+      "company": "HMM",
+      "sector": "",
+      "sources": [
+        "뉴시스"
+      ],
+      "signal_keywords": [
+        "수주"
+      ],
+      "signal_major_article_count": {
+        "수주": 7
+      }
     },
     {
       "title": "S-Oil 수주공시 - Sour Heavy Kerosene 매매계약 1.16조 (매출액대비 3.4 %) - 한국경제",
@@ -15480,31 +16314,6 @@
       }
     },
     {
-      "title": "HD현대, HMM과 2조원대 수주 계약…LNG 이중연료선 8척 확보 - 뉴스핌",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5MMThCOGdTdlJZV2RyM0x6VUhYZTNCb3RwZkxLMUxqeVAzcW1mQk5tejNnWDBLTU9MeTJ2UVRhTlJ2cUNNTmdIT0VNamMyMFRPdFpZWjZiNXNGblho?oc=5",
-      "source": "뉴스핌",
-      "published_raw": "Tue, 20 Oct 2026 02:18:00 GMT",
-      "date": "2026-10-20",
-      "time": "11:18",
-      "matched_keywords": [
-        "수주"
-      ],
-      "news_score": 3,
-      "id": "4d47bffec3ff3c92",
-      "ticker": "267250",
-      "company": "HD현대",
-      "sector": "",
-      "sources": [
-        "뉴스핌"
-      ],
-      "signal_keywords": [
-        "수주"
-      ],
-      "signal_major_article_count": {
-        "수주": 4
-      }
-    },
-    {
       "title": "[리포트 브리핑]한국항공우주, 'LAH 공백은 3Q까지, 4Q 실적·수주 동반 회복' 목표가 151,000원 - 현대차증권 - 뉴스핌",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBwczFJWVdfZFhydkJDeVBxTFRkdFZIWGlfakphTm9sZjJEQ3pQNnRiZ0xmMzRoSXQ5TmdWNExPd0UxNExlaHcwc2FzMWdNOHkzOS15ZlRPODNhVnJ0?oc=5",
       "source": "뉴스핌",
@@ -15551,27 +16360,6 @@
       "signal_major_article_count": {}
     },
     {
-      "title": "HD현대중공업, HMM과 4799억원 규모 컨테이너선 2척 수주 계약…지난해 매출액의 2.73% - CBC뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9iQk5hOGdudkJOSTlFZ1hmcXdyN0M5M2hueUtJTTFVNDRWY0pGZ090M29aYzFsTHgzRHEyZ1I4dC1fa3l4dGtkeDhNUVpyT3NWYTFEZkN0Q1JhN0JoU1JkZG1IMXllcGtZ?oc=5",
-      "source": "CBC뉴스",
-      "published_raw": "Tue, 20 Oct 2026 02:14:10 GMT",
-      "date": "2026-10-20",
-      "time": "11:14",
-      "matched_keywords": [
-        "수주"
-      ],
-      "news_score": 3,
-      "id": "ab25f061004cb2e5",
-      "ticker": "329180",
-      "company": "HD현대중공업",
-      "sector": "",
-      "sources": [
-        "CBC뉴스"
-      ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
-    },
-    {
       "title": "HD현대, HMM 초대형 컨선 8척 2조에 수주 - 중소기업신문",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBXRVItR0c5MzFEYWIzNzQteHB4NVdpUWZobHo3Q0hVYm9DRUVkRGpJWDVlMHZ2N2dsX2JuRENfOVRRdU9hdGtlSVZvYTdpRXFtRWVoOU96RDBmMVZXcEY3V2JPdEd5clQ3WDFNcA?oc=5",
       "source": "중소기업신문",
@@ -15594,6 +16382,31 @@
       ],
       "signal_major_article_count": {
         "수주": 7
+      }
+    },
+    {
+      "title": "HD현대, HMM서 친환경 컨테이너선 8척 수주… 2조원 규모 - 조선비즈 - Chosunbiz",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRUU5N0Zpc2F3R2RSUHpnWWhjTUQ1R1JyaVMtVnpwMGpKazZNYnIxWmpIWHVNaEx1RTVDekRmd21FQURaYkdmZUNvNGhfVlRpUjgycFdpcS1fdlVqVm1rOV9mOGVWLUtlenUxRjhqWVVXVXgzcGFscndhNTNIUkFEQ2RBclrSAZgBQVVfeXFMTWl5WTNqVW05Z2FoVlcwdmtVd0NQVHZJczBreV9jMHBQdFlOSGpFMFJCUXo0RFhNbnFMekN4bHlPcEJ3VTZjbVVxMmZlNU9jZHpvcVB5OXpBYU00TU1lRWJnX0J2NmhSbHVrMnR5MW1XTUl2M3FGUmpiR3pvRll3TkVqYjNHTUNQQjNhVnYxdWVvbHZaN3VhQk4?oc=5",
+      "source": "Chosunbiz",
+      "published_raw": "Tue, 20 Oct 2026 02:12:00 GMT",
+      "date": "2026-10-20",
+      "time": "11:12",
+      "matched_keywords": [
+        "수주"
+      ],
+      "news_score": 3,
+      "id": "730e609db6756776",
+      "ticker": "329180",
+      "company": "HD현대중공업",
+      "sector": "",
+      "sources": [
+        "Chosunbiz"
+      ],
+      "signal_keywords": [
+        "수주"
+      ],
+      "signal_major_article_count": {
+        "수주": 3
       }
     },
     {
@@ -15865,8 +16678,12 @@
       "sources": [
         "리드경제"
       ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
+      "signal_keywords": [
+        "수주"
+      ],
+      "signal_major_article_count": {
+        "수주": 3
+      }
     },
     {
       "title": "[단독] BS한양, 가덕도신공항 컨소시엄 탈퇴 의사⋯대우건설, 조달청에 전달 - 이투데이",
@@ -15890,7 +16707,7 @@
         "단독"
       ],
       "signal_major_article_count": {
-        "단독": 3
+        "단독": 4
       }
     },
     {
@@ -16016,8 +16833,12 @@
       "sources": [
         "뉴데일리"
       ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
+      "signal_keywords": [
+        "단독"
+      ],
+      "signal_major_article_count": {
+        "단독": 3
+      }
     },
     {
       "title": "[단독] 일진전기, LS·대한전선 제치고 바레인 초대형 송전망 구축 사업 최종 낙찰 - 더구루",
@@ -16041,28 +16862,49 @@
       "signal_major_article_count": {}
     },
     {
-      "title": "현대건설, 무난한 3분기 실적...원전 수주 지연은 부담 By 알파경제 alphabiz - Investing.com 한국어",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1vSE5fekk1Q2RfRy1abU8yVGRia0Vqa3B2ZF9FWVVnbU5qaVJ1aFB5LWdmUG9xN1RjbDgxVFVJc0I4RTloeTdDSzNLMDVpVWVNMzJLMjJ6QXl5U05MamNaUngyVWdWdkNWeV84RXBSU0E?oc=5",
-      "source": "Investing.com 한국어",
-      "published_raw": "Tue, 20 Oct 2026 01:38:00 GMT",
+      "title": "LG화학·동국 손잡은 인벤테라…조영제 ‘상용화 눈앞’ - 경제타임스",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9RUXg0eHlEZXhSU2lTbTY2dHVSQkY0N2pzTTBaZkhXVTllX2ZnMTBqWEFVWl9yVGQxcDVua2NxMzZieFZXdXRQRlJkQWR2bllpQUtJ?oc=5",
+      "source": "경제타임스",
+      "published_raw": "Tue, 20 Oct 2026 01:34:44 GMT",
       "date": "2026-10-20",
-      "time": "10:38",
+      "time": "10:34",
       "matched_keywords": [
-        "수주"
+        "상용화"
       ],
       "news_score": 3,
-      "id": "f441d0b813f1b604",
-      "ticker": "000720",
-      "company": "현대건설",
+      "id": "1f08ec762a2aa69a",
+      "ticker": "051910",
+      "company": "LG화학",
       "sector": "",
       "sources": [
-        "Investing.com 한국어"
+        "경제타임스"
+      ],
+      "signal_keywords": [],
+      "signal_major_article_count": {}
+    },
+    {
+      "title": "[단독] 중앙일보 인수 컨소에 신세계도 합류…범 삼성가 다 모였다 - 한국경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9jNzRPVHdwdkZrYVZfVXhMRWJyV0ZRUlVJUDFVYjJFR1d5MUluZ1RkV1ZUQ0xmQ3FoZmc1aVctUHNuSUh2d2FFU0FUSnFBNXFzZmh0a3loMkxsdw?oc=5",
+      "source": "한국경제",
+      "published_raw": "Tue, 20 Oct 2026 01:33:50 GMT",
+      "date": "2026-10-20",
+      "time": "10:33",
+      "matched_keywords": [
+        "단독"
+      ],
+      "news_score": 2,
+      "id": "b97c996efaec0276",
+      "ticker": "004170",
+      "company": "신세계",
+      "sector": "",
+      "sources": [
+        "한국경제"
       ],
       "signal_keywords": [
-        "수주"
+        "단독"
       ],
       "signal_major_article_count": {
-        "수주": 4
+        "단독": 10
       }
     },
     {
@@ -16127,6 +16969,31 @@
       ],
       "signal_keywords": [],
       "signal_major_article_count": {}
+    },
+    {
+      "title": "GS글로벌, 후시파트너스 지분 투자…탄소배출권 사업 진출 - 파이낸셜뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5Zc0NUOWlzRFpVdjlSWlVhVGRYVlA4VW9Xb3NBUl9sVFRSQXNOSTR0X2d0X0FMcjktb1htWlMwWFNyb19VdEE0N201czB6NVNKVWktU1pJa2JLQQ?oc=5",
+      "source": "파이낸셜뉴스",
+      "published_raw": "Tue, 20 Oct 2026 01:14:13 GMT",
+      "date": "2026-10-20",
+      "time": "10:14",
+      "matched_keywords": [
+        "진출"
+      ],
+      "news_score": 2,
+      "id": "3ff218ba19658da4",
+      "ticker": "078930",
+      "company": "GS",
+      "sector": "",
+      "sources": [
+        "파이낸셜뉴스"
+      ],
+      "signal_keywords": [
+        "진출"
+      ],
+      "signal_major_article_count": {
+        "진출": 3
+      }
     },
     {
       "title": "가전 렌탈 시장 \"신규고객 잡아라\"... 코웨이, 렌탈료 '월 1만원' 파격 프로모션 - 녹색경제신문",
@@ -16238,6 +17105,27 @@
       "signal_major_article_count": {}
     },
     {
+      "title": "현대차·기아, 실제 물류 노선서 레벨4 자율주행 트럭 실증… 상용화 속도 - 천지일보",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5DNmViVlhmOFB3eXhjbHAwcXhfUUlBVkNfQlg0RHdac1pDUWhlZndFZXA0RXpiSHVrUFJVNUZQWUdIYVhwOFNHV1NHWUJNMHdRYlJTNllyMUJsX1RZRDlObnZvZ2VKRW5Xa0E?oc=5",
+      "source": "천지일보",
+      "published_raw": "Tue, 20 Oct 2026 00:46:06 GMT",
+      "date": "2026-10-20",
+      "time": "09:46",
+      "matched_keywords": [
+        "상용화"
+      ],
+      "news_score": 3,
+      "id": "ffbff62926b29d50",
+      "ticker": "000270",
+      "company": "기아",
+      "sector": "",
+      "sources": [
+        "천지일보"
+      ],
+      "signal_keywords": [],
+      "signal_major_article_count": {}
+    },
+    {
       "title": "[특징주] 현대로템, 실적 부진·수주 지연 우려에 11% 하락 - 연합뉴스",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE90UDVZT2xhNjlJUUQ1WnZRZFZVWHhONDlkdzRUX3Rkc2M5NmhibFBzWHBMbTYzTVUzaGs0OWR6cXFEWEw5WmNGb094LUNxU193NGR0SEVMZmxobmPSAWBBVV95cUxQaWVaaWpoMTlUTENWdmxOUTM2VlNUTWNOcmMwSjhDQ2ZvLWpYUFFldEt3QVNOeG9ac2N3SDZWN21MS2xqbzlWV2VSSUEtQUpxSFZFZVRRTm1XaDNXSy1OMnA?oc=5",
       "source": "연합뉴스",
@@ -16261,6 +17149,52 @@
       "signal_major_article_count": {
         "수주": 11
       }
+    },
+    {
+      "title": "GS글로벌, 후시파트너스 지분 투자…탄소배출권 사업 진출 - FETV",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBrMEZGbDI4bE14cmQ3bGE5U0FhaXY4VzE0QThWdGVtSElHY0U4YzlXV2ExNWRSbURTNGx0Y0ZmR3ZTUVh3YS1vckhUbkhWYmFxQWM4N2dMVlA4REhoa1hzNENIRk8xZHBk?oc=5",
+      "source": "FETV",
+      "published_raw": "Tue, 20 Oct 2026 00:30:44 GMT",
+      "date": "2026-10-20",
+      "time": "09:30",
+      "matched_keywords": [
+        "진출"
+      ],
+      "news_score": 2,
+      "id": "5133a2d1a33a16b5",
+      "ticker": "078930",
+      "company": "GS",
+      "sector": "",
+      "sources": [
+        "FETV"
+      ],
+      "signal_keywords": [
+        "진출"
+      ],
+      "signal_major_article_count": {
+        "진출": 3
+      }
+    },
+    {
+      "title": "현대차·기아, 레벨 4 자율주행 트럭 실증…실제 물류노선서 상용화 검증 - 신아일보",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4tMGVEeEVrRG5ubF9kT3hFMUdGMTNkZmZ0SmpuVk8tVWVOaTZMMUxKLWY0cGZXcnllbmtHUWhYbmFwUlpCTFVCMW9lY29YaF85V202U3htNDk4OEFjZjJaVDZ6bk4yWktzdEdLNnAteXE?oc=5",
+      "source": "신아일보",
+      "published_raw": "Tue, 20 Oct 2026 00:29:10 GMT",
+      "date": "2026-10-20",
+      "time": "09:29",
+      "matched_keywords": [
+        "상용화"
+      ],
+      "news_score": 3,
+      "id": "89960bc55b819dfe",
+      "ticker": "000270",
+      "company": "기아",
+      "sector": "",
+      "sources": [
+        "신아일보"
+      ],
+      "signal_keywords": [],
+      "signal_major_article_count": {}
     },
     {
       "title": "현대차·기아, 레벨4 자율주행 대형트럭 상용화 속도...500㎞ 물류 노선 실증 - M이코노미뉴스",
@@ -16355,46 +17289,29 @@
       "signal_major_article_count": {}
     },
     {
-      "title": "현대차·기아, ‘레벨 4’ 자율주행 트럭 상용화 잰걸음 - 서울경제",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5UQjkwal9jYUJBSlUta0llYURGYk1TbTVCMmpuaWV2SmJ0eTNOdUdlQWxMSC1QSUVQZl9malpTclFFMVY4Z3ZhWWN0UkZXTnNqZlHSAVNBVV95cUxOdkpuNEdZRFVDUW1BTlNadTRPT3hfQWFYWHo4U3Q3blhjdG5udlpwc21MN2VwZ1ZKYTlLN19xdlhzN29tbTBjRV9VQzBMRnk2R2IwSQ?oc=5",
-      "source": "서울경제",
-      "published_raw": "Tue, 20 Oct 2026 00:21:04 GMT",
+      "title": "GS글로벌, 탄소배출권 사업 진출…‘제4차 배출권거래제’ 선제적 대응 - ER 이코노믹리뷰",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE51bXRZMnVzLWRzRGpPZDJMOG5ER0djUGhZbFJEaG9rb09TYlpGbmtRY2ZHNnJrX2hpZ194aXNkWjF3RmthSExma2FCOGgzal9jaFhPanBrVElRSXdDTnNMdy1tdWtrNlJJRl9DbA?oc=5",
+      "source": "ER 이코노믹리뷰",
+      "published_raw": "Tue, 20 Oct 2026 00:22:25 GMT",
       "date": "2026-10-20",
-      "time": "09:21",
+      "time": "09:22",
       "matched_keywords": [
-        "상용화"
+        "진출"
       ],
-      "news_score": 3,
-      "id": "4f0cf6e1c65cb49b",
-      "ticker": "005380",
-      "company": "현대차",
+      "news_score": 2,
+      "id": "bbdcc11cdabef5c7",
+      "ticker": "078930",
+      "company": "GS",
       "sector": "",
       "sources": [
-        "서울경제"
+        "ER 이코노믹리뷰"
       ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
-    },
-    {
-      "title": "현대차·기아, ‘레벨 4’ 자율주행 트럭 상용화 잰걸음 - 서울경제",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5UQjkwal9jYUJBSlUta0llYURGYk1TbTVCMmpuaWV2SmJ0eTNOdUdlQWxMSC1QSUVQZl9malpTclFFMVY4Z3ZhWWN0UkZXTnNqZlHSAVNBVV95cUxOdkpuNEdZRFVDUW1BTlNadTRPT3hfQWFYWHo4U3Q3blhjdG5udlpwc21MN2VwZ1ZKYTlLN19xdlhzN29tbTBjRV9VQzBMRnk2R2IwSQ?oc=5",
-      "source": "서울경제",
-      "published_raw": "Tue, 20 Oct 2026 00:21:04 GMT",
-      "date": "2026-10-20",
-      "time": "09:21",
-      "matched_keywords": [
-        "상용화"
+      "signal_keywords": [
+        "진출"
       ],
-      "news_score": 3,
-      "id": "82afc12ecf2481f5",
-      "ticker": "000270",
-      "company": "기아",
-      "sector": "",
-      "sources": [
-        "서울경제"
-      ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
+      "signal_major_article_count": {
+        "진출": 3
+      }
     },
     {
       "title": "현대차·기아, 레벨4 자율주행 트럭 물류 실증…상용화 추진 - 지디넷코리아",
@@ -16510,6 +17427,31 @@
       }
     },
     {
+      "title": "GS글로벌, 탄소배출권 사업 진출…‘후시파트너스’ 지분 투자 - 아시아투데이",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1CRWNQTlVEeHBvNVFjU2Y0NWhOVk9Nc25fQTNuSFhJX2xGVmYtbVIxUTB0aDhhVFlSM0c2R2xlYTRWNzBPZDEyNmRzcm9adGp0OEFlcHFDamhldVdZNFE0MC1hd3k3cE83UkZPREZ3?oc=5",
+      "source": "아시아투데이",
+      "published_raw": "Tue, 20 Oct 2026 00:04:21 GMT",
+      "date": "2026-10-20",
+      "time": "09:04",
+      "matched_keywords": [
+        "진출"
+      ],
+      "news_score": 2,
+      "id": "ee484abcd05b418f",
+      "ticker": "078930",
+      "company": "GS",
+      "sector": "",
+      "sources": [
+        "아시아투데이"
+      ],
+      "signal_keywords": [
+        "진출"
+      ],
+      "signal_major_article_count": {
+        "진출": 3
+      }
+    },
+    {
       "title": "수주 호황인데 조선소에선 고공농성…HD현대중·한화오션 임단협 평행선 - 에너지경제신문",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB5SGJYTWRGc0t6VzFLbTU3ZmtkaU0xbXpWVHNwNEFmdjIzb1Z3cmdvcnFMZ0xFRURJWDBycUtpY285R1p0RVFFSkVjYTVBWV9ESndSaC1ZZG1tN2M?oc=5",
       "source": "에너지경제신문",
@@ -16527,8 +17469,12 @@
       "sources": [
         "에너지경제신문"
       ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
+      "signal_keywords": [
+        "수주"
+      ],
+      "signal_major_article_count": {
+        "수주": 3
+      }
     },
     {
       "title": "수주 호황인데 조선소에선 고공농성…HD현대중·한화오션 임단협 평행선 - 에너지경제신문",
@@ -16736,22 +17682,22 @@
       "signal_major_article_count": {}
     },
     {
-      "title": "현대차·기아, 레벨4 자율주행 대형트럭 실증…물류 노선서 상용화 검증 - 더트래커",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA2VWF4bzJuSlVzcDlUaTV2VWxoQkY4TG1ybGRzLVZRZ1ZsZms3cEhZNU1Wb1lURTEyRDRrNjB3NEZsY3RPMkZVb0dkN2tOSVlOMHlQYnR1Mzk?oc=5",
-      "source": "더트래커",
-      "published_raw": "Mon, 19 Oct 2026 23:51:42 GMT",
+      "title": "현대차·기아, ‘레벨 4 자율주행 트럭’ 실증사업 착수..상용화 가속 - 데일리카",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBCbWN3MFJoMlVZek5nWWx4a3BCcGxqMVlzUGFPcUw1dDVtZ0ZzN19ZaEc1S1IwVUU1OTVqRmY5aTMwRFp6VU9uNGlPN3ltWXZ2SWZNUWJiT21PVzlycF91elJuMWJ1MU1FbEpmNll6TDM4QTh3ZVE?oc=5",
+      "source": "데일리카",
+      "published_raw": "Mon, 19 Oct 2026 23:50:10 GMT",
       "date": "2026-10-20",
-      "time": "08:51",
+      "time": "08:50",
       "matched_keywords": [
         "상용화"
       ],
       "news_score": 3,
-      "id": "cf92b125cd6afc1a",
+      "id": "33b74d072ee543bd",
       "ticker": "000270",
       "company": "기아",
       "sector": "",
       "sources": [
-        "더트래커"
+        "데일리카"
       ],
       "signal_keywords": [],
       "signal_major_article_count": {}
@@ -16881,6 +17827,31 @@
       ],
       "signal_keywords": [],
       "signal_major_article_count": {}
+    },
+    {
+      "title": "GS글로벌, 후시파트너스 지분 투자…탄소배출권 사업 본격 진출 - 뉴스핌",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBJWklhS2g1QTZ3THc5UEI1UkMzc1ZWQV9LSmRhMEk5b3FDUXZjNkVhM21TNFBBVm5pUV81ZmNYM0hCX0wxZVZocTZuLVNaS0ZISHAzSWl4WFVkSmZK?oc=5",
+      "source": "뉴스핌",
+      "published_raw": "Mon, 19 Oct 2026 23:39:00 GMT",
+      "date": "2026-10-20",
+      "time": "08:39",
+      "matched_keywords": [
+        "진출"
+      ],
+      "news_score": 2,
+      "id": "063eb9936056b030",
+      "ticker": "078930",
+      "company": "GS",
+      "sector": "",
+      "sources": [
+        "뉴스핌"
+      ],
+      "signal_keywords": [
+        "진출"
+      ],
+      "signal_major_article_count": {
+        "진출": 3
+      }
     },
     {
       "title": "삼성증권 \"현대로템, 수출 수주 지연 장기화…주가 회복 시간 필요\" - 이투데이",
@@ -17035,7 +18006,7 @@
     },
     {
       "title": "\"현대로템, 폴란드 외 지역에서 수출 수주 필요… 목표가↓\"-삼성 - 머니투데이 - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9MME8zenZReXc1Nm53TDJDMlJFbTMyckZYYlNZVFBqQXdpaFRMQ3dfU1B0R3lzd2psUl8xc2FVWm12dElSVGFFeWpYTUVEeGFnMDdXWEdVemhoRWhvQ21SLXB0b0UycVdvOXJScUx30gFuQVVfeXFMT0wwTzN6dlF5dzU2bndMMkMyUkVtMzJyRlhiU1lUUGpBd2loVExDd19TUHRHeXN3amxSXzFzYVVabXZ0SVJUYUV5alhNRUR4YWcwN1dYR1V6aGhFaG9DbVItcHRvRTJxV285clJxTHc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9FcVJjQWFqYzFBaVctNkVFMWtCMVF4ZmcxYUNRbzkxX3J0aC10dW5lWXpWQm1nRlNFNlFtakgyU1QyUjduSzdGdkdjdnoxNFpZcXZUTEZxYW1RRURLeS1acGdTaF9VMFE2QXNPaUFfd0I3ZHc5S1HSAXtBVV95cUxONU9DR0V6c1RHZmtVeHNCY0k5QUNaX1pwU0lhd1pPeE1yWFZpRTN3aW1PUkcyOURMTUEyZFRzMTMzS2JGa0h6M3VNMkpGY3J4MDNROGQ4ZGVjNHFaT0lCYU5rTWdTVjRnTlpkYjlrdmhiRGVUNGFCXzdXaHM?oc=5",
       "source": "머니투데이",
       "published_raw": "Mon, 19 Oct 2026 23:20:55 GMT",
       "date": "2026-10-20",
@@ -17044,7 +18015,7 @@
         "수주"
       ],
       "news_score": 3,
-      "id": "a5f4b98e26f6d466",
+      "id": "6fdf73f4a3ee45a5",
       "ticker": "064350",
       "company": "현대로템",
       "sector": "",
@@ -17103,6 +18074,31 @@
       ],
       "signal_keywords": [],
       "signal_major_article_count": {}
+    },
+    {
+      "title": "탄소배출권 사업 진출…보폭 넓히는 GS글로벌 - 서울경제",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9PdmZ1WU1peFB4QXhVd3JoUGxhWmc4VXV3eUU2aGxIcFBBbWh1ZzdrMEtfN05LZFJqUHV3MlpmYnpXaktGcFE4dHIyZ3h5ajBCanfSAVNBVV95cUxNSjBETEFXWGpSYXpKWEJSeGhVNF9GNGk3SjJZU2lpVEphTndVUWl4ZFktcmZDam9rX2FyQzBkeE9HVHlhWnVpUHMtcHNCUE1hVzg4cw?oc=5",
+      "source": "서울경제",
+      "published_raw": "Mon, 19 Oct 2026 23:06:44 GMT",
+      "date": "2026-10-20",
+      "time": "08:06",
+      "matched_keywords": [
+        "진출"
+      ],
+      "news_score": 2,
+      "id": "3dff9f190d05ec29",
+      "ticker": "078930",
+      "company": "GS",
+      "sector": "",
+      "sources": [
+        "서울경제"
+      ],
+      "signal_keywords": [
+        "진출"
+      ],
+      "signal_major_article_count": {
+        "진출": 3
+      }
     },
     {
       "title": "현대로템, 수주 모멘텀 발현 여부에 주가 턴어라운드 달려-상상인 - 이데일리",
@@ -17172,27 +18168,6 @@
       "signal_major_article_count": {}
     },
     {
-      "title": "[10.20 개장 전 주요공시] 삼성전기 3604억 원 기판 수주 외 - 자본시장뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB0UzIxay1ocG91LXg3cnlnVFBlYy1KVk5fT1FRZG5UdWw4REZ1NmJEaC02dzRGRFdZUm0xTWg0M2dybWtrNFMxTUJZZzg2WjBheEVWcGpnRFlBcTBQRURpLXdaV3FiTm8?oc=5",
-      "source": "자본시장뉴스",
-      "published_raw": "Mon, 19 Oct 2026 22:30:00 GMT",
-      "date": "2026-10-20",
-      "time": "07:30",
-      "matched_keywords": [
-        "수주"
-      ],
-      "news_score": 3,
-      "id": "24d0106df53035dd",
-      "ticker": "375500",
-      "company": "DL이앤씨",
-      "sector": "",
-      "sources": [
-        "자본시장뉴스"
-      ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
-    },
-    {
       "title": "[단독]`돼지 췌장 제네릭` 일제히‥ 대웅·삼진·대원 `정제`, 테라젠에 - 뉴스맥",
       "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBMeExRdFpfQTBiTzNwU2VaUk1QbGRvYjN6OEJnQkx1LUhja2gzNEhfUEN6anVpLUM1RVZmSndYT1owQjJF?oc=5",
       "source": "뉴스맥",
@@ -17212,6 +18187,31 @@
       ],
       "signal_keywords": [],
       "signal_major_article_count": {}
+    },
+    {
+      "title": "삼성바이오로직스, 'ADC' CDMO 수주 가속페달…GMP 제조 성과로 글로벌 공략 - 약업신문",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5sY1FudjlvX2pIaGlYcDR3LXFYa0VNMVR2d3VYM3FiaGpqUHFLTGQwelpsUWRsS29xMmo3ZmNvYlVXRUdQLWxBeTQ4TG5yMFBrUzNoMTF6TTlXU0ZMSzAxeExVS3VwZw?oc=5",
+      "source": "약업신문",
+      "published_raw": "Mon, 19 Oct 2026 22:04:26 GMT",
+      "date": "2026-10-20",
+      "time": "07:04",
+      "matched_keywords": [
+        "수주"
+      ],
+      "news_score": 3,
+      "id": "351f96b036a6c422",
+      "ticker": "207940",
+      "company": "삼성바이오로직스",
+      "sector": "",
+      "sources": [
+        "약업신문"
+      ],
+      "signal_keywords": [
+        "수주"
+      ],
+      "signal_major_article_count": {
+        "수주": 6
+      }
     },
     {
       "title": "대한전선, 美법인 '턴키 반복수주'…해외 사업 핵심 축 부상 - fetv.co.kr",
@@ -17258,27 +18258,6 @@
       "signal_major_article_count": {
         "단독": 8
       }
-    },
-    {
-      "title": "[송호길의 금융人] 카카오페이 신원근, 흑자전환에도…주가 74% 내리막 '골머리' - 뉴스워치",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9xdS1kRWhmeldGN0FwMGhwTmpTR3hZd0FQOFpXSkpnUU5ZSi1TS0M2WEFWem9hVU1BX1JpeldKMENSaFRIczdQRUtPWW15MG9mZnlWaUNUV2p2c2d1U1NicFFmcmhWY0lKN0E?oc=5",
-      "source": "뉴스워치",
-      "published_raw": "Mon, 19 Oct 2026 21:00:00 GMT",
-      "date": "2026-10-20",
-      "time": "06:00",
-      "matched_keywords": [
-        "흑자"
-      ],
-      "news_score": 4,
-      "id": "1d9de970bc3f4bb4",
-      "ticker": "035720",
-      "company": "카카오",
-      "sector": "",
-      "sources": [
-        "뉴스워치"
-      ],
-      "signal_keywords": [],
-      "signal_major_article_count": {}
     },
     {
       "title": "[송호길의 금융人] 카카오페이 신원근, 흑자전환에도…주가 74% 내리막 '골머리' - 뉴스워치",
@@ -17405,31 +18384,6 @@
       ],
       "signal_keywords": [],
       "signal_major_article_count": {}
-    },
-    {
-      "title": "[단독]대한항공 항공기 구매자금 美정부가 보증 - 동아일보",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE96aWpCNHJobXdlWXFiQVRvVWtiTXNUWnIybGpjUUtXNUQ4d05qV0tsY1A3OWFER0c0aFdMdG9rXzhZdVlGVDlVR1RyZ1Q0WUJkRVNraHBCZ3UwdVFVbDJQZm5TTXcxcmxOS09ScU9pLUNScmUyMXfSAWZBVV95cUxOVWVTOHRzeU9Ub05vblNqQVpwLVBtUDdqaUZCNXczNHlOTU9fWmsweXZjVWFycG9kWXQwT29hRVpjUndGX0NOSm94OXJ6dkVhYTdMbTRsYXdFdHAxQlppemtKekR2dnc?oc=5",
-      "source": "동아일보",
-      "published_raw": "Mon, 19 Oct 2026 15:30:00 GMT",
-      "date": "2026-10-20",
-      "time": "00:30",
-      "matched_keywords": [
-        "단독"
-      ],
-      "news_score": 2,
-      "id": "801cfc9e76f73fcd",
-      "ticker": "003490",
-      "company": "대한항공",
-      "sector": "",
-      "sources": [
-        "동아일보"
-      ],
-      "signal_keywords": [
-        "단독"
-      ],
-      "signal_major_article_count": {
-        "단독": 3
-      }
     }
   ]
 }
